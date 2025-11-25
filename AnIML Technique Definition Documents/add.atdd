@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Technique name="Add" extension="false" version="0.90"
+	xmlns="urn:org:astm:animl:schema:technique:draft:0.90"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:org:astm:animl:schema:technique:draft:0.90 http://schemas.animl.org/current/animl-technique.xsd">
+	<Documentation>
+		Technique for adding an ingredient to a target container. Target may be the final formulation or a premix.
+	</Documentation>
+
+	<!-- Written using animl-technique-lib -->
+	<MethodBlueprint>
+		<CategoryBlueprint name="Details"
+			modality="required" maxOccurs="1">
+			<Documentation>
+				The settings of the add step.
+			</Documentation>
+
+			<ParameterBlueprint name="Step Number"
+				modality="required" maxOccurs="1" parameterType="Int">
+				<Documentation>
+					Numeric index of this step, relative to the formulation run. First step should be "1". Must be unique within a run.
+				</Documentation>
+			</ParameterBlueprint>
+
+			<ParameterBlueprint name="Description" modality="required" maxOccurs="1" parameterType="String">
+				<Documentation>
+					Verbal description of the addition step in English language.
+				</Documentation>
+			</ParameterBlueprint>
+
+			<ParameterBlueprint name="Percentage of Active" modality="required" maxOccurs="1" parameterType="Float">
+				<Documentation>
+					The percentage of the active ingredients that this will make up
+				</Documentation>
+			</ParameterBlueprint>
+			
+			<ParameterBlueprint name="Percentage of Material"
+				modality="required" maxOccurs="1" parameterType="Float" >
+				<Documentation> 
+					The percentage of the entire material that this ingredient will make up
+				</Documentation>
+			</ParameterBlueprint>
+				
+			<ParameterBlueprint name="Target Weight"
+				modality="required" maxOccurs="1" parameterType="Float" >
+				<Documentation> 
+					The target weight of ingredient to be added
+				</Documentation>
+			</ParameterBlueprint>
+
+			<ParameterBlueprint name="Status"
+				modality="required" maxOccurs="1" parameterType="String">
+				 <Documentation>
+					One of "Start", "Stop" or "Change"
+				</Documentation>
+			</ParameterBlueprint>
+			
+			<ParameterBlueprint name="Equipment"
+				modality="required" maxOccurs="1" parameterType="String">
+				<Documentation>
+					The equipment used to perform the addition.
+				</Documentation>
+			</ParameterBlueprint>
+		</CategoryBlueprint>
+
+	</MethodBlueprint>
+	<ResultBlueprint name="Step Results" modality="required" maxOccurs="1">
+		<CategoryBlueprint name="Measured"
+			modality="required" maxOccurs="1">
+			<ParameterBlueprint name="Start Time"
+				modality="required" maxOccurs="1" parameterType="DateTime">
+				<Documentation>
+					The time stamp when this action was started.
+				</Documentation>
+			</ParameterBlueprint>
+			<ParameterBlueprint name="End Time"
+				modality="required" maxOccurs="1" parameterType="DateTime">
+				<Documentation>
+					The time stamp when this action was completed.
+				</Documentation>	
+			</ParameterBlueprint>
+			<ParameterBlueprint name="Actual Weight"
+				modality="required" maxOccurs="1" parameterType="Float" >
+				<Documentation>
+					The actual weight of ingredient that was added, as measured.
+				</Documentation>
+			</ParameterBlueprint>
+		</CategoryBlueprint>
+	</ResultBlueprint>
+</Technique>

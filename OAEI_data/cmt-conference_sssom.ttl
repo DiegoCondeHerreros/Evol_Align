@@ -1,0 +1,146 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mappings/cmt-conference> a owl:Ontology,
+        sssom:MappingSet ;
+    sssom:mappings <http://example.org/mappings/cmt-conference#m1>,
+        <http://example.org/mappings/cmt-conference#m10>,
+        <http://example.org/mappings/cmt-conference#m11>,
+        <http://example.org/mappings/cmt-conference#m12>,
+        <http://example.org/mappings/cmt-conference#m13>,
+        <http://example.org/mappings/cmt-conference#m16>,
+        <http://example.org/mappings/cmt-conference#m17>,
+        <http://example.org/mappings/cmt-conference#m2>,
+        <http://example.org/mappings/cmt-conference#m3>,
+        <http://example.org/mappings/cmt-conference#m4>,
+        <http://example.org/mappings/cmt-conference#m5>,
+        <http://example.org/mappings/cmt-conference#m6>,
+        <http://example.org/mappings/cmt-conference#m7>,
+        <http://example.org/mappings/cmt-conference#m8>,
+        <http://example.org/mappings/cmt-conference#m9> ;
+    sssom:object_source <http://conference> ;
+    sssom:subject_source <http://cmt> .
+
+<http://example.org/mappings/cmt-conference#m1> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Conference_volume> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "1" ;
+    sssom:subject_id <http://cmt#Conference> .
+
+<http://example.org/mappings/cmt-conference#m10> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "10" ;
+    sssom:subject_id <http://cmt#Conference> .
+
+<http://example.org/mappings/cmt-conference#m11> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Program_committee> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "11" ;
+    sssom:subject_id <http://cmt#ProgramCommittee> .
+
+<http://example.org/mappings/cmt-conference#m12> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Chair> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "12" ;
+    sssom:subject_id <http://cmt#Chairman> .
+
+<http://example.org/mappings/cmt-conference#m13> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Topic> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "13" ;
+    sssom:subject_id <http://cmt#SubjectArea> .
+
+<http://example.org/mappings/cmt-conference#m16> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#invited_by> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "16" ;
+    sssom:subject_id <http://cmt#assignedByReviewer> .
+
+<http://example.org/mappings/cmt-conference#m17> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#invites_co-reviewers> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "17" ;
+    sssom:subject_id <http://cmt#assignExternalReviewer> .
+
+<http://example.org/mappings/cmt-conference#m2> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Review_preference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "2" ;
+    sssom:subject_id <http://cmt#Preference> .
+
+<http://example.org/mappings/cmt-conference#m3> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Regular_author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "3" ;
+    sssom:subject_id <http://cmt#Author> .
+
+<http://example.org/mappings/cmt-conference#m4> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Person> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "4" ;
+    sssom:subject_id <http://cmt#Person> .
+
+<http://example.org/mappings/cmt-conference#m5> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#has_an_email> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "5" ;
+    sssom:subject_id <http://cmt#email> .
+
+<http://example.org/mappings/cmt-conference#m6> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Contribution_co-author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "6" ;
+    sssom:subject_id <http://cmt#Co-author> .
+
+<http://example.org/mappings/cmt-conference#m7> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Abstract> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "7" ;
+    sssom:subject_id <http://cmt#PaperAbstract> .
+
+<http://example.org/mappings/cmt-conference#m8> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Conference_document> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "8" ;
+    sssom:subject_id <http://cmt#Document> .
+
+<http://example.org/mappings/cmt-conference#m9> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://conference#Review> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "9" ;
+    sssom:subject_id <http://cmt#Review> .
+

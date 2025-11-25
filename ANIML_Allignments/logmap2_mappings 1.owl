@@ -1,0 +1,1423 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xml:base="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"
+     xmlns:mappings="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity1"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2 -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#entity2"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#measure"/>
+    
+
+
+    <!-- http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#relation"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/Anitology/hasSampleSet -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/Anitology/hasSampleSet">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/animl/hasSampleSet"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasSampleSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/hasSampleSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/hasSampleSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasSampleSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/hasTechnique -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/Anitology/hasTechnique">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/animl/usesTechnique"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasTechnique"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/usesTechnique"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/usesTechnique</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasTechnique</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8181818181818182</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/hasUnit -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/Anitology/hasUnit">
+        <owl:equivalentProperty rdf:resource="http://w3id.org/animl/hasUnits"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasUnit"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/hasUnits"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/hasUnits</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasUnit</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.96</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/hascategory -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/Anitology/hascategory">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/animl/hasResultCategory"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hascategory"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/hasResultCategory"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/hasResultCategory</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hascategory</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/hasextension -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/Anitology/hasextension">
+        <owl:equivalentProperty rdf:resource="http://w3id.org/animl/hasExtension"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasextension"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/hasExtension"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/hasExtension</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasextension</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/hasparameter -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/Anitology/hasparameter">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/animl/hasParameter"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasparameter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/hasParameter"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/hasParameter</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasparameter</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/hasplotscale -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/Anitology/hasplotscale">
+        <owl:equivalentProperty rdf:resource="http://w3id.org/animl/hasPlotScale"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasplotscale"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/hasPlotScale"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/hasPlotScale</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasplotscale</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/hastagset -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/Anitology/hastagset">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/animl/hasTags"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hastagset"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/hasTags"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/hasTags</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hastagset</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.925</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/produces -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/Anitology/produces">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/animl/producesResult"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/produces"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/producesResult"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/producesResult</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/produces</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8363636363636364</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/usesMethod -->
+
+    <owl:ObjectProperty rdf:about="http://example.org/Anitology/usesMethod">
+        <owl:equivalentProperty rdf:resource="https://w3id.org/animl/usesMethod"/>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/usesMethod"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/usesMethod"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/usesMethod</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/usesMethod</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/hasExtension -->
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/animl/hasExtension"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasextension"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/hasExtension"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/hasExtension</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasextension</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/hasPlotScale -->
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/animl/hasPlotScale"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasplotscale"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/hasPlotScale"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/hasPlotScale</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasplotscale</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/hasUnits -->
+
+    <owl:ObjectProperty rdf:about="http://w3id.org/animl/hasUnits"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasUnit"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/hasUnits"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/hasUnits</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasUnit</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.96</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/hasParameter -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/animl/hasParameter"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasparameter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/hasParameter"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/hasParameter</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasparameter</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/hasResultCategory -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/animl/hasResultCategory"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hascategory"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/hasResultCategory"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/hasResultCategory</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hascategory</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.85</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/hasSampleSet -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/animl/hasSampleSet"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasSampleSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/hasSampleSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/hasSampleSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasSampleSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/hasTags -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/animl/hasTags"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hastagset"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/hasTags"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/hasTags</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hastagset</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.925</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/producesResult -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/animl/producesResult"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/produces"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/producesResult"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/producesResult</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/produces</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8363636363636364</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/usesMethod -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/animl/usesMethod"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/usesMethod"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/usesMethod"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/usesMethod</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/usesMethod</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">1.0</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/usesTechnique -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/animl/usesTechnique"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/hasTechnique"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentProperty"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/usesTechnique"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/usesTechnique</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/hasTechnique</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.8181818181818182</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://example.org/Anitology/Category -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Category">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/category"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Category"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/category"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/category</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Category</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/ContainerTypeType -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/ContainerTypeType">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/container"/>
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/containerType"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/ContainerTypeType"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/container"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/container</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/ContainerTypeType</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5126923076923077</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/ContainerTypeType"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/containerType"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/containerType</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/ContainerTypeType</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.465</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/ExperimentStep -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/ExperimentStep">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/experimentStep"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/ExperimentStep"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/experimentStep"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/experimentStep</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/ExperimentStep</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Extension -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Extension">
+        <owl:equivalentClass rdf:resource="http://w3id.org/animl/extension"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Extension"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/extension"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/extension</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Extension</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Infrastructure -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Infrastructure">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/infrastructure"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Infrastructure"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/infrastructure"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/infrastructure</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Infrastructure</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Method -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Method">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/method"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Method"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/method"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/method</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Method</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Parameter -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Parameter">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/parameter"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Parameter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/parameter"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/parameter</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Parameter</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Reference -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Reference">
+        <owl:equivalentClass rdf:resource="http://w3id.org/animl/reference"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Reference"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/reference"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/reference</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Reference</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Result -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Result">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/result"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Result"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/result"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/result</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Result</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Role -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Role">
+        <owl:equivalentClass rdf:resource="http://w3id.org/animl/role"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Role"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/role"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/role</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Role</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/SIUnit -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/SIUnit">
+        <owl:equivalentClass rdf:resource="http://w3id.org/animl/sIUnit"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/SIUnit"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/sIUnit"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/sIUnit</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/SIUnit</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Sample -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Sample">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/sample"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Sample"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/sample"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/sample</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Sample</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/SampleSet -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/SampleSet">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/sampleSet"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/SampleSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/sampleSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/sampleSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/SampleSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Series -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Series">
+        <owl:equivalentClass rdf:resource="http://w3id.org/animl/series"/>
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/series"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Series"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/series"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/series</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Series</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Series"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/series"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/series</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Series</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/SeriesSet -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/SeriesSet">
+        <owl:equivalentClass rdf:resource="http://w3id.org/animl/seriesSet"/>
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/seriesSet"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/SeriesSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/seriesSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/seriesSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/SeriesSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/SeriesSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/seriesSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/seriesSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/SeriesSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Signature -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Signature">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/signature"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Signature"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/signature"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/signature</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Signature</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/SignatureSet -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/SignatureSet">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/signatureSet"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/SignatureSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/signatureSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/signatureSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/SignatureSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Tag -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Tag">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/tag"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Tag"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/tag"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/tag</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Tag</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/TagSet -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/TagSet">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/tagSet"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/TagSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/tagSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/tagSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/TagSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Technique -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Technique">
+        <owl:equivalentClass rdf:resource="http://w3id.org/animl/technique"/>
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/technique"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Technique"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/technique"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/technique</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Technique</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Technique"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/technique"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/technique</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Technique</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Template -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Template">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/template"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Template"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/template"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/template</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Template</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Unit -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Unit">
+        <owl:equivalentClass rdf:resource="http://w3id.org/animl/units"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Unit"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/units"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/units</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Unit</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/Version -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/Version">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/version"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Version"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/version"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/version</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Version</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/changedItem -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/changedItem">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/change"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/changedItem"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/change"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/change</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/changedItem</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.516764705882353</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/containerID -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/containerID">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/container"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/containerID"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/container"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/container</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/containerID</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5750000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/containerType -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/containerType">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/containerType"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/containerType"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/containerType"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/containerType</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/containerType</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/plotScale -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/plotScale">
+        <owl:equivalentClass rdf:resource="http://w3id.org/animl/plotScale"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/plotScale"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/plotScale"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/plotScale</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/plotScale</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/role -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/role">
+        <owl:equivalentClass rdf:resource="http://w3id.org/animl/role"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/role"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/role"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/role</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/role</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/templateUsed -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/templateUsed">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/template"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/templateUsed"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/template"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/template</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/templateUsed</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.445</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://example.org/Anitology/version -->
+
+    <owl:Class rdf:about="http://example.org/Anitology/version">
+        <owl:equivalentClass rdf:resource="https://w3id.org/animl/version"/>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/version"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/version"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/version</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/version</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/extension -->
+
+    <owl:Class rdf:about="http://w3id.org/animl/extension"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Extension"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/extension"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/extension</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Extension</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/plotScale -->
+
+    <owl:Class rdf:about="http://w3id.org/animl/plotScale"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/plotScale"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/plotScale"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/plotScale</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/plotScale</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/reference -->
+
+    <owl:Class rdf:about="http://w3id.org/animl/reference"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Reference"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/reference"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/reference</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Reference</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/role -->
+
+    <owl:Class rdf:about="http://w3id.org/animl/role"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Role"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/role"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/role</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Role</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/role"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/role"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/role</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/role</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/sIUnit -->
+
+    <owl:Class rdf:about="http://w3id.org/animl/sIUnit"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/SIUnit"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/sIUnit"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/sIUnit</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/SIUnit</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/series -->
+
+    <owl:Class rdf:about="http://w3id.org/animl/series"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Series"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/series"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/series</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Series</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/seriesSet -->
+
+    <owl:Class rdf:about="http://w3id.org/animl/seriesSet"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/SeriesSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/seriesSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/seriesSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/SeriesSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/technique -->
+
+    <owl:Class rdf:about="http://w3id.org/animl/technique"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Technique"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/technique"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/technique</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Technique</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- http://w3id.org/animl/units -->
+
+    <owl:Class rdf:about="http://w3id.org/animl/units"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Unit"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="http://w3id.org/animl/units"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://w3id.org/animl/units</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Unit</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/category -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/category"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Category"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/category"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/category</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Category</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/change -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/change"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/changedItem"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/change"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/change</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/changedItem</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.516764705882353</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/container -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/container"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/ContainerTypeType"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/container"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/container</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/ContainerTypeType</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5126923076923077</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/containerID"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/container"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/container</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/containerID</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.5750000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/containerType -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/containerType"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/ContainerTypeType"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/containerType"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/containerType</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/ContainerTypeType</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.465</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/containerType"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/containerType"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/containerType</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/containerType</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/experimentStep -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/experimentStep"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/ExperimentStep"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/experimentStep"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/experimentStep</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/ExperimentStep</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/infrastructure -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/infrastructure"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Infrastructure"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/infrastructure"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/infrastructure</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Infrastructure</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/method -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/method"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Method"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/method"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/method</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Method</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/parameter -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/parameter"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Parameter"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/parameter"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/parameter</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Parameter</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/result -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/result"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Result"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/result"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/result</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Result</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/sample -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/sample"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Sample"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/sample"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/sample</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Sample</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/sampleSet -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/sampleSet"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/SampleSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/sampleSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/sampleSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/SampleSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/series -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/series"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Series"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/series"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/series</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Series</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/seriesSet -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/seriesSet"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/SeriesSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/seriesSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/seriesSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/SeriesSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/signature -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/signature"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Signature"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/signature"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/signature</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Signature</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/signatureSet -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/signatureSet"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/SignatureSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/signatureSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/signatureSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/SignatureSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/tag -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/tag"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Tag"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/tag"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/tag</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Tag</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/tagSet -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/tagSet"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/TagSet"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/tagSet"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/tagSet</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/TagSet</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/technique -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/technique"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Technique"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/technique"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/technique</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Technique</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/template -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/template"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Template"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/template"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/template</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Template</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/templateUsed"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/template"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/template</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/templateUsed</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.445</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    
+
+
+    <!-- https://w3id.org/animl/version -->
+
+    <owl:Class rdf:about="https://w3id.org/animl/version"/>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/Version"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/version"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/version</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/Version</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.7030000000000001</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://example.org/Anitology/version"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2002/07/owl#equivalentClass"/>
+        <owl:annotatedTarget rdf:resource="https://w3id.org/animl/version"/>
+        <entity1 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">https://w3id.org/animl/version</entity1>
+        <entity2 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://example.org/Anitology/version</entity2>
+        <measure rdf:datatype="http://www.w3.org/2001/XMLSchema#double">0.505</measure>
+        <relation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">=</relation>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+

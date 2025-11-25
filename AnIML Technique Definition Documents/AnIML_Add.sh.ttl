@@ -1,0 +1,250 @@
+
+@prefix sh:         <http://www.w3.org/ns/shacl#> .
+@prefix rdf:        <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:       <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:        <http://www.w3.org/2001/XMLSchema#> .
+@prefix dct:        <http://purl.org/dc/terms/> .
+@prefix animl-tech: <http://w3id.org/animl/technique/> .
+@prefix ex:         <http://example.org/animl/technique/> .
+@prefix as:         <http://w3id.org/animl/technique/shapes/> .
+
+########################################## 
+# AniML Attribute Specific Property Shapes
+##########################################
+
+
+as:comment-node
+  a sh:PropertyShape ;
+  sh:path rdfs:comment ;
+  sh:name "comment" ;
+  sh:datatype xsd:string ;
+  sh:minCount 1 ;
+  sh:description "Human-readable description."@en .
+
+as:modality-ps
+  a sh:PropertyShape ;
+  sh:path animl-tech:modality ;
+  sh:name "modality" ;
+  sh:datatype xsd:string ;
+  sh:in ("mandatory" "optional" "recommended" "prohibited") ;
+  sh:minCount 1 ;
+  sh:description "Controlled value describing whether the blueprint is mandatory/optional/etc."@en .
+
+as:maxOccurs-ps
+  a sh:PropertyShape ;
+  sh:path animl-tech:maxOccurs ;
+  sh:name "maxOccurs" ;
+  sh:datatype xsd:nonNegativeInteger ;
+  sh:minInclusive 0 ;
+  sh:minCount 0 ;
+  sh:description "Upper multiplicity bound; 0 means unbounded not allowed here."@en .
+
+as:parameterType-ps
+  a sh:PropertyShape ;
+  sh:path animl-tech:parameterType ;
+  sh:name "parameterType" ;
+  sh:minCount 1 ;
+  sh:or ( [ sh:nodeKind sh:IRI ] [ sh:datatype xsd:string ] ) ;
+  sh:description "Type of the parameter (IRI to vocabulary term preferred; string accepted as fallback)."@en .
+
+####################################
+# AnIML Element Specific Node shapes
+####################################
+
+# Technique
+as:Technique-shape
+  a sh:NodeShape ;
+  sh:targetClass animl-tech:Technique ;
+  sh:closed true ;
+  sh:ignoredProperties ( rdf:type rdfs:label rdfs:comment dct:identifier ) ;
+  sh:property [
+      sh:path animl-tech:hasMethodBlueprint ;
+      sh:name "hasMethodBlueprint" ;
+      sh:node as:MethodBlueprint-shape ;
+      sh:nodeKind sh:IRI ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      sh:path animl-tech:hasResultBlueprint ;
+      sh:name "hasResultBlueprint" ;
+      sh:node as:ResultBlueprint-shape ;
+      sh:nodeKind sh:IRI ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      sh:path animl-tech:hasCategoryBlueprint ;
+      sh:name "hasCategoryBlueprint" ;
+      sh:node as:CategoryBlueprint-shape ;
+      sh:nodeKind sh:IRI ;
+      sh:minCount 1 ;
+    ] ;
+  sh:property [
+      sh:path animl-tech:hasParameterBlueprint ;
+      sh:name "hasParameterBlueprint" ;
+      sh:node as:ParameterBlueprint-shape ;
+      sh:nodeKind sh:IRI ;
+      sh:minCount 1 ;
+    ] ;
+  sh:description "A Technique aggregates method, result, category and parameter blueprints."@en .
+
+# MethodBlueprint
+as:MethodBlueprint-shape
+  a sh:NodeShape ;
+  sh:targetClass animl-tech:MethodBlueprint ;
+  sh:closed true ;
+  sh:ignoredProperties ( rdf:type rdfs:label ) ;
+  sh:property as:comment-ps ;
+  sh:property [
+      sh:path animl-tech:hasCategoryBlueprint ;
+      sh:name "hasCategoryBlueprint" ;
+      sh:node as:CategoryBlueprint-shape ;
+      sh:minCount 0 ;
+    ] ;
+  sh:description "Method blueprint; may be linked to one or more category blueprints."@en .
+
+# ResultBlueprint
+as:ResultBlueprint-shape
+  a sh:NodeShape ;
+  sh:targetClass animl-tech:ResultBlueprint ;
+  sh:closed true ;
+  sh:ignoredProperties ( rdf:type rdfs:label ) ;
+  sh:property as:comment-ps ;
+  sh:property as:modality-ps ;
+  sh:property as:maxOccurs-ps ;
+  sh:property [
+      sh:path animl-tech:hasCategoryBlueprint ;
+      sh:name "hasCategoryBlueprint" ;
+      sh:node as:CategoryBlueprint-shape ;
+      sh:minCount 0 ;
+    ] ;
+  sh:description "Result blueprint with modality and multiplicity constraints."@en .
+
+# CategoryBlueprint
+as:CategoryBlueprint-shape
+  a sh:NodeShape ;
+  sh:targetClass animl-tech:CategoryBlueprint ;
+  sh:closed true ;
+  sh:ignoredProperties ( rdf:type rdfs:label ) ;
+  sh:property as:comment-ps ;
+  sh:property as:modality-ps ;
+  sh:property as:maxOccurs-ps ;
+  sh:property [
+      sh:path animl-tech:hasParameterBlueprint ;
+      sh:name "hasParameterBlueprint" ;
+      sh:node as:ParameterBlueprint-shape ;
+      sh:minCount 0 ;
+    ] ;
+  sh:description "Category blueprint grouping parameters; carries modality and multiplicity."@en .
+
+# ParameterBlueprint
+as:ParameterBlueprint-shape
+  a sh:NodeShape ;
+  sh:targetClass animl-tech:ParameterBlueprint ;
+  sh:closed true ;
+  sh:ignoredProperties ( rdf:type rdfs:label ) ;
+  sh:property as:comment-ps ;
+  sh:property as:modality-ps ;
+  sh:property as:maxOccurs-ps ;
+  sh:property as:parameterType-ps ;
+  sh:description "Parameter blueprint with type, modality and multiplicity."@en .
+
+
+#############################################
+# Add.atdd specific Validation Rules.
+############################################
+
+
+as:AddCategoryConstraints a sh:NodeShape ;
+  sh:targetClass animl-add:Details ;
+  sh:qualifiedMinCount 1;
+  sh:qualifiedMaxCount 1;
+  sh:property [
+    sh:name "Step Number";
+    sh:path anml-add:stepNo;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+    sh:datatype xsd:int
+  ];
+  sh:property [
+    sh:name "Description";
+    sh:path anml-add:description;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+    sh:datatype xsd:String
+  ];
+  sh:property [
+    sh:name "Percentage of Active";
+    sh:path anml-add:percentageActive;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+    sh:datatype xsd:float
+  ];  
+  sh:property [
+    sh:name "Percentage of Material";
+    sh:path anml-add:percentageMaterial;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+    sh:datatype xsd:float
+  ];  
+  sh:property [
+    sh:name "Target Weight";
+    sh:path anml-add:targetWeight;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+    sh:datatype xsd:float
+  ];
+  sh:property [
+    sh:name "Status";
+    sh:path anml-add:Status;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+    sh:datatype xsd:String
+  ];  
+  sh:property [
+    sh:name "Equipement";
+    sh:path anml-add:equipement;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+    sh:datatype xsd:String
+  ].
+
+
+as:AddResultConstraints a sh:NodeShape ;
+  sh:name "Step Results";
+  sh:targetClass animl-add:StepResults ;
+  sh:qualifiedMinCount 1;
+  sh:qualifiedMaxCount 1;
+  sh:property [
+    sh:name "Category-Result";
+    sh:path anml:hasCategory;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+  ].
+
+as:AddResultCategoryConstraints a sh:NodeShape;
+  sh:name "Measured";
+  sh:targetClass animl-add:Measured;
+  sh:qualifiedMinCount 1;
+  sh:qualifiedMaxCount 1;
+  sh:property [
+    sh:name "Start Time";
+    sh:path anml:startTime;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+    sh:datatype xsd:date;  
+ ];
+  sh:property [
+    sh:name "End Time";
+    sh:path anml:endTime;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+    sh:datatype xsd:date;  
+ ];
+   sh:property [
+    sh:name "Actual Weight";
+    sh:path anml:actualWeight;
+    sh:qualifiedMinCount 1;
+    sh:qualifiedMaxCount 1;
+    sh:datatype xsd:float;  
+ ].
+

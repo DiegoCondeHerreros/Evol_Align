@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Technique name="Wait For Duration" extension="false" version="0.90"
+	xmlns="urn:org:astm:animl:schema:technique:draft:0.90"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:org:astm:animl:schema:technique:draft:0.90 http://schemas.animl.org/current/animl-technique.xsd">
+    <!-- Written using animl-technique-lib -->
+    <MethodBlueprint>
+        <CategoryBlueprint name="Details" modality="required" maxOccurs="1">
+            <Documentation>
+                Settings for a Wait for Duration step
+            </Documentation>
+            <ParameterBlueprint name="Step Number" modality="required" maxOccurs="1" parameterType="Int">
+                <Documentation>
+                    Numeric index of this step, relative to the formulation run. First step should be "1". Must be unique within a run.
+                </Documentation>
+            </ParameterBlueprint>
+            <ParameterBlueprint name="Description" modality="required" maxOccurs="1" parameterType="String">
+                <Documentation>
+                    Verbal description of the "wait for duration" step in English language.
+                </Documentation>
+            </ParameterBlueprint>
+            <ParameterBlueprint name="Status" modality="required" maxOccurs="1" parameterType="String">
+                <Documentation>
+                    One of "Start", "StartAndWait", "Stop" or "Change"
+                </Documentation>
+            </ParameterBlueprint>
+            <ParameterBlueprint name="Duration" modality="required" maxOccurs="1" parameterType="Float">
+                <Documentation>
+                    The amount of time to wait, from the moment the named timer was set, in seconds.
+                </Documentation>
+            </ParameterBlueprint>
+        </CategoryBlueprint>
+    </MethodBlueprint>
+    <ResultBlueprint name="Step Results" modality="required" maxOccurs="1">
+        <CategoryBlueprint name="Measured" modality="required" maxOccurs="1">
+            <ParameterBlueprint name="Start Time" modality="required" maxOccurs="1" parameterType="DateTime">
+                <Documentation>
+                    The time stamp when this action was started
+                </Documentation>
+            </ParameterBlueprint>
+            <ParameterBlueprint name="End Time" modality="required" maxOccurs="1" parameterType="DateTime">
+            <Documentation>
+                    The time stamp when this action was completed.
+                </Documentation>
+            </ParameterBlueprint>
+        </CategoryBlueprint>
+    </ResultBlueprint>
+</Technique>

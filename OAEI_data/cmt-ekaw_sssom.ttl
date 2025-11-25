@@ -1,0 +1,99 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mappings/cmt-ekaw> a owl:Ontology,
+        sssom:MappingSet ;
+    sssom:mappings <http://example.org/mappings/cmt-ekaw#m1065335869753031170>,
+        <http://example.org/mappings/cmt-ekaw#m2421587263159101718>,
+        <http://example.org/mappings/cmt-ekaw#m3087938643029429831>,
+        <http://example.org/mappings/cmt-ekaw#m343307465750200072>,
+        <http://example.org/mappings/cmt-ekaw#m3580383320057327735>,
+        <http://example.org/mappings/cmt-ekaw#m5646538013376685971>,
+        <http://example.org/mappings/cmt-ekaw#m587936670660938469>,
+        <http://example.org/mappings/cmt-ekaw#m5964027406012364998>,
+        <http://example.org/mappings/cmt-ekaw#m6792190023290735063>,
+        <http://example.org/mappings/cmt-ekaw#m7920831558059798907>,
+        <http://example.org/mappings/cmt-ekaw#m8610542875466251950> ;
+    sssom:object_source <http://ekaw> ;
+    sssom:subject_source <http://cmt> .
+
+<http://example.org/mappings/cmt-ekaw#m1065335869753031170> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#Conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Conference> .
+
+<http://example.org/mappings/cmt-ekaw#m2421587263159101718> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#reviewerOfPaper> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#hasBeenAssigned> .
+
+<http://example.org/mappings/cmt-ekaw#m3087938643029429831> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#hasReviewer> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#assignedTo> .
+
+<http://example.org/mappings/cmt-ekaw#m343307465750200072> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#Paper_Author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Author> .
+
+<http://example.org/mappings/cmt-ekaw#m3580383320057327735> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#Review> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Review> .
+
+<http://example.org/mappings/cmt-ekaw#m5646538013376685971> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#Document> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Document> .
+
+<http://example.org/mappings/cmt-ekaw#m587936670660938469> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#Person> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Person> .
+
+<http://example.org/mappings/cmt-ekaw#m5964027406012364998> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#Regular_Paper> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#PaperFullVersion> .
+
+<http://example.org/mappings/cmt-ekaw#m6792190023290735063> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#reviewWrittenBy> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#writtenBy> .
+
+<http://example.org/mappings/cmt-ekaw#m7920831558059798907> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#Conference_Participant> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#ConferenceMember> .
+
+<http://example.org/mappings/cmt-ekaw#m8610542875466251950> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://ekaw#Paper> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Paper> .
+

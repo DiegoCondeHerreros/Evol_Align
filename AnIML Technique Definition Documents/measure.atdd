@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Technique name="Measure" extension="false" version="0.90"
+	xmlns="urn:org:astm:animl:schema:technique:draft:0.90"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:org:astm:animl:schema:technique:draft:0.90 http://schemas.animl.org/current/animl-technique.xsd">
+    <Documentation>
+        Technique for measuring a parameter of the final formulation or premix.
+    </Documentation>
+    <!-- Written using animl-technique-lib -->
+    <MethodBlueprint>
+        <CategoryBlueprint name="Details" modality="required" maxOccurs="1">
+            <Documentation>
+                Settings for a measurement step
+            </Documentation>
+            <ParameterBlueprint name="Step Number" modality="required" maxOccurs="1" parameterType="Int">
+                <Documentation>
+                    Numeric index of this step, relative to the formulation run. First step should be "1". Must be unique within a run.
+                </Documentation>
+            </ParameterBlueprint>
+            <ParameterBlueprint name="Description" modality="required" maxOccurs="1" parameterType="String">
+                <Documentation>
+                    Verbal description of the measurement step in English language.
+                </Documentation>
+            </ParameterBlueprint>
+            <ParameterBlueprint name="Status" modality="required" maxOccurs="1" parameterType="String">
+                <Documentation>
+                    One of "Start", "Stop" or "Change"
+                </Documentation>
+            </ParameterBlueprint>
+            <ParameterBlueprint name="EndPoint" modality="required" maxOccurs="1" parameterType="String">
+                <Documentation>
+                    The type of measurement to take (such as Temperature or pH).
+                </Documentation>
+            </ParameterBlueprint>
+        </CategoryBlueprint>
+    </MethodBlueprint>
+    <ResultBlueprint name="Step Results" modality="required" maxOccurs="1">
+        <CategoryBlueprint name="Measured" modality="required" maxOccurs="1">
+            <ParameterBlueprint name="Start Time" modality="required" maxOccurs="1" parameterType="DateTime">
+                <Documentation>
+                    The time stamp when this action was started.
+                </Documentation>
+            </ParameterBlueprint>
+            <ParameterBlueprint name="End Time" modality="required" maxOccurs="1" parameterType="DateTime">
+                <Documentation>
+                    The time stamp when this action was completed.
+                </Documentation>
+            </ParameterBlueprint>
+            <ParameterBlueprint name="Actual Temperature" modality="required" maxOccurs="1" parameterType="Float">
+                <Documentation>
+                    The actual temperature value in Celsius recorded when this action was completed.
+                </Documentation>
+            </ParameterBlueprint>
+        </CategoryBlueprint>
+    </ResultBlueprint>
+</Technique>

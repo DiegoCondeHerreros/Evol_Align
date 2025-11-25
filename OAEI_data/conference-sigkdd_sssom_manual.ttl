@@ -1,0 +1,146 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mappings/conference-sigkdd> a owl:Ontology,
+        sssom:MappingSet ;
+    sssom:mappings <http://example.org/mappings/conference-sigkdd#m1>,
+        <http://example.org/mappings/conference-sigkdd#m10>,
+        <http://example.org/mappings/conference-sigkdd#m11>,
+        <http://example.org/mappings/conference-sigkdd#m12>,
+        <http://example.org/mappings/conference-sigkdd#m13>,
+        <http://example.org/mappings/conference-sigkdd#m14>,
+        <http://example.org/mappings/conference-sigkdd#m15>,
+        <http://example.org/mappings/conference-sigkdd#m2>,
+        <http://example.org/mappings/conference-sigkdd#m3>,
+        <http://example.org/mappings/conference-sigkdd#m4>,
+        <http://example.org/mappings/conference-sigkdd#m5>,
+        <http://example.org/mappings/conference-sigkdd#m6>,
+        <http://example.org/mappings/conference-sigkdd#m7>,
+        <http://example.org/mappings/conference-sigkdd#m8>,
+        <http://example.org/mappings/conference-sigkdd#m9> ;
+    sssom:object_source <http://sigkdd> ;
+    sssom:subject_source <http://conference> .
+
+<http://example.org/mappings/conference-sigkdd#m1> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://sigkdd#Abstract> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "1" ;
+    sssom:subject_id <http://conference#Abstract> .
+
+<http://example.org/mappings/conference-sigkdd#m10> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://sigkdd#Organizing_Committee> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "10" ;
+    sssom:subject_id <http://conference#Organizing_committee> .
+
+<http://example.org/mappings/conference-sigkdd#m11> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://sigkdd#Person> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "11" ;
+    sssom:subject_id <http://conference#Person> .
+
+<http://example.org/mappings/conference-sigkdd#m12> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://sigkdd#Committee> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "12" ;
+    sssom:subject_id <http://conference#Committee> .
+
+<http://example.org/mappings/conference-sigkdd#m13> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://sigkdd#presentationed_by> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "13" ;
+    sssom:subject_id <http://conference#is_given_by> .
+
+<http://example.org/mappings/conference-sigkdd#m14> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://sigkdd#presentation> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "14" ;
+    sssom:subject_id <http://conference#gives_presentations> .
+
+<http://example.org/mappings/conference-sigkdd#m15> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://sigkdd#Document> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "15" ;
+    sssom:subject_id <http://conference#Conference_document> .
+
+<http://example.org/mappings/conference-sigkdd#m2> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://sigkdd#Invited_Speaker> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "2" ;
+    sssom:subject_id <http://conference#Invited_speaker> .
+
+<http://example.org/mappings/conference-sigkdd#m3> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://sigkdd#Author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "3" ;
+    sssom:subject_id <http://conference#Regular_author> .
+
+<http://example.org/mappings/conference-sigkdd#m4> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://sigkdd#Review> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "4" ;
+    sssom:subject_id <http://conference#Review> .
+
+<http://example.org/mappings/conference-sigkdd#m5> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://sigkdd#Program_Committee> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "5" ;
+    sssom:subject_id <http://conference#Program_committee> .
+
+<http://example.org/mappings/conference-sigkdd#m6> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://sigkdd#Conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "6" ;
+    sssom:subject_id <http://conference#Conference_volume> .
+
+<http://example.org/mappings/conference-sigkdd#m7> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://sigkdd#Fee> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "7" ;
+    sssom:subject_id <http://conference#Conference_fees> .
+
+<http://example.org/mappings/conference-sigkdd#m8> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://sigkdd#E-mail> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "8" ;
+    sssom:subject_id <http://conference#has_an_email> .
+
+<http://example.org/mappings/conference-sigkdd#m9> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://sigkdd#Paper> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "9" ;
+    sssom:subject_id <http://conference#Paper> .
+

@@ -1,0 +1,131 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mappings/iasted-sigkdd> a owl:Ontology,
+        sssom:MappingSet ;
+    sssom:mappings <http://example.org/mappings/iasted-sigkdd#m1616112386431393889>,
+        <http://example.org/mappings/iasted-sigkdd#m2251325432716784713>,
+        <http://example.org/mappings/iasted-sigkdd#m349871693616024217>,
+        <http://example.org/mappings/iasted-sigkdd#m3564378228290579407>,
+        <http://example.org/mappings/iasted-sigkdd#m5101116571921810519>,
+        <http://example.org/mappings/iasted-sigkdd#m537726538104263814>,
+        <http://example.org/mappings/iasted-sigkdd#m586494425538719589>,
+        <http://example.org/mappings/iasted-sigkdd#m7199819478468501768>,
+        <http://example.org/mappings/iasted-sigkdd#m7343955003921792134>,
+        <http://example.org/mappings/iasted-sigkdd#m7701700049190535900>,
+        <http://example.org/mappings/iasted-sigkdd#m7736974750499416790>,
+        <http://example.org/mappings/iasted-sigkdd#m7872915632340575874>,
+        <http://example.org/mappings/iasted-sigkdd#m8164643311726952162>,
+        <http://example.org/mappings/iasted-sigkdd#m8184162185290948831>,
+        <http://example.org/mappings/iasted-sigkdd#m8833470732033563707> ;
+    sssom:object_source <http://sigkdd> ;
+    sssom:subject_source <http://iasted> .
+
+<http://example.org/mappings/iasted-sigkdd#m1616112386431393889> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Person> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Person> .
+
+<http://example.org/mappings/iasted-sigkdd#m2251325432716784713> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Sponzor> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Sponsor> .
+
+<http://example.org/mappings/iasted-sigkdd#m349871693616024217> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Conference_hall> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Conference_hall> .
+
+<http://example.org/mappings/iasted-sigkdd#m3564378228290579407> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Listener> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Listener> .
+
+<http://example.org/mappings/iasted-sigkdd#m5101116571921810519> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Deadline_Author_notification> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Deadline_for_notification_of_acceptance> .
+
+<http://example.org/mappings/iasted-sigkdd#m537726538104263814> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Deadline> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Deadline> .
+
+<http://example.org/mappings/iasted-sigkdd#m586494425538719589> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Registration_Student> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Student_registration_fee> .
+
+<http://example.org/mappings/iasted-sigkdd#m7199819478468501768> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Registration_fee> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Registration_fee> .
+
+<http://example.org/mappings/iasted-sigkdd#m7343955003921792134> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Registration_Non-Member> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Nonmember_registration_fee> .
+
+<http://example.org/mappings/iasted-sigkdd#m7701700049190535900> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Main_office> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Main_office> .
+
+<http://example.org/mappings/iasted-sigkdd#m7736974750499416790> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Fee> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Fee> .
+
+<http://example.org/mappings/iasted-sigkdd#m7872915632340575874> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Speaker> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Speaker> .
+
+<http://example.org/mappings/iasted-sigkdd#m8164643311726952162> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Place> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Place> .
+
+<http://example.org/mappings/iasted-sigkdd#m8184162185290948831> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Author> .
+
+<http://example.org/mappings/iasted-sigkdd#m8833470732033563707> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Review> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://iasted#Review> .
+

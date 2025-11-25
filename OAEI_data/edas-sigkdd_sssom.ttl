@@ -1,0 +1,146 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mappings/edas-sigkdd> a owl:Ontology,
+        sssom:MappingSet ;
+    sssom:mappings <http://example.org/mappings/edas-sigkdd#m1>,
+        <http://example.org/mappings/edas-sigkdd#m10>,
+        <http://example.org/mappings/edas-sigkdd#m11>,
+        <http://example.org/mappings/edas-sigkdd#m12>,
+        <http://example.org/mappings/edas-sigkdd#m13>,
+        <http://example.org/mappings/edas-sigkdd#m14>,
+        <http://example.org/mappings/edas-sigkdd#m15>,
+        <http://example.org/mappings/edas-sigkdd#m2>,
+        <http://example.org/mappings/edas-sigkdd#m3>,
+        <http://example.org/mappings/edas-sigkdd#m4>,
+        <http://example.org/mappings/edas-sigkdd#m5>,
+        <http://example.org/mappings/edas-sigkdd#m6>,
+        <http://example.org/mappings/edas-sigkdd#m7>,
+        <http://example.org/mappings/edas-sigkdd#m8>,
+        <http://example.org/mappings/edas-sigkdd#m9> ;
+    sssom:object_source <http://sigkdd> ;
+    sssom:subject_source <http://edas> .
+
+<http://example.org/mappings/edas-sigkdd#m1> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Place> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "1" ;
+    sssom:subject_id <http://edas#Place> .
+
+<http://example.org/mappings/edas-sigkdd#m10> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "10" ;
+    sssom:subject_id <http://edas#Conference> .
+
+<http://example.org/mappings/edas-sigkdd#m11> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#End_of_conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "11" ;
+    sssom:subject_id <http://edas#endDate> .
+
+<http://example.org/mappings/edas-sigkdd#m12> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Review> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "12" ;
+    sssom:subject_id <http://edas#Review> .
+
+<http://example.org/mappings/edas-sigkdd#m13> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Document> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "13" ;
+    sssom:subject_id <http://edas#Document> .
+
+<http://example.org/mappings/edas-sigkdd#m14> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Paper> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "14" ;
+    sssom:subject_id <http://edas#Paper> .
+
+<http://example.org/mappings/edas-sigkdd#m15> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Listener> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "15" ;
+    sssom:subject_id <http://edas#Attendee> .
+
+<http://example.org/mappings/edas-sigkdd#m2> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Price> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "2" ;
+    sssom:subject_id <http://edas#hasCostAmount> .
+
+<http://example.org/mappings/edas-sigkdd#m3> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Person> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "3" ;
+    sssom:subject_id <http://edas#Person> .
+
+<http://example.org/mappings/edas-sigkdd#m4> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Name_of_conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "4" ;
+    sssom:subject_id <http://edas#hasName> .
+
+<http://example.org/mappings/edas-sigkdd#m5> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Conference_hall> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "5" ;
+    sssom:subject_id <http://edas#ConferenceVenuePlace> .
+
+<http://example.org/mappings/edas-sigkdd#m6> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "6" ;
+    sssom:subject_id <http://edas#Author> .
+
+<http://example.org/mappings/edas-sigkdd#m7> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Hotel> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "7" ;
+    sssom:subject_id <http://edas#AccommodationPlace> .
+
+<http://example.org/mappings/edas-sigkdd#m8> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Start_of_conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "8" ;
+    sssom:subject_id <http://edas#startDate> .
+
+<http://example.org/mappings/edas-sigkdd#m9> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#General_Chair> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "9" ;
+    sssom:subject_id <http://edas#ConferenceChair> .
+

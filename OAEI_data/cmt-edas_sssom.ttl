@@ -1,0 +1,128 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mappings/cmt-edas> a owl:Ontology,
+        sssom:MappingSet ;
+    sssom:mappings <http://example.org/mappings/cmt-edas#m1>,
+        <http://example.org/mappings/cmt-edas#m10>,
+        <http://example.org/mappings/cmt-edas#m11>,
+        <http://example.org/mappings/cmt-edas#m12>,
+        <http://example.org/mappings/cmt-edas#m13>,
+        <http://example.org/mappings/cmt-edas#m2>,
+        <http://example.org/mappings/cmt-edas#m3>,
+        <http://example.org/mappings/cmt-edas#m4>,
+        <http://example.org/mappings/cmt-edas#m5>,
+        <http://example.org/mappings/cmt-edas#m6>,
+        <http://example.org/mappings/cmt-edas#m7>,
+        <http://example.org/mappings/cmt-edas#m8>,
+        <http://example.org/mappings/cmt-edas#m9> ;
+    sssom:object_source <http://edas> ;
+    sssom:subject_source <http://cmt> .
+
+<http://example.org/mappings/cmt-edas#m1> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#Person> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "1" ;
+    sssom:subject_id <http://cmt#Person> .
+
+<http://example.org/mappings/cmt-edas#m10> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#Paper> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "10" ;
+    sssom:subject_id <http://cmt#Paper> .
+
+<http://example.org/mappings/cmt-edas#m11> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#isWrittenBy> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "11" ;
+    sssom:subject_id <http://cmt#hasAuthor> .
+
+<http://example.org/mappings/cmt-edas#m12> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#isReviewing> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "12" ;
+    sssom:subject_id <http://cmt#hasBeenAssigned> .
+
+<http://example.org/mappings/cmt-edas#m13> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#isReviewedBy> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "13" ;
+    sssom:subject_id <http://cmt#assignedTo> .
+
+<http://example.org/mappings/cmt-edas#m2> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#Conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "2" ;
+    sssom:subject_id <http://cmt#Conference> .
+
+<http://example.org/mappings/cmt-edas#m3> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#Author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "3" ;
+    sssom:subject_id <http://cmt#Author> .
+
+<http://example.org/mappings/cmt-edas#m4> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#Reviewer> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "4" ;
+    sssom:subject_id <http://cmt#Reviewer> .
+
+<http://example.org/mappings/cmt-edas#m5> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#hasMember> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "5" ;
+    sssom:subject_id <http://cmt#hasConferenceMember> .
+
+<http://example.org/mappings/cmt-edas#m6> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#isMemberOf> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "6" ;
+    sssom:subject_id <http://cmt#memberOfConference> .
+
+<http://example.org/mappings/cmt-edas#m7> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#ConferenceChair> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "7" ;
+    sssom:subject_id <http://cmt#ConferenceChair> .
+
+<http://example.org/mappings/cmt-edas#m8> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#Review> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "8" ;
+    sssom:subject_id <http://cmt#Review> .
+
+<http://example.org/mappings/cmt-edas#m9> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://edas#Document> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "9" ;
+    sssom:subject_id <http://cmt#Document> .
+

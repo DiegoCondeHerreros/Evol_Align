@@ -1,0 +1,1008 @@
+@prefix : <http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl> a owl:Ontology .
+
+:entity1 a owl:AnnotationProperty .
+
+:entity2 a owl:AnnotationProperty .
+
+:measure a owl:AnnotationProperty .
+
+:relation a owl:AnnotationProperty .
+
+<http://example.org/Anitology/Category> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/category> .
+
+<http://example.org/Anitology/ExperimentStep> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/experimentStep> .
+
+<http://example.org/Anitology/Extension> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/extension> .
+
+<http://example.org/Anitology/Infrastructure> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/infrastructure> .
+
+<http://example.org/Anitology/Method> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/method> .
+
+<http://example.org/Anitology/Parameter> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/parameter> .
+
+<http://example.org/Anitology/Reference> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/reference> .
+
+<http://example.org/Anitology/Result> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/result> .
+
+<http://example.org/Anitology/Role> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/role> .
+
+<http://example.org/Anitology/SIUnit> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/sIUnit> .
+
+<http://example.org/Anitology/Sample> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/sample> .
+
+<http://example.org/Anitology/SampleSet> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/sampleSet> .
+
+<http://example.org/Anitology/Signature> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/signature> .
+
+<http://example.org/Anitology/SignatureSet> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/signatureSet> .
+
+<http://example.org/Anitology/Tag> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/tag> .
+
+<http://example.org/Anitology/TagSet> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/tagSet> .
+
+<http://example.org/Anitology/Template> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/template> .
+
+<http://example.org/Anitology/Unit> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/units> .
+
+<http://example.org/Anitology/Version> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/version> .
+
+<http://example.org/Anitology/changedItem> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/change> .
+
+<http://example.org/Anitology/containerID> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/container> .
+
+<http://example.org/Anitology/containerType> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/containerType> .
+
+<http://example.org/Anitology/hasSampleSet> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/hasSampleSet> .
+
+<http://example.org/Anitology/hasTechnique> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/usesTechnique> .
+
+<http://example.org/Anitology/hasUnit> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://w3id.org/animl/hasUnits> .
+
+<http://example.org/Anitology/hascategory> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/hasResultCategory> .
+
+<http://example.org/Anitology/hasextension> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://w3id.org/animl/hasExtension> .
+
+<http://example.org/Anitology/hasparameter> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/hasParameter> .
+
+<http://example.org/Anitology/hasplotscale> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://w3id.org/animl/hasPlotScale> .
+
+<http://example.org/Anitology/hastagset> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/hasTags> .
+
+<http://example.org/Anitology/plotScale> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/plotScale> .
+
+<http://example.org/Anitology/produces> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/producesResult> .
+
+<http://example.org/Anitology/role> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/role> .
+
+<http://example.org/Anitology/templateUsed> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/template> .
+
+<http://example.org/Anitology/usesMethod> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/usesMethod> .
+
+<http://example.org/Anitology/version> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/version> .
+
+<http://w3id.org/animl/extension> a owl:Class .
+
+<http://w3id.org/animl/hasExtension> a owl:ObjectProperty .
+
+<http://w3id.org/animl/hasPlotScale> a owl:ObjectProperty .
+
+<http://w3id.org/animl/hasUnits> a owl:ObjectProperty .
+
+<http://w3id.org/animl/plotScale> a owl:Class .
+
+<http://w3id.org/animl/reference> a owl:Class .
+
+<http://w3id.org/animl/sIUnit> a owl:Class .
+
+<http://w3id.org/animl/series> a owl:Class .
+
+<http://w3id.org/animl/seriesSet> a owl:Class .
+
+<http://w3id.org/animl/technique> a owl:Class .
+
+<http://w3id.org/animl/units> a owl:Class .
+
+<https://w3id.org/animl/category> a owl:Class .
+
+<https://w3id.org/animl/change> a owl:Class .
+
+<https://w3id.org/animl/experimentStep> a owl:Class .
+
+<https://w3id.org/animl/hasParameter> a owl:ObjectProperty .
+
+<https://w3id.org/animl/hasResultCategory> a owl:ObjectProperty .
+
+<https://w3id.org/animl/hasSampleSet> a owl:ObjectProperty .
+
+<https://w3id.org/animl/hasTags> a owl:ObjectProperty .
+
+<https://w3id.org/animl/infrastructure> a owl:Class .
+
+<https://w3id.org/animl/method> a owl:Class .
+
+<https://w3id.org/animl/parameter> a owl:Class .
+
+<https://w3id.org/animl/producesResult> a owl:ObjectProperty .
+
+<https://w3id.org/animl/result> a owl:Class .
+
+<https://w3id.org/animl/sample> a owl:Class .
+
+<https://w3id.org/animl/sampleSet> a owl:Class .
+
+<https://w3id.org/animl/series> a owl:Class .
+
+<https://w3id.org/animl/seriesSet> a owl:Class .
+
+<https://w3id.org/animl/signature> a owl:Class .
+
+<https://w3id.org/animl/signatureSet> a owl:Class .
+
+<https://w3id.org/animl/tag> a owl:Class .
+
+<https://w3id.org/animl/tagSet> a owl:Class .
+
+<https://w3id.org/animl/technique> a owl:Class .
+
+<https://w3id.org/animl/usesMethod> a owl:ObjectProperty .
+
+<https://w3id.org/animl/usesTechnique> a owl:ObjectProperty .
+
+<http://example.org/Anitology/ContainerTypeType> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/container>,
+        <https://w3id.org/animl/containerType> .
+
+<http://example.org/Anitology/Series> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/series>,
+        <https://w3id.org/animl/series> .
+
+<http://example.org/Anitology/SeriesSet> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/seriesSet>,
+        <https://w3id.org/animl/seriesSet> .
+
+<http://example.org/Anitology/Technique> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/technique>,
+        <https://w3id.org/animl/technique> .
+
+<http://w3id.org/animl/role> a owl:Class .
+
+<https://w3id.org/animl/container> a owl:Class .
+
+<https://w3id.org/animl/containerType> a owl:Class .
+
+<https://w3id.org/animl/template> a owl:Class .
+
+<https://w3id.org/animl/version> a owl:Class .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/containerType"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/ContainerTypeType"^^xsd:string ;
+    :measure 4.65e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/ContainerTypeType> ;
+    owl:annotatedTarget <https://w3id.org/animl/containerType> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/parameter"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Parameter"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Parameter> ;
+    owl:annotatedTarget <https://w3id.org/animl/parameter> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/sIUnit"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/SIUnit"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/SIUnit> ;
+    owl:annotatedTarget <http://w3id.org/animl/sIUnit> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/role"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/role"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/role> ;
+    owl:annotatedTarget <http://w3id.org/animl/role> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/usesTechnique"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasTechnique"^^xsd:string ;
+    :measure 8.181818e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasTechnique> ;
+    owl:annotatedTarget <https://w3id.org/animl/usesTechnique> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/version"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Version"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Version> ;
+    owl:annotatedTarget <https://w3id.org/animl/version> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/category"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Category"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Category> ;
+    owl:annotatedTarget <https://w3id.org/animl/category> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/template"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Template"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Template> ;
+    owl:annotatedTarget <https://w3id.org/animl/template> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/change"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/changedItem"^^xsd:string ;
+    :measure 5.167647e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/changedItem> ;
+    owl:annotatedTarget <https://w3id.org/animl/change> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/container"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/ContainerTypeType"^^xsd:string ;
+    :measure 5.126923e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/ContainerTypeType> ;
+    owl:annotatedTarget <https://w3id.org/animl/container> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/containerType"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/containerType"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/containerType> ;
+    owl:annotatedTarget <https://w3id.org/animl/containerType> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/reference"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Reference"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Reference> ;
+    owl:annotatedTarget <http://w3id.org/animl/reference> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/seriesSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/SeriesSet"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/SeriesSet> ;
+    owl:annotatedTarget <http://w3id.org/animl/seriesSet> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/technique"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Technique"^^xsd:string ;
+    :measure 5.05e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Technique> ;
+    owl:annotatedTarget <http://w3id.org/animl/technique> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/containerType"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/containerType"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/containerType> ;
+    owl:annotatedTarget <https://w3id.org/animl/containerType> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/experimentStep"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/ExperimentStep"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/ExperimentStep> ;
+    owl:annotatedTarget <https://w3id.org/animl/experimentStep> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/containerType"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/ContainerTypeType"^^xsd:string ;
+    :measure 4.65e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/ContainerTypeType> ;
+    owl:annotatedTarget <https://w3id.org/animl/containerType> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/parameter"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Parameter"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Parameter> ;
+    owl:annotatedTarget <https://w3id.org/animl/parameter> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/change"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/changedItem"^^xsd:string ;
+    :measure 5.167647e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/changedItem> ;
+    owl:annotatedTarget <https://w3id.org/animl/change> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/sample"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Sample"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Sample> ;
+    owl:annotatedTarget <https://w3id.org/animl/sample> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/container"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/containerID"^^xsd:string ;
+    :measure 5.75e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/containerID> ;
+    owl:annotatedTarget <https://w3id.org/animl/container> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/sampleSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/SampleSet"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/SampleSet> ;
+    owl:annotatedTarget <https://w3id.org/animl/sampleSet> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/sIUnit"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/SIUnit"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/SIUnit> ;
+    owl:annotatedTarget <http://w3id.org/animl/sIUnit> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/tagSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/TagSet"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/TagSet> ;
+    owl:annotatedTarget <https://w3id.org/animl/tagSet> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/hasSampleSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasSampleSet"^^xsd:string ;
+    :measure 1e+00 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasSampleSet> ;
+    owl:annotatedTarget <https://w3id.org/animl/hasSampleSet> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/container"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/containerID"^^xsd:string ;
+    :measure 5.75e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/containerID> ;
+    owl:annotatedTarget <https://w3id.org/animl/container> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/hasTags"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hastagset"^^xsd:string ;
+    :measure 9.25e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hastagset> ;
+    owl:annotatedTarget <https://w3id.org/animl/hasTags> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/signatureSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/SignatureSet"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/SignatureSet> ;
+    owl:annotatedTarget <https://w3id.org/animl/signatureSet> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/hasParameter"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasparameter"^^xsd:string ;
+    :measure 1e+00 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasparameter> ;
+    owl:annotatedTarget <https://w3id.org/animl/hasParameter> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/tagSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/TagSet"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/TagSet> ;
+    owl:annotatedTarget <https://w3id.org/animl/tagSet> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/sampleSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/SampleSet"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/SampleSet> ;
+    owl:annotatedTarget <https://w3id.org/animl/sampleSet> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/method"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Method"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Method> ;
+    owl:annotatedTarget <https://w3id.org/animl/method> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/technique"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Technique"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Technique> ;
+    owl:annotatedTarget <https://w3id.org/animl/technique> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/hasPlotScale"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasplotscale"^^xsd:string ;
+    :measure 1e+00 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasplotscale> ;
+    owl:annotatedTarget <http://w3id.org/animl/hasPlotScale> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/category"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Category"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Category> ;
+    owl:annotatedTarget <https://w3id.org/animl/category> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/seriesSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/SeriesSet"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/SeriesSet> ;
+    owl:annotatedTarget <http://w3id.org/animl/seriesSet> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/plotScale"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/plotScale"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/plotScale> ;
+    owl:annotatedTarget <http://w3id.org/animl/plotScale> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/experimentStep"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/ExperimentStep"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/ExperimentStep> ;
+    owl:annotatedTarget <https://w3id.org/animl/experimentStep> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/usesTechnique"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasTechnique"^^xsd:string ;
+    :measure 8.181818e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasTechnique> ;
+    owl:annotatedTarget <https://w3id.org/animl/usesTechnique> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/hasResultCategory"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hascategory"^^xsd:string ;
+    :measure 8.5e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hascategory> ;
+    owl:annotatedTarget <https://w3id.org/animl/hasResultCategory> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/hasUnits"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasUnit"^^xsd:string ;
+    :measure 9.6e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasUnit> ;
+    owl:annotatedTarget <http://w3id.org/animl/hasUnits> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/units"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Unit"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Unit> ;
+    owl:annotatedTarget <http://w3id.org/animl/units> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/signature"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Signature"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Signature> ;
+    owl:annotatedTarget <https://w3id.org/animl/signature> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/method"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Method"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Method> ;
+    owl:annotatedTarget <https://w3id.org/animl/method> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/template"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/templateUsed"^^xsd:string ;
+    :measure 4.45e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/templateUsed> ;
+    owl:annotatedTarget <https://w3id.org/animl/template> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/extension"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Extension"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Extension> ;
+    owl:annotatedTarget <http://w3id.org/animl/extension> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/hasUnits"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasUnit"^^xsd:string ;
+    :measure 9.6e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasUnit> ;
+    owl:annotatedTarget <http://w3id.org/animl/hasUnits> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/result"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Result"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Result> ;
+    owl:annotatedTarget <https://w3id.org/animl/result> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/producesResult"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/produces"^^xsd:string ;
+    :measure 8.363636e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/produces> ;
+    owl:annotatedTarget <https://w3id.org/animl/producesResult> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/template"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Template"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Template> ;
+    owl:annotatedTarget <https://w3id.org/animl/template> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/infrastructure"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Infrastructure"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Infrastructure> ;
+    owl:annotatedTarget <https://w3id.org/animl/infrastructure> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/series"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Series"^^xsd:string ;
+    :measure 5.05e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Series> ;
+    owl:annotatedTarget <http://w3id.org/animl/series> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/hasExtension"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasextension"^^xsd:string ;
+    :measure 1e+00 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasextension> ;
+    owl:annotatedTarget <http://w3id.org/animl/hasExtension> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/version"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Version"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Version> ;
+    owl:annotatedTarget <https://w3id.org/animl/version> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/reference"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Reference"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Reference> ;
+    owl:annotatedTarget <http://w3id.org/animl/reference> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/role"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/role"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/role> ;
+    owl:annotatedTarget <http://w3id.org/animl/role> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/hasParameter"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasparameter"^^xsd:string ;
+    :measure 1e+00 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasparameter> ;
+    owl:annotatedTarget <https://w3id.org/animl/hasParameter> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/template"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/templateUsed"^^xsd:string ;
+    :measure 4.45e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/templateUsed> ;
+    owl:annotatedTarget <https://w3id.org/animl/template> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/usesMethod"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/usesMethod"^^xsd:string ;
+    :measure 1e+00 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/usesMethod> ;
+    owl:annotatedTarget <https://w3id.org/animl/usesMethod> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/hasResultCategory"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hascategory"^^xsd:string ;
+    :measure 8.5e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hascategory> ;
+    owl:annotatedTarget <https://w3id.org/animl/hasResultCategory> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/producesResult"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/produces"^^xsd:string ;
+    :measure 8.363636e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/produces> ;
+    owl:annotatedTarget <https://w3id.org/animl/producesResult> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/hasExtension"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasextension"^^xsd:string ;
+    :measure 1e+00 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasextension> ;
+    owl:annotatedTarget <http://w3id.org/animl/hasExtension> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/tag"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Tag"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Tag> ;
+    owl:annotatedTarget <https://w3id.org/animl/tag> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/version"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/version"^^xsd:string ;
+    :measure 5.05e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/version> ;
+    owl:annotatedTarget <https://w3id.org/animl/version> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/sample"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Sample"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Sample> ;
+    owl:annotatedTarget <https://w3id.org/animl/sample> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/seriesSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/SeriesSet"^^xsd:string ;
+    :measure 5.05e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/SeriesSet> ;
+    owl:annotatedTarget <https://w3id.org/animl/seriesSet> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/hasPlotScale"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasplotscale"^^xsd:string ;
+    :measure 1e+00 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasplotscale> ;
+    owl:annotatedTarget <http://w3id.org/animl/hasPlotScale> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/technique"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Technique"^^xsd:string ;
+    :measure 5.05e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Technique> ;
+    owl:annotatedTarget <http://w3id.org/animl/technique> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/series"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Series"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Series> ;
+    owl:annotatedTarget <https://w3id.org/animl/series> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/result"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Result"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Result> ;
+    owl:annotatedTarget <https://w3id.org/animl/result> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/series"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Series"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Series> ;
+    owl:annotatedTarget <https://w3id.org/animl/series> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/container"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/ContainerTypeType"^^xsd:string ;
+    :measure 5.126923e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/ContainerTypeType> ;
+    owl:annotatedTarget <https://w3id.org/animl/container> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/version"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/version"^^xsd:string ;
+    :measure 5.05e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/version> ;
+    owl:annotatedTarget <https://w3id.org/animl/version> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/infrastructure"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Infrastructure"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Infrastructure> ;
+    owl:annotatedTarget <https://w3id.org/animl/infrastructure> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/role"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Role"^^xsd:string ;
+    :measure 5.05e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Role> ;
+    owl:annotatedTarget <http://w3id.org/animl/role> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/usesMethod"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/usesMethod"^^xsd:string ;
+    :measure 1e+00 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/usesMethod> ;
+    owl:annotatedTarget <https://w3id.org/animl/usesMethod> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/hasTags"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hastagset"^^xsd:string ;
+    :measure 9.25e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hastagset> ;
+    owl:annotatedTarget <https://w3id.org/animl/hasTags> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/technique"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Technique"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Technique> ;
+    owl:annotatedTarget <https://w3id.org/animl/technique> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/hasSampleSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/hasSampleSet"^^xsd:string ;
+    :measure 1e+00 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentProperty ;
+    owl:annotatedSource <http://example.org/Anitology/hasSampleSet> ;
+    owl:annotatedTarget <https://w3id.org/animl/hasSampleSet> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/series"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Series"^^xsd:string ;
+    :measure 5.05e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Series> ;
+    owl:annotatedTarget <http://w3id.org/animl/series> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/plotScale"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/plotScale"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/plotScale> ;
+    owl:annotatedTarget <http://w3id.org/animl/plotScale> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/seriesSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/SeriesSet"^^xsd:string ;
+    :measure 5.05e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/SeriesSet> ;
+    owl:annotatedTarget <https://w3id.org/animl/seriesSet> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/signature"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Signature"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Signature> ;
+    owl:annotatedTarget <https://w3id.org/animl/signature> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/units"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Unit"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Unit> ;
+    owl:annotatedTarget <http://w3id.org/animl/units> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/extension"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Extension"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Extension> ;
+    owl:annotatedTarget <http://w3id.org/animl/extension> .
+
+[] a owl:Axiom ;
+    :entity1 "http://w3id.org/animl/role"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Role"^^xsd:string ;
+    :measure 5.05e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Role> ;
+    owl:annotatedTarget <http://w3id.org/animl/role> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/tag"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/Tag"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/Tag> ;
+    owl:annotatedTarget <https://w3id.org/animl/tag> .
+
+[] a owl:Axiom ;
+    :entity1 "https://w3id.org/animl/signatureSet"^^xsd:string ;
+    :entity2 "http://example.org/Anitology/SignatureSet"^^xsd:string ;
+    :measure 7.03e-01 ;
+    :relation "="^^xsd:string ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedSource <http://example.org/Anitology/SignatureSet> ;
+    owl:annotatedTarget <https://w3id.org/animl/signatureSet> .
+

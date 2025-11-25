@@ -1,0 +1,107 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mappings/cmt-sigkdd> a owl:Ontology,
+        sssom:MappingSet ;
+    sssom:mappings <http://example.org/mappings/cmt-sigkdd#m1012157230719764853>,
+        <http://example.org/mappings/cmt-sigkdd#m1521350455888659997>,
+        <http://example.org/mappings/cmt-sigkdd#m2101360316947352370>,
+        <http://example.org/mappings/cmt-sigkdd#m2349432312212768789>,
+        <http://example.org/mappings/cmt-sigkdd#m2796183173014118396>,
+        <http://example.org/mappings/cmt-sigkdd#m4654528418404281038>,
+        <http://example.org/mappings/cmt-sigkdd#m5532051580885372117>,
+        <http://example.org/mappings/cmt-sigkdd#m5720206178635742936>,
+        <http://example.org/mappings/cmt-sigkdd#m5891450135270887991>,
+        <http://example.org/mappings/cmt-sigkdd#m7102985339918598225>,
+        <http://example.org/mappings/cmt-sigkdd#m7288209615232436089>,
+        <http://example.org/mappings/cmt-sigkdd#m8814121597899214966> ;
+    sssom:object_source <http://sigkdd> ;
+    sssom:subject_source <http://cmt> .
+
+<http://example.org/mappings/cmt-sigkdd#m1012157230719764853> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Person> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Person> .
+
+<http://example.org/mappings/cmt-sigkdd#m1521350455888659997> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Paper> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Paper> .
+
+<http://example.org/mappings/cmt-sigkdd#m2101360316947352370> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Program_Chair> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#ProgramCommitteeChair> .
+
+<http://example.org/mappings/cmt-sigkdd#m2349432312212768789> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Program_Committee> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#ProgramCommittee> .
+
+<http://example.org/mappings/cmt-sigkdd#m2796183173014118396> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Conference> .
+
+<http://example.org/mappings/cmt-sigkdd#m4654528418404281038> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Document> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Document> .
+
+<http://example.org/mappings/cmt-sigkdd#m5532051580885372117> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#E-mail> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#email> .
+
+<http://example.org/mappings/cmt-sigkdd#m5720206178635742936> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#General_Chair> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#ConferenceChair> .
+
+<http://example.org/mappings/cmt-sigkdd#m5891450135270887991> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Review> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Review> .
+
+<http://example.org/mappings/cmt-sigkdd#m7102985339918598225> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#submit> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#submitPaper> .
+
+<http://example.org/mappings/cmt-sigkdd#m7288209615232436089> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Author> .
+
+<http://example.org/mappings/cmt-sigkdd#m8814121597899214966> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:UnspecifiedMatching ;
+    sssom:object_id <http://sigkdd#Program_Committee_member> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#ProgramCommitteeMember> .
+

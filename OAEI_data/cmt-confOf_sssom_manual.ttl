@@ -1,0 +1,139 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mappings/cmt-confOf> a owl:Ontology,
+        sssom:MappingSet ;
+    sssom:mappings <http://example.org/mappings/cmt-confOf#m2211731750890218978>,
+        <http://example.org/mappings/cmt-confOf#m2662394009141357656>,
+        <http://example.org/mappings/cmt-confOf#m279408520361867080>,
+        <http://example.org/mappings/cmt-confOf#m3471299012922997050>,
+        <http://example.org/mappings/cmt-confOf#m3796266684556310301>,
+        <http://example.org/mappings/cmt-confOf#m4073235507139298975>,
+        <http://example.org/mappings/cmt-confOf#m5687954178034422933>,
+        <http://example.org/mappings/cmt-confOf#m6185025458250533884>,
+        <http://example.org/mappings/cmt-confOf#m6342303299311857638>,
+        <http://example.org/mappings/cmt-confOf#m6946965423994186362>,
+        <http://example.org/mappings/cmt-confOf#m7044753676569672817>,
+        <http://example.org/mappings/cmt-confOf#m7095376845731530236>,
+        <http://example.org/mappings/cmt-confOf#m7221301979353207061>,
+        <http://example.org/mappings/cmt-confOf#m7720580055187478197>,
+        <http://example.org/mappings/cmt-confOf#m8325737075123122612>,
+        <http://example.org/mappings/cmt-confOf#m966897398452239575> ;
+    sssom:object_source <http://confOf> ;
+    sssom:subject_source <http://cmt> .
+
+<http://example.org/mappings/cmt-confOf#m2211731750890218978> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://confOf#writes> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#writePaper> .
+
+<http://example.org/mappings/cmt-confOf#m2662394009141357656> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://confOf#Paper> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#PaperFullVersion> .
+
+<http://example.org/mappings/cmt-confOf#m279408520361867080> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://confOf#Member> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#ConferenceMember> .
+
+<http://example.org/mappings/cmt-confOf#m3471299012922997050> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://confOf#Administrator> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Administrator> .
+
+<http://example.org/mappings/cmt-confOf#m3796266684556310301> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://confOf#Person> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Person> .
+
+<http://example.org/mappings/cmt-confOf#m4073235507139298975> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://confOf#hasTitle> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#title> .
+
+<http://example.org/mappings/cmt-confOf#m5687954178034422933> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://confOf#Contribution> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Paper> .
+
+<http://example.org/mappings/cmt-confOf#m6185025458250533884> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://confOf#Topic> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#SubjectArea> .
+
+<http://example.org/mappings/cmt-confOf#m6342303299311857638> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://confOf#writtenBy> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#hasAuthor> .
+
+<http://example.org/mappings/cmt-confOf#m6946965423994186362> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://confOf#hasEmail> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#email> .
+
+<http://example.org/mappings/cmt-confOf#m7044753676569672817> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://confOf#Conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Conference> .
+
+<http://example.org/mappings/cmt-confOf#m7095376845731530236> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://confOf#Chair_PC> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#ProgramCommitteeChair> .
+
+<http://example.org/mappings/cmt-confOf#m7221301979353207061> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://confOf#Author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#Author> .
+
+<http://example.org/mappings/cmt-confOf#m7720580055187478197> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:BackgroundKnowledgeBasedMatching ;
+    sssom:object_id <http://confOf#reviewes> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#hasBeenAssigned> .
+
+<http://example.org/mappings/cmt-confOf#m8325737075123122612> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:BackgroundKnowledgeBasedMatching ;
+    sssom:object_id <http://confOf#Member_PC> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#ProgramCommitteeMember> .
+
+<http://example.org/mappings/cmt-confOf#m966897398452239575> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://confOf#dealsWith> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://cmt#hasSubjectArea> .
+

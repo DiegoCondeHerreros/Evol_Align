@@ -1,0 +1,842 @@
+@prefix : <http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix mappings: <http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix semapv: <https://w3id.org/semapv/vocab/LevenshteinEditDistance/>.
+
+<http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl> a owl:Ontology ;
+# Here we have the mapping_set_id that adds the identifier of the set of mappings.
+# TODO: I left create commons as a placeholder, change the license if it is appropiate.
+                                                        ssssom:mapping_set_id <http://www.cs.ox.ac.uk/isg/projects/LogMap/SSSOM_logmap2_mappings_1.ttl>;
+                                                        ssssom:license <https://creativecommons.org/licenses/by/4.0/legalcode> .
+
+:entity1 a owl:AnnotationProperty .
+
+:entity2 a owl:AnnotationProperty .
+
+sssom:confidence a owl:AnnotationProperty .
+
+:relation a owl:AnnotationProperty .
+
+<http://example.org/Anitology/Category> a owl:Class ;
+
+    owl:equivalentClass <https://w3id.org/animl/category> .
+
+<http://example.org/Anitology/ExperimentStep> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/experimentStep> .
+
+<http://example.org/Anitology/Extension> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/extension> .
+
+<http://example.org/Anitology/Infrastructure> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/infrastructure> .
+
+<http://example.org/Anitology/Method> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/method> .
+
+<http://example.org/Anitology/Parameter> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/parameter> .
+
+<http://example.org/Anitology/Reference> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/reference> .
+
+<http://example.org/Anitology/Result> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/result> .
+
+<http://example.org/Anitology/Role> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/role> .
+
+<http://example.org/Anitology/SIUnit> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/sIUnit> .
+
+<http://example.org/Anitology/Sample> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/sample> .
+
+<http://example.org/Anitology/SampleSet> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/sampleSet> .
+
+<http://example.org/Anitology/Signature> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/signature> .
+
+<http://example.org/Anitology/SignatureSet> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/signatureSet> .
+
+<http://example.org/Anitology/Tag> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/tag> .
+
+<http://example.org/Anitology/TagSet> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/tagSet> .
+
+<http://example.org/Anitology/Template> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/template> .
+
+<http://example.org/Anitology/Unit> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/units> .
+
+<http://example.org/Anitology/Version> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/version> .
+
+<http://example.org/Anitology/changedItem> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/change> .
+
+<http://example.org/Anitology/containerID> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/container> .
+
+<http://example.org/Anitology/containerType> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/containerType> .
+
+<http://example.org/Anitology/hasSampleSet> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/hasSampleSet> .
+
+<http://example.org/Anitology/hasTechnique> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/usesTechnique> .
+
+<http://example.org/Anitology/hasUnit> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://w3id.org/animl/hasUnits> .
+
+<http://example.org/Anitology/hascategory> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/hasResultCategory> .
+
+<http://example.org/Anitology/hasextension> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://w3id.org/animl/hasExtension> .
+
+<http://example.org/Anitology/hasparameter> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/hasParameter> .
+
+<http://example.org/Anitology/hasplotscale> a owl:ObjectProperty ;
+    owl:equivalentProperty <http://w3id.org/animl/hasPlotScale> .
+
+<http://example.org/Anitology/hastagset> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/hasTags> .
+
+<http://example.org/Anitology/plotScale> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/plotScale> .
+
+<http://example.org/Anitology/produces> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/producesResult> .
+
+<http://example.org/Anitology/role> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/role> .
+
+<http://example.org/Anitology/templateUsed> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/template> .
+
+<http://example.org/Anitology/usesMethod> a owl:ObjectProperty ;
+    owl:equivalentProperty <https://w3id.org/animl/usesMethod> .
+
+<http://example.org/Anitology/version> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/version> .
+
+<http://w3id.org/animl/extension> a owl:Class .
+
+<http://w3id.org/animl/hasExtension> a owl:ObjectProperty .
+
+<http://w3id.org/animl/hasPlotScale> a owl:ObjectProperty .
+
+<http://w3id.org/animl/hasUnits> a owl:ObjectProperty .
+
+<http://w3id.org/animl/plotScale> a owl:Class .
+
+<http://w3id.org/animl/reference> a owl:Class .
+
+<http://w3id.org/animl/sIUnit> a owl:Class .
+
+<http://w3id.org/animl/series> a owl:Class .
+
+<http://w3id.org/animl/seriesSet> a owl:Class .
+
+<http://w3id.org/animl/technique> a owl:Class .
+
+<http://w3id.org/animl/units> a owl:Class .
+
+<https://w3id.org/animl/category> a owl:Class .
+
+<https://w3id.org/animl/change> a owl:Class .
+
+<https://w3id.org/animl/experimentStep> a owl:Class .
+
+<https://w3id.org/animl/hasParameter> a owl:ObjectProperty .
+
+<https://w3id.org/animl/hasResultCategory> a owl:ObjectProperty .
+
+<https://w3id.org/animl/hasSampleSet> a owl:ObjectProperty .
+
+<https://w3id.org/animl/hasTags> a owl:ObjectProperty .
+
+<https://w3id.org/animl/infrastructure> a owl:Class .
+
+<https://w3id.org/animl/method> a owl:Class .
+
+<https://w3id.org/animl/parameter> a owl:Class .
+
+<https://w3id.org/animl/producesResult> a owl:ObjectProperty .
+
+<https://w3id.org/animl/result> a owl:Class .
+
+<https://w3id.org/animl/sample> a owl:Class .
+
+<https://w3id.org/animl/sampleSet> a owl:Class .
+
+<https://w3id.org/animl/series> a owl:Class .
+
+<https://w3id.org/animl/seriesSet> a owl:Class .
+
+<https://w3id.org/animl/signature> a owl:Class .
+
+<https://w3id.org/animl/signatureSet> a owl:Class .
+
+<https://w3id.org/animl/tag> a owl:Class .
+
+<https://w3id.org/animl/tagSet> a owl:Class .
+
+<https://w3id.org/animl/technique> a owl:Class .
+
+<https://w3id.org/animl/usesMethod> a owl:ObjectProperty .
+
+<https://w3id.org/animl/usesTechnique> a owl:ObjectProperty .
+
+<http://example.org/Anitology/ContainerTypeType> a owl:Class ;
+    owl:equivalentClass <https://w3id.org/animl/container>,
+        <https://w3id.org/animl/containerType> .
+
+<http://example.org/Anitology/Series> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/series>,
+        <https://w3id.org/animl/series> .
+
+<http://example.org/Anitology/SeriesSet> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/seriesSet>,
+        <https://w3id.org/animl/seriesSet> .
+
+<http://example.org/Anitology/Technique> a owl:Class ;
+    owl:equivalentClass <http://w3id.org/animl/technique>,
+        <https://w3id.org/animl/technique> .
+
+<http://w3id.org/animl/role> a owl:Class .
+
+<https://w3id.org/animl/container> a owl:Class .
+
+<https://w3id.org/animl/containerType> a owl:Class .
+
+<https://w3id.org/animl/template> a owl:Class .
+
+<https://w3id.org/animl/version> a owl:Class .
+
+[] a owl:Axiom ;
+    sssom:confidence 4.65e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/ContainerTypeType> ;
+    sssom:object_id <https://w3id.org/animl/containerType> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Parameter> ;
+    sssom:object_id <https://w3id.org/animl/parameter> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/SIUnit> ;
+    sssom:object_id <http://w3id.org/animl/sIUnit> ;
+    sssom:curation_rule semapv:LexicalMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/role> ;
+    sssom:object_id <http://w3id.org/animl/role> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 8.181818e-01 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasTechnique> ;
+    sssom:object_id <https://w3id.org/animl/usesTechnique> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Version> ;
+    sssom:object_id <https://w3id.org/animl/version> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Category> ;
+    sssom:object_id <https://w3id.org/animl/category> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Template> ;
+    sssom:object_id <https://w3id.org/animl/template> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.167647e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/changedItem> ;
+    sssom:object_id <https://w3id.org/animl/change> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.126923e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/ContainerTypeType> ;
+    sssom:object_id <https://w3id.org/animl/container> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/containerType> ;
+    sssom:object_id <https://w3id.org/animl/containerType> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Reference> ;
+    sssom:object_id <http://w3id.org/animl/reference> ;
+    sssom:curation_rule semapv:LexicalMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/SeriesSet> ;
+    sssom:object_id <http://w3id.org/animl/seriesSet> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.05e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Technique> ;
+    sssom:object_id <http://w3id.org/animl/technique> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/containerType> ;
+    sssom:object_id <https://w3id.org/animl/containerType> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/ExperimentStep> ;
+    sssom:object_id <https://w3id.org/animl/experimentStep> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 4.65e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/ContainerTypeType> ;
+    sssom:object_id <https://w3id.org/animl/containerType> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Parameter> ;
+    sssom:object_id <https://w3id.org/animl/parameter> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.167647e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/changedItem> ;
+    sssom:object_id <https://w3id.org/animl/change> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Sample> ;
+    sssom:object_id <https://w3id.org/animl/sample> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.75e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/containerID> ;
+    sssom:object_id <https://w3id.org/animl/container> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/SampleSet> ;
+    sssom:object_id <https://w3id.org/animl/sampleSet> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/SIUnit> ;
+    sssom:object_id <http://w3id.org/animl/sIUnit> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/TagSet> ;
+    sssom:object_id <https://w3id.org/animl/tagSet> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 1e+00 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasSampleSet> ;
+    sssom:object_id <https://w3id.org/animl/hasSampleSet> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.75e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/containerID> ;
+    sssom:object_id <https://w3id.org/animl/container> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 9.25e-01 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hastagset> ;
+    sssom:object_id <https://w3id.org/animl/hasTags> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/SignatureSet> ;
+    sssom:object_id <https://w3id.org/animl/signatureSet> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 1e+00 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasparameter> ;
+    sssom:object_id <https://w3id.org/animl/hasParameter> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/TagSet> ;
+    sssom:object_id <https://w3id.org/animl/tagSet> ;
+    sssom:curation_rule semapv:LexicalMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/SampleSet> ;
+    sssom:object_id <https://w3id.org/animl/sampleSet> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Method> ;
+    sssom:object_id <https://w3id.org/animl/method> ;
+    sssom:curation_rule semapv:LexicalMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Technique> ;
+    sssom:object_id <https://w3id.org/animl/technique> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 1e+00 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasplotscale> ;
+    sssom:object_id <http://w3id.org/animl/hasPlotScale> ;
+    sssom:curation_rule semapv:LexicalMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Category> ;
+    sssom:object_id <https://w3id.org/animl/category> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/SeriesSet> ;
+    sssom:object_id <http://w3id.org/animl/seriesSet> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/plotScale> ;
+    sssom:object_id <http://w3id.org/animl/plotScale> ;
+    sssom:curation_rule semapv:LexicalMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/ExperimentStep> ;
+    sssom:object_id <https://w3id.org/animl/experimentStep> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 8.181818e-01 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasTechnique> ;
+    sssom:object_id <https://w3id.org/animl/usesTechnique> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 8.5e-01 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hascategory> ;
+    sssom:object_id <https://w3id.org/animl/hasResultCategory> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 9.6e-01 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasUnit> ;
+    sssom:object_id <http://w3id.org/animl/hasUnits> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Unit> ;
+    sssom:object_id <http://w3id.org/animl/units> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Signature> ;
+    sssom:object_id <https://w3id.org/animl/signature> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Method> ;
+    sssom:object_id <https://w3id.org/animl/method> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 4.45e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/templateUsed> ;
+    sssom:object_id <https://w3id.org/animl/template> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Extension> ;
+    sssom:object_id <http://w3id.org/animl/extension> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 9.6e-01 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasUnit> ;
+    sssom:object_id <http://w3id.org/animl/hasUnits> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Result> ;
+    sssom:object_id <https://w3id.org/animl/result> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 8.363636e-01 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/produces> ;
+    sssom:object_id <https://w3id.org/animl/producesResult> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Template> ;
+    sssom:object_id <https://w3id.org/animl/template> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Infrastructure> ;
+    sssom:object_id <https://w3id.org/animl/infrastructure> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.05e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Series> ;
+    sssom:object_id <http://w3id.org/animl/series> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 1e+00 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasextension> ;
+    sssom:object_id <http://w3id.org/animl/hasExtension> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Version> ;
+    sssom:object_id <https://w3id.org/animl/version> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Reference> ;
+    sssom:object_id <http://w3id.org/animl/reference> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/role> ;
+    sssom:object_id <http://w3id.org/animl/role> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 1e+00 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasparameter> ;
+    sssom:object_id <https://w3id.org/animl/hasParameter> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 4.45e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/templateUsed> ;
+    sssom:object_id <https://w3id.org/animl/template> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 1e+00 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/usesMethod> ;
+    sssom:object_id <https://w3id.org/animl/usesMethod> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 8.5e-01 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hascategory> ;
+    sssom:object_id <https://w3id.org/animl/hasResultCategory> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 8.363636e-01 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/produces> ;
+    sssom:object_id <https://w3id.org/animl/producesResult> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 1e+00 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasextension> ;
+    sssom:object_id <http://w3id.org/animl/hasExtension> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Tag> ;
+    sssom:object_id <https://w3id.org/animl/tag> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.05e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/version> ;
+    sssom:object_id <https://w3id.org/animl/version> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Sample> ;
+    sssom:object_id <https://w3id.org/animl/sample> ;
+    sssom:curation_rule semapv:LexicalMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.05e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/SeriesSet> ;
+    sssom:object_id <https://w3id.org/animl/seriesSet> ;
+    sssom:curation_rule semapv:LexicalMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 1e+00 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasplotscale> ;
+    sssom:object_id <http://w3id.org/animl/hasPlotScale> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.05e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Technique> ;
+    sssom:object_id <http://w3id.org/animl/technique> ;
+    sssom:curation_rule semapv:LexicalMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Series> ;
+    sssom:object_id <https://w3id.org/animl/series> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Result> ;
+    sssom:object_id <https://w3id.org/animl/result> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Series> ;
+    sssom:object_id <https://w3id.org/animl/series> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.126923e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/ContainerTypeType> ;
+    sssom:object_id <https://w3id.org/animl/container> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.05e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/version> ;
+    sssom:object_id <https://w3id.org/animl/version> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Infrastructure> ;
+    sssom:object_id <https://w3id.org/animl/infrastructure> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.05e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Role> ;
+    sssom:object_id <http://w3id.org/animl/role> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 1e+00 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/usesMethod> ;
+    sssom:object_id <https://w3id.org/animl/usesMethod> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 9.25e-01 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hastagset> ;
+    sssom:object_id <https://w3id.org/animl/hasTags> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Technique> ;
+    sssom:object_id <https://w3id.org/animl/technique> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+    
+[] a owl:Axiom ;
+    sssom:confidence 1e+00 ;
+    sssom:predicate_id owl:equivalentProperty ;
+    sssom:subject_id <http://example.org/Anitology/hasSampleSet> ;
+    sssom:object_id <https://w3id.org/animl/hasSampleSet> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.05e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Series> ;
+    sssom:object_id <http://w3id.org/animl/series> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/plotScale> ;
+    sssom:object_id <http://w3id.org/animl/plotScale> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.05e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/SeriesSet> ;
+    sssom:object_id <https://w3id.org/animl/seriesSet> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Signature> ;
+    sssom:object_id <https://w3id.org/animl/signature> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Unit> ;
+    sssom:object_id <http://w3id.org/animl/units> ;
+    sssom:curation_rule semapv:LexicalMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Extension> ;
+    sssom:object_id <http://w3id.org/animl/extension> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 5.05e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Role> ;
+    sssom:object_id <http://w3id.org/animl/role> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/Tag> ;
+    sssom:object_id <https://w3id.org/animl/tag> ;
+    sssom:curation_rule semapv:LexicalSimilarityThresholdMatching .
+
+[] a owl:Axiom ;
+    sssom:confidence 7.03e-01 ;
+    sssom:predicate_id owl:equivalentClass ;
+    sssom:subject_id <http://example.org/Anitology/SignatureSet> ;
+    sssom:object_id <https://w3id.org/animl/signatureSet> ;
+    sssom:curation_rule semapv:LexicalMatching .

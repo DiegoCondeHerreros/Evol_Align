@@ -1,0 +1,182 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mappings/edas-iasted> a owl:Ontology,
+        sssom:MappingSet ;
+    sssom:mappings <http://example.org/mappings/edas-iasted#m1>,
+        <http://example.org/mappings/edas-iasted#m10>,
+        <http://example.org/mappings/edas-iasted#m11>,
+        <http://example.org/mappings/edas-iasted#m12>,
+        <http://example.org/mappings/edas-iasted#m13>,
+        <http://example.org/mappings/edas-iasted#m14>,
+        <http://example.org/mappings/edas-iasted#m15>,
+        <http://example.org/mappings/edas-iasted#m18>,
+        <http://example.org/mappings/edas-iasted#m19>,
+        <http://example.org/mappings/edas-iasted#m2>,
+        <http://example.org/mappings/edas-iasted#m20>,
+        <http://example.org/mappings/edas-iasted#m22>,
+        <http://example.org/mappings/edas-iasted#m3>,
+        <http://example.org/mappings/edas-iasted#m4>,
+        <http://example.org/mappings/edas-iasted#m5>,
+        <http://example.org/mappings/edas-iasted#m6>,
+        <http://example.org/mappings/edas-iasted#m7>,
+        <http://example.org/mappings/edas-iasted#m8>,
+        <http://example.org/mappings/edas-iasted#m9> ;
+    sssom:object_source <http://iasted> ;
+    sssom:subject_source <http://edas> .
+
+<http://example.org/mappings/edas-iasted#m1> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://iasted#Place> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "1" ;
+    sssom:subject_id <http://edas#Place> .
+
+<http://example.org/mappings/edas-iasted#m10> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Dinner_banquet> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "10" ;
+    sssom:subject_id <http://edas#ConferenceDinner> .
+
+<http://example.org/mappings/edas-iasted#m11> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Social_program> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "11" ;
+    sssom:subject_id <http://edas#SocialEvent> .
+
+<http://example.org/mappings/edas-iasted#m12> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Coffee_break> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "12" ;
+    sssom:subject_id <http://edas#CoffeeBreak> .
+
+<http://example.org/mappings/edas-iasted#m13> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://iasted#Review> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "13" ;
+    sssom:subject_id <http://edas#Review> .
+
+<http://example.org/mappings/edas-iasted#m14> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Coctail_reception> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "14" ;
+    sssom:subject_id <http://edas#Reception> .
+
+<http://example.org/mappings/edas-iasted#m15> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Conference_activity> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "15" ;
+    sssom:subject_id <http://edas#ConferenceEvent> .
+
+<http://example.org/mappings/edas-iasted#m18> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Transparency> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "18" ;
+    sssom:subject_id <http://edas#SlideSet> .
+
+<http://example.org/mappings/edas-iasted#m19> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Submission> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "19" ;
+    sssom:subject_id <http://edas#Paper> .
+
+<http://example.org/mappings/edas-iasted#m2> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Session_chair> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "2" ;
+    sssom:subject_id <http://edas#SessionChair> .
+
+<http://example.org/mappings/edas-iasted#m20> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Conference_building> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "20" ;
+    sssom:subject_id <http://edas#ConferenceVenuePlace> .
+
+<http://example.org/mappings/edas-iasted#m22> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Conference_restaurant> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "22" ;
+    sssom:subject_id <http://edas#DiningPlace> .
+
+<http://example.org/mappings/edas-iasted#m3> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://iasted#Author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "3" ;
+    sssom:subject_id <http://edas#Author> .
+
+<http://example.org/mappings/edas-iasted#m4> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://iasted#Document> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "4" ;
+    sssom:subject_id <http://edas#Document> .
+
+<http://example.org/mappings/edas-iasted#m5> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#State> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "5" ;
+    sssom:subject_id <http://edas#Country> .
+
+<http://example.org/mappings/edas-iasted#m6> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Welcome_address> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "6" ;
+    sssom:subject_id <http://edas#WelcomeTalk> .
+
+<http://example.org/mappings/edas-iasted#m7> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Sponzorship> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "7" ;
+    sssom:subject_id <http://edas#Sponsorship> .
+
+<http://example.org/mappings/edas-iasted#m8> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://iasted#Reviewer> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "8" ;
+    sssom:subject_id <http://edas#Reviewer> .
+
+<http://example.org/mappings/edas-iasted#m9> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://iasted#Delegate> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:record_id "9" ;
+    sssom:subject_id <http://edas#Attendee> .
+

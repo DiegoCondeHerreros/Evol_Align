@@ -1,0 +1,171 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix semapv: <https://w3id.org/semapv/vocab/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix sssom: <https://w3id.org/sssom/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/mappings/confOf-ekaw> a owl:Ontology,
+        sssom:MappingSet ;
+    sssom:mappings <http://example.org/mappings/confOf-ekaw#m1094959491389585538>,
+        <http://example.org/mappings/confOf-ekaw#m1293807060486469103>,
+        <http://example.org/mappings/confOf-ekaw#m1886355289380384151>,
+        <http://example.org/mappings/confOf-ekaw#m2302751580669252651>,
+        <http://example.org/mappings/confOf-ekaw#m2380462351256898052>,
+        <http://example.org/mappings/confOf-ekaw#m3431788012133911747>,
+        <http://example.org/mappings/confOf-ekaw#m3754201252825313713>,
+        <http://example.org/mappings/confOf-ekaw#m4112357564771753172>,
+        <http://example.org/mappings/confOf-ekaw#m4411512855728816335>,
+        <http://example.org/mappings/confOf-ekaw#m4754739999346707185>,
+        <http://example.org/mappings/confOf-ekaw#m5680697182497224209>,
+        <http://example.org/mappings/confOf-ekaw#m6333298614093767450>,
+        <http://example.org/mappings/confOf-ekaw#m6333772815376684524>,
+        <http://example.org/mappings/confOf-ekaw#m7380815790211110535>,
+        <http://example.org/mappings/confOf-ekaw#m7430134879535981510>,
+        <http://example.org/mappings/confOf-ekaw#m8180578033812227002>,
+        <http://example.org/mappings/confOf-ekaw#m8215252574014963495>,
+        <http://example.org/mappings/confOf-ekaw#m8790249559627583146>,
+        <http://example.org/mappings/confOf-ekaw#m9053254905021709929>,
+        <http://example.org/mappings/confOf-ekaw#m9095878001849898939> ;
+    sssom:object_source <http://ekaw> ;
+    sssom:subject_source <http://confOf> .
+
+<http://example.org/mappings/confOf-ekaw#m1094959491389585538> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#Conference_Banquet> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Banquet> .
+
+<http://example.org/mappings/confOf-ekaw#m1293807060486469103> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://ekaw#Conference> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Conference> .
+
+<http://example.org/mappings/confOf-ekaw#m1886355289380384151> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#Student> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Scholar> .
+
+<http://example.org/mappings/confOf-ekaw#m2302751580669252651> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#Paper> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Contribution> .
+
+<http://example.org/mappings/confOf-ekaw#m2380462351256898052> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://ekaw#Event> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Event> .
+
+<http://example.org/mappings/confOf-ekaw#m3431788012133911747> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#Research_Topic> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Topic> .
+
+<http://example.org/mappings/confOf-ekaw#m3754201252825313713> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#Paper_Author> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Author> .
+
+<http://example.org/mappings/confOf-ekaw#m4112357564771753172> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#PC_Chair> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Chair_PC> .
+
+<http://example.org/mappings/confOf-ekaw#m4411512855728816335> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#Conference_Trip> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Trip> .
+
+<http://example.org/mappings/confOf-ekaw#m4754739999346707185> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#Poster_Paper> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Poster> .
+
+<http://example.org/mappings/confOf-ekaw#m5680697182497224209> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://ekaw#Organisation> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Organization> .
+
+<http://example.org/mappings/confOf-ekaw#m6333298614093767450> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://ekaw#Social_Event> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Social_event> .
+
+<http://example.org/mappings/confOf-ekaw#m6333772815376684524> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://ekaw#Tutorial> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Tutorial> .
+
+<http://example.org/mappings/confOf-ekaw#m7380815790211110535> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#Conference_Participant> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Participant> .
+
+<http://example.org/mappings/confOf-ekaw#m7430134879535981510> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://ekaw#Person> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Person> .
+
+<http://example.org/mappings/confOf-ekaw#m8180578033812227002> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://ekaw#Student> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Student> .
+
+<http://example.org/mappings/confOf-ekaw#m8215252574014963495> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://ekaw#Workshop> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Workshop> .
+
+<http://example.org/mappings/confOf-ekaw#m8790249559627583146> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:SemanticSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#Scientific_Event> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Working_event> .
+
+<http://example.org/mappings/confOf-ekaw#m9053254905021709929> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalMatching ;
+    sssom:object_id <http://ekaw#University> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#University> .
+
+<http://example.org/mappings/confOf-ekaw#m9095878001849898939> a sssom:Mapping ;
+    sssom:confidence 1e+00 ;
+    sssom:mapping_justification semapv:LexicalSimilarityThresholdMatching ;
+    sssom:object_id <http://ekaw#PC_Member> ;
+    sssom:predicate_id skos:exactMatch ;
+    sssom:subject_id <http://confOf#Member_PC> .
+

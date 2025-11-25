@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Technique name="Event Stream" extension="false" version="0.90"
+	xmlns="urn:org:astm:animl:schema:technique:draft:0.90"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="urn:org:astm:animl:schema:technique:draft:0.90 http://schemas.animl.org/current/animl-technique.xsd">
+    <!-- Written using animl-technique-lib -->
+    <ResultBlueprint name="Events" modality="required" maxOccurs="1">
+        <SeriesSetBlueprint name="Events" modality="required">
+            <Documentation>
+                Settings for time series data from connected devices.
+			</Documentation>
+            <SeriesBlueprint name="Date/Time(yyyy-MM-dd HH:mm:ss)" modality="required" maxOccurs="1" dependency="dependent" seriesType="DateTime" plotScale="linear">
+                <Documentation>
+                   The date time stamp for this setting.
+			    </Documentation>
+            </SeriesBlueprint>
+
+            <SeriesBlueprint name="Id/Name" modality="required" maxOccurs="1" dependency="dependent" seriesType="String" plotScale="linear">
+                <Documentation>
+                    The system generated unique ID/name for the process step or formulation.
+				</Documentation>
+            </SeriesBlueprint>
+
+            <SeriesBlueprint name="DeviceName" modality="required" maxOccurs="1" dependency="dependent" seriesType="String" plotScale="linear">
+                <Documentation>
+                    The Locally allocated name for the measurement device by the platform.
+				</Documentation>
+            </SeriesBlueprint>
+
+            <SeriesBlueprint name="Type" modality="required" maxOccurs="1" dependency="dependent" seriesType="String" plotScale="linear">
+                <Documentation>
+                    The classification of the line type being sent by platform.
+				</Documentation>
+            </SeriesBlueprint>
+
+            <SeriesBlueprint name="Status" modality="required" maxOccurs="1" dependency="dependent" seriesType="String" plotScale="linear">
+                <Documentation>
+                    The status of the row.
+				</Documentation>
+            </SeriesBlueprint>
+
+            <SeriesBlueprint name="InstructionType" modality="required" maxOccurs="1" dependency="dependent" seriesType="String" plotScale="linear">
+                <Documentation>
+                    A description of the activity in the row.
+				</Documentation>
+            </SeriesBlueprint>
+
+            <SeriesBlueprint name="Reading" modality="required" maxOccurs="1" dependency="dependent" seriesType="Float" plotScale="linear">
+                <Documentation>
+                    The captured value output from the device.
+				</Documentation>
+            </SeriesBlueprint>
+
+            <SeriesBlueprint name="Unit" modality="required" maxOccurs="1" dependency="dependent" seriesType="String" plotScale="linear">
+                <Documentation>
+                    The unit for the value captured in the reading output.
+				</Documentation>
+            </SeriesBlueprint>
+
+            <SeriesBlueprint name="DeviceType" modality="required" maxOccurs="1" dependency="dependent" seriesType="String" plotScale="linear">
+                <Documentation>
+                    This is an identifier for specific probes on a device.
+				</Documentation>
+            </SeriesBlueprint>
+
+            <SeriesBlueprint name="Event" modality="required" maxOccurs="1" dependency="dependent" seriesType="String" plotScale="linear">
+                <Documentation>
+                    A description of the line as a whole.
+				</Documentation>
+            </SeriesBlueprint>
+        </SeriesSetBlueprint>
+    </ResultBlueprint>
+</Technique>
