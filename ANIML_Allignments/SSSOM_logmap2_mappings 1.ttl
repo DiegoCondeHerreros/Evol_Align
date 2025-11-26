@@ -11,8 +11,8 @@
 <http://www.cs.ox.ac.uk/isg/projects/LogMap/mappings.owl> a owl:Ontology ;
 # Here we have the mapping_set_id that adds the identifier of the set of mappings.
 # TODO: I left create commons as a placeholder, change the license if it is appropiate.
-                                                        ssssom:mapping_set_id <http://www.cs.ox.ac.uk/isg/projects/LogMap/SSSOM_logmap2_mappings_1.ttl>;
-                                                        ssssom:license <https://creativecommons.org/licenses/by/4.0/legalcode> .
+                                                        sssom:mapping_set_id <http://www.cs.ox.ac.uk/isg/projects/LogMap/SSSOM_logmap2_mappings_1.ttl>;
+                                                        sssom:license <https://creativecommons.org/licenses/by/4.0/legalcode> .
 
 :entity1 a owl:AnnotationProperty .
 
