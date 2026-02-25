@@ -4,3 +4,4 @@ output_logmap/
 Python-3.11.0/
 env/
 .python-version
+api_key.txt
