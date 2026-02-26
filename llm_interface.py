@@ -3,13 +3,15 @@ from openai import OpenAI
 from ollama import ChatResponse, chat
 import json
 
+
 class LLM:
 
-    def __init__(self, model_family: str, model: str, **params):
+    def __init__(self, model_family: str, model: str, params):
         self.model_family = model_family
         self.model = model
         self.api_key = self.get_key(self.model_family)
-        self.parameters = self.get_model_params(self.model_family, self.model, params)
+        self.parameters = self.get_model_params(
+            self.model_family, self.model, params)
 
         if self.api_key is None:
             pull = subprocess.Popen(['ollama', 'pull', self.model])
@@ -35,12 +37,13 @@ class LLM:
             raise NameError(f'{model_family} is not present in api_key.txt')
         model_family_info = model_families[model_family]
         if model not in list(model_family_info['Models'].keys()):
-            raise NameError(f'{model} is not listed in the {model_family} model family in api_key.txt')
+            raise NameError(f'{model} is not listed in the {
+                            model_family} model family in api_key.txt')
         param_list = model_family_info['Models'][model]
         defined_parameters = {}
         for p in list(params.keys()):
             if p in param_list:
-                defined_parameters[p]=params[p]
+                defined_parameters[p] = params[p]
         return defined_parameters
 
     def openai_prompt(self, message_list, response_struct):

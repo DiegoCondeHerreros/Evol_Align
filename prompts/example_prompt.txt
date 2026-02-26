@@ -1,0 +1,18 @@
+[
+	{
+		'role':'system',
+		'content':'Summarise the following text'
+	},
+	{
+		'role'user',
+		'content':'The OpenAI API provides a simple interface to state-of-the-art AI models for text generation, natural language processing, computer vision, and more. Get started by creating an API Key and running your first API call. Discover how to generate text, analyze images, build agents, and more.'
+	},
+	{
+		'role':'assistant',
+		'content':'OpenAI offer an API allowing users to easily access AI models. The user can create an API key and learn more.'
+	},
+	{
+		'role':'user',
+		'content':'The 1880–81 season was Northwich Victoria's 7th season, however the club was not a member of an organised league and played only challenge matches organised on an ad hoc basis. The club won the Cheshire Senior Cup, then known as the Cheshire County Football Association Challenge Cup, for the second successive season. They also participated in the Welsh Cup for the third time, reaching the semi-final. The side was captained by Matthew Earlam for the 7th successive season. He was also the joint top goalscorer for the season with 8 goals.'
+	}
+]
