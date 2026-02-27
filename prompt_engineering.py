@@ -12,7 +12,36 @@ def run(args):
     model_family = args.model_family
     model = args.model
     params = args.params
-    structure = args.structure
+    structure = eval(args.structure)
+    output = f'output/{args.output}_PrEn.csv'
+
+    try:
+        with open(f'prompts/{prompt}', 'r+')as p:
+            prompts = json.load(p)
+    except ValueError:
+        raise ValueError(f'The prompt file /prompts/{prompt} does not exist')
+
+    llm = LLM(model_family, model, params)
+
+    responses = []
+
+    for t in prompts:
+        print(f'Running prompt {prompts.index(t) + 1} of {len(prompts)}...')
+        # try:
+        response_row = []
+        response = llm.prompt(t, structure)
+        response_row = [t[-1], response]
+        responses.append(response_row)
+        print('Success!')
+        # except Exception:
+            #print(f'Prompt {prompts.index(t) + 1} failed. Continuing...')
+
+
+    print('Prompting complete, writing output...')
+    with open(output, "w", newline="") as o:
+        writer = csv.writer(o)
+        writer.writerows(responses)
+        print('Experiment complete!')
 
 
 def main():
@@ -53,6 +82,13 @@ def main():
         type=str,
         help='The format responses should follow',
         dest='structure',
+        required=True
+    )
+    parser.add_argument(
+        '-o',
+        type=str,
+        help='The name of the generated output file ("_PrEn" will be appended to denote a prompt engineering survey)',
+        dest='output',
         required=True
     )
     parser.set_defaults(func=run)
