@@ -27,14 +27,14 @@ def run(args):
 
     for t in prompts:
         print(f'Running prompt {prompts.index(t) + 1} of {len(prompts)}...')
-        # try:
-        response_row = []
-        response = llm.prompt(t, structure)
-        response_row = [t[-1], response]
-        responses.append(response_row)
-        print('Success!')
-        # except Exception:
-            #print(f'Prompt {prompts.index(t) + 1} failed. Continuing...')
+        try:
+            response_row = []
+            response = llm.prompt(t, structure)
+            response_row = [t[-1], response]
+            responses.append(response_row)
+            print('Success!')
+        except Exception:
+            print(f'Prompt {prompts.index(t) + 1} failed. Continuing...')
 
 
     print('Prompting complete, writing output...')
