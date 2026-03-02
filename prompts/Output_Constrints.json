@@ -1,0 +1,162 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/sssom-alignment-json.schema.json",
+  "title": "SSSOM Alignment (TSV-faithful JSON) - Strict Core",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "mapping_set_id",
+    "license",
+    "subject_source",
+    "object_source",
+    "subject_type",
+    "object_type",
+    "curie_map",
+    "mappings"
+  ],
+  "properties": {
+    "sssom_version": {
+      "description": "SSSOM spec version the set claims compliance with (optional).",
+      "type": "string",
+      "minLength": 1
+    },
+
+    "mapping_set_id": {
+      "description": "Globally unique ID for the mapping set (IRI-like).",
+      "type": "string",
+      "pattern": "^https?://\\S+$"
+    },
+
+    "mapping_set_version": {
+      "type": "string",
+      "minLength": 1
+    },
+
+    "mapping_set_title": { "type": "string" },
+    "mapping_set_description": { "type": "string" },
+
+    "creator_id": {
+      "description": "CURIE/IRI identifying creator(s). In TSV, multivalued are | separated; in JSON you can use either string or array.",
+      "oneOf": [
+        { "$ref": "#/$defs/CurieOrIriOrOrcid" },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/CurieOrIriOrOrcid" }
+        }
+      ]
+    },
+
+    "license": {
+      "description": "License IRI (required by MappingSet).",
+      "type": "string",
+      "pattern": "^https?://\\S+$"
+    },
+
+    "subject_source": {
+      "description": "CURIE/IRI of the subject vocabulary/ontology.",
+      "$ref": "#/$defs/CurieOrIri"
+    },
+    "object_source": {
+      "description": "CURIE/IRI of the object vocabulary/ontology.",
+      "$ref": "#/$defs/CurieOrIri"
+    },
+
+    "subject_source_version": { "type": "string" },
+    "object_source_version": { "type": "string" },
+
+    "subject_type": {
+      "description": "Entity type being mapped (alignment-level).",
+      "enum": ["owl:Class", "owl:ObjectProperty", "owl:DatatypeProperty", "owl:NamedIndividual", "skos:Concept"]
+    },
+    "object_type": {
+      "description": "Entity type being mapped (alignment-level).",
+      "enum": ["owl:Class", "owl:ObjectProperty", "owl:DatatypeProperty", "owl:NamedIndividual", "skos:Concept"]
+    },
+
+    "curie_map": {
+      "description": "Prefix -> IRI expansion map (like TSV curie_map).",
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "string",
+        "pattern": "^https?://\\S+$"
+      }
+    },
+
+    "mappings": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/MappingRow" }
+    }
+  },
+
+  "$defs": {
+    "CurieOrIri": {
+      "type": "string",
+      "pattern": "^(https?://\\S+|[A-Za-z][A-Za-z0-9+.-]*:[^\\s]+)$"
+    },
+
+    "CurieOrIriOrOrcid": {
+      "type": "string",
+      "pattern": "^(https?://\\S+|orcid:\\d{4}-\\d{4}-\\d{4}-\\d{3}[\\dX]|[A-Za-z][A-Za-z0-9+.-]*:[^\\s]+)$"
+    },
+
+    "SemaPVJustification": {
+      "description": "SSSOM requires mapping_justification; SSSOM schema constrains it to specific semapv values.",
+      "type": "string",
+      "pattern": "^semapv:(MappingReview|ManualMappingCuration|LogicalReasoning|LexicalMatching|CompositeMatching|UnspecifiedMatching|SemanticSimilarityThresholdMatching|LexicalSimilarityThresholdMatching|MappingChaining|MappingInversion|StructuralMatching|InstanceBasedMatching|BackgroundKnowledgeBasedMatching)$"
+    },
+
+    "MappingPredicate": {
+      "description": "Common SSSOM mapping predicates; extend if needed.",
+      "type": "string",
+      "enum": [
+        "skos:exactMatch",
+        "skos:closeMatch",
+        "skos:broadMatch",
+        "skos:narrowMatch",
+        "skos:relatedMatch",
+        "owl:sameAs",
+        "owl:equivalentClass",
+        "owl:equivalentProperty",
+        "rdfs:subClassOf",
+        "rdfs:subPropertyOf"
+      ]
+    },
+
+    "MappingRow": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["subject_id", "predicate_id", "object_id", "mapping_justification"],
+      "properties": {
+        "record_id": {
+          "description": "Optional stable identifier for the row/record.",
+          "$ref": "#/$defs/CurieOrIri"
+        },
+
+        "subject_id": { "$ref": "#/$defs/CurieOrIri" },
+        "object_id": { "$ref": "#/$defs/CurieOrIri" },
+
+        "predicate_id": { "$ref": "#/$defs/MappingPredicate" },
+
+        "mapping_justification": { "$ref": "#/$defs/SemaPVJustification" },
+
+        "author_id": {
+          "oneOf": [
+            { "$ref": "#/$defs/CurieOrIriOrOrcid" },
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": { "$ref": "#/$defs/CurieOrIriOrOrcid" }
+            }
+          ]
+        },
+
+        "confidence": { "type": "number", "minimum": 0, "maximum": 1 },
+
+        "comment": { "type": "string" }
+      }
+    }
+  }
+}
