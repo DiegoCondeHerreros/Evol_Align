@@ -1,14 +1,19 @@
 import subprocess
+from urllib import response
 from openai import OpenAI
 from ollama import ChatResponse, chat
 import json
+from google import genai
+from google.genai import types
+import mimetypes
 
 
 class LLM:
 
-    def __init__(self, model_family: str, model: str, params):
+    def __init__(self, model_family: str, model: str, params, context):
         self.model_family = model_family
         self.model = model
+        self.context = context
         self.api_key = self.get_key(self.model_family)
         self.parameters = self.get_model_params(
             self.model_family, self.model, params)
@@ -37,8 +42,7 @@ class LLM:
             raise NameError(f'{model_family} is not present in api_key.txt')
         model_family_info = model_families[model_family]
         if model not in list(model_family_info['Models'].keys()):
-            raise NameError(f'{model} is not listed in the {
-                            model_family} model family in api_key.txt')
+            raise NameError(f'{model} is not listed in the {model_family} model family in api_key.txt')
         param_list = model_family_info['Models'][model]
         defined_parameters = {}
         for p in list(params.keys()):
@@ -75,9 +79,47 @@ class LLM:
             **json.loads(str(response.message.content)))
         return formatted_response
 
-    def prompt(self, message_list, response_struct):
+    def gemini_prompt(self, message_list, response_struct, context):
+        client = genai.Client(api_key=self.api_key)
+        system_instruction = None
+        contents = []
+        for msg in message_list:
+            role = msg.get("role")
+            content = msg.get("content")
+            if role == "system":
+                system_instruction = content
+            else:
+                gemini_role = "model" if role == "assistant" else "user"                
+                contents.append({
+                    "role": gemini_role,
+                    "parts": [{"text": content}]
+                })
+        if context is not None:
+            for o in context:
+                upload_config = types.UploadFileConfig(mime_type="text/turtle")
+                ontology = client.files.upload(file=o, config=upload_config)
+                contents.append({
+                    "role": "user",
+                    "parts": [
+                        #This part has to be manually added since i have found a way to guess the mime type.
+                        types.Part.from_uri(file_uri=ontology.uri, mime_type=ontology.mime_type),
+                        {"text": f"Context file: {ontology.display_name}"}
+                    ]
+                })
+        response = client.models.generate_content(
+            model=self.model,
+            contents=contents,
+                config=types.GenerateContentConfig(
+                    system_instruction=system_instruction
+                )
+            )
+        return response.text if response_struct is None else response_struct(**json.loads(response.text))
+
+    def prompt(self, message_list, response_struct, context):
         if self.model_family == "OpenAI":
             return self.openai_prompt(message_list, response_struct)
+        if self.model_family == "Gemini":
+            return self.gemini_prompt(message_list, response_struct,context)
         # NOTE: Insert other LLM APIs here. Using Ollama API will be the default behaviour
         else:
             return self.ollama_prompt(message_list, response_struct)

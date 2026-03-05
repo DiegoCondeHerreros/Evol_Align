@@ -1,6 +1,7 @@
 import json
 import argparse
 import csv
+from pathlib import Path
 
 from llm_interface import LLM
 from structured_outputs import *
@@ -14,6 +15,7 @@ def run(args):
     params = args.params
     structure = eval(args.structure)
     output = f'output/{args.output}_PrEn.csv'
+    context = args.context
 
     try:
         with open(f'prompts/{prompt}', 'r+')as p:
@@ -21,7 +23,7 @@ def run(args):
     except ValueError:
         raise ValueError(f'The prompt file /prompts/{prompt} does not exist')
 
-    llm = LLM(model_family, model, params)
+    llm = LLM(model_family, model, params, context)
 
     responses = []
 
@@ -29,11 +31,12 @@ def run(args):
         print(f'Running prompt {prompts.index(t) + 1} of {len(prompts)}...')
         try:
             response_row = []
-            response = llm.prompt(t, structure)
+            response = llm.prompt(t, structure,context)
             response_row = [t[-1], response]
             responses.append(response_row)
             print('Success!')
-        except Exception:
+        except Exception as e:
+            print(e)
             print(f'Prompt {prompts.index(t) + 1} failed. Continuing...')
 
 
@@ -90,6 +93,14 @@ def main():
         help='The name of the generated output file ("_PrEn" will be appended to denote a prompt engineering survey)',
         dest='output',
         required=True
+    )
+    parser.add_argument(
+        '-c',
+        nargs='+',
+        type=Path,
+        help='The file path of the data that is added context for the prompt',
+        dest='context',
+        required=False
     )
     parser.set_defaults(func=run)
     args = parser.parse_args()
