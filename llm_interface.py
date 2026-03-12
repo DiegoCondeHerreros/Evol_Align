@@ -96,7 +96,7 @@ class LLM:
                 })
         if context is not None:
             for o in context:
-                upload_config = types.UploadFileConfig(mime_type="text/turtle")
+                upload_config = types.UploadFileConfig(mime_type="text/plain")
                 ontology = client.files.upload(file=o, config=upload_config)
                 contents.append({
                     "role": "user",
