@@ -9,7 +9,8 @@ from utils import KeyValue
 
 
 def run(args):
-    prompt = args.prompt
+    sys_prompt = args.sys_prompt
+    user_prompt = args.user_prompt
     model_family = args.model_family
     model = args.model
     params = args.params
@@ -18,27 +19,36 @@ def run(args):
     context = args.context
 
     try:
-        with open(f'prompts/{prompt}', 'r+')as p:
-            prompts = json.load(p)
+        with open(f'sys_prompts/{sys_prompt}', 'r+')as p:
+            sys_prompts = json.load(p)
     except ValueError:
-        raise ValueError(f'The prompt file /prompts/{prompt} does not exist')
+        raise ValueError(
+            f'The prompt file /sys_prompts/{sys_prompt} does not exist')
+
+    try:
+        with open(f'user_prompts/{user_prompt}', 'r+')as p:
+            user_prompts = json.load(p)
+    except ValueError:
+        raise ValueError(
+            f'The prompt file /user_prompts/{user_prompt} does not exist')
 
     llm = LLM(model_family, model, params, context)
 
     responses = []
 
-    for t in prompts:
-        print(f'Running prompt {prompts.index(t) + 1} of {len(prompts)}...')
+    for t in user_prompts:
+        print(f'Running prompt {user_prompts.index(
+            t) + 1} of {len(user_prompts)}...')
+        full_prompt = sys_prompts[0] + t
         try:
             response_row = []
-            response = llm.prompt(t, structure,context)
+            response = llm.prompt(t, structure, context)
             response_row = [t[-1], response]
             responses.append(response_row)
             print('Success!')
         except Exception as e:
             print(e)
-            print(f'Prompt {prompts.index(t) + 1} failed. Continuing...')
-
+            print(f'Prompt {user_prompts.index(t) + 1} failed. Continuing...')
 
     print('Prompting complete, writing output...')
     with open(output, "w", newline="") as o:
@@ -53,10 +63,17 @@ def main():
         description='A python script for automating parts of the prompt engineering process'
     )
     parser.add_argument(
-        '-p',
+        '-sp',
         type=str,
-        help='The prompt format that will be used, accepts the format "<prompt name>.txt", and searches in the "prompts" directory',
-        dest='prompt',
+        help='The system prompt format that will be used, accepts the format "<prompt name>.txt", and searches in the "sys_prompts" directory',
+        dest='sys_prompt',
+        required=True
+    )
+    parser.add_argument(
+        '-up',
+        type=str,
+        help='The user prompt that will be used, accepts the format "<prompt name>.txt", and searches in the "user_propmts" directory',
+        dest='user_prompt',
         required=True
     )
     parser.add_argument(
