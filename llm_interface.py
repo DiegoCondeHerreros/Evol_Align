@@ -64,8 +64,9 @@ class LLM:
                 return response.choices[0].message.parsed
             else:
                 return response.choices[0].message.content
-        except Exception:
+        except Exception as e:
             print("Error generating response... skipping...")
+            print(e)
             return "Error"
 
     def ollama_prompt(self, message_list, response_struct):

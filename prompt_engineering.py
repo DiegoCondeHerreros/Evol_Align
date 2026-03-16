@@ -40,10 +40,11 @@ def run(args):
         print(f'Running prompt {user_prompts.index(
             t) + 1} of {len(user_prompts)}...')
         full_prompt = sys_prompts[0] + t
+        print(full_prompt)
         try:
             response_row = []
-            response = llm.prompt(t, structure, context)
-            response_row = [t[-1], response]
+            response = llm.prompt(full_prompt, structure, context)
+            response_row = [response]
             responses.append(response_row)
             print('Success!')
         except Exception as e:
