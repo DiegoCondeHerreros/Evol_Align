@@ -1,0 +1,9 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	edas:Paper	ekaw:Paper	skos:exactMatch	semapv:LexicalMatching		1.0	Exact label match between edas:Paper and ekaw:Paper
+	edas:Person	ekaw:Person	skos:exactMatch	semapv:LexicalMatching		1.0	Exact label match between edas:Person and ekaw:Person
+	edas:Review	ekaw:Review	skos:exactMatch	semapv:LexicalMatching		1.0	Exact label match between edas:Review and ekaw:Review
+	edas:Conference	ekaw:Conference	skos:exactMatch	semapv:LexicalMatching		1.0	Exact label match between edas:Conference and ekaw:Conference
+	edas:Document	ekaw:Document	skos:exactMatch	semapv:LexicalMatching		1.0	Exact label match between edas:Document and ekaw:Document
+	edas:Workshop	ekaw:Workshop	skos:exactMatch	semapv:LexicalMatching		1.0	Exact label match between edas:Workshop and ekaw:Workshop
+	edas:AcceptedPaper	ekaw:Accepted_Paper	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.9	Lexical similarity between AcceptedPaper and Accepted_Paper
+	edas:RejectedPaper	ekaw:Rejected_Paper	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.9	Lexical similarity between RejectedPaper and Rejected_Paper

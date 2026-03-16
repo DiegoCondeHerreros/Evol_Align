@@ -1,0 +1,21 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	ex:ekaw:Person	ex:iasted:Person	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact lexical match on class label Person.
+	ex:ekaw:Document	ex:iasted:Document	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact lexical match on class label Document.
+	ex:ekaw:Review	ex:iasted:Review	owl:equivalentClass	semapv:LexicalMatching		0.98	Exact lexical match on Review; both are document-like review artifacts.
+	ex:ekaw:Session	ex:iasted:Session	skos:closeMatch	semapv:LexicalMatching		0.84	Same label Session, but modeled differently: EKAW session is a scientific event, IASTED session is a lecture/conference activity.
+	ex:ekaw:Tutorial	ex:iasted:Tutorial	skos:closeMatch	semapv:LexicalMatching		0.86	Same label Tutorial, but EKAW models it as an individual presentation/event while IASTED models it as a lecture.
+	ex:ekaw:Presenter	ex:iasted:Speaker	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.82	Presenter in EKAW is semantically close to Speaker in IASTED as both denote conference participants who present.
+	ex:ekaw:Session_Chair	ex:iasted:Session_chair	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.97	Near-exact lexical match differing only in underscore/case; both denote session chairs.
+	ex:ekaw:Student	ex:iasted:Student_lecturer	skos:broadMatch	semapv:SemanticSimilarityThresholdMatching		0.58	EKAW Student is broader than IASTED Student_lecturer, which is a student subtype of lecturer/author.
+	ex:ekaw:Conference_Banquet	ex:iasted:Dinner_banquet	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.88	Both denote banquet-style social events associated with a conference.
+	ex:ekaw:Conference_Trip	ex:iasted:Full_day_tour	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.73	Both represent optional trip/tour activities associated with the conference context.
+	ex:ekaw:Possible_Reviewer	ex:iasted:Reviewer	skos:broadMatch	semapv:SemanticSimilarityThresholdMatching		0.71	EKAW Possible_Reviewer is broader than IASTED Reviewer, which is defined as someone who gives a review.
+	ex:ekaw:Paper_Author	ex:iasted:Author	skos:closeMatch	semapv:LexicalMatching		0.9	Both denote authors of submitted/presented papers, though IASTED Author is also a Speaker subtype.
+	ex:ekaw:Location	ex:iasted:Place	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.8	Location in EKAW is semantically close to Place in IASTED as generic spatial entities.
+	ex:ekaw:hasReview	ex:iasted:give	skos:relatedMatch	semapv:SemanticSimilarityThresholdMatching		0.42	Related via review relation semantics, but not equivalent: EKAW hasReview links paper to review, while IASTED give links person to item/activity.
+	ex:ekaw:reviewWrittenBy	ex:iasted:is_writen_by	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.87	Both properties connect a review/document to its writer; IASTED property is more generic for items.
+	ex:ekaw:writtenBy	ex:iasted:is_writen_by	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.91	Inverse-style naming difference but same core authored-by semantics between document/item and person.
+	ex:ekaw:authorOf	ex:iasted:write	skos:closeMatch	semapv:MappingChaining		0.85	EKAW authorOf is inverse of writtenBy; IASTED write is inverse of is_writen_by, yielding close semantic correspondence.
+	ex:ekaw:heldIn	ex:iasted:is_held_in	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.83	Both indicate where an activity/event occurs, though domain/range differ somewhat.
+	ex:ekaw:hasReviewer	ex:iasted:is_writen_by	skos:relatedMatch	semapv:BackgroundKnowledgeBasedMatching		0.39	Reviewer participation is related to review authorship, but properties are not directly equivalent.
+	ex:ekaw:Research_Topic	ex:iasted:Research	skos:relatedMatch	semapv:LexicalMatching		0.46	Lexically related through research semantics, but EKAW models a topic while IASTED models an activity class.

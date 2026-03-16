@@ -1,0 +1,10 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	cmt:Person	confOf:Person	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match of class Person.
+	cmt:Author	confOf:Author	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match of class Author.
+	cmt:Paper	confOf:Paper	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match of class Paper.
+	cmt:Conference	confOf:Conference	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match of class Conference.
+	cmt:Administrator	confOf:Administrator	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match of class Administrator.
+	cmt:ProgramCommitteeMember	confOf:Member_PC	owl:equivalentClass	semapv:BackgroundKnowledgeBasedMatching		0.9	ProgramCommitteeMember in cmt has the same semantics as Member_PC in confOf.
+	cmt:ProgramCommitteeChair	confOf:Chair_PC	owl:equivalentClass	semapv:BackgroundKnowledgeBasedMatching		0.9	ProgramCommitteeChair in cmt is structurally equivalent to Chair_PC in confOf.
+	cmt:ConferenceMember	confOf:Member	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.8	ConferenceMember has high lexical and structural overlap with Member in confOf.
+	cmt:SubjectArea	confOf:Topic	owl:equivalentClass	semapv:BackgroundKnowledgeBasedMatching		0.85	SubjectArea of a paper maps logically to the Topic it deals with.

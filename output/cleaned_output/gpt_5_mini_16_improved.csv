@@ -1,0 +1,15 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	edas:Paper	ekaw:Paper	owl:equivalentClass	semapv:LexicalMatching		0.98	
+	edas:Review	ekaw:Review	owl:equivalentClass	semapv:LexicalMatching		0.98	Exact lexical match; both are Document subclasses describing reviews.
+	edas:Conference	ekaw:Conference	owl:equivalentClass	semapv:LexicalMatching		0.98	Conference (one edition) concept aligns across ontologies.
+	edas:Person	ekaw:Person	owl:equivalentClass	semapv:LexicalMatching		0.98	
+	edas:Document	ekaw:Document	owl:equivalentClass	semapv:LexicalMatching		0.95	
+	edas:AcceptedPaper	ekaw:Accepted_Paper	owl:equivalentClass	semapv:LexicalMatching		0.9	Accepted paper concepts align; minor lexical differences (underscore).
+	edas:Author	ekaw:Paper_Author	skos:closeMatch	semapv:BackgroundKnowledgeBasedMatching		0.8	EDAS Author (defined via relation to Paper) corresponds closely to EKAW Paper_Author; not identical modeling.
+	edas:Presenter	ekaw:Presenter	owl:equivalentClass	semapv:LexicalMatching		0.97	Presenter maps directly (both are roles of conference participants).
+	edas:Programme	ekaw:Programme_Brochure	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.85	Programme in EDAS corresponds to EKAW Programme_Brochure (document listing events); similar semantics.
+	edas:hasTopic	ekaw:coversTopic	owl:equivalentProperty	semapv:LexicalMatching		0.9	Both properties link Papers/Events to topics/research topics; equivalent usage.
+	edas:isReviewedBy	ekaw:hasReviewer	owl:equivalentProperty	semapv:StructuralMatching		0.9	Inverse/property naming differs but role is equivalent: papers have reviewers.
+	edas:isWrittenBy	ekaw:writtenBy	owl:equivalentProperty	semapv:LexicalMatching		0.95	Both denote authoring relation between Document/Paper and Person.
+	edas:ConferenceEvent	ekaw:Event	rdfs:subClassOf	semapv:StructuralMatching		0.85	
+	edas:SocialEvent	ekaw:Social_Event	owl:equivalentClass	semapv:LexicalMatching		0.9	SocialEvent aligns in both ontologies (both are Event subclasses).

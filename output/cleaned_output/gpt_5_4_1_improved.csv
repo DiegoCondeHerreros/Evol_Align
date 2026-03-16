@@ -1,0 +1,16 @@
+record_id,subject_id,object_id,predicate_id,mapping_justification,author_id,confidence,comment
+,ex:cmt:Person,ex:confOf:Person,owl:equivalentClass,semapv:LexicalMatching,,0.99,Exact lexical match on class label 'Person'.
+,ex:cmt:Conference,ex:confOf:Conference,owl:equivalentClass,semapv:LexicalMatching,,0.99,Exact lexical match on class label 'Conference'.
+,ex:cmt:Author,ex:confOf:Author,owl:equivalentClass,semapv:LexicalMatching,,0.99,Exact lexical match on class label 'Author'.
+,ex:cmt:Administrator,ex:confOf:Administrator,owl:equivalentClass,semapv:LexicalMatching,,0.99,Exact lexical match on class label 'Administrator'.
+,ex:cmt:Paper,ex:confOf:Paper,skos:closeMatch,semapv:SemanticSimilarityThresholdMatching,,0.9,"Both denote paper submissions, but confOf:Paper is a subclass of Contribution while cmt:Paper is a subclass of Document with decision/review assignment semantics."
+,ex:cmt:Reviewer,ex:confOf:Member_PC,skos:closeMatch,semapv:BackgroundKnowledgeBasedMatching,,0.87,confOf:Member_PC is commented as 'Reviewer' and models a program committee reviewer role similar to cmt:Reviewer.
+,ex:cmt:ProgramCommitteeMember,ex:confOf:Member_PC,skos:closeMatch,semapv:SemanticSimilarityThresholdMatching,,0.88,Both represent program committee members; confOf:Member_PC additionally carries reviewing/expertise restrictions.
+,ex:cmt:ProgramCommitteeChair,ex:confOf:Chair_PC,skos:exactMatch,semapv:LexicalSimilarityThresholdMatching,,0.95,Near-exact lexical and semantic correspondence between program committee chair roles.
+,ex:cmt:SubjectArea,ex:confOf:Topic,skos:closeMatch,semapv:SemanticSimilarityThresholdMatching,,0.84,Both denote thematic areas used to categorize papers/contributions.
+,ex:cmt:name,ex:confOf:hasTitle,skos:relatedMatch,semapv:SemanticSimilarityThresholdMatching,,0.52,"Weak relation only: both are naming/title datatype properties, but cmt:name applies to Conference or Person whereas confOf:hasTitle applies to Contribution."
+,ex:cmt:email,ex:confOf:hasEmail,owl:equivalentProperty,semapv:LexicalSimilarityThresholdMatching,,0.96,Both datatype properties capture a person's email address.
+,ex:cmt:title,ex:confOf:hasTitle,owl:equivalentProperty,semapv:SemanticSimilarityThresholdMatching,,0.97,Both datatype properties represent the title of a submitted paper/contribution.
+,ex:cmt:hasSubjectArea,ex:confOf:dealsWith,skos:closeMatch,semapv:SemanticSimilarityThresholdMatching,,0.85,Both object properties link a submission to its topical area.
+,ex:cmt:writePaper,ex:confOf:writes,owl:equivalentProperty,semapv:SemanticSimilarityThresholdMatching,,0.96,Both object properties relate an author to a paper/contribution they wrote.
+,ex:cmt:hasAuthor,ex:confOf:writtenBy,owl:equivalentProperty,semapv:LogicalReasoning,,0.95,Both are inverse-direction authorship relations from paper/contribution to author.

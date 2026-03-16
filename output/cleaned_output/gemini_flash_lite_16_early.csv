@@ -1,0 +1,10 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	ex:Paper	ekaw:Paper	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match for the concept of a research paper.
+	ex:Person	ekaw:Person	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match for the concept of a human agent.
+	ex:Review	ekaw:Review	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match for the concept of a peer review document.
+	ex:Conference	ekaw:Conference	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match for the conference concept.
+	ex:Workshop	ekaw:Workshop	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match for the workshop concept.
+	ex:Organization	ekaw:Organisation	skos:exactMatch	semapv:LexicalSimilarityThresholdMatching		0.9	Lexical match variation between British and American spelling.
+	ex:AcceptedPaper	ekaw:Accepted_Paper	skos:exactMatch	semapv:LexicalMatching		1.0	Identical concept for accepted papers.
+	ex:RejectedPaper	ekaw:Rejected_Paper	skos:exactMatch	semapv:LexicalMatching		1.0	Identical concept for rejected papers.
+	ex:Topic	ekaw:Research_Topic	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.8	Both represent subjects or research areas associated with papers/events.

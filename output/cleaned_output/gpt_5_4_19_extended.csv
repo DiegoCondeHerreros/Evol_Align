@@ -1,0 +1,25 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+ex:map1	ekaw:Person	iasted:Person	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact label match between Person classes.
+ex:map2	ekaw:Document	iasted:Document	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact label match between Document classes.
+ex:map3	ekaw:Review	iasted:Review	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact label match between Review classes.
+ex:map4	ekaw:Tutorial	iasted:Tutorial	owl:equivalentClass	semapv:LexicalMatching		0.97	Exact label match between Tutorial classes; both denote tutorial events/lectures in conference context.
+ex:map5	ekaw:Session	iasted:Session	owl:equivalentClass	semapv:LexicalMatching		0.96	Exact label match between Session classes in conference context.
+ex:map6	ekaw:Location	iasted:Place	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.78	EKAW Location is semantically close to IASTED Place, though Place may be broader and more structured.
+ex:map7	ekaw:Conference_Participant	iasted:Delegate	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.84	Conference participant in EKAW corresponds closely to delegate in IASTED, both denoting conference attendees/participants.
+ex:map8	ekaw:Presenter	iasted:Speaker	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.83	Presenter and Speaker are closely related roles centered on giving presentations, though not guaranteed identical in all contexts.
+ex:map9	ekaw:Paper_Author	iasted:Author	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.9	Paper author in EKAW closely matches Author in IASTED; both denote authors of conference submissions/presentations.
+ex:map10	ekaw:Possible_Reviewer	iasted:Reviewer	skos:broadMatch	semapv:SemanticSimilarityThresholdMatching		0.72	Possible_Reviewer is broader than Reviewer because it denotes someone eligible to review, not necessarily someone who actually reviews.
+ex:map11	ekaw:Session_Chair	iasted:Session_chair	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.95	Labels differ only by underscore/case; both denote the chair of a session.
+ex:map12	ekaw:Student	iasted:Student_lecturer	skos:broadMatch	semapv:SemanticSimilarityThresholdMatching		0.58	EKAW Student is broader than IASTED Student_lecturer, which is a more specific student role.
+ex:map13	ekaw:Abstract	iasted:Presentation	skos:relatedMatch	semapv:BackgroundKnowledgeBasedMatching		0.31	Abstracts are related to presentations in conference settings, but they are different entity types and not equivalent.
+ex:map14	ekaw:Conference_Banquet	iasted:Dinner_banquet	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.91	Conference banquet closely corresponds to dinner banquet; both denote banquet social events at a conference.
+ex:map15	ekaw:Conference_Trip	iasted:Full_day_tour	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.74	Conference trip is close to full day tour as a social/extra conference excursion, though exact scope may vary.
+ex:map16	ekaw:Social_Event	iasted:Social_program	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.82	Social event in EKAW closely aligns with social program in IASTED, both covering social conference activities.
+ex:map17	ekaw:Proceedings	iasted:Publication	rdfs:subClassOf	semapv:SemanticSimilarityThresholdMatching		0.76	Proceedings are a kind of publication; EKAW Proceedings is narrower than IASTED Publication.
+ex:map18	ekaw:Conference_Proceedings	iasted:Book_proceeding	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.8	Conference proceedings is close to book proceeding; both denote proceedings publications, though modeling details differ.
+ex:map19	ekaw:Submitted_Paper	iasted:Initial_manuscipt	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.86	Submitted paper closely corresponds to initial manuscript as the version submitted before acceptance decisions.
+ex:map20	ekaw:Camera_Ready_Paper	iasted:Final_manuscript	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.93	Camera-ready paper closely matches final manuscript as the finalized accepted version prepared for publication.
+ex:map21	ekaw:Accepted_Paper	iasted:Final_manuscript	skos:relatedMatch	semapv:BackgroundKnowledgeBasedMatching		0.55	Accepted paper is related to final manuscript, but EKAW explicitly distinguishes accepted paper from camera-ready/final version.
+ex:map22	ekaw:Rejected_Paper	iasted:Refusing_manuscript	skos:relatedMatch	semapv:SemanticSimilarityThresholdMatching		0.61	Rejected paper is related to refusing manuscript, but the IASTED term appears to denote the rejection activity rather than the rejected document itself.
+ex:map23	ekaw:Review	iasted:Reviewer	skos:relatedMatch	semapv:StructuralMatching		0.22	Review is structurally related to Reviewer through writing/reviewing relation, but they are not the same kind of entity.
+ex:map24	ekaw:hasReview	iasted:Review	skos:relatedMatch	semapv:StructuralMatching		0.2	EKAW hasReview property is related to IASTED Review class via paper-review association, but they are different entity types.

@@ -1,0 +1,24 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	edas:AcceptedPaper	ekaw:Accepted_Paper	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match after tokenization/normalization.
+	edas:Paper	ekaw:Paper	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match.
+	edas:Review	ekaw:Review	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match.
+	edas:RejectedPaper	ekaw:Rejected_Paper	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match after tokenization/normalization.
+	edas:Person	ekaw:Person	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match.
+	edas:Conference	ekaw:Conference	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match.
+	edas:Document	ekaw:Document	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match.
+	edas:ConferenceSession	ekaw:Conference_Session	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match after tokenization/normalization.
+	edas:Workshop	ekaw:Workshop	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match.
+	edas:SessionChair	ekaw:Session_Chair	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match after tokenization/normalization.
+	edas:Presenter	ekaw:Presenter	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match.
+	edas:SocialEvent	ekaw:Social_Event	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match after tokenization/normalization.
+	edas:Organization	ekaw:Organisation	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.9	High lexical similarity resolving alternative spellings.
+	edas:Author	ekaw:Paper_Author	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	Semantic similarity indicating the same conceptual entity.
+	edas:AcademiaOrganization	ekaw:Academic_Institution	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	Semantic similarity between academia organization and academic institution.
+	edas:ConferenceDinner	ekaw:Conference_Banquet	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	Semantic similarity for the primary dining event.
+	edas:Place	ekaw:Location	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	Semantic similarity defining a spatial setting.
+	edas:Topic	ekaw:Research_Topic	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	Semantic similarity reflecting research topic classification.
+	edas:Reviewer	ekaw:Possible_Reviewer	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.7	Semantic similarity between assigned and potential reviewer roles.
+	edas:Attendee	ekaw:Conference_Participant	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	Semantic similarity for general event participants.
+	edas:Excursion	ekaw:Conference_Trip	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	Semantic similarity indicating organized conference travel events.
+	edas:AcademicEvent	ekaw:Scientific_Event	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	Semantic similarity indicating research focused gathering.
+	edas:TPCMember	ekaw:PC_Member	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.8	High lexical similarity representing a Program Committee member.

@@ -1,0 +1,14 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+row1-subject-cmt:Paper	cmt:Paper	confOf:Paper	skos:exactMatch	semapv:LexicalMatching		0.95	Labels identical; both model paper entity (document/contribution).
+row2-subject-cmt:Author	cmt:Author	confOf:Author	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match and same author semantics.
+row3-subject-cmt:Conference	cmt:Conference	confOf:Conference	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match; both model conference event.
+row4-subject-cmt:Administrator	cmt:Administrator	confOf:Administrator	skos:exactMatch	semapv:LexicalMatching		0.95	Same label and domain semantics (administrator role).
+row5-subject-cmt:Person	cmt:Person	confOf:Person	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match and comparable class constraints.
+row6-subject-cmt:ProgramCommitteeMember	cmt:ProgramCommitteeMember	confOf:Member_PC	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.8	Program committee member ≈ Member_PC (reviewer / PC member role); lexical labels differ but semantics align.
+row7-subject-cmt:Reviewer	cmt:Reviewer	confOf:Member_PC	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.7	Reviewer role in CMT aligns with Member_PC (PC reviewer) in ConfOf; not exact lexical match.
+row8-subject-cmt:Chairman	cmt:Chairman	confOf:Chair_PC	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.8	Chairman (CMT) corresponds to Chair_PC (ConfOf); structural equivalence in role.
+row9-subject-cmt:hasAuthor	cmt:hasAuthor	confOf:writtenBy	owl:equivalentProperty	semapv:LogicalReasoning		0.9	hasAuthor (Paper → Author) is inverse/semantically equivalent to writtenBy (Contribution → Author) in ConfOf.
+row10-subject-cmt:submitPaper	cmt:submitPaper	confOf:writes	owl:equivalentProperty	semapv:SemanticSimilarityThresholdMatching		0.8	submitPaper (Author→Paper) corresponds to writes (Author→Contribution) in ConfOf.
+row11-subject-cmt:Review	cmt:Review	confOf:Reviewing_event	skos:relatedMatch	semapv:BackgroundKnowledgeBasedMatching		0.5	CMT Review is a review document; ConfOf Reviewing_event is the reviewing process/event — related but not equivalent.
+row12-subject-cmt:Document	cmt:Document	confOf:Contribution	skos:relatedMatch	semapv:SemanticSimilarityThresholdMatching		0.4	Document (generic) in CMT relates to Contribution in ConfOf (papers/posters/etc.); partial overlap.
+row13-subject-cmt:PaperAbstract	cmt:PaperAbstract	confOf:Paper	skos:closeMatch	semapv:StructuralMatching		0.6	PaperAbstract is a subtype of Paper in CMT; maps closely to Paper in ConfOf though one is an abstract variant.

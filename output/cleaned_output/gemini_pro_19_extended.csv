@@ -1,0 +1,10 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	ekaw:Person	iasted:Person	owl:equivalentClass	semapv:LexicalMatching		1.0	
+	ekaw:Document	iasted:Document	owl:equivalentClass	semapv:LexicalMatching		1.0	
+	ekaw:Review	iasted:Review	owl:equivalentClass	semapv:LexicalMatching		1.0	
+	ekaw:Session	iasted:Session	owl:equivalentClass	semapv:LexicalMatching		1.0	
+	ekaw:Tutorial	iasted:Tutorial	owl:equivalentClass	semapv:LexicalMatching		1.0	
+	ekaw:Session_Chair	iasted:Session_chair	owl:equivalentClass	semapv:LexicalMatching		0.95	
+	ekaw:Location	iasted:Place	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.85	
+	ekaw:Event	iasted:Activity	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.75	
+	ekaw:Social_Event	iasted:Social_program	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.8	

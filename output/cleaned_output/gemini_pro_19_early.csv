@@ -1,0 +1,16 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	ekaw:Document	iasted:Document	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match
+	ekaw:Person	iasted:Person	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match
+	ekaw:Review	iasted:Review	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match
+	ekaw:Session	iasted:Session	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match
+	ekaw:Tutorial	iasted:Tutorial	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match
+	ekaw:Session_Chair	iasted:Session_chair	skos:exactMatch	semapv:LexicalMatching		0.95	Exact lexical match ignoring case
+	ekaw:Location	iasted:Place	skos:exactMatch	semapv:BackgroundKnowledgeBasedMatching		0.9	Semantic match between Location and Place
+	ekaw:Conference_Participant	iasted:Delegate	skos:exactMatch	semapv:BackgroundKnowledgeBasedMatching		0.9	Semantic match between Participant and Delegate
+	ekaw:Conference_Banquet	iasted:Dinner_banquet	skos:exactMatch	semapv:BackgroundKnowledgeBasedMatching		0.85	Semantic match between Conference Banquet and Dinner banquet
+	ekaw:Camera_Ready_Paper	iasted:Final_manuscript	skos:exactMatch	semapv:BackgroundKnowledgeBasedMatching		0.85	Semantic match representing the final accepted manuscript
+	ekaw:Social_Event	iasted:Social_program	skos:exactMatch	semapv:BackgroundKnowledgeBasedMatching		0.9	Semantic match representing social activities
+	ekaw:Presenter	iasted:Speaker	skos:exactMatch	semapv:BackgroundKnowledgeBasedMatching		0.9	Semantic match representing people presenting or speaking
+	ekaw:Paper_Author	iasted:Author	skos:exactMatch	semapv:BackgroundKnowledgeBasedMatching		0.9	Semantic match for document authors
+	ekaw:Submitted_Paper	iasted:Submission	skos:exactMatch	semapv:BackgroundKnowledgeBasedMatching		0.85	Semantic match representing a submitted document
+	ekaw:Possible_Reviewer	iasted:Reviewer	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.8	Lexical similarity indicating a reviewer role

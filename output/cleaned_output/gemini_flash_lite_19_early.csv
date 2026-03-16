@@ -1,0 +1,6 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	ex:Person	iasted:Person	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match for Person class.
+	ex:Review	iasted:Review	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match for Review class.
+	ex:Session	iasted:Session	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match for Session class.
+	ex:Tutorial	iasted:Tutorial	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match for Tutorial class.
+	ex:Document	iasted:Document	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match for Document class.

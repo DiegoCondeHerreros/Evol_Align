@@ -1,0 +1,13 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+m1:ekaw-person-iasted-person	ekaw:Person	iasted:Person	skos:exactMatch	semapv:LexicalMatching		1.0	Same label and intended meaning (people attending/participating).
+m2:ekaw-document-iasted-document	ekaw:Document	iasted:Document	skos:exactMatch	semapv:LexicalMatching		1.0	Both represent documents (same lexical label and role).
+m3:ekaw-review-iasted-review	ekaw:Review	iasted:Review	skos:exactMatch	semapv:LexicalMatching		0.95	Review concept has equivalent use in both ontologies (documents evaluating papers).
+m4:ekaw-session-iasted-session	ekaw:Session	iasted:Session	skos:exactMatch	semapv:LexicalMatching		0.95	Session classes correspond in conference modelling (same label, similar restrictions).
+m5:ekaw-Individual_Presentation-iasted-Presentation	ekaw:Individual_Presentation	iasted:Presentation	skos:closeMatch	semapv:StructuralMatching		0.85	Individual presentation (EKAW) and Presentation (IASTED) align closely (both are conference presentations); EKAW emphasises disjointness with Workshop. Structural restrictions differ slightly.
+m6:ekaw-Paper_Author-iasted-Author	ekaw:Paper_Author	iasted:Author	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.85	Paper_Author in EKAW and Author in IASTED play similar roles (person producing manuscripts/presentations). Labels differ slightly but semantics align.
+m7:ekaw-Paper-iasted-Publication	ekaw:Paper	iasted:Publication	skos:closeMatch	semapv:StructuralMatching		0.8	
+m8:ekaw-Proceedings-iasted-Book_proceeding	ekaw:Proceedings	iasted:Book_proceeding	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.8	EKAW proceedings (volumes containing accepted papers) and IASTED Book_proceeding are similar publishing concepts; modelling differences exist so marked as closeMatch.
+m9:ekaw-Conference_Participant-iasted-Delegate	ekaw:Conference_Participant	iasted:Delegate	skos:closeMatch	semapv:StructuralMatching		0.9	
+m10:ekaw:writtenBy-iasted:write	ekaw:writtenBy	iasted:write	owl:equivalentProperty	semapv:LexicalMatching		0.95	Property connecting Document->Person (author) in EKAW corresponds to write in IASTED (inverse is is_writen_by). Labels and domain/range align closely.
+m11:ekaw:authorOf-iasted:write	ekaw:authorOf	iasted:write	owl:equivalentProperty	semapv:LexicalMatching		0.95	authorOf (EKAW) is inverse of writtenBy; maps to IASTED write property (same authoring relation).
+m12:ekaw:hasReview-iasted:is_writen_by	ekaw:hasReview	iasted:is_writen_by	skos:relatedMatch	semapv:StructuralMatching		0.6	EKAW hasReview links Paper->Review; IASTED uses is_writen_by for Review->Reviewer (different orientation). They are related but not equivalent (inverse/role differences).

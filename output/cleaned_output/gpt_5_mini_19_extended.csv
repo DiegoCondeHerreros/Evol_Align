@@ -1,0 +1,6 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+m1-ekaw-person-iasted-person-2026-03-16T00:00:00Z	ekaw:Person	iasted:Person	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match; both are classes modeling people; mapped as equivalentClass.
+m2-ekaw-Session-iasted-Session-2026-03-16T00:00:00Z	ekaw:Session	iasted:Session	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match; both represent sessions; mapped as equivalentClass.
+m3-ekaw-Tutorial-iasted-Tutorial-2026-03-16T00:00:00Z	ekaw:Tutorial	iasted:Tutorial	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match; both represent tutorials; mapped as equivalentClass.
+m4-ekaw-Document-iasted-Document-2026-03-16T00:00:00Z	ekaw:Document	iasted:Document	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match; both represent documents; mapped as equivalentClass.
+m5-ekaw-Review-iasted-Review-2026-03-16T00:00:00Z	ekaw:Review	iasted:Review	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match; both represent reviews; mapped as equivalentClass.

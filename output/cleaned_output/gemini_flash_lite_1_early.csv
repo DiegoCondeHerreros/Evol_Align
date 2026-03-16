@@ -1,0 +1,5 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	ex:Person	ex:Person	skos:exactMatch	semapv:LexicalMatching		1.0	Both ontologies define a Person class which is central to their user management domain.
+	ex:Author	ex:Author	skos:exactMatch	semapv:LexicalMatching		1.0	Both ontologies contain an Author class representing individuals who create contributions/papers.
+	ex:Administrator	ex:Administrator	skos:exactMatch	semapv:LexicalMatching		1.0	Both ontologies define an Administrator role for system management.
+	ex:Paper	ex:Paper	skos:exactMatch	semapv:LexicalMatching		0.95	In Ontology 1, Paper is a class. In Ontology 2, Paper is a subclass of Contribution, matching the intended concept.

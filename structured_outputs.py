@@ -177,7 +177,7 @@ class MappingRow(BaseModel):
     predicate_id: MappingPredicate
     mapping_justification: SemaPVJustification
 
-    author_id: CurieOrIriOrOrcid | list[CurieOrIriOrOrcid] | None = None
+    #author_id: CurieOrIriOrOrcid | list[CurieOrIriOrOrcid] | None = None
 
     confidence: Annotated[float, Field(ge=0, le=1)] | None = None
     comment: str | None = None

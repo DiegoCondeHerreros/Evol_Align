@@ -1,0 +1,5 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	http://ekaw#Person	http://iasted#Person	skos:exactMatch	semapv:LexicalMatching		1.0	Direct lexical match
+	http://ekaw#Document	http://iasted#Document	skos:exactMatch	semapv:LexicalMatching		1.0	Direct lexical match
+	http://ekaw#Tutorial	http://iasted#Tutorial	skos:exactMatch	semapv:LexicalMatching		1.0	Direct lexical match
+	http://ekaw#Review	http://iasted#Review	skos:exactMatch	semapv:LexicalMatching		1.0	Direct lexical match

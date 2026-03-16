@@ -1,0 +1,14 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	ekaw:Person	iasted:Person	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match for the concept Person.
+	ekaw:Document	iasted:Document	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match for the concept Document.
+	ekaw:Session	iasted:Session	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match for the concept Session.
+	ekaw:Tutorial	iasted:Tutorial	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match for the concept Tutorial.
+	ekaw:Review	iasted:Review	skos:exactMatch	semapv:LexicalMatching		1.0	Exact lexical match for the concept Review.
+	ekaw:Session_Chair	iasted:Session_chair	skos:exactMatch	semapv:LexicalMatching		0.98	String match considering capitalization and underscore usage.
+	ekaw:Social_Event	iasted:Social_program	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.85	Both concepts represent organized leisure activities during the conference.
+	ekaw:Location	iasted:Place	skos:exactMatch	semapv:SemanticSimilarityThresholdMatching		0.9	Both represent physical geographical locations or venues for events.
+	ekaw:Paper_Author	iasted:Author	skos:exactMatch	semapv:LexicalSimilarityThresholdMatching		0.92	Both represent individuals who author a submitted document or paper.
+	ekaw:Conference_Participant	iasted:Delegate	skos:exactMatch	semapv:SemanticSimilarityThresholdMatching		0.88	Both denote individuals registered and attending the conference.
+	ekaw:Presenter	iasted:Speaker	skos:exactMatch	semapv:SemanticSimilarityThresholdMatching		0.95	A speaker and a presenter represent individuals presenting at a conference session.
+	ekaw:Submitted_Paper	iasted:Submission	skos:exactMatch	semapv:SemanticSimilarityThresholdMatching		0.85	Both refer to documents submitted to the conference for review.
+	ekaw:Possible_Reviewer	iasted:Reviewer	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.8	Close match since both relate to individuals tasked with reviewing submissions.

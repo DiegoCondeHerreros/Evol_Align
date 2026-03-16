@@ -1,0 +1,7 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	ekaw:Person	iasted:Person	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match.
+	ekaw:Review	iasted:Review	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match.
+	ekaw:Tutorial	iasted:Tutorial	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match.
+	ekaw:Session	iasted:Session	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match.
+	ekaw:Document	iasted:Document	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match.
+	ekaw:Session_Chair	iasted:Session_chair	owl:equivalentClass	semapv:LexicalMatching		0.95	Lexical match with minor casing difference.

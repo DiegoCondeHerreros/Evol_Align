@@ -1,0 +1,15 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+row1-edas-ekaw-paper-2026-03-16-001:1	edas:Paper	ekaw:Paper	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match; both are subclasses of Document; high confidence.
+row2-edas-ekaw-conference-2026-03-16-001:2	edas:Conference	ekaw:Conference	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label and similar modelling (one edition of a conference).
+row3-edas-ekaw-review-2026-03-16-001:3	edas:Review	ekaw:Review	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label; both model Review as a Document subclass.
+row4-edas-ekaw-person-2026-03-16-001:4	edas:Person	ekaw:Person	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label and semantic role (agent/actor).
+row5-edas-ekaw-document-2026-03-16-001:5	edas:Document	ekaw:Document	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label; both are superclasses of Paper/Review/other documents.
+row6-edas-ekaw-presenter-2026-03-16-001:6	edas:Presenter	ekaw:Presenter	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label; both are subtypes of conference participant/author roles.
+row7-edas-ekaw-workshop-2026-03-16-001:7	edas:Workshop	ekaw:Workshop	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label and similar modeling as an event type.
+row8-edas-ekaw-acceptedpaper-2026-03-16-001:8	edas:AcceptedPaper	ekaw:Accepted_Paper	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.9	Label variant (underscore) and similar semantics (accepted paper in proceedings).
+row9-edas-ekaw-rejectedpaper-2026-03-16-001:9	edas:RejectedPaper	ekaw:Rejected_Paper	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.9	Label variant (underscore) and matching semantics (rejected paper).
+row10-edas-ekaw-conferencesession-2026-03-16-001:10	edas:ConferenceSession	ekaw:Conference_Session	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.95	Underscore vs concatenated label; both model conference session.
+row11-edas-ekaw-conferenceevent-2026-03-16-001:11	edas:ConferenceEvent	ekaw:Event	rdfs:subClassOf	semapv:StructuralMatching		0.8	ConferenceEvent is a more specific event type; structural/semantic alignment.
+row12-edas-ekaw-hastopic-2026-03-16-001:12	edas:hasTopic	ekaw:coversTopic	owl:equivalentProperty	semapv:StructuralMatching		0.9	Both link Paper/Event to a Topic/Research_Topic (domains and ranges align conceptually).
+row13-edas-ekaw-isreviewedby-2026-03-16-001:13	edas:isReviewedBy	ekaw:hasReviewer	owl:equivalentProperty	semapv:StructuralMatching		0.9	Both represent the reviewer relationship for a Paper (inverse/property-name variation).
+row14-edas-ekaw-iswrittenby-2026-03-16-001:14	edas:isWrittenBy	ekaw:writtenBy	owl:equivalentProperty	semapv:StructuralMatching		0.9	Both model the authorship/writing relation between Paper/Document and Person/Author.

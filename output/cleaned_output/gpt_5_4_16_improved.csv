@@ -1,0 +1,31 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+ex:m1	edas:Paper	ekaw:Paper	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact lexical match; both are document subclasses representing papers.
+ex:m2	edas:Review	ekaw:Review	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact lexical match; both are document subclasses for reviews.
+ex:m3	edas:Document	ekaw:Document	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact lexical match; both are generic document classes.
+ex:m4	edas:Person	ekaw:Person	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact lexical match; both represent persons.
+ex:m5	edas:Organization	ekaw:Organisation	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.96	Near-exact lexical match differing by American/British spelling.
+ex:m6	edas:Conference	ekaw:Conference	owl:equivalentClass	semapv:LexicalMatching		0.98	Exact lexical match; both represent a conference edition/event.
+ex:m7	edas:ConferenceSession	ekaw:Conference_Session	skos:exactMatch	semapv:LexicalSimilarityThresholdMatching		0.97	Lexically equivalent modulo separator; both denote conference sessions.
+ex:m8	edas:Topic	ekaw:Research_Topic	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.9	EDAS Topic aligns closely with EKAW Research_Topic as subject matter categories.
+ex:m9	edas:Author	ekaw:Paper_Author	skos:exactMatch	semapv:SemanticSimilarityThresholdMatching		0.95	Both denote authors of papers; EDAS defines Author via relation to Paper.
+ex:m10	edas:Presenter	ekaw:Presenter	owl:equivalentClass	semapv:LexicalMatching		0.98	Exact lexical match; both denote presenters.
+ex:m11	edas:SessionChair	ekaw:Session_Chair	skos:exactMatch	semapv:LexicalSimilarityThresholdMatching		0.97	Lexically equivalent modulo separator; both denote chairs of sessions.
+ex:m12	edas:TPCMember	ekaw:PC_Member	skos:closeMatch	semapv:BackgroundKnowledgeBasedMatching		0.9	TPCMember in EDAS corresponds closely to Program Committee member in EKAW.
+ex:m13	edas:Workshop	ekaw:Workshop	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact lexical match; both denote workshop events.
+ex:m14	edas:SocialEvent	ekaw:Social_Event	skos:exactMatch	semapv:LexicalSimilarityThresholdMatching		0.98	Lexically equivalent modulo separator; both represent social events.
+ex:m15	edas:ConferenceDinner	ekaw:Conference_Banquet	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.89	Both denote the main conference meal/social dinner event.
+ex:m16	edas:Excursion	ekaw:Conference_Trip	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.88	Conference excursion and conference trip are closely related social event types.
+ex:m17	edas:AcceptedPaper	ekaw:Accepted_Paper	skos:exactMatch	semapv:LexicalSimilarityThresholdMatching		0.98	Lexically equivalent modulo separator; both represent accepted papers.
+ex:m18	edas:RejectedPaper	ekaw:Rejected_Paper	skos:exactMatch	semapv:LexicalSimilarityThresholdMatching		0.98	Lexically equivalent modulo separator; both represent rejected papers.
+ex:m19	edas:AcademicEvent	ekaw:Scientific_Event	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.84	AcademicEvent in EDAS is close in meaning to Scientific_Event in EKAW, though scope may differ slightly.
+ex:m20	edas:ConferenceEvent	ekaw:Event	rdfs:subClassOf	semapv:StructuralMatching		0.87	EDAS ConferenceEvent is a conference-related event and fits under the broader EKAW Event class.
+ex:m21	edas:Place	ekaw:Location	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.93	Place and Location are closely corresponding spatial classes.
+ex:m22	edas:hasTopic	ekaw:coversTopic	skos:exactMatch	semapv:SemanticSimilarityThresholdMatching		0.94	Both properties relate papers/events to topics.
+ex:m23	edas:isTopicOf	ekaw:topicCoveredBy	skos:exactMatch	semapv:MappingChaining		0.94	Inverse-property mapping derived from hasTopic/coversTopic alignment.
+ex:m24	edas:hasLocation	ekaw:heldIn	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.91	Both properties relate events to locations/places.
+ex:m25	edas:isLocationOf	ekaw:locationOf	skos:exactMatch	semapv:MappingChaining		0.93	Inverse-property mapping derived from hasLocation/heldIn alignment.
+ex:m26	edas:isWrittenBy	ekaw:writtenBy	skos:closeMatch	semapv:LexicalSimilarityThresholdMatching		0.89	Both properties link documents/papers to their authors, though EDAS specializes to Paper-Author.
+ex:m27	edas:hasRelatedPaper	ekaw:authorOf	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.86	Both relate an author/person to a paper/document they authored; EDAS is more specialized.
+ex:m28	edas:isReviewedBy	ekaw:hasReviewer	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.9	Both relate papers to reviewers.
+ex:m29	edas:isReviewing	ekaw:reviewerOfPaper	skos:closeMatch	semapv:MappingChaining		0.9	Inverse-side reviewer-paper relation corresponding to isReviewedBy/hasReviewer.
+ex:m30	edas:relatedToEvent	ekaw:presentationOfPaper	skos:closeMatch	semapv:StructuralMatching		0.82	Both properties connect a paper to its presentation event, though directionality and scope differ.

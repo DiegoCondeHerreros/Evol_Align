@@ -1,0 +1,7 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	http://cmt#Administrator	http://confOf#Administrator	owl:sameAs	semapv:LexicalMatching		1.0	Exact name match.
+	http://cmt#Author	http://confOf#Author	owl:sameAs	semapv:LexicalMatching		1.0	Exact name match.
+	http://cmt#Paper	http://confOf#Paper	owl:sameAs	semapv:LexicalMatching		1.0	Exact name match.
+	http://cmt#Person	http://confOf#Person	owl:sameAs	semapv:LexicalMatching		1.0	Exact name match.
+	http://cmt#Reviewer	http://confOf#Member_PC	skos:exactMatch	semapv:BackgroundKnowledgeBasedMatching		0.9	Reviewer is synonymous with a Member of the Program Committee (Member_PC) in this context.
+	http://cmt#ProgramCommitteeChair	http://confOf#Chair_PC	skos:exactMatch	semapv:LexicalMatching		0.9	Program Committee Chair maps closely to Chair of the Program Committee.

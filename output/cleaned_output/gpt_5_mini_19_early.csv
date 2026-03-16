@@ -1,0 +1,15 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+m1-ekaw:Person-iasted:Person	ekaw:Person	iasted:Person	owl:equivalentClass	semapv:LexicalMatching		1.0	Identical local name and semantics: Person class present in both ontologies; lexical exact match and equivalent meaning across both models.
+m2-ekaw:Document-iasted:Document	ekaw:Document	iasted:Document	owl:equivalentClass	semapv:LexicalMatching		1.0	
+m3-ekaw:Review-iasted:Review	ekaw:Review	iasted:Review	owl:equivalentClass	semapv:LexicalMatching		1.0	
+m4-ekaw:Session-iasted:Session	ekaw:Session	iasted:Session	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match and similar constraints (sessions of a conference) in both ontologies.
+m5-ekaw:Tutorial-iasted:Tutorial	ekaw:Tutorial	iasted:Tutorial	owl:equivalentClass	semapv:LexicalMatching		1.0	
+m6-ekaw:Paper-iasted:Publication	ekaw:Paper	iasted:Publication	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	
+m7-ekaw:Proceedings-iasted:Book_proceeding	ekaw:Proceedings	iasted:Book_proceeding	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.9	
+m8-ekaw:Conference_Proceedings-iasted:Book_proceeding	ekaw:Conference_Proceedings	iasted:Book_proceeding	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.85	
+m9-ekaw:writtenBy-iasted:is_writen_by	ekaw:writtenBy	iasted:is_writen_by	owl:equivalentProperty	semapv:LexicalSimilarityThresholdMatching		0.8	
+m10-ekaw:authorOf-iasted:write	ekaw:authorOf	iasted:write	owl:equivalentProperty	semapv:SemanticSimilarityThresholdMatching		0.75	
+m11-ekaw:Possible_Reviewer-iasted:Reviewer	ekaw:Possible_Reviewer	iasted:Reviewer	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	Both classes represent reviewers/reviewing participants; names differ but intended role is equivalent (possible reviewer ≈ reviewer).
+m12-ekaw:Conference_Participant-iasted:Delegate	ekaw:Conference_Participant	iasted:Delegate	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.85	
+m13-ekaw:Accepted_Paper-iasted:Accepting_manuscript	ekaw:Accepted_Paper	iasted:Accepting_manuscript	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.7	
+m14-ekaw:Paper_Author-iasted:Author	ekaw:Paper_Author	iasted:Author	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.8	

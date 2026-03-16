@@ -1,0 +1,33 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+ex:m1	edas:Paper	ekaw:Paper	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match: EDAS Paper and EKAW Paper are both document subclasses representing papers.
+ex:m2	edas:Review	ekaw:Review	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact label match: both denote review documents and are subclasses of Document.
+ex:m3	edas:Document	ekaw:Document	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact label match and consistent structural role as superclass of papers and reviews.
+ex:m4	edas:Person	ekaw:Person	owl:equivalentClass	semapv:LexicalMatching		0.99	Exact label match with compatible use as superclass for conference participants and authors/reviewers.
+ex:m5	edas:Conference	ekaw:Conference	owl:equivalentClass	semapv:LexicalMatching		0.98	Exact label match; both model a conference event edition.
+ex:m6	edas:Workshop	ekaw:Workshop	owl:equivalentClass	semapv:LexicalMatching		0.98	Exact label match; both are scientific event types distinct from conference and session.
+ex:m7	edas:Presenter	ekaw:Presenter	owl:equivalentClass	semapv:LexicalMatching		0.97	Exact label match; both denote a presenting participant role.
+ex:m8	edas:SessionChair	ekaw:Session_Chair	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.97	Near-exact lexical match differing only by separator/casing; both denote chair of a session.
+ex:m9	edas:TPCMember	ekaw:PC_Member	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.83	TPCMember in EDAS closely corresponds to Program Committee member in EKAW; likely same conference role but naming differs.
+ex:m10	edas:Author	ekaw:Paper_Author	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.9	EDAS Author is modeled as a person related to a paper; EKAW Paper_Author is a person authoring a paper. Strong semantic correspondence.
+ex:m11	edas:Reviewer	ekaw:Possible_Reviewer	skos:narrowMatch	semapv:SemanticSimilarityThresholdMatching		0.74	EDAS Reviewer denotes an actual reviewer of some paper, narrower than EKAW Possible_Reviewer which includes potential reviewers.
+ex:m12	edas:ConferenceSession	ekaw:Conference_Session	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.97	Near-exact lexical match and same intended meaning as a session belonging to a conference.
+ex:m13	edas:Topic	ekaw:Research_Topic	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.9	EDAS Topic corresponds closely to EKAW Research_Topic as subject matter covered by papers/events.
+ex:m14	edas:Organization	ekaw:Organisation	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.98	Lexical variant due to American/British spelling; both denote organizations.
+ex:m15	edas:Place	ekaw:Location	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.9	Place and Location are strong semantic equivalents in the event-location context.
+ex:m16	edas:SocialEvent	ekaw:Social_Event	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.98	Near-exact lexical match; both represent social events associated with conferences.
+ex:m17	edas:Workshop	ekaw:Workshop_Session	skos:relatedMatch	semapv:SemanticSimilarityThresholdMatching		0.42	Related but not equivalent: EDAS Workshop is an academic event, while EKAW Workshop_Session is a session subtype.
+ex:m18	edas:AcceptedPaper	ekaw:Accepted_Paper	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.98	Near-exact lexical match and same acceptance status semantics.
+ex:m19	edas:RejectedPaper	ekaw:Rejected_Paper	owl:equivalentClass	semapv:LexicalSimilarityThresholdMatching		0.98	Near-exact lexical match and same rejection status semantics.
+ex:m20	edas:hasTopic	ekaw:coversTopic	owl:equivalentProperty	semapv:SemanticSimilarityThresholdMatching		0.88	Both properties link papers/events to topics, though domain/range are expressed differently.
+ex:m21	edas:isTopicOf	ekaw:topicCoveredBy	owl:equivalentProperty	semapv:SemanticSimilarityThresholdMatching		0.88	Inverse topic-linking properties with aligned meaning.
+ex:m22	edas:hasLocation	ekaw:heldIn	owl:equivalentProperty	semapv:SemanticSimilarityThresholdMatching		0.95	Both link an event to its place/location.
+ex:m23	edas:isLocationOf	ekaw:locationOf	owl:equivalentProperty	semapv:SemanticSimilarityThresholdMatching		0.95	Inverse location properties with matching semantics.
+ex:m24	edas:hasAttendee	ekaw:hasEvent	skos:relatedMatch	semapv:UnspecifiedMatching		0.12	Weak relation only; no strong EKAW attendee property is present. Included as low-confidence relatedness would normally be omitted.
+ex:m25	edas:hasMember	ekaw:hasPart	skos:relatedMatch	semapv:StructuralMatching		0.18	Very weak structural similarity only; EDAS hasMember links conference to person, EKAW hasPart links event to event. Not equivalent.
+ex:m26	edas:isReviewing	ekaw:reviewerOfPaper	owl:equivalentProperty	semapv:SemanticSimilarityThresholdMatching		0.9	Both properties link reviewers to papers they review.
+ex:m27	edas:isReviewedBy	ekaw:hasReviewer	owl:equivalentProperty	semapv:SemanticSimilarityThresholdMatching		0.9	Inverse reviewer assignment properties with corresponding meaning.
+ex:m28	edas:hasRelatedPaper	ekaw:authorOf	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.84	EDAS hasRelatedPaper links Author to Paper; EKAW authorOf links Person to Document. Close but not exact because EKAW is broader.
+ex:m29	edas:isWrittenBy	ekaw:writtenBy	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.85	Both link document/paper to authoring person, but EKAW writtenBy has broader domain Document.
+ex:m30	edas:Programme	ekaw:Programme_Brochure	skos:closeMatch	semapv:SemanticSimilarityThresholdMatching		0.79	EDAS Programme as a document is close to EKAW Programme_Brochure, though brochure may be a more specific publication artifact.
+ex:m31	edas:ConferenceDinner	ekaw:Conference_Banquet	skos:closeMatch	semapv:BackgroundKnowledgeBasedMatching		0.91	Conference dinner and conference banquet are highly similar social meal events.
+ex:m32	edas:Excursion	ekaw:Conference_Trip	skos:closeMatch	semapv:BackgroundKnowledgeBasedMatching		0.89	Excursion closely corresponds to conference trip as a social event.

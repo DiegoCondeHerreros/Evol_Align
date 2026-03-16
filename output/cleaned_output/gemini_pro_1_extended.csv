@@ -1,0 +1,8 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	cmt:Administrator	confOf:Administrator	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match of class labels.
+	cmt:Author	confOf:Author	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match of class labels.
+	cmt:Paper	confOf:Paper	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match of class labels.
+	cmt:Person	confOf:Person	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match of class labels.
+	cmt:Conference	confOf:Conference	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match of class labels.
+	cmt:ProgramCommitteeMember	confOf:Member_PC	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.85	Semantic similarity between Program Committee Member and PC Member entities.
+	cmt:SubjectArea	confOf:Topic	owl:equivalentClass	semapv:SemanticSimilarityThresholdMatching		0.8	Semantic equivalence based on context of conference submission topics and subject areas.

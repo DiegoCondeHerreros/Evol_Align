@@ -1,0 +1,6 @@
+record_id	subject_id	object_id	predicate_id	mapping_justification	author_id	confidence	comment
+	cmt:Administrator	confOf:Administrator	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match for the administrator class.
+	cmt:Author	confOf:Author	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match for the author class.
+	cmt:Person	confOf:Person	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match for the person class.
+	cmt:Paper	confOf:Paper	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match for the paper class.
+	cmt:Conference	confOf:Conference	owl:equivalentClass	semapv:LexicalMatching		1.0	Exact lexical match for the conference class.
