@@ -111,10 +111,13 @@ class LLM:
             model=self.model,
             contents=contents,
                 config=types.GenerateContentConfig(
-                    system_instruction=system_instruction
+                    system_instruction=system_instruction,
+                    response_mime_type="application/json",
+                    response_json_schema=response_struct.model_json_schema(),
                 )
             )
-        return response.text if response_struct is None else response_struct(**json.loads(response.text))
+        #print(response.text)
+        return response.text if response_struct is None else response_struct.model_validate_json(response.text)
 
     def prompt(self, message_list, response_struct, context):
         if self.model_family == "OpenAI":

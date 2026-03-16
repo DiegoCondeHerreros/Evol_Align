@@ -40,7 +40,6 @@ def run(args):
         print(f'Running prompt {user_prompts.index(
             t) + 1} of {len(user_prompts)}...')
         full_prompt = sys_prompts[0] + t
-        print(full_prompt)
         try:
             response_row = []
             response = llm.prompt(full_prompt, structure, context)
