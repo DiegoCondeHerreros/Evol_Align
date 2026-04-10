@@ -6,52 +6,6 @@ This repository hosts the materials developed for research on **parallel evoluti
 
 Evol_Align is a Python-based framework for generating, managing, and reviewing ontology alignments using Large Language Models (LLMs). The project integrates multiple LLM providers (OpenAI, Gemini, Ollama) to create SSSOM (Simple Standard for Sharing Ontology Mappings) formatted alignment sets with structured outputs.
 
-## Repository Structure
-
-### Core Python Modules
-
-- **`llm_interface.py`** - Main interface for interacting with multiple LLM providers
-  - Supports OpenAI, Google Gemini, and Ollama LLMs
-  - Handles API key management and model parameter configuration
-  - Provides unified `prompt()` method for all providers
-
-- **`structured_outputs.py`** - Pydantic models for SSSOM alignment structures
-  - Defines `SSSOMAlignmentStrictCore` for alignment set metadata
-  - Defines `MappingRow` for individual ontology mappings
-  - Includes enums for `EntityType`, `MappingPredicate`, and `SemaPVJustification`
-
-- **`prompt_engineering.py`** - Prompt design and engineering utilities
-  - Contains reusable prompts for ontology alignment tasks
-
-- **`response_conversion.py`** - Utilities for converting LLM responses to SSSOM format
-  - Handles conversion of LLM-generated text to structured mapping objects
-
-- **`alignement_review.py`** - Interactive tool for manually reviewing and curating alignments
-  - Load SSSOM alignments from Turtle format
-  - Interactive review interface for accepting, rejecting, or refining mappings
-  - Extends SSSOM with reviewer metadata (reviewer_id, reviewer_decision, reviewer_justification)
-
-- **`utils.py`** - Utility functions
-  - Custom argparse actions for key-value parameter handling
-
-### Data and Configuration Directories
-
-- **`ANIML_Allignments/`** - AnIML (Analytical Information Markup Language) ontology alignments
-- **`AnIML Technique Definition Documents/`** - Technical documentation for AnIML techniques
-- **`LLM_SSSOM_Output/`** - Output directory for LLM-generated SSSOM files
-- **`OAEI_data/`** - Data from OAEI (Ontology Alignment Evaluation Initiative)
-- **`LogMap/`** - Output/data from LogMap alignment tool
-- **`sys_prompts/`** - System prompts for LLM configuration
-- **`user_prompts/`** - User-defined prompts for alignment generation
-- **`testOntologies/`** - Test ontology files for development and validation
-- **`output/`** - Output directory for alignment review results
-
-### Data Files
-
-- **`animl_manual.owl`** - Manual AnIML ontology in OWL format
-- **`skeleton_ontology_1.ttl`** - Skeleton ontology in Turtle format used as test/reference data
-- **`api_key.txt`** - Configuration file for LLM API credentials (see setup below)
-
 ## Prerequisites
 
 - Python 3.8+
@@ -189,26 +143,6 @@ alignment_set = SSSOMAlignmentStrictCore(
 
 The Simple Standard for Sharing Ontology Mappings (SSSOM) is used throughout this project. For more information, visit: https://w3id.org/sssom/
 
-### Supported Mapping Predicates
-- `skos:exactMatch`
-- `skos:closeMatch`
-- `skos:broadMatch`
-- `skos:narrowMatch`
-- `skos:relatedMatch`
-- `owl:sameAs`
-- `owl:equivalentClass`
-- `owl:equivalentProperty`
-- `rdfs:subClassOf`
-- `rdfs:subPropertyOf`
-
-### Justification Types
-- Manual mapping curation
-- Logical reasoning
-- Lexical matching
-- Composite matching
-- Semantic similarity matching
-- And more (see `SemaPVJustification` enum)
-
 ## Data Formats
 
 ### Input Ontologies
@@ -238,17 +172,6 @@ The Simple Standard for Sharing Ontology Mappings (SSSOM) is used throughout thi
 - Automatically downloads models on first use
 - Recommended models: llama2, mistral, neural-chat
 
-## Project Resources
-
-### Key Files
-- Ontology examples: `animl_manual.owl`, `skeleton_ontology_1.ttl`
-- Alignment samples: Various SSSOM files in `LLM_SSSOM_Output/` and `ANIML_Allignments/`
-- Test data: `testOntologies/` directory
-
-### External Data Sources
-- OAEI benchmark data in `OAEI_data/`
-- LogMap outputs in `LogMap/`
-
 ## Example Workflow
 
 1. **Prepare ontologies** - Place your ontology files in `testOntologies/`
@@ -263,14 +186,6 @@ The Simple Standard for Sharing Ontology Mappings (SSSOM) is used throughout thi
 - OWL Ontology Language: https://www.w3.org/OWL/
 - RDF/Turtle Format: https://www.w3.org/TR/turtle/
 - OAEI (Ontology Alignment Evaluation Initiative): http://oaei.ontologymatching.org/
-
-## License
-
-This project is developed as a collaboration between the Knowledge Engineering Group (KEG) and the Ontology Engineering Group (OEG).
-
-## Contact
-
-For more information about this research, please refer to the associated publications or contact the research teams at KEG and OEG.
 
 ## Contributing
 
