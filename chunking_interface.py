@@ -6,7 +6,7 @@ from chunking.semantic import Semantic
 class ChunkingInterface:
 
     def __init__(self):
-        self.locality = Locality(2)
+        self.locality = Locality()
         self.taxonomic = Taxonomic()
         self.semantic = Semantic()
         self.chunks_dict = {}
