@@ -49,13 +49,13 @@ class ChunkingExperiment:
 
     def get_models(self):
         model_1 = LLM(
-            model_family="openai",
+            model_family="OpenAI",
             model="gpt-5.5",
             params={"temperature": 0.0, "seed": 7264},
             context=None
         )
         model_2 = LLM(
-            model_family="OpenAi",
+            model_family="OpenAI",
             model="gpt-5.4-mini",
             params={"temperature": 0.0, "seed": 7264},
             context=None

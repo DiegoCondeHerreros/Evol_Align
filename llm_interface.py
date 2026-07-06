@@ -27,6 +27,8 @@ class LLM:
         with open(src, 'r+') as f:
             model_families = json.load(f)[0]
         if model_family not in list(model_families.keys()):
+            print(model_families.keys())
+            print(model_family)
             raise NameError(f'{model_family} is not present in api_key.txt')
         model_family_info = model_families[model_family]
         if 'API_KEY' not in list(model_family_info.keys()):
@@ -42,7 +44,8 @@ class LLM:
             raise NameError(f'{model_family} is not present in api_key.txt')
         model_family_info = model_families[model_family]
         if model not in list(model_family_info['Models'].keys()):
-            raise NameError(f'{model} is not listed in the {model_family} model family in api_key.txt')
+            raise NameError(f'{model} is not listed in the {
+                            model_family} model family in api_key.txt')
         param_list = model_family_info['Models'][model]
         defined_parameters = {}
         for p in list(params.keys()):
@@ -90,7 +93,7 @@ class LLM:
             if role == "system":
                 system_instruction = content
             else:
-                gemini_role = "model" if role == "assistant" else "user"                
+                gemini_role = "model" if role == "assistant" else "user"
                 contents.append({
                     "role": gemini_role,
                     "parts": [{"text": content}]
@@ -102,28 +105,29 @@ class LLM:
                 contents.append({
                     "role": "user",
                     "parts": [
-                        #This part has to be manually added since i have found a way to guess the mime type.
-                        types.Part.from_uri(file_uri=ontology.uri, mime_type=ontology.mime_type),
+                        # This part has to be manually added since i have found a way to guess the mime type.
+                        types.Part.from_uri(
+                            file_uri=ontology.uri, mime_type=ontology.mime_type),
                         {"text": f"Context file: {ontology.display_name}"}
                     ]
                 })
         response = client.models.generate_content(
             model=self.model,
             contents=contents,
-                config=types.GenerateContentConfig(
-                    system_instruction=system_instruction,
-                    response_mime_type="application/json",
-                    response_json_schema=response_struct.model_json_schema(),
-                )
+            config=types.GenerateContentConfig(
+                system_instruction=system_instruction,
+                response_mime_type="application/json",
+                response_json_schema=response_struct.model_json_schema(),
             )
-        #print(response.text)
+        )
+        # print(response.text)
         return response.text if response_struct is None else response_struct.model_validate_json(response.text)
 
     def prompt(self, message_list, response_struct, context):
         if self.model_family == "OpenAI":
             return self.openai_prompt(message_list, response_struct)
         if self.model_family == "Gemini":
-            return self.gemini_prompt(message_list, response_struct,context)
+            return self.gemini_prompt(message_list, response_struct, context)
         # NOTE: Insert other LLM APIs here. Using Ollama API will be the default behaviour
         else:
             return self.ollama_prompt(message_list, response_struct)
