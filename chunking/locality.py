@@ -1,4 +1,4 @@
-from chunker import Chunker
+from chunking.chunker import Chunker
 
 
 class Locality(Chunker):
@@ -7,5 +7,5 @@ class Locality(Chunker):
         super().__init__()
         self.k = k
 
-    def generate_chunks(self):
+    def generate_chunks(self, onto):
         pass
