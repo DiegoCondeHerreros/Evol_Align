@@ -1,5 +1,7 @@
 from llm_interface import LLM
 from chunking_interface import ChunkingInterface
+from system_prompt import SYSTEM_PROMPT
+from structured_outputs import SSSOMAlignmentStrictCore as FORMAT
 import os
 from rdflib import Graph
 
@@ -46,6 +48,7 @@ class ChunkingExperiment:
     def __init__(self):
         self.models = self.get_models()
         self.datasets = self.get_datasets()
+        self.sys_prompt = SYSTEM_PROMPT
 
     def get_models(self):
         model_1 = LLM(
@@ -78,9 +81,30 @@ class ChunkingExperiment:
             datasets.append(DomainCase(d))
         return datasets
 
+    def set_user_prompt(self, source, target):
+        user_prompt = """"""
+        return user_prompt
+
+    def generate_alignments(self, pair):
+        chunker = ChunkingInterface()
+        pair.source_chunks = chunker.run_chunking(pair.source)
+        pair.target_chunks = chunker.run_chunking(pair.target)
+        for s in pair.source_chunks:
+            for t in pair.target_chunks:
+                u_prompt = self.set_user_prompt(s, t)
+                for m in self.models:
+                    response = m.prompt(message_list, FORMAT, None)
+
 
 def run_experiment():
     exp = ChunkingExperiment()
+
+    # NOTE: Generate chunks and alignments
+    for domain in exp.datasets:
+        print(f"Working on domain: {domain.domain}")
+        for onto_pair in domain.onto_pairs:
+            print(f"Working on ontology pair: {onto_pair.pair}")
+            exp.generate_alignments(onto_pair)
 
 
 run_experiment()
