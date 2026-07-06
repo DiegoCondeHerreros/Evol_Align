@@ -54,7 +54,7 @@ class ChunkingExperiment:
         model_1 = LLM(
             model_family="OpenAI",
             model="gpt-5.5",
-            params={"temperature": 0.0, "seed": 7264},
+            params={"temperature": 1.0, "seed": 7264},
             context=None
         )
         model_2 = LLM(
@@ -82,29 +82,54 @@ class ChunkingExperiment:
         return datasets
 
     def set_user_prompt(self, source, target):
-        user_prompt = """"""
+        user_prompt = {
+            "role": "user",
+            "content": f"""
+            `source`: {source.serialize(format="turtle")}
+
+            `target`: {target.serialize(format="turtle")}
+            """
+        }
         return user_prompt
 
-    def generate_alignments(self, pair):
+    def generate_alignments(self, pair, chunk, model):
         chunker = ChunkingInterface()
-        pair.source_chunks = chunker.run_chunking(pair.source)
-        pair.target_chunks = chunker.run_chunking(pair.target)
+        pair.source_chunks = chunker.run_chunking(chunk, pair.source)
+        print(f"Generated {len(pair.source_chunks)} from source")
+        pair.target_chunks = chunker.run_chunking(chunk, pair.target)
+        print(f"Generated {len(pair.target_chunks)} from target")
+        all_alignments = []
+        prompt_counter = 1
         for s in pair.source_chunks:
             for t in pair.target_chunks:
                 u_prompt = self.set_user_prompt(s, t)
-                for m in self.models:
-                    response = m.prompt(message_list, FORMAT, None)
+                message_list = [self.sys_prompt, u_prompt]
+                print(f"Running prompt {prompt_counter} of {
+                      len(pair.source_chunks)*len(pair.target_chunks)}")
+                response = model.prompt(message_list, FORMAT, None)
+                prompt_counter += 1
+                for r in response:
+                    all_alignments.append(r)
+                    if r[0] == "mappings":
+                        print(r)
+
+        for a in all_alignments:
+            print(a)
+        raise Exception
 
 
 def run_experiment():
+    methods = ["Locality", "Taxonomic", "Semantic"]
     exp = ChunkingExperiment()
 
     # NOTE: Generate chunks and alignments
-    for domain in exp.datasets:
-        print(f"Working on domain: {domain.domain}")
-        for onto_pair in domain.onto_pairs:
-            print(f"Working on ontology pair: {onto_pair.pair}")
-            exp.generate_alignments(onto_pair)
+    for c in methods:
+        for m in exp.models:
+            for domain in exp.datasets:
+                print(f"Working on domain: {domain.domain}")
+                for onto_pair in domain.onto_pairs:
+                    print(f"Working on ontology pair: {onto_pair.pair}")
+                    exp.generate_alignments(onto_pair, c, m)
 
 
 run_experiment()

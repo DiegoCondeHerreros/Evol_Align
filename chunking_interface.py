@@ -9,9 +9,20 @@ class ChunkingInterface:
         self.locality = Locality()
         self.taxonomic = Taxonomic()
         self.semantic = Semantic()
-        self.chunks_dict = {}
 
-    def run_chunking(self, onto):
-        self.chunks_dict["Locality"] = self.locality.generate_chunks(onto)
-        self.chunks_dict["Taxonomic"] = self.taxonomic.generate_chunks(onto)
-        self.chunks_dict["Semantic"] = self.semantic.generate_chunks(onto)
+    def run_chunking(self, method, onto):
+        if method == "Locality":
+            self.locality.input(onto)
+            chunks = self.locality.generate_chunks()
+            self.locality.clear()
+            return chunks
+        elif method == "Taxonomic":
+            self.taxonomic.input(onto)
+            chunks = self.taxonomic.generate_chunks(onto)
+            self.taxonomic.clear()
+            return chunks
+        elif method == "Semantic":
+            self.semantic.input(onto)
+            chunks = self.semantic.generate_chunks(onto)
+            self.taxonomic.clear()
+            return chunks

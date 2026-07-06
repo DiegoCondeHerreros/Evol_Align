@@ -1,7 +1,6 @@
 from chunking.chunker import Chunker
 from collections import deque
 from rdflib import Graph, RDF, RDFS, OWL, URIRef, BNode
-from chunker import Chunker
 
 
 class Locality(Chunker):
@@ -76,7 +75,8 @@ class Locality(Chunker):
     def generate_chunks(self):
         """Populate self.chunks with one locality chunk per named class."""
         if self.onto is None:
-            raise ValueError("No ontology has been loaded; call input() first.")
+            raise ValueError(
+                "No ontology has been loaded; call input() first.")
         self.chunks = []
         classes = self._get_named_classes()
         adjacency = self._build_adjacency(classes)
@@ -84,4 +84,3 @@ class Locality(Chunker):
             class_set = self._neighbourhood(seed, adjacency)
             self.chunks.append(self._build_chunk_graph(class_set))
         return self.chunks
-

@@ -7,5 +7,8 @@ class Chunker:
     def input(self, ontology):
         self.onto = ontology
 
+    def clear(self):
+        self.onto = None
+
     def output(self):
         return self.chunks
