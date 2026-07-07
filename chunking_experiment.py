@@ -127,7 +127,31 @@ class ChunkingExperiment:
 
     def resolve_dupes(self, alignments):
         # NOTE: Duplicates of alignments may exist resolve them based off confidence first and then order of creation second
-        pass
+
+        # [0] mapping_id
+        # [1] subject
+        # [2] object
+        # [3] predicate
+        # [4] justification
+        # [5] confidence
+        # [6] natural language explanation
+        # [7] chunking method
+        # [8] llm
+
+        final_alignments = []
+        for a in alignments:
+            active_index = alignments.index(a)
+            active_confidence = a[5]
+            beaten = False
+            for a1 in alignments:
+                if [a[1], a[2]] == [a1[1], a1[2]]:
+                    if active_confidence < a1[5]:
+                        beaten = True
+                    if active_index < alignments.index(a1):
+                        beaten = True
+            if not beaten:
+                final_alignments.append(a)
+        return final_alignments
 
     def generate_alignments(self, pair, chunk, model):
         chunker = ChunkingInterface()
@@ -184,11 +208,17 @@ Running prompt...""")
                         for m in maps:
                             log = Text(f"{m.subject_id} | {
                                 m.predicate_id} | {m.object_id}")
-                            all_alignments.append(m)
                             bar.update(render())
+                            m = list(m.__dict__.values())
+                            m.append(chunk)
+                            m.append(model.model)
+                            all_alignments.append(m)
+
+                            self.resolve_dupes(all_alignments)
+                            raise Exception
                     bar.update(render())
-        pair.chunk_cull = [max_chunks, accepted_chunks]
-        pair.llm_alignments = resolve_dupes(all_alignments)
+        pair.chunk_cull = [chunk, max_chunks, accepted_chunks]
+        pair.llm_alignments = self.resolve_dupes(all_alignments)
 
 
 def run_experiment():
