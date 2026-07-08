@@ -1,0 +1,1213 @@
+# curie_map:
+#   Ensembl: https://www.ensembl.org/id/
+#   Genatlas: Genatlas
+#   HGNC: HGNC
+#   IUPHAR: IUPHAR
+#   MeSH: MeSH
+#   MedDRA: http://purl.bioontology.org/ontology/MEDDRA/
+#   OMIM: http://omim.org/entry/
+#   Reactome: Reactome
+#   SwissProt: http://purl.uniprot.org/uniprot/
+#   UMLS: http://linkedlifedata.com/resource/umls/id/
+#   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+#   ordo: http://www.orpha.net/ORDO/Orphanet_
+# license: https://github.com/mapping-commons/mapping-commons.github.io/blob/main/docs/original_license_applies.md
+# mapping_date: '2022-02-23'
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
+# mapping_tool: https://github.com/mapping-commons/sssom-py
+subject_id	predicate_id	object_id	match_type	subject_label
+ordo:124	oboInOwl:hasDbXref	MedDRA:10062989	Unspecified	Blackfan-Diamond anemia
+ordo:128	oboInOwl:hasDbXref	MedDRA:10013029	Unspecified	Diphyllobothriasis
+ordo:122	oboInOwl:hasDbXref	MedDRA:10067736	Unspecified	Birt-Hogg-Dubé syndrome
+ordo:112	oboInOwl:hasDbXref	MedDRA:10050839	Unspecified	Bartter syndrome
+ordo:199306	oboInOwl:hasDbXref	MedDRA:10009260	Unspecified	Cleft lip/palate
+ordo:117	oboInOwl:hasDbXref	MedDRA:10004213	Unspecified	Behçet disease
+ordo:116	oboInOwl:hasDbXref	MedDRA:10050344	Unspecified	Beckwith-Wiedemann syndrome
+ordo:2573	oboInOwl:hasDbXref	MedDRA:10028047	Unspecified	Moyamoya disease
+ordo:1247	oboInOwl:hasDbXref	MedDRA:10039603	Unspecified	Schistosomiasis
+ordo:110	oboInOwl:hasDbXref	MedDRA:10056715	Unspecified	Bardet-Biedl syndrome
+ordo:199302	oboInOwl:hasDbXref	MedDRA:10009259	Unspecified	Isolated cleft lip
+ordo:148	oboInOwl:hasDbXref	MedDRA:10028176	Unspecified	Multiple carboxylase deficiency
+ordo:147	oboInOwl:hasDbXref	MedDRA:10058297	Unspecified	Carbamoyl-phosphate synthetase 1 deficiency
+ordo:2582	oboInOwl:hasDbXref	MedDRA:10014952	Unspecified	Myalgia-eosinophilia syndrome associated with tryptophan
+ordo:142	oboInOwl:hasDbXref	MedDRA:10002240	Unspecified	Anaplastic thyroid carcinoma
+ordo:2583	oboInOwl:hasDbXref	MedDRA:10028427	Unspecified	Mycetoma
+ordo:141	oboInOwl:hasDbXref	MedDRA:10067608	Unspecified	Canavan disease
+ordo:144	oboInOwl:hasDbXref	MedDRA:10051981	Unspecified	Lynch syndrome
+ordo:136	oboInOwl:hasDbXref	MedDRA:10065551	Unspecified	Cerebral autosomal dominant arteriopathy-subcortical infarcts-leukoencephalopathy
+ordo:138	oboInOwl:hasDbXref	MedDRA:10064063	Unspecified	CHARGE syndrome
+ordo:131	oboInOwl:hasDbXref	MedDRA:10006537	Unspecified	Budd-Chiari syndrome
+ordo:130	oboInOwl:hasDbXref	MedDRA:10059027	Unspecified	Brugada syndrome
+ordo:133	oboInOwl:hasDbXref	MedDRA:10004485	Unspecified	Chronic beryllium disease
+ordo:1267	oboInOwl:hasDbXref	MedDRA:10006041	Unspecified	Botulism
+ordo:199323	oboInOwl:hasDbXref	MedDRA:10014801	Unspecified	Endophthalmitis
+ordo:1203	oboInOwl:hasDbXref	MedDRA:10013812	Unspecified	Duodenal atresia
+ordo:1201	oboInOwl:hasDbXref	MedDRA:10010626	Unspecified	Atresia of small intestine
+ordo:247525	oboInOwl:hasDbXref	MedDRA:10058298	Unspecified	Citrullinemia type I
+ordo:1209	oboInOwl:hasDbXref	MedDRA:10049767	Unspecified	Tricuspid atresia
+ordo:102	oboInOwl:hasDbXref	MedDRA:10064060	Unspecified	Multiple system atrophy
+ordo:105	oboInOwl:hasDbXref	MedDRA:10064895	Unspecified	Atresia of urethra
+ordo:108	oboInOwl:hasDbXref	MedDRA:10003965	Unspecified	Babesiosis
+ordo:107	oboInOwl:hasDbXref	MedDRA:10071135	Unspecified	BOR syndrome
+ordo:100	oboInOwl:hasDbXref	MedDRA:10003594	Unspecified	Ataxia-telangiectasia
+ordo:1219	oboInOwl:hasDbXref	MedDRA:10000590	Unspecified	Aurocephalosyndactyly
+ordo:2554	oboInOwl:hasDbXref	MedDRA:10070612	Unspecified	Ear-patella-short stature syndrome
+ordo:2552	oboInOwl:hasDbXref	MedDRA:10053982	Unspecified	Microsporidiosis
+ordo:1223	oboInOwl:hasDbXref	MedDRA:10004080	Unspecified	Balantidiasis
+ordo:37629	oboInOwl:hasDbXref	MedDRA:10029358	Unspecified	Neonatal neutropenia
+ordo:193	oboInOwl:hasDbXref	MedDRA:10049066	Unspecified	Cohen syndrome
+ordo:199	oboInOwl:hasDbXref	MedDRA:10056354	Unspecified	Cornelia de Lange syndrome
+ordo:167	oboInOwl:hasDbXref	MedDRA:10008415	Unspecified	Chédiak-Higashi syndrome
+ordo:160	oboInOwl:hasDbXref	MedDRA:10050251	Unspecified	Castleman disease
+ordo:166	oboInOwl:hasDbXref	MedDRA:10034699	Unspecified	Charcot-Marie-Tooth disease/Hereditary motor and sensory neuropathy
+ordo:99919	oboInOwl:hasDbXref	MedDRA:10044250	Unspecified	Staphylococcal toxic-shock syndrome
+ordo:99918	oboInOwl:hasDbXref	MedDRA:10044251	Unspecified	Streptococcal toxic-shock syndrome
+ordo:150	oboInOwl:hasDbXref	MedDRA:10028793	Unspecified	Nasopharyngeal carcinoma
+ordo:99906	oboInOwl:hasDbXref	MedDRA:10016221	Unspecified	Farmer's lung disease
+ordo:99908	oboInOwl:hasDbXref	MedDRA:10004941	Unspecified	Pigeon-breeder lung disease
+ordo:182	oboInOwl:hasDbXref	MedDRA:10008803	Unspecified	Chromomycosis
+ordo:184	oboInOwl:hasDbXref	MedDRA:10070535	Unspecified	Cherubism
+ordo:183	oboInOwl:hasDbXref	MedDRA:10048594	Unspecified	Eosinophilic granulomatosis with polyangiitis
+ordo:186	oboInOwl:hasDbXref	MedDRA:10019137	Unspecified	Primary biliary cholangitis
+ordo:186	oboInOwl:hasDbXref	MedDRA:10004661	Unspecified	Primary biliary cholangitis
+ordo:185	oboInOwl:hasDbXref	MedDRA:10051951	Unspecified	Scimitar syndrome
+ordo:188	oboInOwl:hasDbXref	MedDRA:10007196	Unspecified	Systemic capillary leak syndrome
+ordo:191	oboInOwl:hasDbXref	MedDRA:10009835	Unspecified	Cockayne syndrome
+ordo:190	oboInOwl:hasDbXref	MedDRA:10015901	Unspecified	Coats disease
+ordo:178	oboInOwl:hasDbXref	MedDRA:10008747	Unspecified	Chordoma
+ordo:171	oboInOwl:hasDbXref	MedDRA:10036732	Unspecified	Primary sclerosing cholangitis
+ordo:170	oboInOwl:hasDbXref	MedDRA:10048017	Unspecified	Woolly hair
+ordo:173	oboInOwl:hasDbXref	MedDRA:10008631	Unspecified	Cholera
+ordo:175	oboInOwl:hasDbXref	MedDRA:10069596	Unspecified	Cartilage-hair hypoplasia
+ordo:180	oboInOwl:hasDbXref	MedDRA:10008791	Unspecified	Choroideremia
+ordo:63999	oboInOwl:hasDbXref	MedDRA:10027074	Unspecified	IgG4-related mediastinitis
+ordo:36388	oboInOwl:hasDbXref	MedDRA:10072106	Unspecified	Paraneoplastic neurologic syndrome
+ordo:36397	oboInOwl:hasDbXref	MedDRA:10001294	Unspecified	Adiposis dolorosa
+ordo:60025	oboInOwl:hasDbXref	MedDRA:10037315	Unspecified	Pulmonary alveolar microlithiasis
+ordo:47045	oboInOwl:hasDbXref	MedDRA:10064570	Unspecified	Familial cold urticaria
+ordo:48377	oboInOwl:hasDbXref	MedDRA:10042342	Unspecified	Subcorneal pustular dermatosis
+ordo:99920	oboInOwl:hasDbXref	MedDRA:10066260	Unspecified	Acute graft versus host disease
+ordo:99922	oboInOwl:hasDbXref	MedDRA:10067776	Unspecified	Ocular cicatricial pemphigoid
+ordo:99921	oboInOwl:hasDbXref	MedDRA:10066261	Unspecified	Chronic graft versus host disease
+ordo:99927	oboInOwl:hasDbXref	MedDRA:10020481	Unspecified	Hydatidiform mole
+ordo:60014	oboInOwl:hasDbXref	MedDRA:10003094	Unspecified	Argyria
+ordo:97335	oboInOwl:hasDbXref	MedDRA:10031130	Unspecified	Osgood-Schlatter disease
+ordo:97337	oboInOwl:hasDbXref	MedDRA:10063585	Unspecified	Sinding-Larsen-Johansson disease
+ordo:97330	oboInOwl:hasDbXref	MedDRA:10048627	Unspecified	Thoracic outlet syndrome
+ordo:97332	oboInOwl:hasDbXref	MedDRA:10064242	Unspecified	Kienbock disease
+ordo:99995	oboInOwl:hasDbXref	MedDRA:10064334	Unspecified	Complex regional pain syndrome type 1
+ordo:99994	oboInOwl:hasDbXref	MedDRA:10064335	Unspecified	Complex regional pain syndrome type 2
+ordo:60041	oboInOwl:hasDbXref	MedDRA:10019263	Unspecified	Congenital heart block
+ordo:60032	oboInOwl:hasDbXref	MedDRA:10059314	Unspecified	Recurrent respiratory papillomatosis
+ordo:101016	oboInOwl:hasDbXref	MedDRA:10039211	Unspecified	Romano-Ward syndrome
+ordo:99965	oboInOwl:hasDbXref	MedDRA:10069682	Unspecified	O'Sullivan-McLeod syndrome
+ordo:101030	oboInOwl:hasDbXref	MedDRA:10071150	Unspecified	Subependymal nodular heterotopia
+ordo:2614	oboInOwl:hasDbXref	MedDRA:10063431	Unspecified	Nail-patella syndrome
+ordo:2623	oboInOwl:hasDbXref	MedDRA:10063361	Unspecified	Geleophysic dysplasia
+ordo:97352	oboInOwl:hasDbXref	MedDRA:10029400	Unspecified	Pellagra
+ordo:98671	oboInOwl:hasDbXref	MedDRA:10061323	Unspecified	Hereditary optic neuropathy
+ordo:1304	oboInOwl:hasDbXref	MedDRA:10006500	Unspecified	Brucellosis
+ordo:1309	oboInOwl:hasDbXref	MedDRA:10027104	Unspecified	Medullary sponge kidney
+ordo:96061	oboInOwl:hasDbXref	MedDRA:10053916	Unspecified	Mosaic trisomy 8
+ordo:101096	oboInOwl:hasDbXref	MedDRA:10054329	Unspecified	Aregenerative anemia
+ordo:244	oboInOwl:hasDbXref	MedDRA:10069713	Unspecified	Primary ciliary dyskinesia
+ordo:247	oboInOwl:hasDbXref	MedDRA:10058093	Unspecified	Arrhythmogenic right ventricular cardiomyopathy
+ordo:249	oboInOwl:hasDbXref	MedDRA:10016664	Unspecified	Fibrous dysplasia of bone
+ordo:2442	oboInOwl:hasDbXref	MedDRA:10068348	Unspecified	X-linked lymphoproliferative disease
+ordo:234	oboInOwl:hasDbXref	MedDRA:10013800	Unspecified	Dubin-Johnson syndrome
+ordo:233	oboInOwl:hasDbXref	MedDRA:10013799	Unspecified	Duane retraction syndrome
+ordo:235	oboInOwl:hasDbXref	MedDRA:10059589	Unspecified	Dubowitz syndrome
+ordo:232	oboInOwl:hasDbXref	MedDRA:10040641	Unspecified	Sickle cell anemia
+ordo:231	oboInOwl:hasDbXref	MedDRA:10013618	Unspecified	Dracunculiasis
+ordo:269	oboInOwl:hasDbXref	MedDRA:10064087	Unspecified	Facioscapulohumeral dystrophy
+ordo:2467	oboInOwl:hasDbXref	MedDRA:10042949	Unspecified	Systemic mastocytosis
+ordo:1136	oboInOwl:hasDbXref	MedDRA:10056945	Unspecified	Arnold-Chiari malformation type II
+ordo:2477	oboInOwl:hasDbXref	MedDRA:10050183	Unspecified	Megalencephaly
+ordo:2473	oboInOwl:hasDbXref	MedDRA:10052312	Unspecified	McKusick-Kaufman syndrome
+ordo:251	oboInOwl:hasDbXref	MedDRA:10028197	Unspecified	Multiple epiphyseal dysplasia
+ordo:253	oboInOwl:hasDbXref	MedDRA:10062920	Unspecified	Spondyloepiphyseal dysplasia and spondyloepimetaphyseal dysplasia
+ordo:201	oboInOwl:hasDbXref	MedDRA:10051906	Unspecified	Cowden syndrome
+ordo:205	oboInOwl:hasDbXref	MedDRA:10011386	Unspecified	Crigler-Najjar syndrome
+ordo:204	oboInOwl:hasDbXref	MedDRA:10011384	Unspecified	Sporadic Creutzfeldt-Jakob disease
+ordo:2404	oboInOwl:hasDbXref	MedDRA:10024797	Unspecified	Loiasis
+ordo:2406	oboInOwl:hasDbXref	MedDRA:10024792	Unspecified	Locked-in syndrome
+ordo:209	oboInOwl:hasDbXref	MedDRA:10011692	Unspecified	Cutis laxa
+ordo:223	oboInOwl:hasDbXref	MedDRA:10029147	Unspecified	Nephrogenic diabetes insipidus
+ordo:224	oboInOwl:hasDbXref	MedDRA:10028933	Unspecified	Neonatal diabetes mellitus
+ordo:2420	oboInOwl:hasDbXref	MedDRA:10037418	Unspecified	Primary pulmonary lymphoma
+ordo:221	oboInOwl:hasDbXref	MedDRA:10012503	Unspecified	Dermatomyositis
+ordo:220	oboInOwl:hasDbXref	MedDRA:10070179	Unspecified	Denys-Drash syndrome
+ordo:214	oboInOwl:hasDbXref	MedDRA:10011778	Unspecified	Cystinuria
+ordo:213	oboInOwl:hasDbXref	MedDRA:10011777	Unspecified	Cystinosis
+ordo:218	oboInOwl:hasDbXref	MedDRA:10023369	Unspecified	Darier disease
+ordo:2438	oboInOwl:hasDbXref	MedDRA:10072361	Unspecified	Hand-foot-genital syndrome
+ordo:1199	oboInOwl:hasDbXref	MedDRA:10030146	Unspecified	Esophageal atresia
+ordo:1199	oboInOwl:hasDbXref	MedDRA:10021530	Unspecified	Esophageal atresia
+ordo:36204	oboInOwl:hasDbXref	MedDRA:10025213	Unspecified	Intestinal lymphangiectasia
+ordo:289	oboInOwl:hasDbXref	MedDRA:10008724	Unspecified	Ellis Van Creveld syndrome
+ordo:288	oboInOwl:hasDbXref	MedDRA:10014490	Unspecified	Hereditary elliptocytosis
+ordo:2483	oboInOwl:hasDbXref	MedDRA:10027166	Unspecified	Melkersson-Rosenthal syndrome
+ordo:281	oboInOwl:hasDbXref	MedDRA:10011385	Unspecified	Monosomy 5p
+ordo:280	oboInOwl:hasDbXref	MedDRA:10050361	Unspecified	Wolf-Hirschhorn syndrome
+ordo:282	oboInOwl:hasDbXref	MedDRA:10068968	Unspecified	Frontotemporal dementia
+ordo:2484	oboInOwl:hasDbXref	MedDRA:10060908	Unspecified	Melnick-Needles syndrome
+ordo:2485	oboInOwl:hasDbXref	MedDRA:10050284	Unspecified	Melorheostosis
+ordo:284	oboInOwl:hasDbXref	MedDRA:10053042	Unspecified	Alveolar echinococcosis
+ordo:290	oboInOwl:hasDbXref	MedDRA:10010618	Unspecified	Congenital rubella syndrome
+ordo:277	oboInOwl:hasDbXref	MedDRA:10066367	Unspecified	Severe combined immunodeficiency due to adenosine deaminase deficiency
+ordo:2494	oboInOwl:hasDbXref	MedDRA:10017807	Unspecified	Ménétrier disease
+ordo:2494	oboInOwl:hasDbXref	MedDRA:10017868	Unspecified	Ménétrier disease
+ordo:1163	oboInOwl:hasDbXref	MedDRA:10003488	Unspecified	Aspergillosis
+ordo:1160	oboInOwl:hasDbXref	MedDRA:10003446	Unspecified	Chylous ascites
+ordo:270	oboInOwl:hasDbXref	MedDRA:10052181	Unspecified	Oculopharyngeal muscular dystrophy
+ordo:1164	oboInOwl:hasDbXref	MedDRA:10006474	Unspecified	Allergic bronchopulmonary aspergillosis
+ordo:2495	oboInOwl:hasDbXref	MedDRA:10027191	Unspecified	Meningioma
+ordo:274	oboInOwl:hasDbXref	MedDRA:10057473	Unspecified	Bernard-Soulier syndrome
+ordo:36237	oboInOwl:hasDbXref	MedDRA:10006563	Unspecified	Bullous impetigo
+ordo:36236	oboInOwl:hasDbXref	MedDRA:10041929	Unspecified	Staphylococcal scalded skin syndrome
+ordo:1183	oboInOwl:hasDbXref	MedDRA:10053854	Unspecified	Opsoclonus-myoclonus syndrome
+ordo:296	oboInOwl:hasDbXref	MedDRA:10014642	Unspecified	Ollier disease
+ordo:297	oboInOwl:hasDbXref	MedDRA:10043848	Unspecified	Tick-borne encephalitis
+ordo:98503	oboInOwl:hasDbXref	MedDRA:10028003	Unspecified	Motor neuron disease
+ordo:49566	oboInOwl:hasDbXref	MedDRA:10037556	Unspecified	Acquired purpura fulminans
+ordo:99829	oboInOwl:hasDbXref	MedDRA:10048240	Unspecified	Yellow fever
+ordo:99828	oboInOwl:hasDbXref	MedDRA:10012310	Unspecified	Dengue fever
+ordo:99824	oboInOwl:hasDbXref	MedDRA:10023927	Unspecified	Lassa fever
+ordo:99826	oboInOwl:hasDbXref	MedDRA:10026822	Unspecified	Marburg hemorrhagic fever
+ordo:97214	oboInOwl:hasDbXref	MedDRA:10058554	Unspecified	Eisenmenger syndrome
+ordo:73247	oboInOwl:hasDbXref	MedDRA:10064212	Unspecified	Eosinophilic esophagitis
+ordo:99867	oboInOwl:hasDbXref	MedDRA:10043670	Unspecified	Thymoma
+ordo:99868	oboInOwl:hasDbXref	MedDRA:10061031	Unspecified	Thymic carcinoma
+ordo:210272	oboInOwl:hasDbXref	MedDRA:10064924	Unspecified	Mal de débarquement
+ordo:98578	oboInOwl:hasDbXref	MedDRA:10037272	Unspecified	Rare disorder with ptosis
+ordo:98578	oboInOwl:hasDbXref	MedDRA:10015995	Unspecified	Rare disorder with ptosis
+ordo:97245	oboInOwl:hasDbXref	MedDRA:10062547	Unspecified	Congenital myopathy
+ordo:73260	oboInOwl:hasDbXref	MedDRA:10061906	Unspecified	Paracoccidioidomycosis
+ordo:302	oboInOwl:hasDbXref	MedDRA:10052339	Unspecified	Epidermodysplasia verruciformis
+ordo:97230	oboInOwl:hasDbXref	MedDRA:10041307	Unspecified	Solar urticaria
+ordo:97238	oboInOwl:hasDbXref	MedDRA:10069417	Unspecified	Rippling muscle disease
+ordo:97231	oboInOwl:hasDbXref	MedDRA:10071570	Unspecified	Ligneous conjunctivitis
+ordo:73263	oboInOwl:hasDbXref	MedDRA:10028098	Unspecified	Zygomycosis
+ordo:73263	oboInOwl:hasDbXref	MedDRA:10061418	Unspecified	Zygomycosis
+ordo:308	oboInOwl:hasDbXref	MedDRA:10054895	Unspecified	Progressive myoclonic epilepsy type 1
+ordo:307	oboInOwl:hasDbXref	MedDRA:10071082	Unspecified	Juvenile myoclonic epilepsy
+ordo:97292	oboInOwl:hasDbXref	MedDRA:10007625	Unspecified	Cardiogenic shock
+ordo:97282	oboInOwl:hasDbXref	MedDRA:10047430	Unspecified	VIPoma
+ordo:97283	oboInOwl:hasDbXref	MedDRA:10041329	Unspecified	Somatostatinoma
+ordo:97280	oboInOwl:hasDbXref	MedDRA:10018404	Unspecified	Glucagonoma
+ordo:97279	oboInOwl:hasDbXref	MedDRA:10022498	Unspecified	Insulinoma
+ordo:97275	oboInOwl:hasDbXref	MedDRA:10014581	Unspecified	Encephalitis
+ordo:2322	oboInOwl:hasDbXref	MedDRA:10063935	Unspecified	Kabuki syndrome
+ordo:2330	oboInOwl:hasDbXref	MedDRA:10058423	Unspecified	Kasabach-Merritt syndrome
+ordo:2331	oboInOwl:hasDbXref	MedDRA:10023320	Unspecified	Kawasaki disease
+ordo:2356	oboInOwl:hasDbXref	MedDRA:10049005	Unspecified	Arachnoid cyst
+ordo:2357	oboInOwl:hasDbXref	MedDRA:10064585	Unspecified	Bronchogenic cyst
+ordo:2300	oboInOwl:hasDbXref	MedDRA:10028210	Unspecified	Multiple intestinal atresia
+ordo:1070	oboInOwl:hasDbXref	MedDRA:10002533	Unspecified	Anisakiasis
+ordo:1077	oboInOwl:hasDbXref	MedDRA:10044019	Unspecified	Dental ankylosis
+ordo:1081	oboInOwl:hasDbXref	MedDRA:10061060	Unspecified	Coronary artery congenital malformation
+ordo:50839	oboInOwl:hasDbXref	MedDRA:10007729	Unspecified	Cat-scratch disease
+ordo:86839	oboInOwl:hasDbXref	MedDRA:10038270	Unspecified	Refractory anemia with excess blasts
+ordo:86836	oboInOwl:hasDbXref	MedDRA:10067959	Unspecified	Refractory cytopenia with multilineage dysplasia
+ordo:86834	oboInOwl:hasDbXref	MedDRA:10023249	Unspecified	Juvenile myelomonocytic leukemia
+ordo:2368	oboInOwl:hasDbXref	MedDRA:10018046	Unspecified	Gastroschisis
+ordo:1037	oboInOwl:hasDbXref	MedDRA:10051643	Unspecified	Arthrogryposis multiplex congenita
+ordo:98824	oboInOwl:hasDbXref	MedDRA:10054651	Unspecified	Atypical chronic myeloid leukemia
+ordo:98823	oboInOwl:hasDbXref	MedDRA:10009018	Unspecified	Chronic myelomonocytic leukemia
+ordo:98826	oboInOwl:hasDbXref	MedDRA:10038269	Unspecified	Refractory anemia
+ordo:2372	oboInOwl:hasDbXref	MedDRA:10023885	Unspecified	Laryngocele
+ordo:2373	oboInOwl:hasDbXref	MedDRA:10060786	Unspecified	Congenital laryngomalacia
+ordo:1041	oboInOwl:hasDbXref	MedDRA:10020529	Unspecified	Hydrops fetalis
+ordo:98810	oboInOwl:hasDbXref	MedDRA:10065658	Unspecified	Paroxysmal non-kinesigenic dyskinesia
+ordo:98810	oboInOwl:hasDbXref	MedDRA:10065657	Unspecified	Paroxysmal non-kinesigenic dyskinesia
+ordo:2374	oboInOwl:hasDbXref	MedDRA:10023871	Unspecified	Congenital laryngeal web
+ordo:1047	oboInOwl:hasDbXref	MedDRA:10040661	Unspecified	Sideroblastic anemia
+ordo:2377	oboInOwl:hasDbXref	MedDRA:10056710	Unspecified	Laurence-Moon syndrome
+ordo:98818	oboInOwl:hasDbXref	MedDRA:10052075	Unspecified	Landau-Kleffner syndrome
+ordo:86843	oboInOwl:hasDbXref	MedDRA:10000879	Unspecified	Acute panmyelosis with myelofibrosis
+ordo:2382	oboInOwl:hasDbXref	MedDRA:10048816	Unspecified	Lennox-Gastaut syndrome
+ordo:2380	oboInOwl:hasDbXref	MedDRA:10034735	Unspecified	Legg-Calvé-Perthes disease
+ordo:86879	oboInOwl:hasDbXref	MedDRA:10065855	Unspecified	Extranodal nasal NK/T cell lymphoma
+ordo:86875	oboInOwl:hasDbXref	MedDRA:10001413	Unspecified	Adult T-cell leukemia/lymphoma
+ordo:86873	oboInOwl:hasDbXref	MedDRA:10028811	Unspecified	Aggressive NK-cell leukemia
+ordo:86871	oboInOwl:hasDbXref	MedDRA:10042985	Unspecified	T-cell prolymphocytic leukemia
+ordo:86872	oboInOwl:hasDbXref	MedDRA:10065862	Unspecified	T-cell large granular lymphocyte leukemia
+ordo:98851	oboInOwl:hasDbXref	MedDRA:10056450	Unspecified	Mast cell leukemia
+ordo:98850	oboInOwl:hasDbXref	MedDRA:10056453	Unspecified	Aggressive systemic mastocytosis
+ordo:86886	oboInOwl:hasDbXref	MedDRA:10002449	Unspecified	Angioimmunoblastic T-cell lymphoma
+ordo:86885	oboInOwl:hasDbXref	MedDRA:10034623	Unspecified	Primary cutaneous peripheral T-cell lymphoma not otherwise specified
+ordo:86882	oboInOwl:hasDbXref	MedDRA:10066957	Unspecified	Hepatosplenic T-cell lymphoma
+ordo:86880	oboInOwl:hasDbXref	MedDRA:10022703	Unspecified	Enteropathy-associated T-cell lymphoma
+ordo:86855	oboInOwl:hasDbXref	MedDRA:10035484	Unspecified	Plasmacytoma
+ordo:98842	oboInOwl:hasDbXref	MedDRA:10056670	Unspecified	Lymphomatoid papulosis
+ordo:98845	oboInOwl:hasDbXref	MedDRA:10020231	Unspecified	Classic Hodgkin lymphoma, lymphocyte-rich type
+ordo:98848	oboInOwl:hasDbXref	MedDRA:10056452	Unspecified	Indolent systemic mastocytosis
+ordo:86854	oboInOwl:hasDbXref	MedDRA:10062113	Unspecified	Splenic marginal zone lymphoma
+ordo:86851	oboInOwl:hasDbXref	MedDRA:10067399	Unspecified	Acute leukemia of ambiguous lineage
+ordo:86869	oboInOwl:hasDbXref	MedDRA:10025325	Unspecified	Lymphomatoid granulomatosis
+ordo:86867	oboInOwl:hasDbXref	MedDRA:10029460	Unspecified	Nodal marginal zone B-cell lymphoma
+ordo:98839	oboInOwl:hasDbXref	MedDRA:10069643	Unspecified	Intravascular large B-cell lymphoma
+ordo:98838	oboInOwl:hasDbXref	MedDRA:10036710	Unspecified	Primary mediastinal large B-cell lymphoma
+ordo:98835	oboInOwl:hasDbXref	MedDRA:10045516	Unspecified	Acute undifferentiated leukemia
+ordo:86864	oboInOwl:hasDbXref	MedDRA:10019350	Unspecified	Heavy chain disease
+ordo:98896	oboInOwl:hasDbXref	MedDRA:10013801	Unspecified	Duchenne muscular dystrophy
+ordo:98892	oboInOwl:hasDbXref	MedDRA:10066854	Unspecified	Periventricular nodular heterotopia
+ordo:295034	oboInOwl:hasDbXref	MedDRA:10010520	Unspecified	Congenital knee dislocation
+ordo:98895	oboInOwl:hasDbXref	MedDRA:10059117	Unspecified	Becker muscular dystrophy
+ordo:211266	oboInOwl:hasDbXref	MedDRA:10003193	Unspecified	Rare arteriovenous malformation
+ordo:98879	oboInOwl:hasDbXref	MedDRA:10016077	Unspecified	Hemophilia B
+ordo:97548	oboInOwl:hasDbXref	MedDRA:10068335	Unspecified	Right sided atrial isomerism
+ordo:98878	oboInOwl:hasDbXref	MedDRA:10016080	Unspecified	Hemophilia A
+ordo:211252	oboInOwl:hasDbXref	MedDRA:10025532	Unspecified	Rare venous malformation
+ordo:139402	oboInOwl:hasDbXref	MedDRA:10058919	Unspecified	Drug rash with eosinophilia and systemic symptoms
+ordo:97593	oboInOwl:hasDbXref	MedDRA:10037126	Unspecified	Pseudohypoparathyroidism
+ordo:96263	oboInOwl:hasDbXref	MedDRA:10048228	Unspecified	48,XXXY syndrome
+ordo:96253	oboInOwl:hasDbXref	MedDRA:10035109	Unspecified	Cushing disease
+ordo:139436	oboInOwl:hasDbXref	MedDRA:10070595	Unspecified	Multicentric reticulohistiocytosis
+ordo:2220	oboInOwl:hasDbXref	MedDRA:10068636	Unspecified	Hypertrichosis cubiti
+ordo:37748	oboInOwl:hasDbXref	MedDRA:10062908	Unspecified	Schnitzler syndrome
+ordo:36426	oboInOwl:hasDbXref	MedDRA:10042033	Unspecified	Stevens-Johnson syndrome
+ordo:2290	oboInOwl:hasDbXref	MedDRA:10068494	Unspecified	Microvillus inclusion disease
+ordo:2292	oboInOwl:hasDbXref	MedDRA:10054064	Unspecified	Congenital bowing of long bones
+ordo:2299	oboInOwl:hasDbXref	MedDRA:10022599	Unspecified	Aortic arch interruption
+ordo:35125	oboInOwl:hasDbXref	MedDRA:10014985	Unspecified	Epidermal nevus syndrome
+ordo:2248	oboInOwl:hasDbXref	MedDRA:10021076	Unspecified	Hypoplastic left heart syndrome
+ordo:35122	oboInOwl:hasDbXref	MedDRA:10066387	Unspecified	Congenital sucrase-isomaltase deficiency
+ordo:308684	oboInOwl:hasDbXref	MedDRA:10053250	Unspecified	Glycogen storage disease due to glycogen branching enzyme deficiency, childhood combined hepatic and myopathic form
+ordo:247257	oboInOwl:hasDbXref	MedDRA:10035667	Unspecified	Inhalational anthrax
+ordo:199251	oboInOwl:hasDbXref	MedDRA:10035154	Unspecified	Ledderhose disease
+ordo:199244	oboInOwl:hasDbXref	MedDRA:10028913	Unspecified	Nelson syndrome
+ordo:48471	oboInOwl:hasDbXref	MedDRA:10048911	Unspecified	Lissencephaly
+ordo:98731	oboInOwl:hasDbXref	MedDRA:10003226	Unspecified	Congenital arteriovenous fistula
+ordo:47159	oboInOwl:hasDbXref	MedDRA:10037080	Unspecified	Proximal renal tubular acidosis
+ordo:98723	oboInOwl:hasDbXref	MedDRA:10050053	Unspecified	Hypoplastic right heart syndrome
+ordo:98723	oboInOwl:hasDbXref	MedDRA:10064962	Unspecified	Hypoplastic right heart syndrome
+ordo:98724	oboInOwl:hasDbXref	MedDRA:10061080	Unspecified	Congenital anomaly of the great arteries
+ordo:98715	oboInOwl:hasDbXref	MedDRA:10046851	Unspecified	Uveitis
+ordo:284264	oboInOwl:hasDbXref	MedDRA:10071569	Unspecified	IgG4-related disease
+ordo:85443	oboInOwl:hasDbXref	MedDRA:10036673	Unspecified	AL amyloidosis
+ordo:85445	oboInOwl:hasDbXref	MedDRA:10039811	Unspecified	AA amyloidosis
+ordo:563	oboInOwl:hasDbXref	MedDRA:10049430	Unspecified	Peripartum cardiomyopathy
+ordo:565	oboInOwl:hasDbXref	MedDRA:10027294	Unspecified	Menkes disease
+ordo:567	oboInOwl:hasDbXref	MedDRA:10066430	Unspecified	22q11.2 deletion syndrome
+ordo:567	oboInOwl:hasDbXref	MedDRA:10012979	Unspecified	22q11.2 deletion syndrome
+ordo:1671	oboInOwl:hasDbXref	MedDRA:10012750	Unspecified	Split cord malformation type I
+ordo:1675	oboInOwl:hasDbXref	MedDRA:10052622	Unspecified	Dihydropyrimidine dehydrogenase deficiency
+ordo:1679	oboInOwl:hasDbXref	MedDRA:10013023	Unspecified	Diphtheria
+ordo:553	oboInOwl:hasDbXref	MedDRA:10020610	Unspecified	Cushing syndrome
+ordo:553	oboInOwl:hasDbXref	MedDRA:10020564	Unspecified	Cushing syndrome
+ordo:553	oboInOwl:hasDbXref	MedDRA:10020562	Unspecified	Cushing syndrome
+ordo:553	oboInOwl:hasDbXref	MedDRA:10011652	Unspecified	Cushing syndrome
+ordo:558	oboInOwl:hasDbXref	MedDRA:10026829	Unspecified	Marfan syndrome
+ordo:551	oboInOwl:hasDbXref	MedDRA:10069825	Unspecified	MERRF
+ordo:550	oboInOwl:hasDbXref	MedDRA:10053872	Unspecified	MELAS
+ordo:586	oboInOwl:hasDbXref	MedDRA:10011762	Unspecified	Cystic fibrosis
+ordo:587	oboInOwl:hasDbXref	MedDRA:10063042	Unspecified	Muir-Torre syndrome
+ordo:589	oboInOwl:hasDbXref	MedDRA:10028417	Unspecified	Myasthenia gravis
+ordo:580	oboInOwl:hasDbXref	MedDRA:10056889	Unspecified	Mucopolysaccharidosis type 2
+ordo:582	oboInOwl:hasDbXref	MedDRA:10028095	Unspecified	Mucopolysaccharidosis type 4
+ordo:581	oboInOwl:hasDbXref	MedDRA:10056890	Unspecified	Mucopolysaccharidosis type 3
+ordo:584	oboInOwl:hasDbXref	MedDRA:10056893	Unspecified	Mucopolysaccharidosis type 7
+ordo:583	oboInOwl:hasDbXref	MedDRA:10056892	Unspecified	Mucopolysaccharidosis type 6
+ordo:575	oboInOwl:hasDbXref	MedDRA:10064569	Unspecified	Muckle-Wells syndrome
+ordo:579	oboInOwl:hasDbXref	MedDRA:10056886	Unspecified	Mucopolysaccharidosis type 1
+ordo:570	oboInOwl:hasDbXref	MedDRA:10030069	Unspecified	Moebius syndrome
+ordo:319254	oboInOwl:hasDbXref	MedDRA:10023505	Unspecified	Kyasanur forest disease
+ordo:319247	oboInOwl:hasDbXref	MedDRA:10019143	Unspecified	Hantavirus pulmonary syndrome
+ordo:319251	oboInOwl:hasDbXref	MedDRA:10039143	Unspecified	Rift valley fever
+ordo:319266	oboInOwl:hasDbXref	MedDRA:10030310	Unspecified	Omsk hemorrhagic fever
+ordo:319218	oboInOwl:hasDbXref	MedDRA:10014071	Unspecified	Ebola hemorrhagic fever
+ordo:46135	oboInOwl:hasDbXref	MedDRA:10036685	Unspecified	Primary central nervous system lymphoma
+ordo:319229	oboInOwl:hasDbXref	MedDRA:10005932	Unspecified	Bolivian hemorrhagic fever
+ordo:319319	oboInOwl:hasDbXref	MedDRA:10064886	Unspecified	Renal medullary carcinoma
+ordo:640	oboInOwl:hasDbXref	MedDRA:10069382	Unspecified	Hereditary neuropathy with liability to pressure palsies
+ordo:644	oboInOwl:hasDbXref	MedDRA:10062940	Unspecified	NARP syndrome
+ordo:647	oboInOwl:hasDbXref	MedDRA:10067857	Unspecified	Nijmegen breakage syndrome
+ordo:649	oboInOwl:hasDbXref	MedDRA:10069760	Unspecified	Norrie disease
+ordo:648	oboInOwl:hasDbXref	MedDRA:10029748	Unspecified	Noonan syndrome
+ordo:631	oboInOwl:hasDbXref	MedDRA:10035083	Unspecified	Non-acquired isolated growth hormone deficiency
+ordo:634	oboInOwl:hasDbXref	MedDRA:10062909	Unspecified	Netherton syndrome
+ordo:636	oboInOwl:hasDbXref	MedDRA:10047712	Unspecified	Neurofibromatosis type 1
+ordo:635	oboInOwl:hasDbXref	MedDRA:10029260	Unspecified	Neuroblastoma
+ordo:1764	oboInOwl:hasDbXref	MedDRA:10039179	Unspecified	Familial dysautonomia
+ordo:1766	oboInOwl:hasDbXref	MedDRA:10013140	Unspecified	Dysequilibrium syndrome
+ordo:637	oboInOwl:hasDbXref	MedDRA:10000523	Unspecified	Neurofibromatosis type 2
+ordo:637	oboInOwl:hasDbXref	MedDRA:10029271	Unspecified	Neurofibromatosis type 2
+ordo:662	oboInOwl:hasDbXref	MedDRA:10048244	Unspecified	Yellow nail syndrome
+ordo:664	oboInOwl:hasDbXref	MedDRA:10052450	Unspecified	Ornithine transcarbamylase deficiency
+ordo:666	oboInOwl:hasDbXref	MedDRA:10031243	Unspecified	Osteogenesis imperfecta
+ordo:668	oboInOwl:hasDbXref	MedDRA:10031291	Unspecified	Osteosarcoma
+ordo:1775	oboInOwl:hasDbXref	MedDRA:10062759	Unspecified	Dyskeratosis congenita
+ordo:661	oboInOwl:hasDbXref	MedDRA:10066131	Unspecified	Ondine syndrome
+ordo:661	oboInOwl:hasDbXref	MedDRA:10007982	Unspecified	Ondine syndrome
+ordo:660	oboInOwl:hasDbXref	MedDRA:10030308	Unspecified	Omphalocele
+ordo:652	oboInOwl:hasDbXref	MedDRA:10028190	Unspecified	Multiple endocrine neoplasia type 1
+ordo:654	oboInOwl:hasDbXref	MedDRA:10029145	Unspecified	Nephroblastoma
+ordo:653	oboInOwl:hasDbXref	MedDRA:10028191	Unspecified	Multiple endocrine neoplasia type 2
+ordo:659	oboInOwl:hasDbXref	MedDRA:10068842	Unspecified	Mutilating palmoplantar keratoderma with periorificial keratotic plaques
+ordo:213620	oboInOwl:hasDbXref	MedDRA:10039497	Unspecified	Sarcoma of the corpus uteri
+ordo:624	oboInOwl:hasDbXref	MedDRA:10067193	Unspecified	Familial multiple nevi flammei
+ordo:626	oboInOwl:hasDbXref	MedDRA:10072036	Unspecified	Large congenital melanocytic nevus
+ordo:611	oboInOwl:hasDbXref	MedDRA:10066407	Unspecified	Inclusion body myositis
+ordo:614	oboInOwl:hasDbXref	MedDRA:10043461	Unspecified	Thomsen and Becker disease
+ordo:614	oboInOwl:hasDbXref	MedDRA:10028655	Unspecified	Thomsen and Becker disease
+ordo:616	oboInOwl:hasDbXref	MedDRA:10027107	Unspecified	Medulloblastoma
+ordo:685	oboInOwl:hasDbXref	MedDRA:10019903	Unspecified	Hereditary spastic paraplegia
+ordo:683	oboInOwl:hasDbXref	MedDRA:10036813	Unspecified	Progressive supranuclear palsy
+ordo:2882	oboInOwl:hasDbXref	MedDRA:10063985	Unspecified	Sitosterolemia
+ordo:251909	oboInOwl:hasDbXref	MedDRA:10050487	Unspecified	Pineoblastoma
+ordo:673	oboInOwl:hasDbXref	MedDRA:10025487	Unspecified	Malaria
+ordo:675	oboInOwl:hasDbXref	MedDRA:10071757	Unspecified	Annular pancreas
+ordo:679	oboInOwl:hasDbXref	MedDRA:10064281	Unspecified	Malignant atrophic papulosis
+ordo:2897	oboInOwl:hasDbXref	MedDRA:10035116	Unspecified	Pityriasis rubra pilaris
+ordo:1560	oboInOwl:hasDbXref	MedDRA:10011775	Unspecified	Cysticercosis
+ordo:1572	oboInOwl:hasDbXref	MedDRA:10021449	Unspecified	Common variable immunodeficiency
+ordo:699	oboInOwl:hasDbXref	MedDRA:10062941	Unspecified	Pearson syndrome
+ordo:251912	oboInOwl:hasDbXref	MedDRA:10035059	Unspecified	Pineocytoma
+ordo:251949	oboInOwl:hasDbXref	MedDRA:10017701	Unspecified	Ganglioglioma
+ordo:59305	oboInOwl:hasDbXref	MedDRA:10061988	Unspecified	Gestational trophoblastic neoplasm
+ordo:86900	oboInOwl:hasDbXref	MedDRA:10038804	Unspecified	Interdigitating dendritic cell sarcoma
+ordo:98944	oboInOwl:hasDbXref	MedDRA:10052642	Unspecified	Coloboma of iris
+ordo:48686	oboInOwl:hasDbXref	MedDRA:10065857	Unspecified	Primary effusion lymphoma
+ordo:58017	oboInOwl:hasDbXref	MedDRA:10019053	Unspecified	Classic hairy cell leukemia
+ordo:251992	oboInOwl:hasDbXref	MedDRA:10017709	Unspecified	Ganglioneuroma
+ordo:98919	oboInOwl:hasDbXref	MedDRA:10049567	Unspecified	Miller Fisher syndrome
+ordo:98980	oboInOwl:hasDbXref	MedDRA:10059200	Unspecified	Cogan-Reese syndrome
+ordo:309845	oboInOwl:hasDbXref	MedDRA:10048260	Unspecified	Disorder of zinc metabolism and transport
+ordo:58040	oboInOwl:hasDbXref	MedDRA:10004430	Unspecified	Osteoblastoma
+ordo:98978	oboInOwl:hasDbXref	MedDRA:10058653	Unspecified	Axenfeld anomaly
+ordo:98977	oboInOwl:hasDbXref	MedDRA:10064032	Unspecified	Juvenile glaucoma
+ordo:98979	oboInOwl:hasDbXref	MedDRA:10057487	Unspecified	Chandler syndrome
+ordo:700	oboInOwl:hasDbXref	MedDRA:10001766	Unspecified	Alopecia totalis
+ordo:702	oboInOwl:hasDbXref	MedDRA:10067610	Unspecified	Pelizaeus-Merzbacher disease
+ordo:701	oboInOwl:hasDbXref	MedDRA:10001767	Unspecified	Alopecia universalis
+ordo:2905	oboInOwl:hasDbXref	MedDRA:10053869	Unspecified	POEMS syndrome
+ordo:2901	oboInOwl:hasDbXref	MedDRA:10063020	Unspecified	Neuralgic amyotrophy
+ordo:98969	oboInOwl:hasDbXref	MedDRA:10025406	Unspecified	Macular corneal dystrophy
+ordo:704	oboInOwl:hasDbXref	MedDRA:10052802	Unspecified	Pemphigus vulgaris
+ordo:708	oboInOwl:hasDbXref	MedDRA:10059202	Unspecified	Peters anomaly
+ordo:707	oboInOwl:hasDbXref	MedDRA:10061416	Unspecified	Plague
+ordo:707	oboInOwl:hasDbXref	MedDRA:10035148	Unspecified	Plague
+ordo:2911	oboInOwl:hasDbXref	MedDRA:10036007	Unspecified	Poland syndrome
+ordo:2912	oboInOwl:hasDbXref	MedDRA:10036012	Unspecified	Poliomyelitis
+ordo:2913	oboInOwl:hasDbXref	MedDRA:10036063	Unspecified	Non-syndromic polydactyly
+ordo:98991	oboInOwl:hasDbXref	MedDRA:10057735	Unspecified	Early-onset nuclear cataract
+ordo:98991	oboInOwl:hasDbXref	MedDRA:10007759	Unspecified	Early-onset nuclear cataract
+ordo:309839	oboInOwl:hasDbXref	MedDRA:10061091	Unspecified	Disorder of copper metabolism
+ordo:764	oboInOwl:hasDbXref	MedDRA:10037652	Unspecified	Pyomyositis
+ordo:768	oboInOwl:hasDbXref	MedDRA:10057926	Unspecified	Familial long QT syndrome
+ordo:767	oboInOwl:hasDbXref	MedDRA:10036024	Unspecified	Polyarteritis nodosa
+ordo:2965	oboInOwl:hasDbXref	MedDRA:10036832	Unspecified	Prolactinoma
+ordo:753	oboInOwl:hasDbXref	MedDRA:10000029	Unspecified	46,XY disorder of sex development due to 5-alpha-reductase 2 deficiency
+ordo:755	oboInOwl:hasDbXref	MedDRA:10024406	Unspecified	Leydig cell hypoplasia
+ordo:754	oboInOwl:hasDbXref	MedDRA:10056292	Unspecified	Androgen insensitivity syndrome
+ordo:2970	oboInOwl:hasDbXref	MedDRA:10051025	Unspecified	Prune belly syndrome
+ordo:758	oboInOwl:hasDbXref	MedDRA:10037150	Unspecified	Pseudoxanthoma elasticum
+ordo:783	oboInOwl:hasDbXref	MedDRA:10039281	Unspecified	Rubinstein-Taybi syndrome
+ordo:780	oboInOwl:hasDbXref	MedDRA:10039022	Unspecified	Rhabdomyosarcoma
+ordo:782	oboInOwl:hasDbXref	MedDRA:10059255	Unspecified	Axenfeld-Rieger syndrome
+ordo:781	oboInOwl:hasDbXref	MedDRA:10037688	Unspecified	Q fever
+ordo:781	oboInOwl:hasDbXref	MedDRA:10037731	Unspecified	Q fever
+ordo:1652	oboInOwl:hasDbXref	MedDRA:10069199	Unspecified	Dent disease
+ordo:1656	oboInOwl:hasDbXref	MedDRA:10012468	Unspecified	Dermatitis herpetiformis
+ordo:773	oboInOwl:hasDbXref	MedDRA:10038275	Unspecified	Refsum disease
+ordo:774	oboInOwl:hasDbXref	MedDRA:10019883	Unspecified	Hereditary hemorrhagic telangiectasia
+ordo:778	oboInOwl:hasDbXref	MedDRA:10039000	Unspecified	Rett syndrome
+ordo:1666	oboInOwl:hasDbXref	MedDRA:10012592	Unspecified	Dextrocardia
+ordo:770	oboInOwl:hasDbXref	MedDRA:10037742	Unspecified	Rabies
+ordo:2924	oboInOwl:hasDbXref	MedDRA:10048834	Unspecified	Isolated polycystic liver disease
+ordo:2924	oboInOwl:hasDbXref	MedDRA:10010427	Unspecified	Isolated polycystic liver disease
+ordo:726	oboInOwl:hasDbXref	MedDRA:10062943	Unspecified	Alpers-Huttenlocher syndrome
+ordo:728	oboInOwl:hasDbXref	MedDRA:10038304	Unspecified	Relapsing polychondritis
+ordo:727	oboInOwl:hasDbXref	MedDRA:10063344	Unspecified	Microscopic polyangiitis
+ordo:729	oboInOwl:hasDbXref	MedDRA:10036057	Unspecified	Polycythemia vera
+ordo:2930	oboInOwl:hasDbXref	MedDRA:10062907	Unspecified	Cronkhite-Canada syndrome
+ordo:2932	oboInOwl:hasDbXref	MedDRA:10057645	Unspecified	Chronic inflammatory demyelinating polyneuropathy
+ordo:716	oboInOwl:hasDbXref	MedDRA:10034872	Unspecified	Phenylketonuria
+ordo:740	oboInOwl:hasDbXref	MedDRA:10036794	Unspecified	Hutchinson-Gilford progeria syndrome
+ordo:2940	oboInOwl:hasDbXref	MedDRA:10036172	Unspecified	Porencephaly
+ordo:731	oboInOwl:hasDbXref	MedDRA:10036047	Unspecified	Autosomal recessive polycystic kidney disease
+ordo:733	oboInOwl:hasDbXref	MedDRA:10056981	Unspecified	Familial adenomatous polyposis
+ordo:732	oboInOwl:hasDbXref	MedDRA:10036102	Unspecified	Polymyositis
+ordo:739	oboInOwl:hasDbXref	MedDRA:10036476	Unspecified	Prader-Willi syndrome
+ordo:738	oboInOwl:hasDbXref	MedDRA:10061356	Unspecified	Porphyria
+ordo:738	oboInOwl:hasDbXref	MedDRA:10036181	Unspecified	Porphyria
+ordo:213711	oboInOwl:hasDbXref	MedDRA:10057649	Unspecified	Endometrial stromal sarcoma
+ordo:366	oboInOwl:hasDbXref	MedDRA:10053250	Unspecified	Glycogen storage disease due to glycogen debranching enzyme deficiency
+ordo:365	oboInOwl:hasDbXref	MedDRA:10053185	Unspecified	Glycogen storage disease due to acid maltase deficiency
+ordo:368	oboInOwl:hasDbXref	MedDRA:10018462	Unspecified	Glycogen storage disease due to muscle glycogen phosphorylase deficiency
+ordo:367	oboInOwl:hasDbXref	MedDRA:10053249	Unspecified	Glycogen storage disease due to glycogen branching enzyme deficiency
+ordo:369	oboInOwl:hasDbXref	MedDRA:10053240	Unspecified	Glycogen storage disease due to liver glycogen phosphorylase deficiency
+ordo:360	oboInOwl:hasDbXref	MedDRA:10018337	Unspecified	Glioblastoma
+ordo:360	oboInOwl:hasDbXref	MedDRA:10018336	Unspecified	Glioblastoma
+ordo:1478	oboInOwl:hasDbXref	MedDRA:10003664	Unspecified	Interatrial communication
+ordo:1478	oboInOwl:hasDbXref	MedDRA:10068864	Unspecified	Interatrial communication
+ordo:364	oboInOwl:hasDbXref	MedDRA:10018464	Unspecified	Glycogen storage disease due to glucose-6-phosphatase deficiency
+ordo:355	oboInOwl:hasDbXref	MedDRA:10018048	Unspecified	Gaucher disease
+ordo:356	oboInOwl:hasDbXref	MedDRA:10072075	Unspecified	Gerstmann-Straussler-Scheinker syndrome
+ordo:358	oboInOwl:hasDbXref	MedDRA:10062906	Unspecified	Gitelman syndrome
+ordo:1489	oboInOwl:hasDbXref	MedDRA:10047974	Unspecified	Whooping cough
+ordo:1489	oboInOwl:hasDbXref	MedDRA:10034738	Unspecified	Whooping cough
+ordo:352	oboInOwl:hasDbXref	MedDRA:10017604	Unspecified	Galactosemia
+ordo:388	oboInOwl:hasDbXref	MedDRA:10010539	Unspecified	Hirschsprung disease
+ordo:389	oboInOwl:hasDbXref	MedDRA:10069698	Unspecified	Langerhans cell histiocytosis
+ordo:380	oboInOwl:hasDbXref	MedDRA:10053878	Unspecified	Greig cephalopolysyndactyly syndrome
+ordo:377	oboInOwl:hasDbXref	MedDRA:10062804	Unspecified	Gorlin syndrome
+ordo:379	oboInOwl:hasDbXref	MedDRA:10008906	Unspecified	Chronic granulomatous disease
+ordo:371	oboInOwl:hasDbXref	MedDRA:10053241	Unspecified	Glycogen storage disease due to muscle phosphofructokinase deficiency
+ordo:164004	oboInOwl:hasDbXref	MedDRA:10060957	Unspecified	Middle ear anomaly
+ordo:375	oboInOwl:hasDbXref	MedDRA:10018620	Unspecified	Anti-glomerular basement membrane disease
+ordo:47612	oboInOwl:hasDbXref	MedDRA:10016386	Unspecified	Felty syndrome
+ordo:324	oboInOwl:hasDbXref	MedDRA:10016016	Unspecified	Fabry disease
+ordo:326	oboInOwl:hasDbXref	MedDRA:10048930	Unspecified	Congenital factor V deficiency
+ordo:327	oboInOwl:hasDbXref	MedDRA:10016079	Unspecified	Congenital factor VII deficiency
+ordo:2764	oboInOwl:hasDbXref	MedDRA:10031231	Unspecified	Osteochondritis dissecans
+ordo:2762	oboInOwl:hasDbXref	MedDRA:10048902	Unspecified	Progressive osseous heteroplasia
+ordo:2768	oboInOwl:hasDbXref	MedDRA:10072255	Unspecified	Blount disease
+ordo:313	oboInOwl:hasDbXref	MedDRA:10023686	Unspecified	Lamellar ichthyosis
+ordo:317	oboInOwl:hasDbXref	MedDRA:10049048	Unspecified	Erythrokeratodermia variabilis
+ordo:2771	oboInOwl:hasDbXref	MedDRA:10063718	Unspecified	Bruck syndrome
+ordo:319	oboInOwl:hasDbXref	MedDRA:10015560	Unspecified	Skeletal Ewing sarcoma
+ordo:345	oboInOwl:hasDbXref	MedDRA:10056961	Unspecified	Dissecting cellulitis of the scalp
+ordo:2788	oboInOwl:hasDbXref	MedDRA:10052452	Unspecified	Osteoporosis-pseudoglioma syndrome
+ordo:340	oboInOwl:hasDbXref	MedDRA:10023484	Unspecified	Hemorrhagic fever-renal syndrome
+ordo:1457	oboInOwl:hasDbXref	MedDRA:10009807	Unspecified	Aorta coarctation
+ordo:2781	oboInOwl:hasDbXref	MedDRA:10031280	Unspecified	Osteopetrosis and related disorders
+ordo:342	oboInOwl:hasDbXref	MedDRA:10016207	Unspecified	Familial Mediterranean fever
+ordo:332	oboInOwl:hasDbXref	MedDRA:10070440	Unspecified	Congenital intrinsic factor deficiency
+ordo:337	oboInOwl:hasDbXref	MedDRA:10068715	Unspecified	Fibrodysplasia ossificans progressiva
+ordo:2796	oboInOwl:hasDbXref	MedDRA:10051686	Unspecified	Pachydermoperiostosis
+ordo:1464	oboInOwl:hasDbXref	MedDRA:10045545	Unspecified	Univentricular heart
+ordo:1467	oboInOwl:hasDbXref	MedDRA:10056667	Unspecified	Cogan syndrome
+ordo:35689	oboInOwl:hasDbXref	MedDRA:10036704	Unspecified	Primary lateral sclerosis
+ordo:35687	oboInOwl:hasDbXref	MedDRA:10060801	Unspecified	Erdheim-Chester disease
+ordo:35698	oboInOwl:hasDbXref	MedDRA:10059396	Unspecified	Mitochondrial DNA depletion syndrome
+ordo:399	oboInOwl:hasDbXref	MedDRA:10070668	Unspecified	Huntington disease
+ordo:390	oboInOwl:hasDbXref	MedDRA:10021808	Unspecified	Histoplasmosis
+ordo:390	oboInOwl:hasDbXref	MedDRA:10020141	Unspecified	Histoplasmosis
+ordo:392	oboInOwl:hasDbXref	MedDRA:10050469	Unspecified	Holt-Oram syndrome
+ordo:394	oboInOwl:hasDbXref	MedDRA:10071093	Unspecified	Classic homocystinuria
+ordo:397	oboInOwl:hasDbXref	MedDRA:10018250	Unspecified	Giant cell arteritis
+ordo:397	oboInOwl:hasDbXref	MedDRA:10043207	Unspecified	Giant cell arteritis
+ordo:251880	oboInOwl:hasDbXref	MedDRA:10014966	Unspecified	Ependymoblastoma
+ordo:83317	oboInOwl:hasDbXref	MedDRA:10039766	Unspecified	Scrub typhus
+ordo:83313	oboInOwl:hasDbXref	MedDRA:10006045	Unspecified	Boutonneuse fever
+ordo:251870	oboInOwl:hasDbXref	MedDRA:10057846	Unspecified	Central nervous system embryonal tumor
+ordo:83314	oboInOwl:hasDbXref	MedDRA:10014979	Unspecified	Epidemic typhus
+ordo:83315	oboInOwl:hasDbXref	MedDRA:10028282	Unspecified	Murine typhus
+ordo:83311	oboInOwl:hasDbXref	MedDRA:10039207	Unspecified	Rocky Mountain spotted fever
+ordo:83312	oboInOwl:hasDbXref	MedDRA:10039137	Unspecified	Rickettsialpox
+ordo:251877	oboInOwl:hasDbXref	MedDRA:10017708	Unspecified	Ganglioneuroblastoma
+ordo:251899	oboInOwl:hasDbXref	MedDRA:10067478	Unspecified	Choroid plexus carcinoma
+ordo:69078	oboInOwl:hasDbXref	MedDRA:10024627	Unspecified	Liposarcoma
+ordo:94068	oboInOwl:hasDbXref	MedDRA:10062920	Unspecified	Spondyloepiphyseal dysplasia congenita
+ordo:94059	oboInOwl:hasDbXref	MedDRA:10060875	Unspecified	Uremic pruritus
+ordo:94058	oboInOwl:hasDbXref	MedDRA:10062891	Unspecified	Neovascular glaucoma
+ordo:401	oboInOwl:hasDbXref	MedDRA:10020546	Unspecified	Hymenolepiasis
+ordo:400	oboInOwl:hasDbXref	MedDRA:10014096	Unspecified	Cystic echinococcosis
+ordo:2842	oboInOwl:hasDbXref	MedDRA:10067287	Unspecified	Penoscrotal transposition
+ordo:2843	oboInOwl:hasDbXref	MedDRA:10064170	Unspecified	Pentosuria
+ordo:409	oboInOwl:hasDbXref	MedDRA:10071311	Unspecified	Hyperkeratosis lenticularis perstans
+ordo:94093	oboInOwl:hasDbXref	MedDRA:10029282	Unspecified	Neuroleptic malignant syndrome
+ordo:423	oboInOwl:hasDbXref	MedDRA:10020844	Unspecified	Malignant hyperthermia of anesthesia
+ordo:425	oboInOwl:hasDbXref	MedDRA:10065133	Unspecified	Apolipoprotein A-I deficiency
+ordo:1531	oboInOwl:hasDbXref	MedDRA:10048907	Unspecified	Craniosynostosis
+ordo:1531	oboInOwl:hasDbXref	MedDRA:10049889	Unspecified	Craniosynostosis
+ordo:2869	oboInOwl:hasDbXref	MedDRA:10034764	Unspecified	Peutz-Jeghers syndrome
+ordo:429	oboInOwl:hasDbXref	MedDRA:10020967	Unspecified	Hypochondroplasia
+ordo:412	oboInOwl:hasDbXref	MedDRA:10060751	Unspecified	Dysbetalipoproteinemia
+ordo:416	oboInOwl:hasDbXref	MedDRA:10020703	Unspecified	Primary hyperoxaluria
+ordo:1549	oboInOwl:hasDbXref	MedDRA:10011502	Unspecified	Cryptosporidiosis
+ordo:1546	oboInOwl:hasDbXref	MedDRA:10011490	Unspecified	Cryptococcosis
+ordo:418	oboInOwl:hasDbXref	MedDRA:10010323	Unspecified	Congenital adrenal hyperplasia
+ordo:419	oboInOwl:hasDbXref	MedDRA:10058513	Unspecified	Hyperprolinemia type 1
+ordo:2807	oboInOwl:hasDbXref	MedDRA:10008777	Unspecified	Papilloma of choroid plexus
+ordo:2800	oboInOwl:hasDbXref	MedDRA:10033366	Unspecified	Extramammary Paget disease
+ordo:2800	oboInOwl:hasDbXref	MedDRA:10068223	Unspecified	Extramammary Paget disease
+ordo:35710	oboInOwl:hasDbXref	MedDRA:10066388	Unspecified	Glucose-galactose malabsorption
+ordo:1501	oboInOwl:hasDbXref	MedDRA:10001388	Unspecified	Adrenocortical carcinoma
+ordo:487	oboInOwl:hasDbXref	MedDRA:10023492	Unspecified	Krabbe disease
+ordo:488	oboInOwl:hasDbXref	MedDRA:10065375	Unspecified	Urachal cyst
+ordo:2686	oboInOwl:hasDbXref	MedDRA:10053176	Unspecified	Cyclic neutropenia
+ordo:481	oboInOwl:hasDbXref	MedDRA:10068600	Unspecified	Kennedy disease
+ordo:480	oboInOwl:hasDbXref	MedDRA:10048804	Unspecified	Kearns-Sayre syndrome
+ordo:482	oboInOwl:hasDbXref	MedDRA:10048640	Unspecified	Kimura disease
+ordo:478	oboInOwl:hasDbXref	MedDRA:10053142	Unspecified	Kallmann syndrome
+ordo:477	oboInOwl:hasDbXref	MedDRA:10048786	Unspecified	KID syndrome
+ordo:470	oboInOwl:hasDbXref	MedDRA:10058300	Unspecified	Lysinuric protein intolerance
+ordo:472	oboInOwl:hasDbXref	MedDRA:10023076	Unspecified	Isosporiasis
+ordo:474	oboInOwl:hasDbXref	MedDRA:10057621	Unspecified	Jeune syndrome
+ordo:442	oboInOwl:hasDbXref	MedDRA:10010510	Unspecified	Congenital hypothyroidism
+ordo:447	oboInOwl:hasDbXref	MedDRA:10034042	Unspecified	Paroxysmal nocturnal hemoglobinuria
+ordo:449	oboInOwl:hasDbXref	MedDRA:10062001	Unspecified	Hepatoblastoma
+ordo:448	oboInOwl:hasDbXref	MedDRA:10061992	Unspecified	Hemophilia
+ordo:436	oboInOwl:hasDbXref	MedDRA:10049933	Unspecified	Hypophosphatasia
+ordo:437	oboInOwl:hasDbXref	MedDRA:10060873	Unspecified	Hypophosphatemic rickets
+ordo:1320	oboInOwl:hasDbXref	MedDRA:10069646	Unspecified	Idiopathic camptocormia
+ordo:2655	oboInOwl:hasDbXref	MedDRA:10049808	Unspecified	Thanatophoric dysplasia
+ordo:466	oboInOwl:hasDbXref	MedDRA:10072077	Unspecified	Fatal familial insomnia
+ordo:469	oboInOwl:hasDbXref	MedDRA:10019878	Unspecified	Hereditary fructose intolerance
+ordo:1332	oboInOwl:hasDbXref	MedDRA:10027101	Unspecified	Medullary thyroid carcinoma
+ordo:2665	oboInOwl:hasDbXref	MedDRA:10070665	Unspecified	Congenital mesoblastic nephroma
+ordo:461	oboInOwl:hasDbXref	MedDRA:10048063	Unspecified	Recessive X-linked ichthyosis
+ordo:1334	oboInOwl:hasDbXref	MedDRA:10009007	Unspecified	Chronic mucocutaneous candidiasis
+ordo:457	oboInOwl:hasDbXref	MedDRA:10019163	Unspecified	Harlequin ichthyosis
+ordo:450	oboInOwl:hasDbXref	MedDRA:10067265	Unspecified	Heterotaxia
+ordo:1398	oboInOwl:hasDbXref	MedDRA:10008033	Unspecified	Isolated cerebellar agenesis
+ordo:71203	oboInOwl:hasDbXref	MedDRA:10050245	Unspecified	Autoimmune thrombocytopenia
+ordo:71211	oboInOwl:hasDbXref	MedDRA:10029322	Unspecified	Neuromyelitis optica spectrum disorder
+ordo:71272	oboInOwl:hasDbXref	MedDRA:10066142	Unspecified	Sandifer syndrome
+ordo:275766	oboInOwl:hasDbXref	MedDRA:10065151	Unspecified	Idiopathic pulmonary arterial hypertension
+ordo:520	oboInOwl:hasDbXref	MedDRA:10001019	Unspecified	Acute promyelocytic leukemia
+ordo:521	oboInOwl:hasDbXref	MedDRA:10009013	Unspecified	Chronic myeloid leukemia
+ordo:524	oboInOwl:hasDbXref	MedDRA:10066795	Unspecified	Li-Fraumeni syndrome
+ordo:526	oboInOwl:hasDbXref	MedDRA:10052313	Unspecified	Liddle syndrome
+ordo:526	oboInOwl:hasDbXref	MedDRA:10037113	Unspecified	Liddle syndrome
+ordo:528	oboInOwl:hasDbXref	MedDRA:10024603	Unspecified	Congenital generalized lipodystrophy
+ordo:511	oboInOwl:hasDbXref	MedDRA:10026817	Unspecified	Maple syrup urine disease
+ordo:510	oboInOwl:hasDbXref	MedDRA:10057589	Unspecified	Lesch-Nyhan syndrome
+ordo:512	oboInOwl:hasDbXref	MedDRA:10067609	Unspecified	Metachromatic leukodystrophy
+ordo:514	oboInOwl:hasDbXref	MedDRA:10059439	Unspecified	Acute monoblastic/monocytic leukemia
+ordo:514	oboInOwl:hasDbXref	MedDRA:10000871	Unspecified	Acute monoblastic/monocytic leukemia
+ordo:2737	oboInOwl:hasDbXref	MedDRA:10030314	Unspecified	Onchocerciasis
+ordo:2737	oboInOwl:hasDbXref	MedDRA:10039202	Unspecified	Onchocerciasis
+ordo:517	oboInOwl:hasDbXref	MedDRA:10000890	Unspecified	Acute myelomonocytic leukemia
+ordo:519	oboInOwl:hasDbXref	MedDRA:10000880	Unspecified	Acute myeloid leukemia
+ordo:542	oboInOwl:hasDbXref	MedDRA:10051708	Unspecified	Primary cutaneous lymphoma
+ordo:541	oboInOwl:hasDbXref	MedDRA:10065863	Unspecified	Primary cutaneous CD30+ T-cell lymphoproliferative disease
+ordo:544	oboInOwl:hasDbXref	MedDRA:10012818	Unspecified	Diffuse large B-cell lymphoma
+ordo:543	oboInOwl:hasDbXref	MedDRA:10006595	Unspecified	Burkitt lymphoma
+ordo:543	oboInOwl:hasDbXref	MedDRA:10053518	Unspecified	Burkitt lymphoma
+ordo:543	oboInOwl:hasDbXref	MedDRA:10067184	Unspecified	Burkitt lymphoma
+ordo:548	oboInOwl:hasDbXref	MedDRA:10024229	Unspecified	Leprosy
+ordo:547	oboInOwl:hasDbXref	MedDRA:10029547	Unspecified	Non-Hodgkin lymphoma
+ordo:540	oboInOwl:hasDbXref	MedDRA:10070904	Unspecified	Familial hemophagocytic lymphohistiocytosis
+ordo:549	oboInOwl:hasDbXref	MedDRA:10035718	Unspecified	Legionnaires disease
+ordo:549	oboInOwl:hasDbXref	MedDRA:10061266	Unspecified	Legionnaires disease
+ordo:531	oboInOwl:hasDbXref	MedDRA:10068361	Unspecified	Miller-Dieker syndrome
+ordo:533	oboInOwl:hasDbXref	MedDRA:10024641	Unspecified	Listeriosis
+ordo:535	oboInOwl:hasDbXref	MedDRA:10056509	Unspecified	Rare cutaneous lupus erythematosus
+ordo:534	oboInOwl:hasDbXref	MedDRA:10051707	Unspecified	Oculocerebrorenal syndrome of Lowe
+ordo:538	oboInOwl:hasDbXref	MedDRA:10049459	Unspecified	Lymphangioleiomyomatosis
+ordo:213504	oboInOwl:hasDbXref	MedDRA:10051938	Unspecified	Adenocarcinoma of ovary
+ordo:500	oboInOwl:hasDbXref	MedDRA:10062901	Unspecified	Noonan syndrome with multiple lentigines
+ordo:502	oboInOwl:hasDbXref	MedDRA:10050638	Unspecified	Trichorhinophalangeal syndrome type 2
+ordo:501	oboInOwl:hasDbXref	MedDRA:10054030	Unspecified	Lafora disease
+ordo:504	oboInOwl:hasDbXref	MedDRA:10059547	Unspecified	Creeping myiasis
+ordo:2700	oboInOwl:hasDbXref	MedDRA:10029502	Unspecified	Noma
+ordo:506	oboInOwl:hasDbXref	MedDRA:10062950	Unspecified	Leigh syndrome
+ordo:507	oboInOwl:hasDbXref	MedDRA:10024198	Unspecified	Leishmaniasis
+ordo:509	oboInOwl:hasDbXref	MedDRA:10024238	Unspecified	Leptospirosis
+ordo:2710	oboInOwl:hasDbXref	MedDRA:10063691	Unspecified	Oculodentodigital dysplasia
+ordo:90695	oboInOwl:hasDbXref	MedDRA:10033662	Unspecified	Non-acquired panhypopituitarism
+ordo:99081	oboInOwl:hasDbXref	MedDRA:10067407	Unspecified	Right aortic arch
+ordo:99063	oboInOwl:hasDbXref	MedDRA:10066802	Unspecified	Shone complex
+ordo:99054	oboInOwl:hasDbXref	MedDRA:10037450	Unspecified	Valvular pulmonary stenosis
+ordo:101958	oboInOwl:hasDbXref	MedDRA:10052381	Unspecified	Primary adrenal insufficiency
+ordo:101940	oboInOwl:hasDbXref	MedDRA:10019689	Unspecified	Rare metabolic liver disease
+ordo:3027	oboInOwl:hasDbXref	MedDRA:10068896	Unspecified	Caudal regression sequence
+ordo:3027	oboInOwl:hasDbXref	MedDRA:10054842	Unspecified	Caudal regression sequence
+ordo:3027	oboInOwl:hasDbXref	MedDRA:10059387	Unspecified	Caudal regression sequence
+ordo:137914	oboInOwl:hasDbXref	MedDRA:10008587	Unspecified	Choanal atresia
+ordo:101995	oboInOwl:hasDbXref	MedDRA:10034533	Unspecified	Periodic fever syndrome
+ordo:101997	oboInOwl:hasDbXref	MedDRA:10064859	Unspecified	Primary immunodeficiency
+ordo:3000	oboInOwl:hasDbXref	MedDRA:10063656	Unspecified	Familial male-limited precocious puberty
+ordo:3000	oboInOwl:hasDbXref	MedDRA:10063654	Unspecified	Familial male-limited precocious puberty
+ordo:3002	oboInOwl:hasDbXref	MedDRA:10021245	Unspecified	Immune thrombocytopenia
+ordo:3096	oboInOwl:hasDbXref	MedDRA:10039012	Unspecified	Reye syndrome
+ordo:3099	oboInOwl:hasDbXref	MedDRA:10039054	Unspecified	Rheumatic fever
+ordo:3093	oboInOwl:hasDbXref	MedDRA:10010371	Unspecified	Congenital aortic valve stenosis
+ordo:53715	oboInOwl:hasDbXref	MedDRA:10059364	Unspecified	Familial tumoral calcinosis
+ordo:53719	oboInOwl:hasDbXref	MedDRA:10048661	Unspecified	Wyburn-Mason syndrome
+ordo:53721	oboInOwl:hasDbXref	MedDRA:10068841	Unspecified	Spinal arteriovenous metameric syndrome
+ordo:52416	oboInOwl:hasDbXref	MedDRA:10061275	Unspecified	Mantle cell lymphoma
+ordo:52417	oboInOwl:hasDbXref	MedDRA:10060707	Unspecified	MALT lymphoma
+ordo:3071	oboInOwl:hasDbXref	MedDRA:10067380	Unspecified	Costello syndrome
+ordo:75110	oboInOwl:hasDbXref	MedDRA:10028586	Unspecified	Myiasis
+ordo:231222	oboInOwl:hasDbXref	MedDRA:10062923	Unspecified	Beta-thalassemia intermedia
+ordo:99103	oboInOwl:hasDbXref	MedDRA:10031303	Unspecified	Atrial septal defect, ostium secundum type
+ordo:99103	oboInOwl:hasDbXref	MedDRA:10031302	Unspecified	Atrial septal defect, ostium secundum type
+ordo:90771	oboInOwl:hasDbXref	MedDRA:10070597	Unspecified	Disorder of sex development
+ordo:231237	oboInOwl:hasDbXref	MedDRA:10012236	Unspecified	Delta-beta-thalassemia
+ordo:268316	oboInOwl:hasDbXref	MedDRA:10070476	Unspecified	Complication in hemodialysis
+ordo:280062	oboInOwl:hasDbXref	MedDRA:10051714	Unspecified	Calciphylaxis
+ordo:158003	oboInOwl:hasDbXref	MedDRA:10052575	Unspecified	Xanthoma disseminatum
+ordo:158032	oboInOwl:hasDbXref	MedDRA:10058125	Unspecified	Hemophagocytic syndrome
+ordo:158038	oboInOwl:hasDbXref	MedDRA:10070904	Unspecified	Primary hemophagocytic lymphohistiocytosis
+ordo:158014	oboInOwl:hasDbXref	MedDRA:10063397	Unspecified	Rosaï-Dorfman disease
+ordo:65684	oboInOwl:hasDbXref	MedDRA:10069681	Unspecified	Monomelic amyotrophy
+ordo:65681	oboInOwl:hasDbXref	MedDRA:10046879	Unspecified	Vaginal atresia
+ordo:231111	oboInOwl:hasDbXref	MedDRA:10013706	Unspecified	Drug-induced lupus erythematosus
+ordo:158061	oboInOwl:hasDbXref	MedDRA:10053867	Unspecified	Macrophage activation syndrome
+ordo:90647	oboInOwl:hasDbXref	MedDRA:10057936	Unspecified	Jervell and Lange-Nielsen syndrome
+ordo:244242	oboInOwl:hasDbXref	MedDRA:10049058	Unspecified	HELLP syndrome
+ordo:281210	oboInOwl:hasDbXref	MedDRA:10048063	Unspecified	X-linked ichthyosis syndrome
+ordo:293202	oboInOwl:hasDbXref	MedDRA:10015099	Unspecified	Epithelioid sarcoma
+ordo:163927	oboInOwl:hasDbXref	MedDRA:10050185	Unspecified	Pustulosis palmaris et plantaris
+ordo:26349	oboInOwl:hasDbXref	MedDRA:10068370	Unspecified	Protein S acquired deficiency
+ordo:163934	oboInOwl:hasDbXref	MedDRA:10069664	Unspecified	Atopic keratoconjunctivitis
+ordo:137617	oboInOwl:hasDbXref	MedDRA:10067467	Unspecified	Nephrogenic systemic fibrosis
+ordo:52688	oboInOwl:hasDbXref	MedDRA:10028532	Unspecified	Myelodysplastic syndrome
+ordo:49042	oboInOwl:hasDbXref	MedDRA:10054013	Unspecified	Dentinogenesis imperfecta
+ordo:49041	oboInOwl:hasDbXref	MedDRA:10038979	Unspecified	IgG4-related retroperitoneal fibrosis
+ordo:64686	oboInOwl:hasDbXref	MedDRA:10051526	Unspecified	Tolosa-Hunt syndrome
+ordo:137686	oboInOwl:hasDbXref	MedDRA:10022821	Unspecified	Asherman syndrome
+ordo:137686	oboInOwl:hasDbXref	MedDRA:10053868	Unspecified	Asherman syndrome
+ordo:64694	oboInOwl:hasDbXref	MedDRA:10044582	Unspecified	Trench fever
+ordo:88673	oboInOwl:hasDbXref	MedDRA:10049010	Unspecified	Hepatocellular carcinoma
+ordo:99147	oboInOwl:hasDbXref	MedDRA:10069495	Unspecified	Acquired von Willebrand syndrome
+ordo:90795	oboInOwl:hasDbXref	MedDRA:10000002	Unspecified	Congenital adrenal hyperplasia due to 11-beta-hydroxylase deficiency
+ordo:208650	oboInOwl:hasDbXref	MedDRA:10068850	Unspecified	Cryopyrin-associated periodic syndrome
+ordo:137839	oboInOwl:hasDbXref	MedDRA:10065552	Unspecified	Lemierre syndrome
+ordo:137807	oboInOwl:hasDbXref	MedDRA:10011659	Unspecified	Primary cutaneous amyloidosis
+ordo:137817	oboInOwl:hasDbXref	MedDRA:10003074	Unspecified	Arachnoiditis
+ordo:137810	oboInOwl:hasDbXref	MedDRA:10056953	Unspecified	Nodular cutaneous amyloidosis
+ordo:293173	oboInOwl:hasDbXref	MedDRA:10048799	Unspecified	Acute generalized exanthematous pustulosis
+ordo:75233	oboInOwl:hasDbXref	MedDRA:10053687	Unspecified	Wolman disease
+ordo:63259	oboInOwl:hasDbXref	MedDRA:10022034	Unspecified	Iniencephaly
+ordo:63275	oboInOwl:hasDbXref	MedDRA:10019939	Unspecified	Pemphigoid gestationis
+ordo:63260	oboInOwl:hasDbXref	MedDRA:10011321	Unspecified	Craniorachischisis
+ordo:3426	oboInOwl:hasDbXref	MedDRA:10013611	Unspecified	Double outlet right ventricle
+ordo:2103	oboInOwl:hasDbXref	MedDRA:10018767	Unspecified	Guillain-Barré syndrome
+ordo:3440	oboInOwl:hasDbXref	MedDRA:10069203	Unspecified	Waardenburg syndrome
+ordo:2116	oboInOwl:hasDbXref	MedDRA:10019165	Unspecified	Hartnup disease
+ordo:3449	oboInOwl:hasDbXref	MedDRA:10064963	Unspecified	Weill-Marchesani syndrome
+ordo:3403	oboInOwl:hasDbXref	MedDRA:10048951	Unspecified	Uhl anomaly
+ordo:2162	oboInOwl:hasDbXref	MedDRA:10056304	Unspecified	Holoprosencephaly
+ordo:39812	oboInOwl:hasDbXref	MedDRA:10018651	Unspecified	Graft versus host disease
+ordo:2185	oboInOwl:hasDbXref	MedDRA:10010506	Unspecified	Congenital hydrocephalus
+ordo:3451	oboInOwl:hasDbXref	MedDRA:10021750	Unspecified	Infantile spasms syndrome
+ordo:3456	oboInOwl:hasDbXref	MedDRA:10069402	Unspecified	Wildervanck syndrome
+ordo:2126	oboInOwl:hasDbXref	MedDRA:10018825	Unspecified	Solitary fibrous tumor/hemangiopericytoma
+ordo:2128	oboInOwl:hasDbXref	MedDRA:10019463	Unspecified	Isolated hemihyperplasia
+ordo:3452	oboInOwl:hasDbXref	MedDRA:10047931	Unspecified	Whipple disease
+ordo:2130	oboInOwl:hasDbXref	MedDRA:10019464	Unspecified	Hemimelia
+ordo:2137	oboInOwl:hasDbXref	MedDRA:10003827	Unspecified	Autoimmune hepatitis
+ordo:2132	oboInOwl:hasDbXref	MedDRA:10018883	Unspecified	Hemoglobin C disease
+ordo:2133	oboInOwl:hasDbXref	MedDRA:10053215	Unspecified	Hemoglobin E disease
+ordo:2140	oboInOwl:hasDbXref	MedDRA:10010439	Unspecified	Congenital diaphragmatic hernia
+ordo:3471	oboInOwl:hasDbXref	MedDRA:10063689	Unspecified	Young syndrome
+ordo:37202	oboInOwl:hasDbXref	MedDRA:10011796	Unspecified	Interstitial cystitis
+ordo:50251	oboInOwl:hasDbXref	MedDRA:10027406	Unspecified	Pleural mesothelioma
+ordo:75566	oboInOwl:hasDbXref	MedDRA:10052841	Unspecified	Loeffler endocarditis
+ordo:98253	oboInOwl:hasDbXref	MedDRA:10057235	Unspecified	Postinfectious encephalitis
+ordo:98252	oboInOwl:hasDbXref	MedDRA:10058805	Unspecified	Infectious encephalitis
+ordo:98249	oboInOwl:hasDbXref	MedDRA:10014316	Unspecified	Ehlers-Danlos syndrome
+ordo:3303	oboInOwl:hasDbXref	MedDRA:10016193	Unspecified	Tetralogy of Fallot
+ordo:3312	oboInOwl:hasDbXref	MedDRA:10071249	Unspecified	Thalidomide embryopathy
+ordo:3318	oboInOwl:hasDbXref	MedDRA:10015493	Unspecified	Essential thrombocythemia
+ordo:3325	oboInOwl:hasDbXref	MedDRA:10062506	Unspecified	Heparin-induced thrombocytopenia
+ordo:3320	oboInOwl:hasDbXref	MedDRA:10071719	Unspecified	Thrombocytopenia-absent radius syndrome
+ordo:284804	oboInOwl:hasDbXref	MedDRA:10065276	Unspecified	Ocular albinism
+ordo:2041	oboInOwl:hasDbXref	MedDRA:10069441	Unspecified	Coronary arterial fistula
+ordo:3378	oboInOwl:hasDbXref	MedDRA:10044686	Unspecified	Trisomy 13
+ordo:3385	oboInOwl:hasDbXref	MedDRA:10001461	Unspecified	African trypanosomiasis
+ordo:3380	oboInOwl:hasDbXref	MedDRA:10053884	Unspecified	Trisomy 18
+ordo:3386	oboInOwl:hasDbXref	MedDRA:10001935	Unspecified	American trypanosomiasis
+ordo:2056	oboInOwl:hasDbXref	MedDRA:10015487	Unspecified	Essential fructosuria
+ordo:3389	oboInOwl:hasDbXref	MedDRA:10044755	Unspecified	Tuberculosis
+ordo:3392	oboInOwl:hasDbXref	MedDRA:10045146	Unspecified	Tularemia
+ordo:2073	oboInOwl:hasDbXref	MedDRA:10028713	Unspecified	Narcolepsy type 1
+ordo:2070	oboInOwl:hasDbXref	MedDRA:10017902	Unspecified	Eosinophilic gastroenteritis
+ordo:3347	oboInOwl:hasDbXref	MedDRA:10044316	Unspecified	Mounier-Kühn syndrome
+ordo:3343	oboInOwl:hasDbXref	MedDRA:10044269	Unspecified	Toxocariasis
+ordo:2014	oboInOwl:hasDbXref	MedDRA:10009269	Unspecified	Cleft palate
+ordo:2019	oboInOwl:hasDbXref	MedDRA:10068448	Unspecified	Femur-fibula-ulna complex
+ordo:2022	oboInOwl:hasDbXref	MedDRA:10014663	Unspecified	Endocardial fibroelastosis
+ordo:2023	oboInOwl:hasDbXref	MedDRA:10025552	Unspecified	Undifferentiated pleomorphic sarcoma
+ordo:2030	oboInOwl:hasDbXref	MedDRA:10016632	Unspecified	Fibrosarcoma
+ordo:2032	oboInOwl:hasDbXref	MedDRA:10021240	Unspecified	Idiopathic pulmonary fibrosis
+ordo:2038	oboInOwl:hasDbXref	MedDRA:10037332	Unspecified	Pulmonary arteriovenous malformation
+ordo:2034	oboInOwl:hasDbXref	MedDRA:10016674	Unspecified	Filariasis
+ordo:2035	oboInOwl:hasDbXref	MedDRA:10016675	Unspecified	Lymphatic filariasis
+ordo:64720	oboInOwl:hasDbXref	MedDRA:10024189	Unspecified	Leiomyosarcoma
+ordo:64745	oboInOwl:hasDbXref	MedDRA:10066100	Unspecified	Pruritic urticarial papules and plaques of pregnancy
+ordo:64744	oboInOwl:hasDbXref	MedDRA:10039142	Unspecified	IgG4-related thyroid disease
+ordo:64734	oboInOwl:hasDbXref	MedDRA:10053678	Unspecified	Iridocorneal endothelial syndrome
+ordo:64739	oboInOwl:hasDbXref	MedDRA:10033266	Unspecified	Ovarian hyperstimulation syndrome
+ordo:52759	oboInOwl:hasDbXref	MedDRA:10036023	Unspecified	Vasculitis
+ordo:52759	oboInOwl:hasDbXref	MedDRA:10047115	Unspecified	Vasculitis
+ordo:63455	oboInOwl:hasDbXref	MedDRA:10057056	Unspecified	Paraneoplastic pemphigus
+ordo:63442	oboInOwl:hasDbXref	MedDRA:10066017	Unspecified	Angel-shaped phalango-epiphyseal dysplasia
+ordo:63443	oboInOwl:hasDbXref	MedDRA:10017758	Unspecified	Rare epithelial tumor of stomach
+ordo:306731	oboInOwl:hasDbXref	MedDRA:10042732	Unspecified	Sydenham chorea
+ordo:137596	oboInOwl:hasDbXref	MedDRA:10069732	Unspecified	Neurotrophic keratopathy
+ordo:99408	oboInOwl:hasDbXref	MedDRA:10035079	Unspecified	Pituitary adenoma
+ordo:223735	oboInOwl:hasDbXref	MedDRA:10025310	Unspecified	Lymphoma
+ordo:223727	oboInOwl:hasDbXref	MedDRA:10006007	Unspecified	Bone sarcoma
+ordo:3205	oboInOwl:hasDbXref	MedDRA:10042265	Unspecified	Sturge-Weber syndrome
+ordo:3205	oboInOwl:hasDbXref	MedDRA:10057653	Unspecified	Sturge-Weber syndrome
+ordo:3261	oboInOwl:hasDbXref	MedDRA:10069521	Unspecified	Autoimmune lymphoproliferative syndrome
+ordo:3273	oboInOwl:hasDbXref	MedDRA:10042863	Unspecified	Synovial sarcoma
+ordo:103919	oboInOwl:hasDbXref	MedDRA:10069002	Unspecified	Autoimmune pancreatitis
+ordo:3280	oboInOwl:hasDbXref	MedDRA:10042928	Unspecified	Syringomyelia
+ordo:3287	oboInOwl:hasDbXref	MedDRA:10043097	Unspecified	Takayasu arteritis
+ordo:26790	oboInOwl:hasDbXref	MedDRA:10037138	Unspecified	Pseudomyxoma peritonei
+ordo:3243	oboInOwl:hasDbXref	MedDRA:10000748	Unspecified	Sweet syndrome
+ordo:48104	oboInOwl:hasDbXref	MedDRA:10037635	Unspecified	Pyoderma gangrenosum
+ordo:221098	oboInOwl:hasDbXref	MedDRA:10018391	Unspecified	Glossopharyngeal neuralgia
+ordo:221091	oboInOwl:hasDbXref	MedDRA:10044652	Unspecified	Trigeminal neuralgia
+ordo:48162	oboInOwl:hasDbXref	MedDRA:10065580	Unspecified	Lewis-Sumner syndrome
+ordo:99757	oboInOwl:hasDbXref	MedDRA:10065868	Unspecified	Embryonal rhabdomyosarcoma
+ordo:99756	oboInOwl:hasDbXref	MedDRA:10065867	Unspecified	Alveolar rhabdomyosarcoma
+ordo:3299	oboInOwl:hasDbXref	MedDRA:10043376	Unspecified	Tetanus
+ordo:98421	oboInOwl:hasDbXref	MedDRA:10038184	Unspecified	Primary acquired red cell aplasia
+ordo:98428	oboInOwl:hasDbXref	MedDRA:10036062	Unspecified	Secondary polycythemia
+ordo:98427	oboInOwl:hasDbXref	MedDRA:10036051	Unspecified	Polycythemia
+ordo:99748	oboInOwl:hasDbXref	MedDRA:10054161	Unspecified	Pontiac fever
+ordo:221074	oboInOwl:hasDbXref	MedDRA:10026828	Unspecified	Marchiafava-Bignami disease
+ordo:99725	oboInOwl:hasDbXref	MedDRA:10018265	Unspecified	Pituitary gigantism
+ordo:306682	oboInOwl:hasDbXref	MedDRA:10058951	Unspecified	Manganese poisoning
+ordo:99797	oboInOwl:hasDbXref	MedDRA:10002583	Unspecified	Anodontia
+ordo:163525	oboInOwl:hasDbXref	MedDRA:10057903	Unspecified	Subacute cutaneous lupus erythematosus
+ordo:163531	oboInOwl:hasDbXref	MedDRA:10057929	Unspecified	Chronic cutaneous lupus erythematosus
+ordo:85138	oboInOwl:hasDbXref	MedDRA:10001130	Unspecified	Addison disease
+ordo:98486	oboInOwl:hasDbXref	MedDRA:10068836	Unspecified	Metabolic myopathy
+ordo:98473	oboInOwl:hasDbXref	MedDRA:10028356	Unspecified	Muscular dystrophy
+ordo:98472	oboInOwl:hasDbXref	MedDRA:10028641	Unspecified	Skeletal muscle disease
+ordo:140896	oboInOwl:hasDbXref	MedDRA:10061982	Unspecified	Severe acute respiratory syndrome
+ordo:98292	oboInOwl:hasDbXref	MedDRA:10026891	Unspecified	Mastocytosis
+ordo:98274	oboInOwl:hasDbXref	MedDRA:10028576	Unspecified	Myeloproliferative neoplasm
+ordo:199627	oboInOwl:hasDbXref	MedDRA:10003747	Unspecified	Atypical autism
+ordo:163699	oboInOwl:hasDbXref	MedDRA:10001882	Unspecified	Alveolar soft tissue sarcoma
+ordo:199647	oboInOwl:hasDbXref	MedDRA:10014617	Unspecified	Isolated encephalocele
+ordo:199642	oboInOwl:hasDbXref	MedDRA:10027534	Unspecified	Isolated congenital microcephaly
+ordo:3130	oboInOwl:hasDbXref	MedDRA:10070579	Unspecified	Satoyoshi syndrome
+ordo:3148	oboInOwl:hasDbXref	MedDRA:10029236	Unspecified	Malignant peripheral nerve sheath tumor
+ordo:40923	oboInOwl:hasDbXref	MedDRA:10057429	Unspecified	Eales disease
+ordo:3157	oboInOwl:hasDbXref	MedDRA:10067159	Unspecified	Septo-optic dysplasia spectrum
+ordo:3162	oboInOwl:hasDbXref	MedDRA:10040493	Unspecified	Sézary syndrome
+ordo:3165	oboInOwl:hasDbXref	MedDRA:10014954	Unspecified	Eosinophilic fasciitis
+ordo:3166	oboInOwl:hasDbXref	MedDRA:10067529	Unspecified	Sialuria
+ordo:3169	oboInOwl:hasDbXref	MedDRA:10049216	Unspecified	Sirenomelia
+ordo:3109	oboInOwl:hasDbXref	MedDRA:10065148	Unspecified	Mayer-Rokitansky-Küster-Hauser syndrome
+ordo:3111	oboInOwl:hasDbXref	MedDRA:10039234	Unspecified	Rotor syndrome
+ordo:3129	oboInOwl:hasDbXref	MedDRA:10059299	Unspecified	Sarcosinemia
+ordo:140927	oboInOwl:hasDbXref	MedDRA:10067866	Unspecified	Benign familial neonatal-infantile seizures
+ordo:88919	oboInOwl:hasDbXref	MedDRA:10001843	Unspecified	Autosomal recessive Alport syndrome
+ordo:88917	oboInOwl:hasDbXref	MedDRA:10001843	Unspecified	X-linked Alport syndrome
+ordo:101330	oboInOwl:hasDbXref	MedDRA:10036183	Unspecified	Porphyria cutanea tarda
+ordo:98307	oboInOwl:hasDbXref	MedDRA:10049287	Unspecified	Acquired lipodystrophy
+ordo:49382	oboInOwl:hasDbXref	MedDRA:10000454	Unspecified	Achromatopsia
+ordo:3181	oboInOwl:hasDbXref	MedDRA:10010455	Unspecified	Sprengel deformity
+ordo:3189	oboInOwl:hasDbXref	MedDRA:10037451	Unspecified	Congenital pulmonary valvar stenosis
+ordo:3198	oboInOwl:hasDbXref	MedDRA:10042044	Unspecified	Stiff person spectrum disorder
+ordo:3193	oboInOwl:hasDbXref	MedDRA:10042598	Unspecified	Supravalvular aortic stenosis
+ordo:100067	oboInOwl:hasDbXref	MedDRA:10047847	Unspecified	Waterhouse-Friderichsen syndrome
+ordo:100088	oboInOwl:hasDbXref	MedDRA:10007476	Unspecified	Thyroid carcinoma
+ordo:100070	oboInOwl:hasDbXref	MedDRA:10029542	Unspecified	Progressive non-fluent aphasia
+ordo:221126	oboInOwl:hasDbXref	MedDRA:10071718	Unspecified	Fowler vasculopaty
+ordo:98375	oboInOwl:hasDbXref	MedDRA:10002046	Unspecified	Autoimmune hemolytic anemia
+ordo:221117	oboInOwl:hasDbXref	MedDRA:10048608	Unspecified	Gerstmann syndrome
+ordo:247709	oboInOwl:hasDbXref	MedDRA:10056420	Unspecified	Multiple endocrine neoplasia type 2B
+ordo:79430	oboInOwl:hasDbXref	MedDRA:10071775	Unspecified	Hermansky-Pudlak syndrome
+ordo:79479	oboInOwl:hasDbXref	MedDRA:10057053	Unspecified	Pemphigus vegetans
+ordo:79456	oboInOwl:hasDbXref	MedDRA:10012812	Unspecified	Diffuse cutaneous mastocytosis
+ordo:79457	oboInOwl:hasDbXref	MedDRA:10046752	Unspecified	Maculopapular cutaneous mastocytosis
+ordo:289380	oboInOwl:hasDbXref	MedDRA:10064584	Unspecified	Myosclerosis
+ordo:79481	oboInOwl:hasDbXref	MedDRA:10057069	Unspecified	Pemphigus foliaceus
+ordo:79480	oboInOwl:hasDbXref	MedDRA:10058917	Unspecified	Pemphigus erythematosus
+ordo:91138	oboInOwl:hasDbXref	MedDRA:10027756	Unspecified	Cryoglobulinemic vasculitis
+ordo:206991	oboInOwl:hasDbXref	MedDRA:10051512	Unspecified	Viral myositis
+ordo:156207	oboInOwl:hasDbXref	MedDRA:10025391	Unspecified	Macroglossia
+ordo:217632	oboInOwl:hasDbXref	MedDRA:10038748	Unspecified	Restrictive cardiomyopathy
+ordo:206970	oboInOwl:hasDbXref	MedDRA:10028658	Unspecified	Myotonic syndrome
+ordo:18	oboInOwl:hasDbXref	MedDRA:10045224	Unspecified	Distal renal tubular acidosis
+ordo:206976	oboInOwl:hasDbXref	MedDRA:10016208	Unspecified	Periodic paralysis
+ordo:15	oboInOwl:hasDbXref	MedDRA:10000452	Unspecified	Achondroplasia
+ordo:10	oboInOwl:hasDbXref	MedDRA:10048230	Unspecified	48,XXYY syndrome
+ordo:206966	oboInOwl:hasDbXref	MedDRA:10027710	Unspecified	Mitochondrial myopathy
+ordo:217604	oboInOwl:hasDbXref	MedDRA:10056370	Unspecified	Dilated cardiomyopathy
+ordo:29207	oboInOwl:hasDbXref	MedDRA:10003267	Unspecified	Reactive arthritis
+ordo:29207	oboInOwl:hasDbXref	MedDRA:10038294	Unspecified	Reactive arthritis
+ordo:94	oboInOwl:hasDbXref	MedDRA:10003571	Unspecified	Astrocytoma
+ordo:93	oboInOwl:hasDbXref	MedDRA:10068220	Unspecified	Aspartylglucosaminuria
+ordo:96	oboInOwl:hasDbXref	MedDRA:10047631	Unspecified	Ataxia with vitamin E deficiency
+ordo:95	oboInOwl:hasDbXref	MedDRA:10017374	Unspecified	Friedreich ataxia
+ordo:90	oboInOwl:hasDbXref	MedDRA:10062695	Unspecified	Argininemia
+ordo:92	oboInOwl:hasDbXref	MedDRA:10059177	Unspecified	Juvenile idiopathic arthritis
+ordo:87	oboInOwl:hasDbXref	MedDRA:10002943	Unspecified	Apert syndrome
+ordo:84	oboInOwl:hasDbXref	MedDRA:10055206	Unspecified	Fanconi anemia
+ordo:81	oboInOwl:hasDbXref	MedDRA:10068801	Unspecified	Antisynthetase syndrome
+ordo:76	oboInOwl:hasDbXref	MedDRA:10042254	Unspecified	Strongyloidiasis
+ordo:78	oboInOwl:hasDbXref	MedDRA:10020376	Unspecified	Ankylostomiasis
+ordo:78	oboInOwl:hasDbXref	MedDRA:10002255	Unspecified	Ankylostomiasis
+ordo:72	oboInOwl:hasDbXref	MedDRA:10049004	Unspecified	Angelman syndrome
+ordo:74	oboInOwl:hasDbXref	MedDRA:10069517	Unspecified	Angiostrongyliasis
+ordo:73	oboInOwl:hasDbXref	MedDRA:10071283	Unspecified	Gorham-Stout disease
+ordo:69	oboInOwl:hasDbXref	MedDRA:10002022	Unspecified	Amyloidosis
+ordo:65	oboInOwl:hasDbXref	MedDRA:10070667	Unspecified	Leber congenital amaurosis
+ordo:64	oboInOwl:hasDbXref	MedDRA:10068783	Unspecified	Alström syndrome
+ordo:60	oboInOwl:hasDbXref	MedDRA:10001806	Unspecified	Alpha-1-antitrypsin deficiency
+ordo:63	oboInOwl:hasDbXref	MedDRA:10001843	Unspecified	Alport syndrome
+ordo:56	oboInOwl:hasDbXref	MedDRA:10001689	Unspecified	Alkaptonuria
+ordo:50	oboInOwl:hasDbXref	MedDRA:10054935	Unspecified	Aicardi syndrome
+ordo:52	oboInOwl:hasDbXref	MedDRA:10053870	Unspecified	Alagille syndrome
+ordo:47	oboInOwl:hasDbXref	MedDRA:10060360	Unspecified	X-linked agammaglobulinemia
+ordo:48	oboInOwl:hasDbXref	MedDRA:10010670	Unspecified	Congenital bilateral absence of vas deferens
+ordo:43	oboInOwl:hasDbXref	MedDRA:10051260	Unspecified	X-linked adrenoleukodystrophy
+ordo:252175	oboInOwl:hasDbXref	MedDRA:10000523	Unspecified	Vestibular schwannoma
+ordo:44890	oboInOwl:hasDbXref	MedDRA:10051066	Unspecified	Gastrointestinal stromal tumor
+ordo:30	oboInOwl:hasDbXref	MedDRA:10052621	Unspecified	Hereditary orotic aciduria
+ordo:252164	oboInOwl:hasDbXref	MedDRA:10029235	Unspecified	Benign schwannoma
+ordo:252164	oboInOwl:hasDbXref	MedDRA:10029234	Unspecified	Benign schwannoma
+ordo:29	oboInOwl:hasDbXref	MedDRA:10072219	Unspecified	Mevalonic aciduria
+ordo:23	oboInOwl:hasDbXref	MedDRA:10058299	Unspecified	Argininosuccinic aciduria
+ordo:93616	oboInOwl:hasDbXref	MedDRA:10063435	Unspecified	Hemoglobin H disease
+ordo:280886	oboInOwl:hasDbXref	MedDRA:10002709	Unspecified	Anterior uveitis
+ordo:54028	oboInOwl:hasDbXref	MedDRA:10040664	Unspecified	Plummer-Vinson syndrome
+ordo:279891	oboInOwl:hasDbXref	MedDRA:10008864	Unspecified	Chronic endophthalmitis
+ordo:29073	oboInOwl:hasDbXref	MedDRA:10028228	Unspecified	Multiple myeloma
+ordo:280892	oboInOwl:hasDbXref	MedDRA:10036370	Unspecified	Posterior uveitis
+ordo:280898	oboInOwl:hasDbXref	MedDRA:10033687	Unspecified	Panuveitis
+ordo:79358	oboInOwl:hasDbXref	MedDRA:10036175	Unspecified	Porokeratosis
+ordo:79355	oboInOwl:hasDbXref	MedDRA:10015280	Unspecified	Erythrokeratoderma
+ordo:79354	oboInOwl:hasDbXref	MedDRA:10021198	Unspecified	Ichthyosis
+ordo:43393	oboInOwl:hasDbXref	MedDRA:10067685	Unspecified	Lambert-Eaton myasthenic syndrome
+ordo:54057	oboInOwl:hasDbXref	MedDRA:10043648	Unspecified	Thrombotic thrombocytopenic purpura
+ordo:79389	oboInOwl:hasDbXref	MedDRA:10063493	Unspecified	Premature aging
+ordo:79368	oboInOwl:hasDbXref	MedDRA:10028684	Unspecified	Nail anomaly
+ordo:93672	oboInOwl:hasDbXref	MedDRA:10008521	Unspecified	Juvenile dermatomyositis
+ordo:79365	oboInOwl:hasDbXref	MedDRA:10020864	Unspecified	Rare disorder with hypertrichosis
+ordo:79379	oboInOwl:hasDbXref	MedDRA:10062171	Unspecified	Skin vascular disease
+ordo:79373	oboInOwl:hasDbXref	MedDRA:10010452	Unspecified	Ectodermal dysplasia syndrome
+ordo:79376	oboInOwl:hasDbXref	MedDRA:10040868	Unspecified	Hypopigmentation of the skin
+ordo:93665	oboInOwl:hasDbXref	MedDRA:10072220	Unspecified	Autoinflammatory syndrome
+ordo:171901	oboInOwl:hasDbXref	MedDRA:10011677	Unspecified	Primary cutaneous T-cell lymphoma
+ordo:171918	oboInOwl:hasDbXref	MedDRA:10042971	Unspecified	T-cell non-Hodgkin lymphoma
+ordo:279914	oboInOwl:hasDbXref	MedDRA:10022557	Unspecified	Intermediate uveitis
+ordo:252025	oboInOwl:hasDbXref	MedDRA:10061282	Unspecified	Tumor of meninges
+ordo:289326	oboInOwl:hasDbXref	MedDRA:10044696	Unspecified	Tropical spastic paraparesis
+ordo:252054	oboInOwl:hasDbXref	MedDRA:10018813	Unspecified	Hemangioblastoma
+ordo:53035	oboInOwl:hasDbXref	MedDRA:10013003	Unspecified	Caroli disease
+ordo:79665	oboInOwl:hasDbXref	MedDRA:10017727	Unspecified	Gardner syndrome
+ordo:54368	oboInOwl:hasDbXref	MedDRA:10039483	Unspecified	Sarcocystosis
+ordo:30391	oboInOwl:hasDbXref	MedDRA:10003650	Unspecified	Isolated biliary atresia
+ordo:93976	oboInOwl:hasDbXref	MedDRA:10002654	Unspecified	Anotia
+ordo:93968	oboInOwl:hasDbXref	MedDRA:10027266	Unspecified	Meningocele
+ordo:54370	oboInOwl:hasDbXref	MedDRA:10018370	Unspecified	Primary membranoproliferative glomerulonephritis
+ordo:90025	oboInOwl:hasDbXref	MedDRA:10042778	Unspecified	Non-syndromic syndactyly
+ordo:91355	oboInOwl:hasDbXref	MedDRA:10036297	Unspecified	Sheehan syndrome
+ordo:90000	oboInOwl:hasDbXref	MedDRA:10056968	Unspecified	Erythema elevatum diutinum
+ordo:90002	oboInOwl:hasDbXref	MedDRA:10071575	Unspecified	Undifferentiated connective tissue syndrome
+ordo:90062	oboInOwl:hasDbXref	MedDRA:10000804	Unspecified	Acute liver failure
+ordo:90050	oboInOwl:hasDbXref	MedDRA:10038933	Unspecified	Retinopathy of prematurity
+ordo:90058	oboInOwl:hasDbXref	MedDRA:10041552	Unspecified	Spinal cord injury
+ordo:90041	oboInOwl:hasDbXref	MedDRA:10042217	Unspecified	Gaisböck syndrome
+ordo:90041	oboInOwl:hasDbXref	MedDRA:10053885	Unspecified	Gaisböck syndrome
+ordo:91378	oboInOwl:hasDbXref	MedDRA:10019860	Unspecified	Hereditary angioedema
+ordo:90033	oboInOwl:hasDbXref	MedDRA:10047822	Unspecified	Autoimmune hemolytic anemia, warm type
+ordo:90039	oboInOwl:hasDbXref	MedDRA:10055019	Unspecified	Hemoglobin D disease
+ordo:31740	oboInOwl:hasDbXref	MedDRA:10001890	Unspecified	Hypersensitivity pneumonitis
+ordo:279882	oboInOwl:hasDbXref	MedDRA:10059593	Unspecified	Spasmus nutans
+ordo:279888	oboInOwl:hasDbXref	MedDRA:10000730	Unspecified	Acute endophthalmitis
+ordo:54272	oboInOwl:hasDbXref	MedDRA:10019827	Unspecified	Hepatocellular adenoma
+ordo:8	oboInOwl:hasDbXref	MedDRA:10056894	Unspecified	47,XYY syndrome
+ordo:171700	oboInOwl:hasDbXref	MedDRA:10062952	Unspecified	Diffuse panbronchiolitis
+ordo:217569	oboInOwl:hasDbXref	MedDRA:10020871	Unspecified	Hypertrophic cardiomyopathy
+ordo:183669	oboInOwl:hasDbXref	MedDRA:10001471	Unspecified	Agammaglobulinemia
+ordo:183660	oboInOwl:hasDbXref	MedDRA:10069566	Unspecified	Severe combined immunodeficiency
+ordo:228113	oboInOwl:hasDbXref	MedDRA:10002156	Unspecified	Anal fistula
+ordo:228119	oboInOwl:hasDbXref	MedDRA:10051919	Unspecified	Fusariosis
+ordo:228123	oboInOwl:hasDbXref	MedDRA:10009825	Unspecified	Coccidioidomycosis
+ordo:228165	oboInOwl:hasDbXref	MedDRA:10010252	Unspecified	Baló concentric sclerosis
+ordo:55655	oboInOwl:hasDbXref	MedDRA:10027253	Unspecified	Pneumococcal meningitis
+ordo:93928	oboInOwl:hasDbXref	MedDRA:10015088	Unspecified	Isolated epispadias
+ordo:254449	oboInOwl:hasDbXref	MedDRA:10056959	Unspecified	Atrophic lichen planus
+ordo:93929	oboInOwl:hasDbXref	MedDRA:10067424	Unspecified	Cloacal exstrophy
+ordo:54595	oboInOwl:hasDbXref	MedDRA:10011318	Unspecified	Craniopharyngioma
+ordo:268882	oboInOwl:hasDbXref	MedDRA:10056944	Unspecified	Arnold-Chiari malformation type I
+ordo:91547	oboInOwl:hasDbXref	MedDRA:10038300	Unspecified	Relapsing fever
+ordo:91546	oboInOwl:hasDbXref	MedDRA:10025169	Unspecified	Lyme disease
+ordo:314419	oboInOwl:hasDbXref	MedDRA:10066796	Unspecified	Ameloblastoma
+ordo:217260	oboInOwl:hasDbXref	MedDRA:10036807	Unspecified	Progressive multifocal leukoencephalopathy
+ordo:77297	oboInOwl:hasDbXref	MedDRA:10072223	Unspecified	Majeed syndrome
+ordo:182098	oboInOwl:hasDbXref	MedDRA:10035653	Unspecified	Pneumoconiosis
+ordo:182095	oboInOwl:hasDbXref	MedDRA:10022611	Unspecified	Interstitial lung disease
+ordo:182090	oboInOwl:hasDbXref	MedDRA:10064911	Unspecified	Pulmonary arterial hypertension
+ordo:90291	oboInOwl:hasDbXref	MedDRA:10042953	Unspecified	Systemic sclerosis
+ordo:90290	oboInOwl:hasDbXref	MedDRA:10011380	Unspecified	CREST syndrome
+ordo:90280	oboInOwl:hasDbXref	MedDRA:10025141	Unspecified	Chilblain lupus
+ordo:90281	oboInOwl:hasDbXref	MedDRA:10013072	Unspecified	Discoid lupus erythematosus
+ordo:90289	oboInOwl:hasDbXref	MedDRA:10039712	Unspecified	Localized scleroderma
+ordo:530995	oboInOwl:hasDbXref	MedDRA:10067399	Unspecified	Mixed phenotype acute leukemia
+ordo:314473	oboInOwl:hasDbXref	MedDRA:10064257	Unspecified	Ovarian fibroma
+ordo:28378	oboInOwl:hasDbXref	MedDRA:10069463	Unspecified	Tyrosinemia type 2
+ordo:39041	oboInOwl:hasDbXref	MedDRA:10069097	Unspecified	Omenn syndrome
+ordo:182067	oboInOwl:hasDbXref	MedDRA:10018338	Unspecified	Glial tumor
+ordo:39044	oboInOwl:hasDbXref	MedDRA:10061252	Unspecified	Uveal melanoma
+ordo:90308	oboInOwl:hasDbXref	MedDRA:10051452	Unspecified	Klippel-Trénaunay syndrome
+ordo:314451	oboInOwl:hasDbXref	MedDRA:10027139	Unspecified	Meigs syndrome
+ordo:91411	oboInOwl:hasDbXref	MedDRA:10015996	Unspecified	Congenital ptosis
+ordo:91412	oboInOwl:hasDbXref	MedDRA:10064583	Unspecified	Marcus-Gunn syndrome
+ordo:91414	oboInOwl:hasDbXref	MedDRA:10035040	Unspecified	Pilomatrixoma
+ordo:90186	oboInOwl:hasDbXref	MedDRA:10027138	Unspecified	Meige disease
+ordo:91483	oboInOwl:hasDbXref	MedDRA:10059198	Unspecified	Rieger anomaly
+ordo:206647	oboInOwl:hasDbXref	MedDRA:10068871	Unspecified	Myotonic dystrophy
+ordo:169139	oboInOwl:hasDbXref	MedDRA:10044388	Unspecified	Transient hypogammaglobulinemia of infancy
+ordo:183435	oboInOwl:hasDbXref	MedDRA:10021202	Unspecified	Inherited ichthyosis
+ordo:31837	oboInOwl:hasDbXref	MedDRA:10037458	Unspecified	Pulmonary venoocclusive disease
+ordo:182127	oboInOwl:hasDbXref	MedDRA:10018207	Unspecified	Extragonadal germinoma
+ordo:55880	oboInOwl:hasDbXref	MedDRA:10008734	Unspecified	Chondrosarcoma
+ordo:91500	oboInOwl:hasDbXref	MedDRA:10069034	Unspecified	Tubulointerstitial nephritis and uveitis syndrome
+ordo:91500	oboInOwl:hasDbXref	MedDRA:10069039	Unspecified	Tubulointerstitial nephritis and uveitis syndrome
+ordo:293812	oboInOwl:hasDbXref	MedDRA:10048796	Unspecified	Fixed drug eruption
+ordo:169163	oboInOwl:hasDbXref	MedDRA:10072229	Unspecified	Familial scaphocephaly syndrome
+ordo:182130	oboInOwl:hasDbXref	MedDRA:10061121	Unspecified	Tumor of endocrine glands
+ordo:217074	oboInOwl:hasDbXref	MedDRA:10033609	Unspecified	Rare carcinoma of pancreas
+ordo:217074	oboInOwl:hasDbXref	MedDRA:10033604	Unspecified	Rare carcinoma of pancreas
+ordo:217071	oboInOwl:hasDbXref	MedDRA:10067946	Unspecified	Renal cell carcinoma
+ordo:217067	oboInOwl:hasDbXref	MedDRA:10036463	Unspecified	Pouchitis
+ordo:294944	oboInOwl:hasDbXref	MedDRA:10024500	Unspecified	Congenital deformities of limbs
+ordo:243367	oboInOwl:hasDbXref	MedDRA:10000746	Unspecified	Acute fatty liver of pregnancy
+ordo:294925	oboInOwl:hasDbXref	MedDRA:10001926	Unspecified	Amelia
+ordo:268744	oboInOwl:hasDbXref	MedDRA:10071011	Unspecified	Spina bifida cystica
+ordo:90340	oboInOwl:hasDbXref	MedDRA:10071755	Unspecified	Blau syndrome
+ordo:90389	oboInOwl:hasDbXref	MedDRA:10043192	Unspecified	Telangiectasia macularis eruptiva perstans
+ordo:42738	oboInOwl:hasDbXref	MedDRA:10052210	Unspecified	Severe congenital neutropenia
+ordo:42775	oboInOwl:hasDbXref	MedDRA:10068032	Unspecified	PHACE syndrome
+ordo:34533	oboInOwl:hasDbXref	MedDRA:10011005	Unspecified	Corneal dystrophy
+ordo:33226	oboInOwl:hasDbXref	MedDRA:10047801	Unspecified	Waldenström macroglobulinemia
+ordo:71519	oboInOwl:hasDbXref	MedDRA:10072376	Unspecified	Psychogenic movement disorders
+ordo:33276	oboInOwl:hasDbXref	MedDRA:10023284	Unspecified	Kaposi sarcoma
+ordo:227972	oboInOwl:hasDbXref	MedDRA:10051222	Unspecified	Toxic oil syndrome
+ordo:251601	oboInOwl:hasDbXref	MedDRA:10065889	Unspecified	Fibrillary astrocytoma
+ordo:251627	oboInOwl:hasDbXref	MedDRA:10030286	Unspecified	Oligodendroglioma
+ordo:251646	oboInOwl:hasDbXref	MedDRA:10014968	Unspecified	Anaplastic ependymoma
+ordo:251630	oboInOwl:hasDbXref	MedDRA:10026659	Unspecified	Anaplastic oligodendroglioma
+ordo:251636	oboInOwl:hasDbXref	MedDRA:10014967	Unspecified	Ependymoma
+ordo:251656	oboInOwl:hasDbXref	MedDRA:10027744	Unspecified	Oligoastrocytoma
+ordo:83595	oboInOwl:hasDbXref	MedDRA:10010022	Unspecified	Colorado tick fever
+ordo:83594	oboInOwl:hasDbXref	MedDRA:10014587	Unspecified	Eastern equine encephalitis
+ordo:83593	oboInOwl:hasDbXref	MedDRA:10014614	Unspecified	Western equine encephalitis
+ordo:178382	oboInOwl:hasDbXref	MedDRA:10066242	Unspecified	Congenital vertical talus
+ordo:167848	oboInOwl:hasDbXref	MedDRA:10007636	Unspecified	Rare cardiomyopathy
+ordo:35737	oboInOwl:hasDbXref	MedDRA:10027974	Unspecified	Morning glory disc anomaly
+ordo:180824	oboInOwl:hasDbXref	MedDRA:10061902	Unspecified	Rare tumor of pancreas
+ordo:155899	oboInOwl:hasDbXref	MedDRA:10051456	Unspecified	Mandibulofacial dysostosis
+ordo:309324	oboInOwl:hasDbXref	MedDRA:10067532	Unspecified	Free sialic acid storage disease, infantile form
+ordo:309334	oboInOwl:hasDbXref	MedDRA:10067531	Unspecified	Salla disease
+ordo:46488	oboInOwl:hasDbXref	MedDRA:10024515	Unspecified	Linear IgA dermatosis
+ordo:46486	oboInOwl:hasDbXref	MedDRA:10057052	Unspecified	Mucous membrane pemphigoid
+ordo:46487	oboInOwl:hasDbXref	MedDRA:10056508	Unspecified	Epidermolysis bullosa acquisita
+ordo:95431	oboInOwl:hasDbXref	MedDRA:10058328	Unspecified	Twin to twin transfusion syndrome
+ordo:95430	oboInOwl:hasDbXref	MedDRA:10010654	Unspecified	Congenital tracheomalacia
+ordo:57145	oboInOwl:hasDbXref	MedDRA:10061981	Unspecified	SUNCT syndrome
+ordo:83452	oboInOwl:hasDbXref	MedDRA:10064332	Unspecified	Complex regional pain syndrome
+ordo:83454	oboInOwl:hasDbXref	MedDRA:10018381	Unspecified	Glomuvenous malformation
+ordo:83484	oboInOwl:hasDbXref	MedDRA:10041896	Unspecified	St. Louis encephalitis
+ordo:83483	oboInOwl:hasDbXref	MedDRA:10014584	Unspecified	La Crosse encephalitis
+ordo:83469	oboInOwl:hasDbXref	MedDRA:10064581	Unspecified	Desmoplastic small round cell tumor
+ordo:95455	oboInOwl:hasDbXref	MedDRA:10044223	Unspecified	Stevens-Johnson syndrome/toxic epidermal necrolysis spectrum
+ordo:95459	oboInOwl:hasDbXref	MedDRA:10010656	Unspecified	Congenital tricuspid stenosis
+ordo:83463	oboInOwl:hasDbXref	MedDRA:10027555	Unspecified	Microtia
+ordo:83461	oboInOwl:hasDbXref	MedDRA:10002947	Unspecified	Congenital primary aphakia
+ordo:95448	oboInOwl:hasDbXref	MedDRA:10066801	Unspecified	Congenital aortic valve atresia
+ordo:251582	oboInOwl:hasDbXref	MedDRA:10066254	Unspecified	Gliomatosis cerebri
+ordo:275555	oboInOwl:hasDbXref	MedDRA:10036485	Unspecified	Preeclampsia
+ordo:251589	oboInOwl:hasDbXref	MedDRA:10060971	Unspecified	Anaplastic astrocytoma
+ordo:251589	oboInOwl:hasDbXref	MedDRA:10002224	Unspecified	Anaplastic astrocytoma
+ordo:251576	oboInOwl:hasDbXref	MedDRA:10018340	Unspecified	Gliosarcoma
+ordo:251592	oboInOwl:hasDbXref	MedDRA:10065869	Unspecified	Low-grade astrocytoma
+ordo:309294	oboInOwl:hasDbXref	MedDRA:10058800	Unspecified	Sialidosis
+ordo:168811	oboInOwl:hasDbXref	MedDRA:10056558	Unspecified	Malignant peritoneal mesothelioma
+ordo:795	oboInOwl:hasDbXref	MedDRA:10039447	Unspecified	Rare form of salmonellosis
+ordo:797	oboInOwl:hasDbXref	MedDRA:10039486	Unspecified	Sarcoidosis
+ordo:798	oboInOwl:hasDbXref	MedDRA:10063540	Unspecified	Schinzel-Giedion syndrome
+ordo:33475	oboInOwl:hasDbXref	MedDRA:10027249	Unspecified	Meningococcal meningitis
+ordo:791	oboInOwl:hasDbXref	MedDRA:10038914	Unspecified	Retinitis pigmentosa
+ordo:790	oboInOwl:hasDbXref	MedDRA:10038916	Unspecified	Retinoblastoma
+ordo:793	oboInOwl:hasDbXref	MedDRA:10051316	Unspecified	SAPHO syndrome
+ordo:95708	oboInOwl:hasDbXref	MedDRA:10044701	Unspecified	Rare precocious puberty
+ordo:95708	oboInOwl:hasDbXref	MedDRA:10058084	Unspecified	Rare precocious puberty
+ordo:300878	oboInOwl:hasDbXref	MedDRA:10019054	Unspecified	Hairy cell leukemia variant
+ordo:95720	oboInOwl:hasDbXref	MedDRA:10065938	Unspecified	Thyroid hypoplasia
+ordo:70475	oboInOwl:hasDbXref	MedDRA:10037766	Unspecified	Radiation proctitis
+ordo:93110	oboInOwl:hasDbXref	MedDRA:10036369	Unspecified	Posterior urethral valve
+ordo:93101	oboInOwl:hasDbXref	MedDRA:10049102	Unspecified	Renal hypoplasia
+ordo:70482	oboInOwl:hasDbXref	MedDRA:10030155	Unspecified	Carcinoma of esophagus
+ordo:93100	oboInOwl:hasDbXref	MedDRA:10053624	Unspecified	Renal agenesis, unilateral
+ordo:300865	oboInOwl:hasDbXref	MedDRA:10065863	Unspecified	Primary cutaneous anaplastic large cell lymphoma
+ordo:801	oboInOwl:hasDbXref	MedDRA:10039710	Unspecified	Scleroderma
+ordo:1912	oboInOwl:hasDbXref	MedDRA:10016508	Unspecified	Fetal hydantoin syndrome
+ordo:1916	oboInOwl:hasDbXref	MedDRA:10012780	Unspecified	Diethylstilbestrol syndrome
+ordo:1915	oboInOwl:hasDbXref	MedDRA:10016845	Unspecified	Fetal alcohol syndrome
+ordo:1914	oboInOwl:hasDbXref	MedDRA:10051445	Unspecified	Vitamin K antagonist embryofetopathy
+ordo:803	oboInOwl:hasDbXref	MedDRA:10002026	Unspecified	Amyotrophic lateral sclerosis
+ordo:805	oboInOwl:hasDbXref	MedDRA:10045138	Unspecified	Tuberous sclerosis complex
+ordo:809	oboInOwl:hasDbXref	MedDRA:10027754	Unspecified	Mixed connective tissue disease
+ordo:1928	oboInOwl:hasDbXref	MedDRA:10010456	Unspecified	Congenital lobar emphysema
+ordo:821	oboInOwl:hasDbXref	MedDRA:10064387	Unspecified	Sotos syndrome
+ordo:820	oboInOwl:hasDbXref	MedDRA:10053841	Unspecified	Sneddon syndrome
+ordo:263425	oboInOwl:hasDbXref	MedDRA:10051713	Unspecified	Nevus of Ota
+ordo:823	oboInOwl:hasDbXref	MedDRA:10041524	Unspecified	Isolated spina bifida
+ordo:822	oboInOwl:hasDbXref	MedDRA:10019904	Unspecified	Hereditary spherocytosis
+ordo:1934	oboInOwl:hasDbXref	MedDRA:10071545	Unspecified	Early infantile epileptic encephalopathy
+ordo:827	oboInOwl:hasDbXref	MedDRA:10062766	Unspecified	Stargardt disease
+ordo:826	oboInOwl:hasDbXref	MedDRA:10041736	Unspecified	Sporotrichosis
+ordo:829	oboInOwl:hasDbXref	MedDRA:10064056	Unspecified	Adult-onset Still disease
+ordo:829	oboInOwl:hasDbXref	MedDRA:10058493	Unspecified	Adult-onset Still disease
+ordo:828	oboInOwl:hasDbXref	MedDRA:10063402	Unspecified	Stickler syndrome
+ordo:810	oboInOwl:hasDbXref	MedDRA:10054178	Unspecified	Shigellosis
+ordo:810	oboInOwl:hasDbXref	MedDRA:10017915	Unspecified	Shigellosis
+ordo:263413	oboInOwl:hasDbXref	MedDRA:10002476	Unspecified	Angiosarcoma
+ordo:811	oboInOwl:hasDbXref	MedDRA:10067940	Unspecified	Shwachman-Diamond syndrome
+ordo:1949	oboInOwl:hasDbXref	MedDRA:10067866	Unspecified	Benign familial neonatal epilepsy
+ordo:813	oboInOwl:hasDbXref	MedDRA:10062282	Unspecified	Silver-Russell syndrome
+ordo:816	oboInOwl:hasDbXref	MedDRA:10048676	Unspecified	Sjögren-Larsson syndrome
+ordo:1908	oboInOwl:hasDbXref	MedDRA:10071183	Unspecified	Aminopterin/methotrexate embryofetopathy
+ordo:1906	oboInOwl:hasDbXref	MedDRA:10016524	Unspecified	Fetal valproate spectrum disorder
+ordo:883	oboInOwl:hasDbXref	MedDRA:10043276	Unspecified	Extragonadal teratoma
+ordo:882	oboInOwl:hasDbXref	MedDRA:10069462	Unspecified	Tyrosinemia type 1
+ordo:887	oboInOwl:hasDbXref	MedDRA:10066022	Unspecified	VACTERL/VATER association
+ordo:887	oboInOwl:hasDbXref	MedDRA:10053665	Unspecified	VACTERL/VATER association
+ordo:886	oboInOwl:hasDbXref	MedDRA:10063396	Unspecified	Usher syndrome
+ordo:881	oboInOwl:hasDbXref	MedDRA:10045181	Unspecified	Turner syndrome
+ordo:876	oboInOwl:hasDbXref	MedDRA:10048251	Unspecified	Yolk sac tumor
+ordo:263479	oboInOwl:hasDbXref	MedDRA:10017406	Unspecified	Fuchs heterochromic iridocyclitis
+ordo:870	oboInOwl:hasDbXref	MedDRA:10044688	Unspecified	Down syndrome
+ordo:898	oboInOwl:hasDbXref	MedDRA:10063383	Unspecified	Wagner disease
+ordo:890	oboInOwl:hasDbXref	MedDRA:10047216	Unspecified	Hepatic veno-occlusive disease
+ordo:892	oboInOwl:hasDbXref	MedDRA:10047716	Unspecified	Von Hippel-Lindau disease
+ordo:840	oboInOwl:hasDbXref	MedDRA:10042926	Unspecified	Syringocystadenoma papilliferum
+ordo:845	oboInOwl:hasDbXref	MedDRA:10043147	Unspecified	Tay-Sachs disease
+ordo:844	oboInOwl:hasDbXref	MedDRA:10024984	Unspecified	Lown-Ganong-Levine syndrome
+ordo:1959	oboInOwl:hasDbXref	MedDRA:10053873	Unspecified	Evans syndrome
+ordo:846	oboInOwl:hasDbXref	MedDRA:10043390	Unspecified	Alpha-thalassemia
+ordo:848	oboInOwl:hasDbXref	MedDRA:10043391	Unspecified	Beta-thalassemia
+ordo:834	oboInOwl:hasDbXref	MedDRA:10067529	Unspecified	Free sialic acid storage disease
+ordo:834	oboInOwl:hasDbXref	MedDRA:10067531	Unspecified	Free sialic acid storage disease
+ordo:838	oboInOwl:hasDbXref	MedDRA:10071573	Unspecified	Susac syndrome
+ordo:839	oboInOwl:hasDbXref	MedDRA:10060740	Unspecified	Congenital nephrotic syndrome, Finnish type
+ordo:861	oboInOwl:hasDbXref	MedDRA:10051456	Unspecified	Treacher-Collins syndrome
+ordo:863	oboInOwl:hasDbXref	MedDRA:10044608	Unspecified	Trichinellosis
+ordo:864	oboInOwl:hasDbXref	MedDRA:10044611	Unspecified	Trichofolliculoma
+ordo:854	oboInOwl:hasDbXref	MedDRA:10036206	Unspecified	Primitive portal vein thrombosis
+ordo:1980	oboInOwl:hasDbXref	MedDRA:10059626	Unspecified	Bilateral striopallidodentate calcinosis
+ordo:858	oboInOwl:hasDbXref	MedDRA:10010652	Unspecified	Congenital toxoplasmosis
+ordo:168940	oboInOwl:hasDbXref	MedDRA:10065854	Unspecified	Chronic eosinophilic leukemia
+ordo:104010	oboInOwl:hasDbXref	MedDRA:10057018	Unspecified	Intestinal polyposis syndrome
+ordo:168956	oboInOwl:hasDbXref	MedDRA:10048643	Unspecified	Hypereosinophilic syndrome
+ordo:168960	oboInOwl:hasDbXref	MedDRA:10038271	Unspecified	Refractory anemia with excess blasts in transformation
+ordo:167635	oboInOwl:hasDbXref	MedDRA:10055046	Unspecified	Scleromyxedema
+ordo:83600	oboInOwl:hasDbXref	MedDRA:10052369	Unspecified	Encephalitis lethargica
+ordo:33364	oboInOwl:hasDbXref	MedDRA:10044628	Unspecified	Trichothiodystrophy
+ordo:178342	oboInOwl:hasDbXref	MedDRA:10067917	Unspecified	Inflammatory myofibroblastic tumor
+ordo:56044	oboInOwl:hasDbXref	MedDRA:10007426	Unspecified	Carcinoma of gallbladder and extrahepatic biliary tract
+ordo:95613	oboInOwl:hasDbXref	MedDRA:10056447	Unspecified	Pituitary apoplexy
+ordo:178320	oboInOwl:hasDbXref	MedDRA:10069351	Unspecified	Acute lung injury
+ordo:910	oboInOwl:hasDbXref	MedDRA:10048220	Unspecified	Xeroderma pigmentosum
+ordo:913	oboInOwl:hasDbXref	MedDRA:10017852	Unspecified	Zollinger-Ellison syndrome
+ordo:915	oboInOwl:hasDbXref	MedDRA:10067148	Unspecified	Aarskog-Scott syndrome
+ordo:916	oboInOwl:hasDbXref	MedDRA:10063429	Unspecified	Aase-Smith syndrome
+ordo:946	oboInOwl:hasDbXref	MedDRA:10000590	Unspecified	Acrocephalosyndactyly
+ordo:930	oboInOwl:hasDbXref	MedDRA:10036669	Unspecified	Idiopathic achalasia
+ordo:932	oboInOwl:hasDbXref	MedDRA:10066122	Unspecified	Achondrogenesis
+ordo:1824	oboInOwl:hasDbXref	MedDRA:10062600	Unspecified	Lowry-Wood syndrome
+ordo:251312	oboInOwl:hasDbXref	MedDRA:10027754	Unspecified	Overlapping connective tissue disease
+ordo:166282	oboInOwl:hasDbXref	MedDRA:10040639	Unspecified	Familial sick sinus syndrome
+ordo:900	oboInOwl:hasDbXref	MedDRA:10047888	Unspecified	Granulomatosis with polyangiitis
+ordo:251365	oboInOwl:hasDbXref	MedDRA:10057072	Unspecified	Sickle cell-hemoglobin C disease syndrome
+ordo:902	oboInOwl:hasDbXref	MedDRA:10049429	Unspecified	Werner syndrome
+ordo:904	oboInOwl:hasDbXref	MedDRA:10049644	Unspecified	Williams syndrome
+ordo:903	oboInOwl:hasDbXref	MedDRA:10047715	Unspecified	Von Willebrand disease
+ordo:906	oboInOwl:hasDbXref	MedDRA:10047992	Unspecified	Wiskott-Aldrich syndrome
+ordo:905	oboInOwl:hasDbXref	MedDRA:10019819	Unspecified	Wilson disease
+ordo:908	oboInOwl:hasDbXref	MedDRA:10017324	Unspecified	Fragile X syndrome
+ordo:251359	oboInOwl:hasDbXref	MedDRA:10040655	Unspecified	Sickle cell-beta-thalassemia disease syndrome
+ordo:251359	oboInOwl:hasDbXref	MedDRA:10055579	Unspecified	Sickle cell-beta-thalassemia disease syndrome
+ordo:251370	oboInOwl:hasDbXref	MedDRA:10056724	Unspecified	Sickle cell-hemoglobin D disease syndrome
+ordo:1880	oboInOwl:hasDbXref	MedDRA:10014075	Unspecified	Ebstein malformation of the tricuspid valve
+ordo:1885	oboInOwl:hasDbXref	MedDRA:10014145	Unspecified	Isolated ectopia lentis
+ordo:963	oboInOwl:hasDbXref	MedDRA:10000599	Unspecified	Acromegaly
+ordo:1830	oboInOwl:hasDbXref	MedDRA:10048699	Unspecified	Schimke immuno-osseous dysplasia
+ordo:984	oboInOwl:hasDbXref	MedDRA:10037322	Unspecified	Pulmonary agenesis
+ordo:104008	oboInOwl:hasDbXref	MedDRA:10049416	Unspecified	Short bowel syndrome
+ordo:983	oboInOwl:hasDbXref	MedDRA:10002641	Unspecified	Testicular regression syndrome
+ordo:33408	oboInOwl:hasDbXref	MedDRA:10056960	Unspecified	Bullous lichen planus
+ordo:309005	oboInOwl:hasDbXref	MedDRA:10061227	Unspecified	Disorder of lipid metabolism
+ordo:309025	oboInOwl:hasDbXref	MedDRA:10072221	Unspecified	Mevalonate kinase deficiency
+ordo:69663	oboInOwl:hasDbXref	MedDRA:10068936	Unspecified	Low phospholipid-associated cholelithiasis
+ordo:67038	oboInOwl:hasDbXref	MedDRA:10008958	Unspecified	B-cell chronic lymphocytic leukemia
+ordo:68367	oboInOwl:hasDbXref	MedDRA:10058097	Unspecified	Rare inborn errors of metabolism
+ordo:68367	oboInOwl:hasDbXref	MedDRA:10062018	Unspecified	Rare inborn errors of metabolism
+ordo:93338	oboInOwl:hasDbXref	MedDRA:10063143	Unspecified	Polysyndactyly
+ordo:68364	oboInOwl:hasDbXref	MedDRA:10060892	Unspecified	Hemoglobinopathy
+ordo:68356	oboInOwl:hasDbXref	MedDRA:10024381	Unspecified	Leukodystrophy
+ordo:68354	oboInOwl:hasDbXref	MedDRA:10040984	Unspecified	Rare sleep disorder
+ordo:68381	oboInOwl:hasDbXref	MedDRA:10029323	Unspecified	Neuromuscular disease
+ordo:67043	oboInOwl:hasDbXref	MedDRA:10069408	Unspecified	Amoebic keratitis
+ordo:93372	oboInOwl:hasDbXref	MedDRA:10068704	Unspecified	Familial hypocalciuric hypercalcemia type 1
+ordo:79078	oboInOwl:hasDbXref	MedDRA:10052317	Unspecified	IgG4-related dacryoadenitis and sialadenitis
+ordo:79078	oboInOwl:hasDbXref	MedDRA:10051457	Unspecified	IgG4-related dacryoadenitis and sialadenitis
+ordo:180261	oboInOwl:hasDbXref	MedDRA:10011813	Unspecified	Phyllodes tumor of the breast
+ordo:180275	oboInOwl:hasDbXref	MedDRA:10033367	Unspecified	Paget disease of the nipple
+ordo:79098	oboInOwl:hasDbXref	MedDRA:10042742	Unspecified	Sympathetic ophthalmia
+ordo:180237	oboInOwl:hasDbXref	MedDRA:10053865	Unspecified	Benign tumor of fallopian tubes
+ordo:180242	oboInOwl:hasDbXref	MedDRA:10025915	Unspecified	Malignant tumor of fallopian tubes
+ordo:31112	oboInOwl:hasDbXref	MedDRA:10057070	Unspecified	Dermatofibrosarcoma protuberans
+ordo:33543	oboInOwl:hasDbXref	MedDRA:10053712	Unspecified	Kleine-Levin syndrome
+ordo:33577	oboInOwl:hasDbXref	MedDRA:10047883	Unspecified	Nodular non-suppurative panniculitis
+ordo:71862	oboInOwl:hasDbXref	MedDRA:10038857	Unspecified	Inherited retinal disorder
+ordo:300557	oboInOwl:hasDbXref	MedDRA:10048853	Unspecified	Carcinoma of the ampulla of Vater
+ordo:300579	oboInOwl:hasDbXref	MedDRA:10041932	Unspecified	Staphylococcal toxemia
+ordo:168778	oboInOwl:hasDbXref	MedDRA:10061345	Unspecified	Rare pervasive developmental disorder
+ordo:168782	oboInOwl:hasDbXref	MedDRA:10008522	Unspecified	Childhood disintegrative disorder
+ordo:70589	oboInOwl:hasDbXref	MedDRA:10006475	Unspecified	Bronchopulmonary dysplasia
+ordo:95854	oboInOwl:hasDbXref	MedDRA:10071015	Unspecified	Levocardia
+ordo:70568	oboInOwl:hasDbXref	MedDRA:10051358	Unspecified	Post-transplant lymphoproliferative disease
+ordo:70567	oboInOwl:hasDbXref	MedDRA:10008593	Unspecified	Cholangiocarcinoma
+ordo:70567	oboInOwl:hasDbXref	MedDRA:10004593	Unspecified	Cholangiocarcinoma
+ordo:70591	oboInOwl:hasDbXref	MedDRA:10068739	Unspecified	Chronic thromboembolic pulmonary hypertension
+ordo:93292	oboInOwl:hasDbXref	MedDRA:10058902	Unspecified	Adenoma of pancreas
+ordo:93276	oboInOwl:hasDbXref	MedDRA:10036120	Unspecified	Polyostotic fibrous dysplasia
+ordo:178029	oboInOwl:hasDbXref	MedDRA:10068587	Unspecified	Central diabetes insipidus
+ordo:79224	oboInOwl:hasDbXref	MedDRA:10037546	Unspecified	Disorder of purine or pyrimidine metabolism
+ordo:79235	oboInOwl:hasDbXref	MedDRA:10011387	Unspecified	Crigler-Najjar syndrome type 2
+ordo:79234	oboInOwl:hasDbXref	MedDRA:10057034	Unspecified	Crigler-Najjar syndrome type 1
+ordo:79201	oboInOwl:hasDbXref	MedDRA:10061990	Unspecified	Glycogen storage disease
+ordo:79213	oboInOwl:hasDbXref	MedDRA:10028093	Unspecified	Mucopolysaccharidosis
+ordo:79264	oboInOwl:hasDbXref	MedDRA:10052073	Unspecified	Juvenile neuronal ceroid lipofuscinosis
+ordo:93573	oboInOwl:hasDbXref	MedDRA:10043645	Unspecified	Thrombotic microangiopathy
+ordo:79273	oboInOwl:hasDbXref	MedDRA:10019866	Unspecified	Hereditary coproporphyria
+ordo:79278	oboInOwl:hasDbXref	MedDRA:10015289	Unspecified	Autosomal erythropoietic protoporphyria
+ordo:93569	oboInOwl:hasDbXref	MedDRA:10068240	Unspecified	Polymyalgia rheumatica
+ordo:79241	oboInOwl:hasDbXref	MedDRA:10071434	Unspecified	Biotinidase deficiency
+ordo:181412	oboInOwl:hasDbXref	MedDRA:10061630	Unspecified	Adrenogenital syndrome
+ordo:79254	oboInOwl:hasDbXref	MedDRA:10034875	Unspecified	Classic phenylketonuria
+ordo:157769	oboInOwl:hasDbXref	MedDRA:10059119	Unspecified	Situs ambiguus
+ordo:289644	oboInOwl:hasDbXref	MedDRA:10068349	Unspecified	Epstein-Barr virus-associated malignant lymphoproliferative disorder
+ordo:180086	oboInOwl:hasDbXref	MedDRA:10012770	Unspecified	Didelphys uterus
+ordo:289666	oboInOwl:hasDbXref	MedDRA:10065039	Unspecified	Plasmablastic lymphoma
+ordo:276161	oboInOwl:hasDbXref	MedDRA:10061299	Unspecified	Multiple endocrine neoplasia
+ordo:252183	oboInOwl:hasDbXref	MedDRA:10029267	Unspecified	Neurofibroma
+ordo:69723	oboInOwl:hasDbXref	MedDRA:10069461	Unspecified	Tyrosinemia type 3
+ordo:43116	oboInOwl:hasDbXref	MedDRA:10040108	Unspecified	Serotonin syndrome
+ordo:31150	oboInOwl:hasDbXref	MedDRA:10051875	Unspecified	Tangier disease
+ordo:31153	oboInOwl:hasDbXref	MedDRA:10065156	Unspecified	Hypoalphalipoproteinemia
+ordo:69745	oboInOwl:hasDbXref	MedDRA:10068856	Unspecified	Warty dyskeratoma
+ordo:79105	oboInOwl:hasDbXref	MedDRA:10066948	Unspecified	Myxofibrosarcoma
+ordo:157835	oboInOwl:hasDbXref	MedDRA:10019461	Unspecified	Paroxysmal hemicrania
+ordo:79102	oboInOwl:hasDbXref	MedDRA:10043788	Unspecified	Thyrotoxic periodic paralysis
+ordo:79101	oboInOwl:hasDbXref	MedDRA:10058514	Unspecified	Hyperprolinemia type 2
+ordo:79101	oboInOwl:hasDbXref	MedDRA:10058512	Unspecified	Hyperprolinemia type 2
+ordo:157823	oboInOwl:hasDbXref	MedDRA:10066431	Unspecified	Klüver-Bucy syndrome
+ordo:79148	oboInOwl:hasDbXref	MedDRA:10014338	Unspecified	Elastosis perforans serpiginosa
+ordo:79145	oboInOwl:hasDbXref	MedDRA:10068651	Unspecified	Dowling-Degos disease
+ordo:79151	oboInOwl:hasDbXref	MedDRA:10069445	Unspecified	Acrokeratosis verruciformis of Hopf
+ordo:79126	oboInOwl:hasDbXref	MedDRA:10066728	Unspecified	Acute interstitial pneumonia
+ordo:79128	oboInOwl:hasDbXref	MedDRA:10062997	Unspecified	Lymphoid interstitial pneumonia
+ordo:79127	oboInOwl:hasDbXref	MedDRA:10066393	Unspecified	Respiratory bronchiolitis-interstitial lung disease syndrome
+ordo:79139	oboInOwl:hasDbXref	MedDRA:10014596	Unspecified	Japanese encephalitis
+ordo:79191	oboInOwl:hasDbXref	MedDRA:10061476	Unspecified	Disorder of purine metabolism
+ordo:79193	oboInOwl:hasDbXref	MedDRA:10070969	Unspecified	Disorder of pyrimidine metabolism
+ordo:216694	oboInOwl:hasDbXref	MedDRA:10011120	Unspecified	Congenitally corrected transposition of the great arteries
+ordo:79161	oboInOwl:hasDbXref	MedDRA:10061023	Unspecified	Disorder of carbohydrate metabolism
+ordo:93476	oboInOwl:hasDbXref	MedDRA:10056916	Unspecified	Hurler-Scheie syndrome
+ordo:180139	oboInOwl:hasDbXref	MedDRA:10063146	Unspecified	Uterine hypoplasia
+ordo:180134	oboInOwl:hasDbXref	MedDRA:10004550	Unspecified	Bicornuate uterus
+ordo:180122	oboInOwl:hasDbXref	MedDRA:10062606	Unspecified	Septate uterus
+ordo:31202	oboInOwl:hasDbXref	MedDRA:10069748	Unspecified	Melioidosis
+ordo:31205	oboInOwl:hasDbXref	MedDRA:10037904	Unspecified	Rat-bite fever
+ordo:31204	oboInOwl:hasDbXref	MedDRA:10029444	Unspecified	Nocardiosis
+ordo:180182	oboInOwl:hasDbXref	MedDRA:10049786	Unspecified	Supernumerary breasts

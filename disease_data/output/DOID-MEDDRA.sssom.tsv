@@ -1,0 +1,69 @@
+# curie_map:
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   EFO: http://www.ebi.ac.uk/efo/EFO_
+#   ENVO: http://purl.obolibrary.org/obo/ENVO_
+#   ExO: http://purl.obolibrary.org/obo/ExO_
+#   GARD: GARD
+#   ICD10CM: http://apps.who.int/classifications/icd10/browse/2010/en#/
+#   ICD9CM: ICD9CM
+#   ICDO: ICDO
+#   KEGG: http://www.kegg.jp/entry/
+#   MEDDRA: MEDDRA
+#   MESH: https://meshb.nlm.nih.gov/record/ui?ui=
+#   NCI: http://purl.obolibrary.org/obo/NCIT_
+#   OMIM: http://omim.org/entry/
+#   OMIT: http://purl.obolibrary.org/obo/OMIT_
+#   ORDO: ORDO
+#   SNOMEDCT_US_2020_03_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2020_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2021_07_31: SNOMEDCT_US_2021_07_31
+#   SNOMEDCT_US_2021_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   UMLS_CUI: http://linkedlifedata.com/resource/umls/id/
+#   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+#   skos: http://www.w3.org/2004/02/skos/core#
+# license: https://github.com/mapping-commons/mapping-commons.github.io/blob/main/docs/original_license_applies.md
+# mapping_date: '2022-02-23'
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
+# mapping_tool: https://github.com/mapping-commons/sssom-py
+subject_id	predicate_id	object_id	match_type	subject_label
+DOID:7551	oboInOwl:hasDbXref	MEDDRA:10018604	Unspecified	gonorrhea
+DOID:13406	oboInOwl:hasDbXref	MEDDRA:10037430	Unspecified	pulmonary sarcoidosis
+DOID:14702	oboInOwl:hasDbXref	MEDDRA:10071135	Unspecified	branchiootorenal syndrome
+DOID:0050854	oboInOwl:hasDbXref	MEDDRA:10064569	Unspecified	Muckle-Wells syndrome
+DOID:0060217	oboInOwl:hasDbXref	MEDDRA:10059200	Unspecified	Cogan-Reese syndrome
+DOID:0060310	oboInOwl:hasDbXref	MEDDRA:10051962	Unspecified	uvulitis
+DOID:0060311	oboInOwl:hasDbXref	MEDDRA:10001229	Unspecified	adenoid hypertrophy
+DOID:14796	oboInOwl:hasDbXref	MEDDRA:10059589	Unspecified	Dubowitz syndrome
+DOID:0060185	oboInOwl:hasDbXref	MEDDRA:10009657	Unspecified	Clostridium difficile colitis
+DOID:0060184	oboInOwl:hasDbXref	MEDDRA:10025268	Unspecified	lymphocytic colitis
+DOID:0060183	oboInOwl:hasDbXref	MEDDRA:10048928	Unspecified	collagenous colitis
+DOID:0060189	oboInOwl:hasDbXref	MEDDRA:10021312	Unspecified	ileitis
+DOID:0060190	oboInOwl:hasDbXref	MEDDRA:10062647	Unspecified	ileocolitis
+DOID:10113	oboInOwl:hasDbXref	MEDDRA:10044707	Unspecified	trypanosomiasis
+DOID:0111535	oboInOwl:hasDbXref	MEDDRA:10048902	Unspecified	progressive osseous heteroplasia
+DOID:2512	oboInOwl:hasDbXref	MEDDRA:10062804	Unspecified	nevoid basal cell carcinoma syndrome
+DOID:0111633	oboInOwl:hasDbXref	MEDDRA:10066387	Unspecified	congenital sucrase-isomaltase deficiency
+DOID:3911	oboInOwl:hasDbXref	MEDDRA:10036794	Unspecified	progeria
+DOID:10718	oboInOwl:hasDbXref	MEDDRA:0017536	Unspecified	giardiasis
+DOID:0111568	oboInOwl:hasDbXref	MEDDRA:10066242	Unspecified	congenital vertical talus
+DOID:0111590	oboInOwl:hasDbXref	MEDDRA:10049066	Unspecified	Cohen syndrome
+DOID:0111724	oboInOwl:hasDbXref	MEDDRA:10063361	Unspecified	geleophysic dysplasia
+DOID:1056	oboInOwl:hasDbXref	MEDDRA:10051707	Unspecified	oculocerebrorenal syndrome
+DOID:0111680	oboInOwl:hasDbXref	MEDDRA:10015487	Unspecified	essential fructosuria
+DOID:0111666	oboInOwl:hasDbXref	MEDDRA:10071718	Unspecified	proliferative vasculopathy and hydranencephaly-hydrocephaly syndrome
+DOID:4969	oboInOwl:hasDbXref	MEDDRA:10048608	Unspecified	Gerstmann syndrome
+DOID:0111788	oboInOwl:hasDbXref	MEDDRA:10060908	Unspecified	Melnick-Needles syndrome
+DOID:0112307	oboInOwl:hasDbXref	MEDDRA:10059299	Unspecified	sarcosinemia
+DOID:0111147	oboInOwl:hasDbXref	MEDDRA:10002449	Unspecified	angioimmunoblastic T-cell lymphoma
+DOID:0111146	oboInOwl:hasDbXref	MEDDRA:10069495	Unspecified	acquired von Willebrand syndrome
+DOID:0111273	oboInOwl:hasDbXref	MEDDRA:10062940	Unspecified	NARP syndrome
+DOID:1412	oboInOwl:hasDbXref	MEDDRA:10004056	Unspecified	bacteriuria
+DOID:0111258	oboInOwl:hasDbXref	MEDDRA:10064170	Unspecified	pentosuria
+DOID:0111255	oboInOwl:hasDbXref	MEDDRA:10052312	Unspecified	McKusick-Kaufman syndrome
+DOID:0111359	oboInOwl:hasDbXref	MEDDRA:10072036	Unspecified	large congenital melanocytic nevus
+DOID:0112011	oboInOwl:hasDbXref	MEDDRA:10068842	Unspecified	mutilating palmoplantar keratoderma with periorificial keratotic plaques
+DOID:1947	oboInOwl:hasDbXref	MEDDRA:10044620	Unspecified	trichomoniasis
+DOID:1930	oboInOwl:hasDbXref	MEDDRA:10056710	Unspecified	Laurence-Moon syndrome
+DOID:0112259	oboInOwl:hasDbXref	MEDDRA:10024406	Unspecified	Leydig cell hypoplasia
+DOID:0080390	oboInOwl:hasDbXref	MEDDRA:10060740	Unspecified	nephrotic syndrome type 1
+DOID:9467	oboInOwl:hasDbXref	MEDDRA:10063431	Unspecified	nail-patella syndrome

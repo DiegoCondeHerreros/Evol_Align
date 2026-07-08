@@ -1,0 +1,1015 @@
+# curie_map:
+#   Ensembl: https://www.ensembl.org/id/
+#   Genatlas: Genatlas
+#   HGNC: HGNC
+#   IUPHAR: IUPHAR
+#   MeSH: MeSH
+#   MedDRA: http://purl.bioontology.org/ontology/MEDDRA/
+#   OMIM: http://omim.org/entry/
+#   Reactome: Reactome
+#   SwissProt: http://purl.uniprot.org/uniprot/
+#   UMLS: http://linkedlifedata.com/resource/umls/id/
+#   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+#   ordo: http://www.orpha.net/ORDO/Orphanet_
+# license: https://github.com/mapping-commons/mapping-commons.github.io/blob/main/docs/original_license_applies.md
+# mapping_date: '2022-02-23'
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
+# mapping_tool: https://github.com/mapping-commons/sssom-py
+subject_id	predicate_id	object_id	match_type	subject_label
+ordo:138376	oboInOwl:hasDbXref	IUPHAR:1804	Unspecified	platelet derived growth factor receptor beta
+ordo:260583	oboInOwl:hasDbXref	IUPHAR:2069	Unspecified	mitogen-activated protein kinase kinase kinase 1
+ordo:572412	oboInOwl:hasDbXref	IUPHAR:447	Unspecified	glutamate ionotropic receptor AMPA type subunit 4
+ordo:320785	oboInOwl:hasDbXref	IUPHAR:914	Unspecified	solute carrier family 5 member 7
+ordo:404800	oboInOwl:hasDbXref	IUPHAR:760	Unspecified	ATP binding cassette subfamily A member 5
+ordo:223447	oboInOwl:hasDbXref	IUPHAR:2393	Unspecified	plasminogen activator, urokinase
+ordo:165966	oboInOwl:hasDbXref	IUPHAR:472	Unspecified	cholinergic receptor nicotinic beta 2 subunit
+ordo:464482	oboInOwl:hasDbXref	IUPHAR:233	Unspecified	frizzled class receptor 5
+ordo:165976	oboInOwl:hasDbXref	IUPHAR:1959	Unspecified	calcium/calmodulin dependent serine protein kinase
+ordo:138361	oboInOwl:hasDbXref	IUPHAR:1779	Unspecified	NLR family pyrin domain containing 12
+ordo:138366	oboInOwl:hasDbXref	IUPHAR:1807	Unspecified	fms related receptor tyrosine kinase 3
+ordo:165929	oboInOwl:hasDbXref	IUPHAR:2870	Unspecified	prolyl endopeptidase like
+ordo:509184	oboInOwl:hasDbXref	IUPHAR:2150	Unspecified	phosphatidylinositol-4-phosphate 3-kinase catalytic subunit type 2 alpha
+ordo:209301	oboInOwl:hasDbXref	IUPHAR:496	Unspecified	transient receptor potential cation channel subfamily M member 4
+ordo:392281	oboInOwl:hasDbXref	IUPHAR:2246	Unspecified	tyrosine kinase non receptor 2
+ordo:500862	oboInOwl:hasDbXref	IUPHAR:1676	Unspecified	ADAM metallopeptidase with thrombospondin type 1 motif 3
+ordo:426145	oboInOwl:hasDbXref	IUPHAR:141	Unspecified	G protein-coupled receptor 161
+ordo:404762	oboInOwl:hasDbXref	IUPHAR:1278	Unspecified	adenylate cyclase 1
+ordo:490687	oboInOwl:hasDbXref	IUPHAR:2343	Unspecified	cathepsin B
+ordo:509234	oboInOwl:hasDbXref	IUPHAR:2189	Unspecified	receptor interacting serine/threonine kinase 1
+ordo:509238	oboInOwl:hasDbXref	IUPHAR:1840	Unspecified	ROS proto-oncogene 1, receptor tyrosine kinase
+ordo:139778	oboInOwl:hasDbXref	IUPHAR:282	Unspecified	melanocortin 1 receptor
+ordo:426073	oboInOwl:hasDbXref	IUPHAR:2197	Unspecified	salt inducible kinase 1
+ordo:490652	oboInOwl:hasDbXref	IUPHAR:1209	Unspecified	solute carrier family 45 member 1
+ordo:223546	oboInOwl:hasDbXref	IUPHAR:3038	Unspecified	NIPA like domain containing 4
+ordo:212892	oboInOwl:hasDbXref	IUPHAR:868	Unspecified	solute carrier family 1 member 3
+ordo:212882	oboInOwl:hasDbXref	IUPHAR:1354	Unspecified	cytochrome P450 family 7 subfamily A member 1
+ordo:139780	oboInOwl:hasDbXref	IUPHAR:2422	Unspecified	transmembrane serine protease 6
+ordo:509298	oboInOwl:hasDbXref	IUPHAR:2256	Unspecified	transformation/transcription domain associated protein
+ordo:438066	oboInOwl:hasDbXref	IUPHAR:2902	Unspecified	stimulator of interferon response cGAMP interactor 1
+ordo:403364	oboInOwl:hasDbXref	IUPHAR:2888	Unspecified	ectonucleoside triphosphate diphosphohydrolase 1
+ordo:454902	oboInOwl:hasDbXref	IUPHAR:276	Unspecified	sphingosine-1-phosphate receptor 2
+ordo:442943	oboInOwl:hasDbXref	IUPHAR:384	Unspecified	potassium calcium-activated channel subfamily N member 4
+ordo:367100	oboInOwl:hasDbXref	IUPHAR:102	Unspecified	G protein-coupled receptor 35
+ordo:476274	oboInOwl:hasDbXref	IUPHAR:484	Unspecified	purinergic receptor P2X 7
+ordo:477544	oboInOwl:hasDbXref	IUPHAR:2878	Unspecified	peptidyl arginine deiminase 3
+ordo:403297	oboInOwl:hasDbXref	IUPHAR:617	Unspecified	nuclear receptor subfamily 2 group F member 1
+ordo:200717	oboInOwl:hasDbXref	IUPHAR:1089	Unspecified	solute carrier family 25 member 38
+ordo:535702	oboInOwl:hasDbXref	IUPHAR:2723	Unspecified	bromodomain PHD finger transcription factor
+ordo:321640	oboInOwl:hasDbXref	IUPHAR:2571	Unspecified	solute carrier family 52 member 1
+ordo:306110	oboInOwl:hasDbXref	IUPHAR:1628	Unspecified	matrix metallopeptidase 1
+ordo:306122	oboInOwl:hasDbXref	IUPHAR:2504	Unspecified	phosphoinositide-3-kinase regulatory subunit 2
+ordo:464175	oboInOwl:hasDbXref	IUPHAR:1509	Unspecified	citron rho-interacting serine/threonine kinase
+ordo:394615	oboInOwl:hasDbXref	IUPHAR:1461	Unspecified	synaptojanin 1
+ordo:165845	oboInOwl:hasDbXref	IUPHAR:1997	Unspecified	casein kinase 1 delta
+ordo:140560	oboInOwl:hasDbXref	IUPHAR:758	Unspecified	ATP binding cassette subfamily A member 3
+ordo:367084	oboInOwl:hasDbXref	IUPHAR:1949	Unspecified	BUB1 mitotic checkpoint serine/threonine kinase
+ordo:395886	oboInOwl:hasDbXref	IUPHAR:26	Unspecified	adrenoceptor alpha 2B
+ordo:178819	oboInOwl:hasDbXref	IUPHAR:362	Unspecified	tachykinin receptor 3
+ordo:394596	oboInOwl:hasDbXref	IUPHAR:485	Unspecified	transient receptor potential cation channel subfamily A member 1
+ordo:356212	oboInOwl:hasDbXref	IUPHAR:1054	Unspecified	solute carrier family 25 member 12
+ordo:371844	oboInOwl:hasDbXref	IUPHAR:1049	Unspecified	solute carrier family 24 member 5
+ordo:356203	oboInOwl:hasDbXref	IUPHAR:2549	Unspecified	retinol binding protein 4
+ordo:321573	oboInOwl:hasDbXref	IUPHAR:1335	Unspecified	cytochrome P450 family 2 subfamily U member 1
+ordo:247147	oboInOwl:hasDbXref	IUPHAR:2760	Unspecified	programmed cell death 1
+ordo:247145	oboInOwl:hasDbXref	IUPHAR:2885	Unspecified	isocitrate dehydrogenase (NADP(+)) 2
+ordo:248481	oboInOwl:hasDbXref	IUPHAR:2618	Unspecified	histone deacetylase 6
+ordo:235181	oboInOwl:hasDbXref	IUPHAR:437	Unspecified	potassium inwardly rectifying channel subfamily J member 5
+ordo:235193	oboInOwl:hasDbXref	IUPHAR:2628	Unspecified	membrane spanning 4-domains A1
+ordo:298784	oboInOwl:hasDbXref	IUPHAR:1067	Unspecified	uncoupling protein 2
+ordo:284155	oboInOwl:hasDbXref	IUPHAR:1709	Unspecified	interleukin 11 receptor subunit alpha
+ordo:284125	oboInOwl:hasDbXref	IUPHAR:1319	Unspecified	cytochrome P450 family 1 subfamily A member 2
+ordo:569267	oboInOwl:hasDbXref	IUPHAR:495	Unspecified	transient receptor potential cation channel subfamily M member 3
+ordo:117825	oboInOwl:hasDbXref	IUPHAR:2857	Unspecified	phosphoinositide kinase, FYVE-type zinc finger containing
+ordo:117822	oboInOwl:hasDbXref	IUPHAR:2161	Unspecified	PTEN induced kinase 1
+ordo:117820	oboInOwl:hasDbXref	IUPHAR:2153	Unspecified	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit alpha
+ordo:117849	oboInOwl:hasDbXref	IUPHAR:504	Unspecified	polycystin 2, transient receptor potential cation channel
+ordo:535893	oboInOwl:hasDbXref	IUPHAR:1321	Unspecified	cytochrome P450 family 2 subfamily A member 6
+ordo:117873	oboInOwl:hasDbXref	IUPHAR:1431	Unspecified	phospholipase A2 group VI
+ordo:431999	oboInOwl:hasDbXref	IUPHAR:1298	Unspecified	phosphodiesterase 3A
+ordo:117861	oboInOwl:hasDbXref	IUPHAR:3007	Unspecified	pyruvate kinase L/R
+ordo:117886	oboInOwl:hasDbXref	IUPHAR:2394	Unspecified	plasminogen
+ordo:356164	oboInOwl:hasDbXref	IUPHAR:1012	Unspecified	solute carrier family 18 member A2
+ordo:320192	oboInOwl:hasDbXref	IUPHAR:1368	Unspecified	cytochrome P450 family 26 subfamily C member 1
+ordo:431928	oboInOwl:hasDbXref	IUPHAR:1740	Unspecified	interleukin 17 receptor C
+ordo:368114	oboInOwl:hasDbXref	IUPHAR:591	Unspecified	retinoic acid receptor beta
+ordo:370413	oboInOwl:hasDbXref	IUPHAR:2756	Unspecified	eukaryotic translation elongation factor 2
+ordo:357435	oboInOwl:hasDbXref	IUPHAR:1703	Unspecified	interleukin 21 receptor
+ordo:510688	oboInOwl:hasDbXref	IUPHAR:1129	Unspecified	solute carrier family 30 member 9
+ordo:238991	oboInOwl:hasDbXref	IUPHAR:2659	Unspecified	histone deacetylase 4
+ordo:238998	oboInOwl:hasDbXref	IUPHAR:1316	Unspecified	phosphodiesterase 6G
+ordo:596992	oboInOwl:hasDbXref	IUPHAR:2701	Unspecified	SET domain containing 1B, histone lysine methyltransferase
+ordo:286639	oboInOwl:hasDbXref	IUPHAR:1430	Unspecified	phospholipase A2 group V
+ordo:441279	oboInOwl:hasDbXref	IUPHAR:395	Unspecified	cyclic nucleotide gated channel subunit alpha 2
+ordo:117964	oboInOwl:hasDbXref	IUPHAR:595	Unspecified	peroxisome proliferator activated receptor gamma
+ordo:117995	oboInOwl:hasDbXref	IUPHAR:3100	Unspecified	perforin 1
+ordo:431886	oboInOwl:hasDbXref	IUPHAR:929	Unspecified	solute carrier family 6 member 1
+ordo:356172	oboInOwl:hasDbXref	IUPHAR:2143	Unspecified	pyruvate dehydrogenase kinase 3
+ordo:368150	oboInOwl:hasDbXref	IUPHAR:2117	Unspecified	NIMA related kinase 2
+ordo:560981	oboInOwl:hasDbXref	IUPHAR:2241	Unspecified	testis expressed 14, intercellular bridge forming factor
+ordo:356180	oboInOwl:hasDbXref	IUPHAR:2347	Unspecified	cathepsin F
+ordo:332077	oboInOwl:hasDbXref	IUPHAR:1485	Unspecified	protein kinase C delta
+ordo:117691	oboInOwl:hasDbXref	IUPHAR:1923	Unspecified	ABL proto-oncogene 1, non-receptor tyrosine kinase
+ordo:117685	oboInOwl:hasDbXref	IUPHAR:795	Unspecified	ATP binding cassette subfamily G member 8
+ordo:117683	oboInOwl:hasDbXref	IUPHAR:794	Unspecified	ATP binding cassette subfamily G member 5
+ordo:369336	oboInOwl:hasDbXref	IUPHAR:2042	Unspecified	interleukin 1 receptor associated kinase 1
+ordo:332055	oboInOwl:hasDbXref	IUPHAR:2946	Unspecified	piezo type mechanosensitive ion channel component 2
+ordo:140041	oboInOwl:hasDbXref	IUPHAR:1714	Unspecified	oncostatin M receptor
+ordo:358659	oboInOwl:hasDbXref	IUPHAR:1658	Unspecified	ADAM metallopeptidase domain 10
+ordo:189344	oboInOwl:hasDbXref	IUPHAR:438	Unspecified	potassium inwardly rectifying channel subfamily J member 10
+ordo:321350	oboInOwl:hasDbXref	IUPHAR:3136	Unspecified	MDM2 proto-oncogene
+ordo:140053	oboInOwl:hasDbXref	IUPHAR:1927	Unspecified	coenzyme Q8A
+ordo:140058	oboInOwl:hasDbXref	IUPHAR:999	Unspecified	solute carrier family 16 member 12
+ordo:477144	oboInOwl:hasDbXref	IUPHAR:744	Unspecified	inositol 1,4,5-trisphosphate receptor type 2
+ordo:568164	oboInOwl:hasDbXref	IUPHAR:2233	Unspecified	TAO kinase 1
+ordo:201496	oboInOwl:hasDbXref	IUPHAR:2038	Unspecified	ciliogenesis associated kinase 1
+ordo:248276	oboInOwl:hasDbXref	IUPHAR:1498	Unspecified	mitogen-activated protein kinase 10
+ordo:568147	oboInOwl:hasDbXref	IUPHAR:2692	Unspecified	lysine methyltransferase 2E (inactive)
+ordo:477107	oboInOwl:hasDbXref	IUPHAR:2095	Unspecified	MAPK activated protein kinase 3
+ordo:286575	oboInOwl:hasDbXref	IUPHAR:1344	Unspecified	cytochrome P450 family 4 subfamily F member 2
+ordo:286549	oboInOwl:hasDbXref	IUPHAR:536	Unspecified	calcium voltage-gated channel subunit alpha1 H
+ordo:297206	oboInOwl:hasDbXref	IUPHAR:441	Unspecified	potassium inwardly rectifying channel subfamily J member 8
+ordo:118947	oboInOwl:hasDbXref	IUPHAR:368	Unspecified	arginine vasopressin receptor 2
+ordo:117617	oboInOwl:hasDbXref	IUPHAR:2464	Unspecified	4-aminobutyrate aminotransferase
+ordo:404144	oboInOwl:hasDbXref	IUPHAR:3093	Unspecified	carbonic anhydrase 5A
+ordo:117639	oboInOwl:hasDbXref	IUPHAR:771	Unspecified	ATP binding cassette subfamily B member 4
+ordo:117631	oboInOwl:hasDbXref	IUPHAR:778	Unspecified	ATP binding cassette subfamily B member 11
+ordo:117623	oboInOwl:hasDbXref	IUPHAR:759	Unspecified	ATP binding cassette subfamily A member 4
+ordo:117620	oboInOwl:hasDbXref	IUPHAR:766	Unspecified	ATP binding cassette subfamily A member 12
+ordo:556135	oboInOwl:hasDbXref	IUPHAR:1892	Unspecified	RELT TNF receptor
+ordo:117658	oboInOwl:hasDbXref	IUPHAR:784	Unspecified	ATP binding cassette subfamily C member 6
+ordo:117652	oboInOwl:hasDbXref	IUPHAR:780	Unspecified	ATP binding cassette subfamily C member 2
+ordo:117646	oboInOwl:hasDbXref	IUPHAR:774	Unspecified	ATP binding cassette subfamily B member 7
+ordo:118970	oboInOwl:hasDbXref	IUPHAR:2774	Unspecified	bromodomain adjacent to zinc finger domain 1B
+ordo:117677	oboInOwl:hasDbXref	IUPHAR:788	Unspecified	ATP binding cassette subfamily D member 1
+ordo:117673	oboInOwl:hasDbXref	IUPHAR:2746	Unspecified	ATP binding cassette subfamily C member 9
+ordo:118998	oboInOwl:hasDbXref	IUPHAR:2471	Unspecified	butyrylcholinesterase
+ordo:117665	oboInOwl:hasDbXref	IUPHAR:2594	Unspecified	ATP binding cassette subfamily C member 8
+ordo:139106	oboInOwl:hasDbXref	IUPHAR:2398	Unspecified	serine protease 2
+ordo:139109	oboInOwl:hasDbXref	IUPHAR:2341	Unspecified	chymotrypsin C
+ordo:360868	oboInOwl:hasDbXref	IUPHAR:515	Unspecified	potassium two pore domain channel subfamily K member 3
+ordo:139168	oboInOwl:hasDbXref	IUPHAR:2374	Unspecified	kallikrein related peptidase 4
+ordo:404138	oboInOwl:hasDbXref	IUPHAR:1288	Unspecified	guanylate cyclase 1 soluble subunit alpha 1
+ordo:404135	oboInOwl:hasDbXref	IUPHAR:1476	Unspecified	protein kinase cAMP-activated catalytic subunit alpha
+ordo:166720	oboInOwl:hasDbXref	IUPHAR:2446	Unspecified	integrin subunit alpha 7
+ordo:139176	oboInOwl:hasDbXref	IUPHAR:1643	Unspecified	matrix metallopeptidase 20
+ordo:139193	oboInOwl:hasDbXref	IUPHAR:1213	Unspecified	solute carrier family 46 member 1
+ordo:139184	oboInOwl:hasDbXref	IUPHAR:1768	Unspecified	NLR family pyrin domain containing 1
+ordo:139197	oboInOwl:hasDbXref	IUPHAR:1138	Unspecified	solute carrier family 35 member A1
+ordo:139199	oboInOwl:hasDbXref	IUPHAR:2231	Unspecified	TATA-box binding protein associated factor 1
+ordo:166795	oboInOwl:hasDbXref	IUPHAR:1031	Unspecified	solute carrier family 22 member 12
+ordo:466391	oboInOwl:hasDbXref	IUPHAR:1258	Unspecified	protein arginine methyltransferase 7
+ordo:466397	oboInOwl:hasDbXref	IUPHAR:3097	Unspecified	lysyl oxidase
+ordo:466382	oboInOwl:hasDbXref	IUPHAR:2082	Unspecified	mitogen-activated protein kinase kinase kinase 7
+ordo:466348	oboInOwl:hasDbXref	IUPHAR:187	Unspecified	adhesion G protein-coupled receptor G2
+ordo:285156	oboInOwl:hasDbXref	IUPHAR:2666	Unspecified	lysine acetyltransferase 6B
+ordo:431657	oboInOwl:hasDbXref	IUPHAR:3021	Unspecified	xenotropic and polytropic retrovirus receptor 1
+ordo:117728	oboInOwl:hasDbXref	IUPHAR:1613	Unspecified	angiotensin I converting enzyme
+ordo:117724	oboInOwl:hasDbXref	IUPHAR:2435	Unspecified	acetyl-CoA acetyltransferase 1
+ordo:117759	oboInOwl:hasDbXref	IUPHAR:1785	Unspecified	activin A receptor type 1
+ordo:456998	oboInOwl:hasDbXref	IUPHAR:3022	Unspecified	mitochondrial pyruvate carrier 1
+ordo:444948	oboInOwl:hasDbXref	IUPHAR:972	Unspecified	solute carrier family 12 member 5
+ordo:117776	oboInOwl:hasDbXref	IUPHAR:1685	Unspecified	ADAM metallopeptidase with thrombospondin type 1 motif 13
+ordo:117773	oboInOwl:hasDbXref	IUPHAR:1683	Unspecified	ADAM metallopeptidase with thrombospondin type 1 motif 10
+ordo:117771	oboInOwl:hasDbXref	IUPHAR:1230	Unspecified	adenosine deaminase
+ordo:201516	oboInOwl:hasDbXref	IUPHAR:1657	Unspecified	ADAM metallopeptidase domain 9
+ordo:117764	oboInOwl:hasDbXref	IUPHAR:1784	Unspecified	activin A receptor like type 1
+ordo:117780	oboInOwl:hasDbXref	IUPHAR:1675	Unspecified	ADAM metallopeptidase with thrombospondin type 1 motif 2
+ordo:498760	oboInOwl:hasDbXref	IUPHAR:1555	Unspecified	calcium/calmodulin dependent protein kinase II alpha
+ordo:447183	oboInOwl:hasDbXref	IUPHAR:844	Unspecified	ATPase plasma membrane Ca2+ transporting 2
+ordo:498771	oboInOwl:hasDbXref	IUPHAR:1556	Unspecified	calcium/calmodulin dependent protein kinase II beta
+ordo:292134	oboInOwl:hasDbXref	IUPHAR:588	Unspecified	thyroid hormone receptor alpha
+ordo:281472	oboInOwl:hasDbXref	IUPHAR:1479	Unspecified	AKT serine/threonine kinase 1
+ordo:280151	oboInOwl:hasDbXref	IUPHAR:2053	Unspecified	LCK proto-oncogene, Src family tyrosine kinase
+ordo:282786	oboInOwl:hasDbXref	IUPHAR:455	Unspecified	glutamate ionotropic receptor NMDA type subunit 1
+ordo:123301	oboInOwl:hasDbXref	IUPHAR:2059	Unspecified	leucine rich repeat kinase 2
+ordo:137959	oboInOwl:hasDbXref	IUPHAR:1353	Unspecified	thromboxane A synthase 1
+ordo:377556	oboInOwl:hasDbXref	IUPHAR:2858	Unspecified	phosphatidylinositol-5-phosphate 4-kinase type 2 alpha
+ordo:123238	oboInOwl:hasDbXref	IUPHAR:687	Unspecified	major intrinsic protein of lens fiber
+ordo:123201	oboInOwl:hasDbXref	IUPHAR:1815	Unspecified	MET proto-oncogene, receptor tyrosine kinase
+ordo:173500	oboInOwl:hasDbXref	IUPHAR:1162	Unspecified	solute carrier family 36 member 2
+ordo:173505	oboInOwl:hasDbXref	IUPHAR:944	Unspecified	solute carrier family 6 member 20
+ordo:173509	oboInOwl:hasDbXref	IUPHAR:941	Unspecified	solute carrier family 6 member 18
+ordo:123207	oboInOwl:hasDbXref	IUPHAR:3131	Unspecified	mitofusin 2
+ordo:326078	oboInOwl:hasDbXref	IUPHAR:2993	Unspecified	signal transducer and activator of transcription 6
+ordo:401771	oboInOwl:hasDbXref	IUPHAR:2039	Unspecified	inhibitor of nuclear factor kappa B kinase subunit beta
+ordo:514572	oboInOwl:hasDbXref	IUPHAR:2279	Unspecified	WEE2 oocyte meiosis inhibiting kinase
+ordo:123271	oboInOwl:hasDbXref	IUPHAR:2688	Unspecified	lysine methyltransferase 2A
+ordo:159200	oboInOwl:hasDbXref	IUPHAR:2742	Unspecified	CD3e molecule
+ordo:377602	oboInOwl:hasDbXref	IUPHAR:63	Unspecified	C-C motif chemokine receptor 6
+ordo:328699	oboInOwl:hasDbXref	IUPHAR:1048	Unspecified	solute carrier family 24 member 4
+ordo:159255	oboInOwl:hasDbXref	IUPHAR:3145	Unspecified	porcupine O-acyltransferase
+ordo:327310	oboInOwl:hasDbXref	IUPHAR:530	Unspecified	calcium voltage-gated channel subunit alpha1 D
+ordo:304678	oboInOwl:hasDbXref	IUPHAR:2572	Unspecified	solute carrier family 52 member 2
+ordo:160265	oboInOwl:hasDbXref	IUPHAR:1695	Unspecified	interleukin 2 receptor subunit alpha
+ordo:159233	oboInOwl:hasDbXref	IUPHAR:1412	Unspecified	phospholipase C epsilon 1
+ordo:484091	oboInOwl:hasDbXref	IUPHAR:2206	Unspecified	SRC proto-oncogene, non-receptor tyrosine kinase
+ordo:123290	oboInOwl:hasDbXref	IUPHAR:1275	Unspecified	malonyl-CoA decarboxylase
+ordo:159298	oboInOwl:hasDbXref	IUPHAR:499	Unspecified	transient receptor potential cation channel subfamily M member 7
+ordo:173530	oboInOwl:hasDbXref	IUPHAR:1844	Unspecified	discoidin domain receptor tyrosine kinase 2
+ordo:160236	oboInOwl:hasDbXref	IUPHAR:1798	Unspecified	erb-b2 receptor tyrosine kinase 3
+ordo:160244	oboInOwl:hasDbXref	IUPHAR:623	Unspecified	estrogen related receptor beta
+ordo:461367	oboInOwl:hasDbXref	IUPHAR:239	Unspecified	smoothened, frizzled class receptor
+ordo:459043	oboInOwl:hasDbXref	IUPHAR:1611	Unspecified	membrane metalloendopeptidase
+ordo:448353	oboInOwl:hasDbXref	IUPHAR:2640	Unspecified	tubulin beta class I
+ordo:244378	oboInOwl:hasDbXref	IUPHAR:1045	Unspecified	solute carrier family 24 member 1
+ordo:586292	oboInOwl:hasDbXref	IUPHAR:2712	Unspecified	sirtuin 6
+ordo:171073	oboInOwl:hasDbXref	IUPHAR:2833	Unspecified	egl-9 family hypoxia inducible factor 1
+ordo:171081	oboInOwl:hasDbXref	IUPHAR:510	Unspecified	transient receptor potential cation channel subfamily V member 4
+ordo:461336	oboInOwl:hasDbXref	IUPHAR:2244	Unspecified	TRAF2 and NCK interacting kinase
+ordo:293326	oboInOwl:hasDbXref	IUPHAR:3025	Unspecified	leucine zipper and EF-hand containing transmembrane protein 1
+ordo:391804	oboInOwl:hasDbXref	IUPHAR:1315	Unspecified	phosphodiesterase 6D
+ordo:437689	oboInOwl:hasDbXref	IUPHAR:1036	Unspecified	solute carrier family 22 member 18
+ordo:123426	oboInOwl:hasDbXref	IUPHAR:889	Unspecified	solute carrier family 3 member 1
+ordo:123436	oboInOwl:hasDbXref	IUPHAR:1637	Unspecified	matrix metallopeptidase 13
+ordo:122102	oboInOwl:hasDbXref	IUPHAR:728	Unspecified	gap junction protein alpha 1
+ordo:353497	oboInOwl:hasDbXref	IUPHAR:2914	Unspecified	G protein subunit alpha q
+ordo:123439	oboInOwl:hasDbXref	IUPHAR:1629	Unspecified	matrix metallopeptidase 2
+ordo:437674	oboInOwl:hasDbXref	IUPHAR:3134	Unspecified	protein phosphatase, Mg2+/Mn2+ dependent 1D
+ordo:366774	oboInOwl:hasDbXref	IUPHAR:833	Unspecified	ATPase Na+/K+ transporting subunit alpha 1
+ordo:423011	oboInOwl:hasDbXref	IUPHAR:1473	Unspecified	protein kinase cAMP-dependent type I regulatory subunit beta
+ordo:327283	oboInOwl:hasDbXref	IUPHAR:289	Unspecified	glutamate metabotropic receptor 1
+ordo:353576	oboInOwl:hasDbXref	IUPHAR:796	Unspecified	ATP synthase F1 subunit alpha
+ordo:352217	oboInOwl:hasDbXref	IUPHAR:2503	Unspecified	phosphoinositide-3-kinase regulatory subunit 1
+ordo:353548	oboInOwl:hasDbXref	IUPHAR:870	Unspecified	solute carrier family 1 member 1
+ordo:160311	oboInOwl:hasDbXref	IUPHAR:1847	Unspecified	muscle associated receptor tyrosine kinase
+ordo:160313	oboInOwl:hasDbXref	IUPHAR:2112	Unspecified	myosin IIIA
+ordo:122002	oboInOwl:hasDbXref	IUPHAR:2765	Unspecified	galactosamine (N-acetyl)-6-sulfatase
+ordo:538634	oboInOwl:hasDbXref	IUPHAR:4999	Unspecified	interleukin 7
+ordo:327294	oboInOwl:hasDbXref	IUPHAR:855	Unspecified	ATPase phospholipid transporting 8A2
+ordo:160320	oboInOwl:hasDbXref	IUPHAR:1317	Unspecified	phosphodiesterase 6H
+ordo:160322	oboInOwl:hasDbXref	IUPHAR:2165	Unspecified	phosphatidylinositol-4-phosphate 5-kinase type 1 gamma
+ordo:122053	oboInOwl:hasDbXref	IUPHAR:2798	Unspecified	glucokinase
+ordo:159339	oboInOwl:hasDbXref	IUPHAR:389	Unspecified	cation channel sperm associated 2
+ordo:122062	oboInOwl:hasDbXref	IUPHAR:3098	Unspecified	glycine cleavage system protein H
+ordo:159322	oboInOwl:hasDbXref	IUPHAR:824	Unspecified	ATPase H+ transporting V0 subunit a2
+ordo:123369	oboInOwl:hasDbXref	IUPHAR:769	Unspecified	transporter 1, ATP binding cassette subfamily B member
+ordo:122039	oboInOwl:hasDbXref	IUPHAR:2978	Unspecified	glucosylceramidase beta
+ordo:122037	oboInOwl:hasDbXref	IUPHAR:1246	Unspecified	glycine amidinotransferase
+ordo:123361	oboInOwl:hasDbXref	IUPHAR:2861	Unspecified	notch receptor 1
+ordo:353516	oboInOwl:hasDbXref	IUPHAR:2637	Unspecified	DNA topoisomerase II alpha
+ordo:122097	oboInOwl:hasDbXref	IUPHAR:247	Unspecified	growth hormone releasing hormone receptor
+ordo:122095	oboInOwl:hasDbXref	IUPHAR:1720	Unspecified	growth hormone receptor
+ordo:159370	oboInOwl:hasDbXref	IUPHAR:700	Unspecified	chloride voltage-gated channel Ka
+ordo:159360	oboInOwl:hasDbXref	IUPHAR:566	Unspecified	potassium voltage-gated channel modifier subfamily V member 2
+ordo:171045	oboInOwl:hasDbXref	IUPHAR:882	Unspecified	solute carrier family 2 member 9
+ordo:122083	oboInOwl:hasDbXref	IUPHAR:1268	Unspecified	gamma-glutamyl carboxylase
+ordo:159341	oboInOwl:hasDbXref	IUPHAR:2263	Unspecified	tau tubulin kinase 2
+ordo:159345	oboInOwl:hasDbXref	IUPHAR:463	Unspecified	cholinergic receptor nicotinic alpha 2 subunit
+ordo:244400	oboInOwl:hasDbXref	IUPHAR:2510	Unspecified	serine palmitoyltransferase long chain base subunit 2
+ordo:160337	oboInOwl:hasDbXref	IUPHAR:1104	Unspecified	solute carrier family 26 member 5
+ordo:159394	oboInOwl:hasDbXref	IUPHAR:2638	Unspecified	tubulin alpha 1a
+ordo:461239	oboInOwl:hasDbXref	IUPHAR:2124	Unspecified	NIMA related kinase 9
+ordo:159075	oboInOwl:hasDbXref	IUPHAR:2269	Unspecified	tyrosine kinase 2
+ordo:610576	oboInOwl:hasDbXref	IUPHAR:705	Unspecified	chloride voltage-gated channel 6
+ordo:499821	oboInOwl:hasDbXref	IUPHAR:762	Unspecified	ATP binding cassette subfamily A member 7
+ordo:463829	oboInOwl:hasDbXref	IUPHAR:94	Unspecified	lysophosphatidic acid receptor 4
+ordo:391627	oboInOwl:hasDbXref	IUPHAR:2018	Unspecified	eukaryotic translation initiation factor 2 alpha kinase 4
+ordo:317798	oboInOwl:hasDbXref	IUPHAR:2225	Unspecified	serine/threonine kinase 4
+ordo:123038	oboInOwl:hasDbXref	IUPHAR:1712	Unspecified	leptin receptor
+ordo:317781	oboInOwl:hasDbXref	IUPHAR:3050	Unspecified	transmembrane protein 165
+ordo:303176	oboInOwl:hasDbXref	IUPHAR:2945	Unspecified	piezo type mechanosensitive ion channel component 1
+ordo:123060	oboInOwl:hasDbXref	IUPHAR:2054	Unspecified	LIM domain kinase 1
+ordo:160020	oboInOwl:hasDbXref	IUPHAR:1839	Unspecified	ALK receptor tyrosine kinase
+ordo:123048	oboInOwl:hasDbXref	IUPHAR:254	Unspecified	luteinizing hormone/choriogonadotropin receptor
+ordo:123055	oboInOwl:hasDbXref	IUPHAR:1713	Unspecified	LIF receptor subunit alpha
+ordo:160048	oboInOwl:hasDbXref	IUPHAR:1938	Unspecified	aurora kinase C
+ordo:474467	oboInOwl:hasDbXref	IUPHAR:114	Unspecified	G protein-coupled receptor 68
+ordo:317726	oboInOwl:hasDbXref	IUPHAR:1750	Unspecified	guanylate cyclase 2C
+ordo:160003	oboInOwl:hasDbXref	IUPHAR:1349	Unspecified	cytochrome P450 family 4 subfamily F member 22
+ordo:270424	oboInOwl:hasDbXref	IUPHAR:1863	Unspecified	protein tyrosine phosphatase receptor type O
+ordo:474419	oboInOwl:hasDbXref	IUPHAR:621	Unspecified	estrogen receptor 2
+ordo:609679	oboInOwl:hasDbXref	IUPHAR:1930	Unspecified	alpha kinase 1
+ordo:353241	oboInOwl:hasDbXref	IUPHAR:865	Unspecified	ATPase phospholipid transporting 11A
+ordo:353250	oboInOwl:hasDbXref	IUPHAR:2357	Unspecified	dipeptidyl peptidase 9
+ordo:294456	oboInOwl:hasDbXref	IUPHAR:509	Unspecified	transient receptor potential cation channel subfamily V member 3
+ordo:293114	oboInOwl:hasDbXref	IUPHAR:346	Unspecified	thromboxane A2 receptor
+ordo:123109	oboInOwl:hasDbXref	IUPHAR:1436	Unspecified	lipin 2
+ordo:500277	oboInOwl:hasDbXref	IUPHAR:1310	Unspecified	phosphodiesterase 10A
+ordo:330683	oboInOwl:hasDbXref	IUPHAR:479	Unspecified	purinergic receptor P2X 2
+ordo:317674	oboInOwl:hasDbXref	IUPHAR:1806	Unspecified	colony stimulating factor 1 receptor
+ordo:123140	oboInOwl:hasDbXref	IUPHAR:2063	Unspecified	mitogen-activated protein kinase kinase 2
+ordo:123154	oboInOwl:hasDbXref	IUPHAR:1514	Unspecified	microtubule associated serine/threonine kinase like
+ordo:123135	oboInOwl:hasDbXref	IUPHAR:2062	Unspecified	mitogen-activated protein kinase kinase 1
+ordo:123133	oboInOwl:hasDbXref	IUPHAR:2489	Unspecified	monoamine oxidase A
+ordo:123198	oboInOwl:hasDbXref	IUPHAR:1837	Unspecified	MER proto-oncogene, tyrosine kinase
+ordo:123161	oboInOwl:hasDbXref	IUPHAR:283	Unspecified	melanocortin 2 receptor
+ordo:123175	oboInOwl:hasDbXref	IUPHAR:501	Unspecified	mucolipin TRP cation channel 1
+ordo:513512	oboInOwl:hasDbXref	IUPHAR:1053	Unspecified	solute carrier family 25 member 11
+ordo:159166	oboInOwl:hasDbXref	IUPHAR:163	Unspecified	lysophosphatidic acid receptor 6
+ordo:485012	oboInOwl:hasDbXref	IUPHAR:2757	Unspecified	kelch like ECH associated protein 1
+ordo:258610	oboInOwl:hasDbXref	IUPHAR:2408	Unspecified	proteasome 20S subunit beta 8
+ordo:208345	oboInOwl:hasDbXref	IUPHAR:2275	Unspecified	VRK serine/threonine kinase 1
+ordo:208347	oboInOwl:hasDbXref	IUPHAR:1456	Unspecified	inositol polyphosphate-5-phosphatase E
+ordo:208342	oboInOwl:hasDbXref	IUPHAR:1633	Unspecified	matrix metallopeptidase 9
+ordo:208333	oboInOwl:hasDbXref	IUPHAR:1314	Unspecified	phosphodiesterase 6C
+ordo:246647	oboInOwl:hasDbXref	IUPHAR:1910	Unspecified	FLVCR heme transporter 1
+ordo:258621	oboInOwl:hasDbXref	IUPHAR:2114	Unspecified	NIMA related kinase 1
+ordo:208329	oboInOwl:hasDbXref	IUPHAR:1111	Unspecified	solute carrier family 27 member 4
+ordo:246653	oboInOwl:hasDbXref	IUPHAR:1552	Unspecified	myosin light chain kinase
+ordo:609793	oboInOwl:hasDbXref	IUPHAR:2016	Unspecified	eukaryotic translation initiation factor 2 alpha kinase 2
+ordo:246681	oboInOwl:hasDbXref	IUPHAR:1819	Unspecified	neurotrophic receptor tyrosine kinase 3
+ordo:270352	oboInOwl:hasDbXref	IUPHAR:1409	Unspecified	phospholipase C delta 1
+ordo:365126	oboInOwl:hasDbXref	IUPHAR:19	Unspecified	adenosine A2a receptor
+ordo:476906	oboInOwl:hasDbXref	IUPHAR:1187	Unspecified	solute carrier family 39 member 8
+ordo:293028	oboInOwl:hasDbXref	IUPHAR:1018	Unspecified	solute carrier family 20 member 2
+ordo:138722	oboInOwl:hasDbXref	IUPHAR:2184	Unspecified	Raf-1 proto-oncogene, serine/threonine kinase
+ordo:599916	oboInOwl:hasDbXref	IUPHAR:1103	Unspecified	solute carrier family 26 member 9
+ordo:124117	oboInOwl:hasDbXref	IUPHAR:1267	Unspecified	propionyl-CoA carboxylase subunit beta
+ordo:124115	oboInOwl:hasDbXref	IUPHAR:1266	Unspecified	propionyl-CoA carboxylase subunit alpha
+ordo:138732	oboInOwl:hasDbXref	IUPHAR:2790	Unspecified	X-linked inhibitor of apoptosis
+ordo:124107	oboInOwl:hasDbXref	IUPHAR:1262	Unspecified	pyruvate carboxylase
+ordo:304263	oboInOwl:hasDbXref	IUPHAR:1689	Unspecified	ADAM metallopeptidase with thrombospondin type 1 motif 17
+ordo:124154	oboInOwl:hasDbXref	IUPHAR:1803	Unspecified	platelet derived growth factor receptor alpha
+ordo:124137	oboInOwl:hasDbXref	IUPHAR:2388	Unspecified	proprotein convertase subtilisin/kexin type 9
+ordo:124131	oboInOwl:hasDbXref	IUPHAR:2382	Unspecified	proprotein convertase subtilisin/kexin type 1
+ordo:318865	oboInOwl:hasDbXref	IUPHAR:2237	Unspecified	TANK binding kinase 1
+ordo:124146	oboInOwl:hasDbXref	IUPHAR:1312	Unspecified	phosphodiesterase 6A
+ordo:609760	oboInOwl:hasDbXref	IUPHAR:2883	Unspecified	semaphorin 4D
+ordo:124149	oboInOwl:hasDbXref	IUPHAR:1313	Unspecified	phosphodiesterase 6B
+ordo:318801	oboInOwl:hasDbXref	IUPHAR:768	Unspecified	ATP binding cassette subfamily B member 1
+ordo:476887	oboInOwl:hasDbXref	IUPHAR:1074	Unspecified	solute carrier family 25 member 26
+ordo:124187	oboInOwl:hasDbXref	IUPHAR:2389	Unspecified	peptidase D
+ordo:476850	oboInOwl:hasDbXref	IUPHAR:1424	Unspecified	phospholipase A2 group IVA
+ordo:426568	oboInOwl:hasDbXref	IUPHAR:1251	Unspecified	nitric oxide synthase 1
+ordo:365089	oboInOwl:hasDbXref	IUPHAR:449	Unspecified	glutamate ionotropic receptor delta type subunit 2
+ordo:476812	oboInOwl:hasDbXref	IUPHAR:270	Unspecified	cysteinyl leukotriene receptor 2
+ordo:258534	oboInOwl:hasDbXref	IUPHAR:1403	Unspecified	phospholipase C beta 1
+ordo:199890	oboInOwl:hasDbXref	IUPHAR:406	Unspecified	gamma-aminobutyric acid type A receptor subunit alpha3
+ordo:377025	oboInOwl:hasDbXref	IUPHAR:1978	Unspecified	cyclin dependent kinase 6
+ordo:402562	oboInOwl:hasDbXref	IUPHAR:618	Unspecified	nuclear receptor subfamily 2 group F member 2
+ordo:402570	oboInOwl:hasDbXref	IUPHAR:2921	Unspecified	interferon induced with helicase C domain 1
+ordo:318754	oboInOwl:hasDbXref	IUPHAR:2800	Unspecified	protein kinase, DNA-activated, catalytic subunit
+ordo:138851	oboInOwl:hasDbXref	IUPHAR:1624	Unspecified	caspase 8
+ordo:317445	oboInOwl:hasDbXref	IUPHAR:3084	Unspecified	protein tyrosine phosphatase non-receptor type 22
+ordo:173206	oboInOwl:hasDbXref	IUPHAR:2763	Unspecified	hydroxysteroid 11-beta dehydrogenase 1
+ordo:331710	oboInOwl:hasDbXref	IUPHAR:2821	Unspecified	diacylglycerol O-acyltransferase 1
+ordo:173222	oboInOwl:hasDbXref	IUPHAR:3189	Unspecified	transmembrane serine protease 15
+ordo:221346	oboInOwl:hasDbXref	IUPHAR:2823	Unspecified	NRAS proto-oncogene, GTPase
+ordo:512465	oboInOwl:hasDbXref	IUPHAR:799	Unspecified	ATP synthase F1 subunit delta
+ordo:500523	oboInOwl:hasDbXref	IUPHAR:1077	Unspecified	solute carrier family 25 member 24
+ordo:561490	oboInOwl:hasDbXref	IUPHAR:1276	Unspecified	ornithine decarboxylase 1
+ordo:561466	oboInOwl:hasDbXref	IUPHAR:2891	Unspecified	glutaminase
+ordo:401123	oboInOwl:hasDbXref	IUPHAR:895	Unspecified	solute carrier family 7 member 14
+ordo:317382	oboInOwl:hasDbXref	IUPHAR:385	Unspecified	potassium sodium-activated channel subfamily T member 1
+ordo:559246	oboInOwl:hasDbXref	IUPHAR:1947	Unspecified	BR serine/threonine kinase 2
+ordo:138523	oboInOwl:hasDbXref	IUPHAR:2994	Unspecified	signal transducer and activator of transcription 3
+ordo:138503	oboInOwl:hasDbXref	IUPHAR:726	Unspecified	gap junction protein alpha 5
+ordo:449094	oboInOwl:hasDbXref	IUPHAR:1566	Unspecified	endoplasmic reticulum aminopeptidase 1
+ordo:138533	oboInOwl:hasDbXref	IUPHAR:34	Unspecified	angiotensin II receptor type 1
+ordo:138530	oboInOwl:hasDbXref	IUPHAR:2413	Unspecified	renin
+ordo:138578	oboInOwl:hasDbXref	IUPHAR:1801	Unspecified	insulin like growth factor 1 receptor
+ordo:449063	oboInOwl:hasDbXref	IUPHAR:58	Unspecified	C-C motif chemokine receptor 1
+ordo:609955	oboInOwl:hasDbXref	IUPHAR:295	Unspecified	glutamate metabotropic receptor 7
+ordo:138583	oboInOwl:hasDbXref	IUPHAR:2698	Unspecified	PHD finger protein 8
+ordo:488601	oboInOwl:hasDbXref	IUPHAR:2463	Unspecified	3-ketodihydrosphingosine reductase
+ordo:173057	oboInOwl:hasDbXref	IUPHAR:1119	Unspecified	solute carrier family 29 member 3
+ordo:236967	oboInOwl:hasDbXref	IUPHAR:2852	Unspecified	CD79b molecule
+ordo:413026	oboInOwl:hasDbXref	IUPHAR:1010	Unspecified	solute carrier family 17 member 9
+ordo:270026	oboInOwl:hasDbXref	IUPHAR:2605	Unspecified	DNA methyltransferase 1
+ordo:403669	oboInOwl:hasDbXref	IUPHAR:1283	Unspecified	adenylate cyclase 6
+ordo:270014	oboInOwl:hasDbXref	IUPHAR:2009	Unspecified	dual specificity tyrosine phosphorylation regulated kinase 1A
+ordo:355507	oboInOwl:hasDbXref	IUPHAR:1696	Unspecified	interleukin 2 receptor subunit beta
+ordo:356847	oboInOwl:hasDbXref	IUPHAR:1876	Unspecified	CD27 molecule
+ordo:509088	oboInOwl:hasDbXref	IUPHAR:2047	Unspecified	Janus kinase 1
+ordo:270043	oboInOwl:hasDbXref	IUPHAR:1272	Unspecified	glutamate decarboxylase 1
+ordo:509094	oboInOwl:hasDbXref	IUPHAR:2689	Unspecified	lysine methyltransferase 2B
+ordo:124007	oboInOwl:hasDbXref	IUPHAR:2961	Unspecified	opsin 1, long wave sensitive
+ordo:221187	oboInOwl:hasDbXref	IUPHAR:2842	Unspecified	complement factor D
+ordo:221171	oboInOwl:hasDbXref	IUPHAR:2335	Unspecified	complement C1s
+ordo:124046	oboInOwl:hasDbXref	IUPHAR:328	Unspecified	purinergic receptor P2Y12
+ordo:509002	oboInOwl:hasDbXref	IUPHAR:1833	Unspecified	EPH receptor B4
+ordo:124012	oboInOwl:hasDbXref	IUPHAR:2962	Unspecified	opsin 1, medium wave sensitive
+ordo:124018	oboInOwl:hasDbXref	IUPHAR:2960	Unspecified	opsin 1, short wave sensitive
+ordo:509006	oboInOwl:hasDbXref	IUPHAR:2019	Unspecified	erb-b2 receptor tyrosine kinase 2
+ordo:487242	oboInOwl:hasDbXref	IUPHAR:2487	Unspecified	embryonic ectoderm development
+ordo:489883	oboInOwl:hasDbXref	IUPHAR:383	Unspecified	potassium calcium-activated channel subfamily N member 3
+ordo:487237	oboInOwl:hasDbXref	IUPHAR:1458	Unspecified	inositol polyphosphate-5-phosphatase K
+ordo:209477	oboInOwl:hasDbXref	IUPHAR:1707	Unspecified	colony stimulating factor 2 receptor subunit alpha
+ordo:209474	oboInOwl:hasDbXref	IUPHAR:1822	Unspecified	EPH receptor A2
+ordo:209484	oboInOwl:hasDbXref	IUPHAR:2123	Unspecified	NIMA related kinase 8
+ordo:124068	oboInOwl:hasDbXref	IUPHAR:1240	Unspecified	phenylalanine hydroxylase
+ordo:122817	oboInOwl:hasDbXref	IUPHAR:562	Unspecified	potassium voltage-gated channel subfamily Q member 3
+ordo:122821	oboInOwl:hasDbXref	IUPHAR:563	Unspecified	potassium voltage-gated channel subfamily Q member 4
+ordo:601404	oboInOwl:hasDbXref	IUPHAR:1491	Unspecified	protein kinase C zeta
+ordo:122808	oboInOwl:hasDbXref	IUPHAR:561	Unspecified	potassium voltage-gated channel subfamily Q member 2
+ordo:122800	oboInOwl:hasDbXref	IUPHAR:560	Unspecified	potassium voltage-gated channel subfamily Q member 1
+ordo:456093	oboInOwl:hasDbXref	IUPHAR:950	Unspecified	solute carrier family 9 member A3
+ordo:122857	oboInOwl:hasDbXref	IUPHAR:266	Unspecified	KISS1 receptor
+ordo:122862	oboInOwl:hasDbXref	IUPHAR:1805	Unspecified	KIT proto-oncogene, receptor tyrosine kinase
+ordo:121536	oboInOwl:hasDbXref	IUPHAR:2895	Unspecified	endoglin
+ordo:300201	oboInOwl:hasDbXref	IUPHAR:2506	Unspecified	phosphoinositide-3-kinase regulatory subunit 5
+ordo:121501	oboInOwl:hasDbXref	IUPHAR:835	Unspecified	ATPase Na+/K+ transporting subunit alpha 3
+ordo:121511	oboInOwl:hasDbXref	IUPHAR:2358	Unspecified	elastase, neutrophil expressed
+ordo:121560	oboInOwl:hasDbXref	IUPHAR:2735	Unspecified	E1A binding protein p300
+ordo:120233	oboInOwl:hasDbXref	IUPHAR:2526	Unspecified	thyroid peroxidase
+ordo:121563	oboInOwl:hasDbXref	IUPHAR:3151	Unspecified	erythrocyte membrane protein band 4.1
+ordo:121567	oboInOwl:hasDbXref	IUPHAR:1831	Unspecified	EPH receptor B2
+ordo:119235	oboInOwl:hasDbXref	IUPHAR:2764	Unspecified	CD19 molecule
+ordo:122872	oboInOwl:hasDbXref	IUPHAR:2379	Unspecified	kallikrein B1
+ordo:122879	oboInOwl:hasDbXref	IUPHAR:2824	Unspecified	KRAS proto-oncogene, GTPase
+ordo:470362	oboInOwl:hasDbXref	IUPHAR:241	Unspecified	gamma-aminobutyric acid type B receptor subunit 2
+ordo:119244	oboInOwl:hasDbXref	IUPHAR:1874	Unspecified	CD40 molecule
+ordo:470366	oboInOwl:hasDbXref	IUPHAR:411	Unspecified	gamma-aminobutyric acid type A receptor subunit beta2
+ordo:505586	oboInOwl:hasDbXref	IUPHAR:2058	Unspecified	leucine rich repeat kinase 1
+ordo:120279	oboInOwl:hasDbXref	IUPHAR:2254	Unspecified	tripartite motif containing 33
+ordo:601421	oboInOwl:hasDbXref	IUPHAR:1645	Unspecified	matrix metallopeptidase 23B
+ordo:132262	oboInOwl:hasDbXref	IUPHAR:1809	Unspecified	fibroblast growth factor receptor 2
+ordo:121581	oboInOwl:hasDbXref	IUPHAR:1718	Unspecified	erythropoietin receptor
+ordo:119297	oboInOwl:hasDbXref	IUPHAR:1986	Unspecified	cyclin dependent kinase like 5
+ordo:120261	oboInOwl:hasDbXref	IUPHAR:363	Unspecified	thyrotropin releasing hormone receptor
+ordo:120263	oboInOwl:hasDbXref	IUPHAR:2252	Unspecified	tripartite motif containing 24
+ordo:119289	oboInOwl:hasDbXref	IUPHAR:1976	Unspecified	cyclin dependent kinase 4
+ordo:119199	oboInOwl:hasDbXref	IUPHAR:1443	Unspecified	cystathionine beta-synthase
+ordo:119192	oboInOwl:hasDbXref	IUPHAR:2979	Unspecified	catalase
+ordo:600094	oboInOwl:hasDbXref	IUPHAR:1277	Unspecified	phosphatidylserine decarboxylase
+ordo:120173	oboInOwl:hasDbXref	IUPHAR:1870	Unspecified	TNF receptor superfamily member 1A
+ordo:410675	oboInOwl:hasDbXref	IUPHAR:2203	Unspecified	striated muscle enriched protein kinase
+ordo:505623	oboInOwl:hasDbXref	IUPHAR:1	Unspecified	5-hydroxytryptamine receptor 1A
+ordo:168101	oboInOwl:hasDbXref	IUPHAR:2754	Unspecified	ribonucleotide reductase regulatory TP53 inducible subunit M2B
+ordo:168122	oboInOwl:hasDbXref	IUPHAR:988	Unspecified	solute carrier family 16 member 1
+ordo:410615	oboInOwl:hasDbXref	IUPHAR:2663	Unspecified	jumonji domain containing 1C
+ordo:324270	oboInOwl:hasDbXref	IUPHAR:62	Unspecified	C-C motif chemokine receptor 5
+ordo:168172	oboInOwl:hasDbXref	IUPHAR:3068	Unspecified	adenylate cyclase 10
+ordo:121614	oboInOwl:hasDbXref	IUPHAR:620	Unspecified	estrogen receptor 1
+ordo:290272	oboInOwl:hasDbXref	IUPHAR:2619	Unspecified	histone deacetylase 8
+ordo:289276	oboInOwl:hasDbXref	IUPHAR:456	Unspecified	glutamate ionotropic receptor NMDA type subunit 2A
+ordo:120320	oboInOwl:hasDbXref	IUPHAR:255	Unspecified	thyroid stimulating hormone receptor
+ordo:494252	oboInOwl:hasDbXref	IUPHAR:1812	Unspecified	fms related receptor tyrosine kinase 1
+ordo:121658	oboInOwl:hasDbXref	IUPHAR:2359	Unspecified	coagulation factor X
+ordo:120326	oboInOwl:hasDbXref	IUPHAR:2265	Unspecified	titin
+ordo:118006	oboInOwl:hasDbXref	IUPHAR:1546	Unspecified	protein kinase AMP-activated non-catalytic subunit gamma 2
+ordo:119333	oboInOwl:hasDbXref	IUPHAR:2872	Unspecified	carboxyl ester lipase
+ordo:496896	oboInOwl:hasDbXref	IUPHAR:2753	Unspecified	tubulin beta 8 class VIII
+ordo:120301	oboInOwl:hasDbXref	IUPHAR:498	Unspecified	transient receptor potential cation channel subfamily M member 6
+ordo:314731	oboInOwl:hasDbXref	IUPHAR:1638	Unspecified	matrix metallopeptidase 14
+ordo:118030	oboInOwl:hasDbXref	IUPHAR:2396	Unspecified	protein C, inactivator of coagulation factors Va and VIIIa
+ordo:121683	oboInOwl:hasDbXref	IUPHAR:2364	Unspecified	coagulation factor IX
+ordo:120353	oboInOwl:hasDbXref	IUPHAR:2643	Unspecified	tyrosinase
+ordo:118014	oboInOwl:hasDbXref	IUPHAR:1484	Unspecified	protein kinase C gamma
+ordo:118010	oboInOwl:hasDbXref	IUPHAR:1472	Unspecified	protein kinase cAMP-dependent type I regulatory subunit alpha
+ordo:119382	oboInOwl:hasDbXref	IUPHAR:707	Unspecified	CF transmembrane conductance regulator
+ordo:121660	oboInOwl:hasDbXref	IUPHAR:2360	Unspecified	coagulation factor XI
+ordo:121663	oboInOwl:hasDbXref	IUPHAR:2361	Unspecified	coagulation factor XII
+ordo:528328	oboInOwl:hasDbXref	IUPHAR:1374	Unspecified	cytochrome P450 family 51 subfamily A member 1
+ordo:168312	oboInOwl:hasDbXref	IUPHAR:632	Unspecified	nuclear receptor subfamily 5 group A member 1
+ordo:120337	oboInOwl:hasDbXref	IUPHAR:2851	Unspecified	transthyretin
+ordo:118044	oboInOwl:hasDbXref	IUPHAR:336	Unspecified	prokineticin receptor 2
+ordo:289298	oboInOwl:hasDbXref	IUPHAR:1231	Unspecified	adenosine kinase
+ordo:121671	oboInOwl:hasDbXref	IUPHAR:2362	Unspecified	coagulation factor II, thrombin
+ordo:121673	oboInOwl:hasDbXref	IUPHAR:2606	Unspecified	coagulation factor V
+ordo:121675	oboInOwl:hasDbXref	IUPHAR:2363	Unspecified	coagulation factor VII
+ordo:121677	oboInOwl:hasDbXref	IUPHAR:2607	Unspecified	coagulation factor VIII
+ordo:460876	oboInOwl:hasDbXref	IUPHAR:535	Unspecified	calcium voltage-gated channel subunit alpha1 G
+ordo:119394	oboInOwl:hasDbXref	IUPHAR:1988	Unspecified	checkpoint kinase 2
+ordo:530652	oboInOwl:hasDbXref	IUPHAR:512	Unspecified	transient receptor potential cation channel subfamily V member 6
+ordo:460869	oboInOwl:hasDbXref	IUPHAR:488	Unspecified	transient receptor potential cation channel subfamily C member 3
+ordo:119387	oboInOwl:hasDbXref	IUPHAR:2480	Unspecified	choline O-acetyltransferase
+ordo:120375	oboInOwl:hasDbXref	IUPHAR:2426	Unspecified	ubiquitin C-terminal hydrolase L1
+ordo:528371	oboInOwl:hasDbXref	IUPHAR:1193	Unspecified	solute carrier family 39 member 14
+ordo:118087	oboInOwl:hasDbXref	IUPHAR:2401	Unspecified	proteinase 3
+ordo:118080	oboInOwl:hasDbXref	IUPHAR:2397	Unspecified	serine protease 1
+ordo:183913	oboInOwl:hasDbXref	IUPHAR:3148	Unspecified	endothelial PAS domain protein 1
+ordo:120380	oboInOwl:hasDbXref	IUPHAR:2990	Unspecified	UDP glucuronosyltransferase family 1 member A1
+ordo:446524	oboInOwl:hasDbXref	IUPHAR:539	Unspecified	potassium voltage-gated channel subfamily A member 2
+ordo:120298	oboInOwl:hasDbXref	IUPHAR:491	Unspecified	transient receptor potential cation channel subfamily C member 6
+ordo:434516	oboInOwl:hasDbXref	IUPHAR:2148	Unspecified	phosphatidylinositol 4-kinase alpha
+ordo:132285	oboInOwl:hasDbXref	IUPHAR:628	Unspecified	androgen receptor
+ordo:183879	oboInOwl:hasDbXref	IUPHAR:2958	Unspecified	forkhead box N1
+ordo:423802	oboInOwl:hasDbXref	IUPHAR:1337	Unspecified	cytochrome P450 family 3 subfamily A member 4
+ordo:239011	oboInOwl:hasDbXref	IUPHAR:2691	Unspecified	lysine methyltransferase 2D
+ordo:227053	oboInOwl:hasDbXref	IUPHAR:2573	Unspecified	solute carrier family 52 member 3
+ordo:227058	oboInOwl:hasDbXref	IUPHAR:1911	Unspecified	FLVCR heme transporter 2
+ordo:227083	oboInOwl:hasDbXref	IUPHAR:1580	Unspecified	X-prolyl aminopeptidase 3
+ordo:375701	oboInOwl:hasDbXref	IUPHAR:1796	Unspecified	transforming growth factor beta receptor 3
+ordo:123902	oboInOwl:hasDbXref	IUPHAR:635	Unspecified	nuclear receptor subfamily 0 group B member 1
+ordo:123912	oboInOwl:hasDbXref	IUPHAR:616	Unspecified	nuclear receptor subfamily 2 group E member 3
+ordo:123916	oboInOwl:hasDbXref	IUPHAR:625	Unspecified	nuclear receptor subfamily 3 group C member 1
+ordo:600313	oboInOwl:hasDbXref	IUPHAR:2668	Unspecified	lysine acetyltransferase 8
+ordo:123953	oboInOwl:hasDbXref	IUPHAR:1237	Unspecified	5'-nucleotidase, cytosolic IIIA
+ordo:123920	oboInOwl:hasDbXref	IUPHAR:626	Unspecified	nuclear receptor subfamily 3 group C member 2
+ordo:457197	oboInOwl:hasDbXref	IUPHAR:873	Unspecified	solute carrier family 1 member 4
+ordo:470162	oboInOwl:hasDbXref	IUPHAR:1325	Unspecified	cytochrome P450 family 2 subfamily C member 8
+ordo:123937	oboInOwl:hasDbXref	IUPHAR:2696	Unspecified	nuclear receptor binding SET domain protein 1
+ordo:122664	oboInOwl:hasDbXref	IUPHAR:1800	Unspecified	insulin receptor
+ordo:159921	oboInOwl:hasDbXref	IUPHAR:35	Unspecified	angiotensin II receptor type 2
+ordo:159918	oboInOwl:hasDbXref	IUPHAR:1792	Unspecified	activin A receptor type 2B
+ordo:123961	oboInOwl:hasDbXref	IUPHAR:1817	Unspecified	neurotrophic receptor tyrosine kinase 1
+ordo:119016	oboInOwl:hasDbXref	IUPHAR:2755	Unspecified	BCR activator of RhoGEF and GTPase
+ordo:159910	oboInOwl:hasDbXref	IUPHAR:1495	Unspecified	mitogen-activated protein kinase 1
+ordo:122634	oboInOwl:hasDbXref	IUPHAR:1715	Unspecified	interleukin 12 receptor subunit beta 1
+ordo:122638	oboInOwl:hasDbXref	IUPHAR:1717	Unspecified	interleukin 23 receptor
+ordo:121311	oboInOwl:hasDbXref	IUPHAR:1797	Unspecified	epidermal growth factor receptor
+ordo:159904	oboInOwl:hasDbXref	IUPHAR:743	Unspecified	inositol 1,4,5-trisphosphate receptor type 1
+ordo:122641	oboInOwl:hasDbXref	IUPHAR:2303	Unspecified	interleukin 2 receptor subunit gamma
+ordo:119007	oboInOwl:hasDbXref	IUPHAR:2844	Unspecified	BCL2 apoptosis regulator
+ordo:123978	oboInOwl:hasDbXref	IUPHAR:1460	Unspecified	OCRL inositol polyphosphate-5-phosphatase
+ordo:121317	oboInOwl:hasDbXref	IUPHAR:2017	Unspecified	eukaryotic translation initiation factor 2 alpha kinase 3
+ordo:122649	oboInOwl:hasDbXref	IUPHAR:2624	Unspecified	inosine monophosphate dehydrogenase 1
+ordo:122695	oboInOwl:hasDbXref	IUPHAR:2445	Unspecified	integrin subunit alpha 6
+ordo:121363	oboInOwl:hasDbXref	IUPHAR:3046	Unspecified	ANKH inorganic pyrophosphate transport regulator
+ordo:122698	oboInOwl:hasDbXref	IUPHAR:2456	Unspecified	integrin subunit beta 2
+ordo:122690	oboInOwl:hasDbXref	IUPHAR:2441	Unspecified	integrin subunit alpha 2b
+ordo:122674	oboInOwl:hasDbXref	IUPHAR:2045	Unspecified	interleukin 1 receptor associated kinase 4
+ordo:119057	oboInOwl:hasDbXref	IUPHAR:1794	Unspecified	bone morphogenetic protein receptor type 2
+ordo:120020	oboInOwl:hasDbXref	IUPHAR:1842	Unspecified	TEK receptor tyrosine kinase
+ordo:119053	oboInOwl:hasDbXref	IUPHAR:1789	Unspecified	bone morphogenetic protein receptor type 1B
+ordo:159945	oboInOwl:hasDbXref	IUPHAR:3040	Unspecified	tumor suppressor candidate 3
+ordo:119048	oboInOwl:hasDbXref	IUPHAR:1786	Unspecified	bone morphogenetic protein receptor type 1A
+ordo:159942	oboInOwl:hasDbXref	IUPHAR:2135	Unspecified	p21 (RAC1) activated kinase 3
+ordo:121287	oboInOwl:hasDbXref	IUPHAR:220	Unspecified	endothelin receptor type B
+ordo:505829	oboInOwl:hasDbXref	IUPHAR:1405	Unspecified	phospholipase C beta 3
+ordo:361071	oboInOwl:hasDbXref	IUPHAR:631	Unspecified	nuclear receptor subfamily 4 group A member 3
+ordo:121273	oboInOwl:hasDbXref	IUPHAR:2325	Unspecified	ectodysplasin A receptor
+ordo:434424	oboInOwl:hasDbXref	IUPHAR:230	Unspecified	frizzled class receptor 2
+ordo:279838	oboInOwl:hasDbXref	IUPHAR:1365	Unspecified	cytochrome P450 family 24 subfamily A member 1
+ordo:494085	oboInOwl:hasDbXref	IUPHAR:2648	Unspecified	ASH1 like histone lysine methyltransferase
+ordo:494099	oboInOwl:hasDbXref	IUPHAR:2690	Unspecified	lysine methyltransferase 2C
+ordo:291509	oboInOwl:hasDbXref	IUPHAR:2552	Unspecified	sigma non-opioid intracellular receptor 1
+ordo:494042	oboInOwl:hasDbXref	IUPHAR:2522	Unspecified	sphingosine-1-phosphate lyase 1
+ordo:122708	oboInOwl:hasDbXref	IUPHAR:2458	Unspecified	integrin subunit beta 4
+ordo:122704	oboInOwl:hasDbXref	IUPHAR:2457	Unspecified	integrin subunit beta 3
+ordo:280659	oboInOwl:hasDbXref	IUPHAR:234	Unspecified	frizzled class receptor 6
+ordo:279661	oboInOwl:hasDbXref	IUPHAR:388	Unspecified	cation channel sperm associated 1
+ordo:122732	oboInOwl:hasDbXref	IUPHAR:2682	Unspecified	lysine demethylase 5C
+ordo:121410	oboInOwl:hasDbXref	IUPHAR:689	Unspecified	aquaporin 2
+ordo:457065	oboInOwl:hasDbXref	IUPHAR:948	Unspecified	solute carrier family 9 member A1
+ordo:121415	oboInOwl:hasDbXref	IUPHAR:1244	Unspecified	arginase 1
+ordo:470026	oboInOwl:hasDbXref	IUPHAR:533	Unspecified	calcium voltage-gated channel subunit alpha1 B
+ordo:601728	oboInOwl:hasDbXref	IUPHAR:1297	Unspecified	phosphodiesterase 2A
+ordo:469057	oboInOwl:hasDbXref	IUPHAR:459	Unspecified	glutamate ionotropic receptor NMDA type subunit 2D
+ordo:122729	oboInOwl:hasDbXref	IUPHAR:2049	Unspecified	Janus kinase 3
+ordo:496659	oboInOwl:hasDbXref	IUPHAR:2248	Unspecified	TP53 regulating kinase
+ordo:122727	oboInOwl:hasDbXref	IUPHAR:2048	Unspecified	Janus kinase 2
+ordo:119117	oboInOwl:hasDbXref	IUPHAR:3092	Unspecified	carbonic anhydrase 2
+ordo:122777	oboInOwl:hasDbXref	IUPHAR:572	Unspecified	potassium voltage-gated channel subfamily H member 2
+ordo:121449	oboInOwl:hasDbXref	IUPHAR:2491	Unspecified	N-acylsphingosine amidohydrolase 1
+ordo:122783	oboInOwl:hasDbXref	IUPHAR:429	Unspecified	potassium inwardly rectifying channel subfamily J member 1
+ordo:122787	oboInOwl:hasDbXref	IUPHAR:442	Unspecified	potassium inwardly rectifying channel subfamily J member 11
+ordo:119101	oboInOwl:hasDbXref	IUPHAR:1950	Unspecified	BUB1 mitotic checkpoint serine/threonine kinase B
+ordo:119140	oboInOwl:hasDbXref	IUPHAR:529	Unspecified	calcium voltage-gated channel subunit alpha1 C
+ordo:471340	oboInOwl:hasDbXref	IUPHAR:3014	Unspecified	exportin 1
+ordo:205590	oboInOwl:hasDbXref	IUPHAR:451	Unspecified	glutamate ionotropic receptor kainate type subunit 2
+ordo:122756	oboInOwl:hasDbXref	IUPHAR:538	Unspecified	potassium voltage-gated channel subfamily A member 1
+ordo:120101	oboInOwl:hasDbXref	IUPHAR:589	Unspecified	thyroid hormone receptor beta
+ordo:303819	oboInOwl:hasDbXref	IUPHAR:1408	Unspecified	phospholipase C gamma 2
+ordo:119129	oboInOwl:hasDbXref	IUPHAR:532	Unspecified	calcium voltage-gated channel subunit alpha1 A
+ordo:119122	oboInOwl:hasDbXref	IUPHAR:2599	Unspecified	carbonic anhydrase 4
+ordo:121487	oboInOwl:hasDbXref	IUPHAR:862	Unspecified	ATPase phospholipid transporting 10A (putative)
+ordo:119157	oboInOwl:hasDbXref	IUPHAR:528	Unspecified	calcium voltage-gated channel subunit alpha1 S
+ordo:121493	oboInOwl:hasDbXref	IUPHAR:3156	Unspecified	ATPase cation transporting 13A2
+ordo:120164	oboInOwl:hasDbXref	IUPHAR:1882	Unspecified	TNF receptor superfamily member 11b
+ordo:121497	oboInOwl:hasDbXref	IUPHAR:834	Unspecified	ATPase Na+/K+ transporting subunit alpha 2
+ordo:120169	oboInOwl:hasDbXref	IUPHAR:1885	Unspecified	TNF receptor superfamily member 13B
+ordo:120160	oboInOwl:hasDbXref	IUPHAR:1881	Unspecified	TNF receptor superfamily member 11a
+ordo:398201	oboInOwl:hasDbXref	IUPHAR:1236	Unspecified	5'-nucleotidase, cytosolic II
+ordo:119148	oboInOwl:hasDbXref	IUPHAR:531	Unspecified	calcium voltage-gated channel subunit alpha1 F
+ordo:119185	oboInOwl:hasDbXref	IUPHAR:54	Unspecified	calcium sensing receptor
+ordo:122791	oboInOwl:hasDbXref	IUPHAR:430	Unspecified	potassium inwardly rectifying channel subfamily J member 2
+ordo:122795	oboInOwl:hasDbXref	IUPHAR:380	Unspecified	potassium calcium-activated channel subfamily M alpha 1
+ordo:119179	oboInOwl:hasDbXref	IUPHAR:1626	Unspecified	caspase 10
+ordo:121474	oboInOwl:hasDbXref	IUPHAR:1934	Unspecified	ATM serine/threonine kinase
+ordo:120086	oboInOwl:hasDbXref	IUPHAR:1243	Unspecified	tyrosine hydroxylase
+ordo:119066	oboInOwl:hasDbXref	IUPHAR:1943	Unspecified	B-Raf proto-oncogene, serine/threonine kinase
+ordo:119094	oboInOwl:hasDbXref	IUPHAR:1948	Unspecified	Bruton tyrosine kinase
+ordo:120065	oboInOwl:hasDbXref	IUPHAR:1788	Unspecified	transforming growth factor beta receptor 1
+ordo:120069	oboInOwl:hasDbXref	IUPHAR:1795	Unspecified	transforming growth factor beta receptor 2
+ordo:422348	oboInOwl:hasDbXref	IUPHAR:1489	Unspecified	protein kinase D1
+ordo:376877	oboInOwl:hasDbXref	IUPHAR:750	Unspecified	sodium leak channel, non-selective
+ordo:325286	oboInOwl:hasDbXref	IUPHAR:1896	Unspecified	ectodysplasin A2 receptor
+ordo:422336	oboInOwl:hasDbXref	IUPHAR:2171	Unspecified	polo like kinase 4
+ordo:410340	oboInOwl:hasDbXref	IUPHAR:812	Unspecified	ATPase H+ transporting V1 subunit B2
+ordo:364829	oboInOwl:hasDbXref	IUPHAR:2183	Unspecified	PX domain containing serine/threonine kinase like
+ordo:168077	oboInOwl:hasDbXref	IUPHAR:1384	Unspecified	15-hydroxyprostaglandin dehydrogenase
+ordo:168079	oboInOwl:hasDbXref	IUPHAR:1149	Unspecified	solute carrier family 35 member D1
+ordo:168086	oboInOwl:hasDbXref	IUPHAR:542	Unspecified	potassium voltage-gated channel subfamily A member 5
+ordo:168091	oboInOwl:hasDbXref	IUPHAR:285	Unspecified	melanocortin 4 receptor
+ordo:484597	oboInOwl:hasDbXref	IUPHAR:935	Unspecified	solute carrier family 6 member 9
+ordo:495231	oboInOwl:hasDbXref	IUPHAR:954	Unspecified	solute carrier family 9 member A7
+ordo:495237	oboInOwl:hasDbXref	IUPHAR:2227	Unspecified	STE20 related adaptor alpha
+ordo:281864	oboInOwl:hasDbXref	IUPHAR:1579	Unspecified	X-prolyl aminopeptidase 2
+ordo:471260	oboInOwl:hasDbXref	IUPHAR:2255	Unspecified	trio Rho guanine nucleotide exchange factor
+ordo:471250	oboInOwl:hasDbXref	IUPHAR:2887	Unspecified	tryptophan 2,3-dioxygenase
+ordo:541656	oboInOwl:hasDbXref	IUPHAR:1682	Unspecified	ADAM metallopeptidase with thrombospondin type 1 motif 9
+ordo:122453	oboInOwl:hasDbXref	IUPHAR:2432	Unspecified	3-hydroxy-3-methylglutaryl-CoA synthase 2
+ordo:158407	oboInOwl:hasDbXref	IUPHAR:1061	Unspecified	solute carrier family 25 member 3
+ordo:123785	oboInOwl:hasDbXref	IUPHAR:3033	Unspecified	NIPA magnesium transporter 1
+ordo:122455	oboInOwl:hasDbXref	IUPHAR:608	Unspecified	hepatocyte nuclear factor 4 alpha
+ordo:159737	oboInOwl:hasDbXref	IUPHAR:550	Unspecified	potassium voltage-gated channel subfamily C member 3
+ordo:159734	oboInOwl:hasDbXref	IUPHAR:1698	Unspecified	interleukin 7 receptor
+ordo:158401	oboInOwl:hasDbXref	IUPHAR:966	Unspecified	solute carrier family 11 member 1
+ordo:121131	oboInOwl:hasDbXref	IUPHAR:1505	Unspecified	DM1 protein kinase
+ordo:541669	oboInOwl:hasDbXref	IUPHAR:2940	Unspecified	hepatitis A virus cellular receptor 2
+ordo:121047	oboInOwl:hasDbXref	IUPHAR:1271	Unspecified	dopa decarboxylase
+ordo:122381	oboInOwl:hasDbXref	IUPHAR:403	Unspecified	hyperpolarization activated cyclic nucleotide gated potassium channel 4
+ordo:121022	oboInOwl:hasDbXref	IUPHAR:2486	Unspecified	dopamine beta-hydroxylase
+ordo:123680	oboInOwl:hasDbXref	IUPHAR:2793	Unspecified	NLR family apoptosis inhibitory protein
+ordo:159621	oboInOwl:hasDbXref	IUPHAR:412	Unspecified	gamma-aminobutyric acid type A receptor subunit beta3
+ordo:436878	oboInOwl:hasDbXref	IUPHAR:1096	Unspecified	solute carrier family 25 member 46
+ordo:436871	oboInOwl:hasDbXref	IUPHAR:2434	Unspecified	lanosterol synthase
+ordo:434205	oboInOwl:hasDbXref	IUPHAR:1873	Unspecified	TNF receptor superfamily member 4
+ordo:435518	oboInOwl:hasDbXref	IUPHAR:3041	Unspecified	major facilitator superfamily domain containing 2A
+ordo:158372	oboInOwl:hasDbXref	IUPHAR:2957	Unspecified	BCL6 transcription repressor
+ordo:158379	oboInOwl:hasDbXref	IUPHAR:2339	Unspecified	complement factor B
+ordo:412839	oboInOwl:hasDbXref	IUPHAR:2702	Unspecified	SET domain containing 2, histone lysine methyltransferase
+ordo:293928	oboInOwl:hasDbXref	IUPHAR:583	Unspecified	sodium voltage-gated channel alpha subunit 8
+ordo:231494	oboInOwl:hasDbXref	IUPHAR:1886	Unspecified	TNF receptor superfamily member 13C
+ordo:564471	oboInOwl:hasDbXref	IUPHAR:2747	Unspecified	carbonic anhydrase 12
+ordo:328924	oboInOwl:hasDbXref	IUPHAR:586	Unspecified	sodium voltage-gated channel alpha subunit 11
+ordo:266109	oboInOwl:hasDbXref	IUPHAR:1738	Unspecified	interleukin 17 receptor A
+ordo:292401	oboInOwl:hasDbXref	IUPHAR:2788	Unspecified	kinesin family member 11
+ordo:328915	oboInOwl:hasDbXref	IUPHAR:2440	Unspecified	integrin subunit alpha 2
+ordo:266126	oboInOwl:hasDbXref	IUPHAR:457	Unspecified	glutamate ionotropic receptor NMDA type subunit 2B
+ordo:123821	oboInOwl:hasDbXref	IUPHAR:1770	Unspecified	NLR family pyrin domain containing 3
+ordo:122502	oboInOwl:hasDbXref	IUPHAR:3143	Unspecified	hydroxysteroid 11-beta dehydrogenase 2
+ordo:123834	oboInOwl:hasDbXref	IUPHAR:1774	Unspecified	NLR family pyrin domain containing 7
+ordo:292437	oboInOwl:hasDbXref	IUPHAR:1221	Unspecified	solute carrier organic anion transporter family member 1B3
+ordo:123860	oboInOwl:hasDbXref	IUPHAR:2860	Unspecified	notch receptor 3
+ordo:123864	oboInOwl:hasDbXref	IUPHAR:2841	Unspecified	purine nucleoside phosphorylase
+ordo:123868	oboInOwl:hasDbXref	IUPHAR:3051	Unspecified	NPC intracellular cholesterol transporter 1
+ordo:159810	oboInOwl:hasDbXref	IUPHAR:2147	Unspecified	phosphorylase kinase catalytic subunit gamma 2
+ordo:461754	oboInOwl:hasDbXref	IUPHAR:703	Unspecified	chloride voltage-gated channel 4
+ordo:122515	oboInOwl:hasDbXref	IUPHAR:2622	Unspecified	hydroxy-delta-5-steroid dehydrogenase, 3 beta- and steroid delta-isomerase 2
+ordo:123845	oboInOwl:hasDbXref	IUPHAR:1763	Unspecified	nucleotide binding oligomerization domain containing 2
+ordo:423450	oboInOwl:hasDbXref	IUPHAR:943	Unspecified	solute carrier family 6 member 17
+ordo:123858	oboInOwl:hasDbXref	IUPHAR:2859	Unspecified	notch receptor 2
+ordo:122576	oboInOwl:hasDbXref	IUPHAR:1725	Unspecified	interferon gamma receptor 1
+ordo:121255	oboInOwl:hasDbXref	IUPHAR:1615	Unspecified	endothelin converting enzyme 1
+ordo:122580	oboInOwl:hasDbXref	IUPHAR:1726	Unspecified	interferon gamma receptor 2
+ordo:376599	oboInOwl:hasDbXref	IUPHAR:1928	Unspecified	coenzyme Q8B
+ordo:363279	oboInOwl:hasDbXref	IUPHAR:1492	Unspecified	protein kinase cGMP-dependent 1
+ordo:123897	oboInOwl:hasDbXref	IUPHAR:1748	Unspecified	natriuretic peptide receptor 2
+ordo:121233	oboInOwl:hasDbXref	IUPHAR:2999	Unspecified	dual oxidase 2
+ordo:363263	oboInOwl:hasDbXref	IUPHAR:1818	Unspecified	neurotrophic receptor tyrosine kinase 2
+ordo:122565	oboInOwl:hasDbXref	IUPHAR:2939	Unspecified	inducible T cell costimulator
+ordo:376575	oboInOwl:hasDbXref	IUPHAR:2665	Unspecified	lysine acetyltransferase 6A
+ordo:122499	oboInOwl:hasDbXref	IUPHAR:2822	Unspecified	HRas proto-oncogene, GTPase
+ordo:159773	oboInOwl:hasDbXref	IUPHAR:809	Unspecified	mitochondrially encoded ATP synthase membrane subunit 8
+ordo:121177	oboInOwl:hasDbXref	IUPHAR:215	Unspecified	dopamine receptor D2
+ordo:448714	oboInOwl:hasDbXref	IUPHAR:2423	Unspecified	tripeptidyl peptidase 2
+ordo:121171	oboInOwl:hasDbXref	IUPHAR:3102	Unspecified	dihydropyrimidine dehydrogenase
+ordo:122470	oboInOwl:hasDbXref	IUPHAR:2621	Unspecified	4-hydroxyphenylpyruvate dioxygenase
+ordo:159756	oboInOwl:hasDbXref	IUPHAR:2983	Unspecified	MALT1 paracaspase
+ordo:158415	oboInOwl:hasDbXref	IUPHAR:953	Unspecified	solute carrier family 9 member A6
+ordo:158412	oboInOwl:hasDbXref	IUPHAR:936	Unspecified	solute carrier family 6 member 5
+ordo:158410	oboInOwl:hasDbXref	IUPHAR:875	Unspecified	solute carrier family 2 member 1
+ordo:159740	oboInOwl:hasDbXref	IUPHAR:443	Unspecified	potassium inwardly rectifying channel subfamily J member 13
+ordo:528857	oboInOwl:hasDbXref	IUPHAR:906	Unspecified	solute carrier family 4 member 3
+ordo:471078	oboInOwl:hasDbXref	IUPHAR:1112	Unspecified	solute carrier family 27 member 5
+ordo:471076	oboInOwl:hasDbXref	IUPHAR:1083	Unspecified	solute carrier family 25 member 32
+ordo:352609	oboInOwl:hasDbXref	IUPHAR:2145	Unspecified	phosphorylase kinase catalytic subunit gamma 1
+ordo:471072	oboInOwl:hasDbXref	IUPHAR:869	Unspecified	solute carrier family 1 member 2
+ordo:471070	oboInOwl:hasDbXref	IUPHAR:1013	Unspecified	solute carrier family 18 member A3
+ordo:400703	oboInOwl:hasDbXref	IUPHAR:2460	Unspecified	integrin subunit beta 6
+ordo:471096	oboInOwl:hasDbXref	IUPHAR:937	Unspecified	solute carrier family 6 member 14
+ordo:471036	oboInOwl:hasDbXref	IUPHAR:2195	Unspecified	SCY1 like pseudokinase 1
+ordo:471032	oboInOwl:hasDbXref	IUPHAR:580	Unspecified	sodium voltage-gated channel alpha subunit 3
+ordo:244693	oboInOwl:hasDbXref	IUPHAR:927	Unspecified	solute carrier family 6 member 3
+ordo:267365	oboInOwl:hasDbXref	IUPHAR:800	Unspecified	ATP synthase F1 subunit epsilon
+ordo:304804	oboInOwl:hasDbXref	IUPHAR:603	Unspecified	nuclear receptor subfamily 1 group H member 4
+ordo:123508	oboInOwl:hasDbXref	IUPHAR:801	Unspecified	mitochondrially encoded ATP synthase membrane subunit 6
+ordo:122226	oboInOwl:hasDbXref	IUPHAR:256	Unspecified	gonadotropin releasing hormone receptor
+ordo:292381	oboInOwl:hasDbXref	IUPHAR:211	Unspecified	G protein-coupled receptor 179
+ordo:400642	oboInOwl:hasDbXref	IUPHAR:1721	Unspecified	prolactin receptor
+ordo:123465	oboInOwl:hasDbXref	IUPHAR:1722	Unspecified	MPL proto-oncogene, thrombopoietin receptor
+ordo:123468	oboInOwl:hasDbXref	IUPHAR:2789	Unspecified	myeloperoxidase
+ordo:122135	oboInOwl:hasDbXref	IUPHAR:720	Unspecified	gap junction protein beta 3
+ordo:376567	oboInOwl:hasDbXref	IUPHAR:1690	Unspecified	ADAM metallopeptidase with thrombospondin type 1 motif 18
+ordo:122139	oboInOwl:hasDbXref	IUPHAR:719	Unspecified	gap junction protein beta 4
+ordo:122142	oboInOwl:hasDbXref	IUPHAR:717	Unspecified	gap junction protein beta 6
+ordo:159403	oboInOwl:hasDbXref	IUPHAR:1192	Unspecified	solute carrier family 39 member 13
+ordo:122110	oboInOwl:hasDbXref	IUPHAR:731	Unspecified	gap junction protein gamma 2
+ordo:400623	oboInOwl:hasDbXref	IUPHAR:2155	Unspecified	phosphatidylinositol-4,5-bisphosphate 3-kinase catalytic subunit delta
+ordo:122114	oboInOwl:hasDbXref	IUPHAR:730	Unspecified	gap junction protein alpha 3
+ordo:122118	oboInOwl:hasDbXref	IUPHAR:732	Unspecified	gap junction protein alpha 8
+ordo:448610	oboInOwl:hasDbXref	IUPHAR:219	Unspecified	endothelin receptor type A
+ordo:123458	oboInOwl:hasDbXref	IUPHAR:3164	Unspecified	mannose-P-dolichol utilization defect 1
+ordo:122124	oboInOwl:hasDbXref	IUPHAR:723	Unspecified	gap junction protein beta 1
+ordo:400638	oboInOwl:hasDbXref	IUPHAR:1176	Unspecified	solute carrier family 38 member 8
+ordo:122129	oboInOwl:hasDbXref	IUPHAR:716	Unspecified	gap junction protein beta 2
+ordo:122179	oboInOwl:hasDbXref	IUPHAR:423	Unspecified	glycine receptor alpha 1
+ordo:122182	oboInOwl:hasDbXref	IUPHAR:427	Unspecified	glycine receptor beta
+ordo:353890	oboInOwl:hasDbXref	IUPHAR:1754	Unspecified	toll like receptor 4
+ordo:413979	oboInOwl:hasDbXref	IUPHAR:546	Unspecified	potassium voltage-gated channel subfamily B member 1
+ordo:413976	oboInOwl:hasDbXref	IUPHAR:981	Unspecified	solute carrier family 13 member 5
+ordo:413970	oboInOwl:hasDbXref	IUPHAR:400	Unspecified	hyperpolarization activated cyclic nucleotide gated potassium channel 1
+ordo:159434	oboInOwl:hasDbXref	IUPHAR:398	Unspecified	cyclic nucleotide gated channel subunit beta 1
+ordo:244711	oboInOwl:hasDbXref	IUPHAR:2046	Unspecified	IL2 inducible T cell kinase
+ordo:244737	oboInOwl:hasDbXref	IUPHAR:1727	Unspecified	interleukin 10 receptor subunit alpha
+ordo:159489	oboInOwl:hasDbXref	IUPHAR:2345	Unspecified	cathepsin D
+ordo:244742	oboInOwl:hasDbXref	IUPHAR:1728	Unspecified	interleukin 10 receptor subunit beta
+ordo:159472	oboInOwl:hasDbXref	IUPHAR:2645	Unspecified	vitamin K epoxide reductase complex subunit 1
+ordo:159476	oboInOwl:hasDbXref	IUPHAR:1719	Unspecified	colony stimulating factor 3 receptor
+ordo:484238	oboInOwl:hasDbXref	IUPHAR:2289	Unspecified	mitogen-activated protein kinase kinase kinase 20
+ordo:485554	oboInOwl:hasDbXref	IUPHAR:810	Unspecified	ATPase H+ transporting V1 subunit A
+ordo:485544	oboInOwl:hasDbXref	IUPHAR:816	Unspecified	ATPase H+ transporting V1 subunit E1
+ordo:363071	oboInOwl:hasDbXref	IUPHAR:692	Unspecified	aquaporin 5
+ordo:220737	oboInOwl:hasDbXref	IUPHAR:1710	Unspecified	interleukin 31 receptor A
+ordo:364399	oboInOwl:hasDbXref	IUPHAR:2476	Unspecified	ceramide synthase 3
+ordo:565955	oboInOwl:hasDbXref	IUPHAR:405	Unspecified	gamma-aminobutyric acid type A receptor subunit alpha2
+ordo:121000	oboInOwl:hasDbXref	IUPHAR:1333	Unspecified	cytochrome P450 family 2 subfamily R member 1
+ordo:121002	oboInOwl:hasDbXref	IUPHAR:1350	Unspecified	cytochrome P450 family 4 subfamily V member 2
+ordo:121005	oboInOwl:hasDbXref	IUPHAR:1355	Unspecified	cytochrome P450 family 7 subfamily B member 1
+ordo:292297	oboInOwl:hasDbXref	IUPHAR:2739	Unspecified	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 2
+ordo:122340	oboInOwl:hasDbXref	IUPHAR:2031	Unspecified	guanylate cyclase 2D, retinal
+ordo:448527	oboInOwl:hasDbXref	IUPHAR:1871	Unspecified	TNF receptor superfamily member 1B
+ordo:449868	oboInOwl:hasDbXref	IUPHAR:1945	Unspecified	bromodomain containing 4
+ordo:448537	oboInOwl:hasDbXref	IUPHAR:2863	Unspecified	CD28 molecule
+ordo:123588	oboInOwl:hasDbXref	IUPHAR:640	Unspecified	mevalonate kinase
+ordo:122266	oboInOwl:hasDbXref	IUPHAR:186	Unspecified	adhesion G protein-coupled receptor G1
+ordo:122263	oboInOwl:hasDbXref	IUPHAR:203	Unspecified	G protein-coupled receptor 143
+ordo:123595	oboInOwl:hasDbXref	IUPHAR:2880	Unspecified	myosin binding protein C3
+ordo:159528	oboInOwl:hasDbXref	IUPHAR:756	Unspecified	ATP binding cassette subfamily A member 1
+ordo:159526	oboInOwl:hasDbXref	IUPHAR:2603	Unspecified	dihydrofolate reductase
+ordo:449814	oboInOwl:hasDbXref	IUPHAR:926	Unspecified	solute carrier family 6 member 2
+ordo:123572	oboInOwl:hasDbXref	IUPHAR:3099	Unspecified	5-methyltetrahydrofolate-homocysteine methyltransferase
+ordo:122248	oboInOwl:hasDbXref	IUPHAR:2959	Unspecified	glypican 3
+ordo:122298	oboInOwl:hasDbXref	IUPHAR:2613	Unspecified	glutathione-disulfide reductase
+ordo:122291	oboInOwl:hasDbXref	IUPHAR:294	Unspecified	glutamate metabotropic receptor 6
+ordo:122270	oboInOwl:hasDbXref	IUPHAR:189	Unspecified	adhesion G protein-coupled receptor V1
+ordo:122286	oboInOwl:hasDbXref	IUPHAR:1465	Unspecified	G protein-coupled receptor kinase 1
+ordo:122282	oboInOwl:hasDbXref	IUPHAR:446	Unspecified	glutamate ionotropic receptor AMPA type subunit 3
+ordo:484197	oboInOwl:hasDbXref	IUPHAR:1913	Unspecified	solute carrier family 49 member 4
+ordo:353734	oboInOwl:hasDbXref	IUPHAR:1741	Unspecified	interleukin 17 receptor D
+ordo:484183	oboInOwl:hasDbXref	IUPHAR:3060	Unspecified	8-oxoguanine DNA glycosylase
+ordo:327400	oboInOwl:hasDbXref	IUPHAR:1282	Unspecified	adenylate cyclase 5
+ordo:484167	oboInOwl:hasDbXref	IUPHAR:1880	Unspecified	TNF receptor superfamily member 10b
+ordo:118789	oboInOwl:hasDbXref	IUPHAR:1060	Unspecified	solute carrier family 25 member 15
+ordo:118786	oboInOwl:hasDbXref	IUPHAR:1055	Unspecified	solute carrier family 25 member 13
+ordo:118781	oboInOwl:hasDbXref	IUPHAR:1023	Unspecified	solute carrier family 22 member 5
+ordo:358443	oboInOwl:hasDbXref	IUPHAR:1051	Unspecified	solute carrier family 25 member 1
+ordo:358431	oboInOwl:hasDbXref	IUPHAR:1139	Unspecified	solute carrier family 35 member A2
+ordo:118799	oboInOwl:hasDbXref	IUPHAR:1076	Unspecified	solute carrier family 25 member 20
+ordo:118794	oboInOwl:hasDbXref	IUPHAR:1073	Unspecified	solute carrier family 25 member 19
+ordo:431615	oboInOwl:hasDbXref	IUPHAR:2474	Unspecified	ceramide synthase 1
+ordo:431609	oboInOwl:hasDbXref	IUPHAR:69	Unspecified	C-X-C motif chemokine receptor 2
+ordo:491288	oboInOwl:hasDbXref	IUPHAR:2392	Unspecified	plasminogen activator, tissue type
+ordo:239970	oboInOwl:hasDbXref	IUPHAR:3070	Unspecified	abhydrolase domain containing 12, lysophospholipase
+ordo:478263	oboInOwl:hasDbXref	IUPHAR:2669	Unspecified	lysine demethylase 1A
+ordo:225351	oboInOwl:hasDbXref	IUPHAR:2740	Unspecified	SWI/SNF related, matrix associated, actin dependent regulator of chromatin, subfamily a, member 4
+ordo:508638	oboInOwl:hasDbXref	IUPHAR:2470	Unspecified	alkaline ceramidase 3
+ordo:201295	oboInOwl:hasDbXref	IUPHAR:2964	Unspecified	ORAI calcium release-activated calcium modulator 1
+ordo:492579	oboInOwl:hasDbXref	IUPHAR:2336	Unspecified	calpain 1
+ordo:288959	oboInOwl:hasDbXref	IUPHAR:2548	Unspecified	retinol binding protein 3
+ordo:225386	oboInOwl:hasDbXref	IUPHAR:2604	Unspecified	dihydroorotate dehydrogenase (quinone)
+ordo:251683	oboInOwl:hasDbXref	IUPHAR:3112	Unspecified	nectin cell adhesion molecule 4
+ordo:201252	oboInOwl:hasDbXref	IUPHAR:246	Unspecified	growth hormone secretagogue receptor
+ordo:299630	oboInOwl:hasDbXref	IUPHAR:1303	Unspecified	phosphodiesterase 4D
+ordo:299660	oboInOwl:hasDbXref	IUPHAR:2286	Unspecified	AKT serine/threonine kinase 3
+ordo:118746	oboInOwl:hasDbXref	IUPHAR:992	Unspecified	solute carrier family 16 member 2
+ordo:118742	oboInOwl:hasDbXref	IUPHAR:973	Unspecified	solute carrier family 12 member 6
+ordo:118740	oboInOwl:hasDbXref	IUPHAR:970	Unspecified	solute carrier family 12 member 3
+ordo:581332	oboInOwl:hasDbXref	IUPHAR:2115	Unspecified	NIMA related kinase 10
+ordo:118737	oboInOwl:hasDbXref	IUPHAR:968	Unspecified	solute carrier family 12 member 1
+ordo:118732	oboInOwl:hasDbXref	IUPHAR:967	Unspecified	solute carrier family 11 member 2
+ordo:118766	oboInOwl:hasDbXref	IUPHAR:1016	Unspecified	solute carrier family 19 member 3
+ordo:118762	oboInOwl:hasDbXref	IUPHAR:1015	Unspecified	solute carrier family 19 member 2
+ordo:118753	oboInOwl:hasDbXref	IUPHAR:1006	Unspecified	solute carrier family 17 member 5
+ordo:371315	oboInOwl:hasDbXref	IUPHAR:2349	Unspecified	cathepsin H
+ordo:420818	oboInOwl:hasDbXref	IUPHAR:3180	Unspecified	lon peptidase 1, mitochondrial
+ordo:118896	oboInOwl:hasDbXref	IUPHAR:1935	Unspecified	ATR serine/threonine kinase
+ordo:167875	oboInOwl:hasDbXref	IUPHAR:1753	Unspecified	toll like receptor 3
+ordo:492464	oboInOwl:hasDbXref	IUPHAR:1207	Unspecified	solute carrier family 44 member 4
+ordo:492445	oboInOwl:hasDbXref	IUPHAR:1845	Unspecified	receptor tyrosine kinase like orphan receptor 1
+ordo:239891	oboInOwl:hasDbXref	IUPHAR:3052	Unspecified	paraoxonase 1
+ordo:239894	oboInOwl:hasDbXref	IUPHAR:3053	Unspecified	paraoxonase 2
+ordo:239896	oboInOwl:hasDbXref	IUPHAR:3054	Unspecified	paraoxonase 3
+ordo:431495	oboInOwl:hasDbXref	IUPHAR:570	Unspecified	potassium voltage-gated channel subfamily H member 1
+ordo:225280	oboInOwl:hasDbXref	IUPHAR:493	Unspecified	transient receptor potential cation channel subfamily M member 1
+ordo:225288	oboInOwl:hasDbXref	IUPHAR:2927	Unspecified	C-type lectin domain containing 7A
+ordo:274231	oboInOwl:hasDbXref	IUPHAR:2061	Unspecified	male germ cell associated kinase
+ordo:118807	oboInOwl:hasDbXref	IUPHAR:1062	Unspecified	solute carrier family 25 member 4
+ordo:118803	oboInOwl:hasDbXref	IUPHAR:1058	Unspecified	solute carrier family 25 member 22
+ordo:118828	oboInOwl:hasDbXref	IUPHAR:876	Unspecified	solute carrier family 2 member 2
+ordo:118825	oboInOwl:hasDbXref	IUPHAR:886	Unspecified	solute carrier family 2 member 10
+ordo:370064	oboInOwl:hasDbXref	IUPHAR:1799	Unspecified	erb-b2 receptor tyrosine kinase 4
+ordo:118821	oboInOwl:hasDbXref	IUPHAR:1100	Unspecified	solute carrier family 26 member 4
+ordo:118817	oboInOwl:hasDbXref	IUPHAR:1099	Unspecified	solute carrier family 26 member 3
+ordo:118813	oboInOwl:hasDbXref	IUPHAR:1098	Unspecified	solute carrier family 26 member 2
+ordo:444761	oboInOwl:hasDbXref	IUPHAR:2782	Unspecified	zinc finger MYND-type containing 11
+ordo:118849	oboInOwl:hasDbXref	IUPHAR:847	Unspecified	ATPase secretory pathway Ca2+ transporting 1
+ordo:118844	oboInOwl:hasDbXref	IUPHAR:841	Unspecified	ATPase sarcoplasmic/endoplasmic reticulum Ca2+ transporting 2
+ordo:118840	oboInOwl:hasDbXref	IUPHAR:840	Unspecified	ATPase sarcoplasmic/endoplasmic reticulum Ca2+ transporting 1
+ordo:358399	oboInOwl:hasDbXref	IUPHAR:2452	Unspecified	integrin subunit alpha M
+ordo:118838	oboInOwl:hasDbXref	IUPHAR:1147	Unspecified	solute carrier family 35 member C1
+ordo:118834	oboInOwl:hasDbXref	IUPHAR:1137	Unspecified	solute carrier family 34 member 3
+ordo:118831	oboInOwl:hasDbXref	IUPHAR:1136	Unspecified	solute carrier family 34 member 2
+ordo:118861	oboInOwl:hasDbXref	IUPHAR:826	Unspecified	ATPase H+ transporting V0 subunit a4
+ordo:444714	oboInOwl:hasDbXref	IUPHAR:2247	Unspecified	TNNI3 interacting kinase
+ordo:406487	oboInOwl:hasDbXref	IUPHAR:2008	Unspecified	dual serine/threonine and tyrosine protein kinase
+ordo:118885	oboInOwl:hasDbXref	IUPHAR:856	Unspecified	ATPase phospholipid transporting 8B1
+ordo:118882	oboInOwl:hasDbXref	IUPHAR:853	Unspecified	ATPase copper transporting beta
+ordo:118879	oboInOwl:hasDbXref	IUPHAR:852	Unspecified	ATPase copper transporting alpha
+ordo:444736	oboInOwl:hasDbXref	IUPHAR:1782	Unspecified	NLR family CARD domain containing 4
+ordo:371321	oboInOwl:hasDbXref	IUPHAR:327	Unspecified	purinergic receptor P2Y11
+ordo:118872	oboInOwl:hasDbXref	IUPHAR:811	Unspecified	ATPase H+ transporting V1 subunit B1
+ordo:120876	oboInOwl:hasDbXref	IUPHAR:1444	Unspecified	cystathionine gamma-lyase
+ordo:120878	oboInOwl:hasDbXref	IUPHAR:2743	Unspecified	cytotoxic T-lymphocyte associated protein 4
+ordo:120884	oboInOwl:hasDbXref	IUPHAR:3163	Unspecified	cystinosin, lysosomal cystine transporter
+ordo:118539	oboInOwl:hasDbXref	IUPHAR:741	Unspecified	sodium channel epithelial 1 subunit gamma
+ordo:118536	oboInOwl:hasDbXref	IUPHAR:739	Unspecified	sodium channel epithelial 1 subunit beta
+ordo:118532	oboInOwl:hasDbXref	IUPHAR:738	Unspecified	sodium channel epithelial 1 subunit alpha
+ordo:120888	oboInOwl:hasDbXref	IUPHAR:1581	Unspecified	cathepsin A
+ordo:119860	oboInOwl:hasDbXref	IUPHAR:2633	Unspecified	steroid 5 alpha-reductase 2
+ordo:521884	oboInOwl:hasDbXref	IUPHAR:3016	Unspecified	RAS guanyl releasing protein 1
+ordo:120855	oboInOwl:hasDbXref	IUPHAR:2306	Unspecified	colony stimulating factor 2 receptor subunit beta
+ordo:119884	oboInOwl:hasDbXref	IUPHAR:2212	Unspecified	serine/threonine kinase 11
+ordo:120892	oboInOwl:hasDbXref	IUPHAR:2344	Unspecified	cathepsin C
+ordo:120897	oboInOwl:hasDbXref	IUPHAR:2350	Unspecified	cathepsin K
+ordo:166255	oboInOwl:hasDbXref	IUPHAR:520	Unspecified	potassium two pore domain channel subfamily K member 9
+ordo:470996	oboInOwl:hasDbXref	IUPHAR:600	Unspecified	RAR related orphan receptor C
+ordo:494927	oboInOwl:hasDbXref	IUPHAR:2700	Unspecified	SET domain containing 1A, histone lysine methyltransferase
+ordo:494934	oboInOwl:hasDbXref	IUPHAR:2236	Unspecified	TBC1 domain containing kinase
+ordo:250175	oboInOwl:hasDbXref	IUPHAR:3039	Unspecified	magnesium transporter 1
+ordo:405057	oboInOwl:hasDbXref	IUPHAR:1587	Unspecified	carboxypeptidase A1
+ordo:406394	oboInOwl:hasDbXref	IUPHAR:877	Unspecified	solute carrier family 2 member 3
+ordo:118507	oboInOwl:hasDbXref	IUPHAR:581	Unspecified	sodium voltage-gated channel alpha subunit 4
+ordo:118500	oboInOwl:hasDbXref	IUPHAR:579	Unspecified	sodium voltage-gated channel alpha subunit 2
+ordo:118525	oboInOwl:hasDbXref	IUPHAR:584	Unspecified	sodium voltage-gated channel alpha subunit 9
+ordo:119854	oboInOwl:hasDbXref	IUPHAR:2509	Unspecified	serine palmitoyltransferase long chain base subunit 1
+ordo:120811	oboInOwl:hasDbXref	IUPHAR:3086	Unspecified	cereblon
+ordo:120814	oboInOwl:hasDbXref	IUPHAR:2734	Unspecified	CREB binding protein
+ordo:299456	oboInOwl:hasDbXref	IUPHAR:1662	Unspecified	ADAM metallopeptidase domain 17
+ordo:119844	oboInOwl:hasDbXref	IUPHAR:3020	Unspecified	sepiapterin reductase
+ordo:118513	oboInOwl:hasDbXref	IUPHAR:582	Unspecified	sodium voltage-gated channel alpha subunit 5
+ordo:120994	oboInOwl:hasDbXref	IUPHAR:1370	Unspecified	cytochrome P450 family 27 subfamily B member 1
+ordo:119990	oboInOwl:hasDbXref	IUPHAR:825	Unspecified	T cell immune regulator 1, ATPase H+ transporting V0 subunit a3
+ordo:120977	oboInOwl:hasDbXref	IUPHAR:1320	Unspecified	cytochrome P450 family 1 subfamily B member 1
+ordo:120981	oboInOwl:hasDbXref	IUPHAR:1364	Unspecified	cytochrome P450 family 21 subfamily A member 2
+ordo:120989	oboInOwl:hasDbXref	IUPHAR:1369	Unspecified	cytochrome P450 family 27 subfamily A member 1
+ordo:323427	oboInOwl:hasDbXref	IUPHAR:1459	Unspecified	inositol polyphosphate phosphatase like 1
+ordo:520606	oboInOwl:hasDbXref	IUPHAR:1296	Unspecified	phosphodiesterase 1C
+ordo:467266	oboInOwl:hasDbXref	IUPHAR:1642	Unspecified	matrix metallopeptidase 19
+ordo:520611	oboInOwl:hasDbXref	IUPHAR:2951	Unspecified	aryl hydrocarbon receptor
+ordo:493555	oboInOwl:hasDbXref	IUPHAR:183	Unspecified	adhesion G protein-coupled receptor E2
+ordo:520627	oboInOwl:hasDbXref	IUPHAR:2253	Unspecified	tripartite motif containing 28
+ordo:241953	oboInOwl:hasDbXref	IUPHAR:1329	Unspecified	cytochrome P450 family 2 subfamily D member 6
+ordo:241965	oboInOwl:hasDbXref	IUPHAR:1326	Unspecified	cytochrome P450 family 2 subfamily C member 9
+ordo:241969	oboInOwl:hasDbXref	IUPHAR:2642	Unspecified	thymidylate synthetase
+ordo:241960	oboInOwl:hasDbXref	IUPHAR:1328	Unspecified	cytochrome P450 family 2 subfamily C member 19
+ordo:470874	oboInOwl:hasDbXref	IUPHAR:2776	Unspecified	pleckstrin homology domain interacting protein
+ordo:201152	oboInOwl:hasDbXref	IUPHAR:2792	Unspecified	baculoviral IAP repeat containing 3
+ordo:241987	oboInOwl:hasDbXref	IUPHAR:1324	Unspecified	cytochrome P450 family 2 subfamily B member 6
+ordo:470892	oboInOwl:hasDbXref	IUPHAR:2544	Unspecified	peripheral myelin protein 2
+ordo:241999	oboInOwl:hasDbXref	IUPHAR:1220	Unspecified	solute carrier organic anion transporter family member 1B1
+ordo:241994	oboInOwl:hasDbXref	IUPHAR:1338	Unspecified	cytochrome P450 family 3 subfamily A member 5
+ordo:241992	oboInOwl:hasDbXref	IUPHAR:2472	Unspecified	catechol-O-methyltransferase
+ordo:469890	oboInOwl:hasDbXref	IUPHAR:779	Unspecified	ATP binding cassette subfamily C member 1
+ordo:467238	oboInOwl:hasDbXref	IUPHAR:849	Unspecified	ATPase H+/K+ transporting subunit alpha
+ordo:201112	oboInOwl:hasDbXref	IUPHAR:1480	Unspecified	AKT serine/threonine kinase 2
+ordo:444568	oboInOwl:hasDbXref	IUPHAR:642	Unspecified	mevalonate diphosphate decarboxylase
+ordo:201101	oboInOwl:hasDbXref	IUPHAR:2488	Unspecified	iodotyrosine deiodinase
+ordo:444563	oboInOwl:hasDbXref	IUPHAR:641	Unspecified	phosphomevalonate kinase
+ordo:444574	oboInOwl:hasDbXref	IUPHAR:644	Unspecified	farnesyl diphosphate synthase
+ordo:371162	oboInOwl:hasDbXref	IUPHAR:1140	Unspecified	solute carrier family 35 member A3
+ordo:264663	oboInOwl:hasDbXref	IUPHAR:468	Unspecified	cholinergic receptor nicotinic alpha 7 subunit
+ordo:119910	oboInOwl:hasDbXref	IUPHAR:2837	Unspecified	tumor associated calcium signal transducer 2
+ordo:120914	oboInOwl:hasDbXref	IUPHAR:71	Unspecified	C-X-C motif chemokine receptor 4
+ordo:118609	oboInOwl:hasDbXref	IUPHAR:2632	Unspecified	serpin family C member 1
+ordo:119928	oboInOwl:hasDbXref	IUPHAR:2527	Unspecified	tyrosine aminotransferase
+ordo:119922	oboInOwl:hasDbXref	IUPHAR:770	Unspecified	transporter 2, ATP binding cassette subfamily B member
+ordo:120955	oboInOwl:hasDbXref	IUPHAR:1360	Unspecified	cytochrome P450 family 11 subfamily B member 2
+ordo:431220	oboInOwl:hasDbXref	IUPHAR:2109	Unspecified	mechanistic target of rapamycin kinase
+ordo:120963	oboInOwl:hasDbXref	IUPHAR:1361	Unspecified	cytochrome P450 family 17 subfamily A member 1
+ordo:120969	oboInOwl:hasDbXref	IUPHAR:1362	Unspecified	cytochrome P450 family 19 subfamily A member 1
+ordo:120935	oboInOwl:hasDbXref	IUPHAR:3002	Unspecified	cytochrome b-245 beta chain
+ordo:120949	oboInOwl:hasDbXref	IUPHAR:1359	Unspecified	cytochrome P450 family 11 subfamily B member 1
+ordo:120945	oboInOwl:hasDbXref	IUPHAR:1358	Unspecified	cytochrome P450 family 11 subfamily A member 1
+ordo:566049	oboInOwl:hasDbXref	IUPHAR:969	Unspecified	solute carrier family 12 member 2
+ordo:299166	oboInOwl:hasDbXref	IUPHAR:1367	Unspecified	cytochrome P450 family 26 subfamily B member 1
+ordo:118307	oboInOwl:hasDbXref	IUPHAR:1198	Unspecified	Rh associated glycoprotein
+ordo:119637	oboInOwl:hasDbXref	IUPHAR:1390	Unspecified	arachidonate lipoxygenase 3
+ordo:119635	oboInOwl:hasDbXref	IUPHAR:1386	Unspecified	arachidonate 12-lipoxygenase, 12R type
+ordo:299152	oboInOwl:hasDbXref	IUPHAR:2884	Unspecified	isocitrate dehydrogenase (NADP(+)) 1
+ordo:121972	oboInOwl:hasDbXref	IUPHAR:2610	Unspecified	FXYD domain containing ion transport regulator 2
+ordo:169910	oboInOwl:hasDbXref	IUPHAR:1311	Unspecified	phosphodiesterase 11A
+ordo:121977	oboInOwl:hasDbXref	IUPHAR:232	Unspecified	frizzled class receptor 4
+ordo:299148	oboInOwl:hasDbXref	IUPHAR:15	Unspecified	cholinergic receptor muscarinic 3
+ordo:543439	oboInOwl:hasDbXref	IUPHAR:1586	Unspecified	AE binding protein 1
+ordo:311398	oboInOwl:hasDbXref	IUPHAR:845	Unspecified	ATPase plasma membrane Ca2+ transporting 3
+ordo:118326	oboInOwl:hasDbXref	IUPHAR:2545	Unspecified	retinaldehyde binding protein 1
+ordo:121943	oboInOwl:hasDbXref	IUPHAR:253	Unspecified	follicle stimulating hormone receptor
+ordo:118315	oboInOwl:hasDbXref	IUPHAR:2963	Unspecified	rhodopsin
+ordo:119680	oboInOwl:hasDbXref	IUPHAR:913	Unspecified	solute carrier family 4 member 11
+ordo:120671	oboInOwl:hasDbXref	IUPHAR:396	Unspecified	cyclic nucleotide gated channel subunit alpha 3
+ordo:325976	oboInOwl:hasDbXref	IUPHAR:585	Unspecified	sodium voltage-gated channel alpha subunit 10
+ordo:120678	oboInOwl:hasDbXref	IUPHAR:399	Unspecified	cyclic nucleotide gated channel subunit beta 3
+ordo:119669	oboInOwl:hasDbXref	IUPHAR:904	Unspecified	solute carrier family 4 member 1 (Diego blood group)
+ordo:119665	oboInOwl:hasDbXref	IUPHAR:1210	Unspecified	solute carrier family 45 member 2
+ordo:119660	oboInOwl:hasDbXref	IUPHAR:1793	Unspecified	anti-Mullerian hormone receptor type 2
+ordo:312680	oboInOwl:hasDbXref	IUPHAR:1939	Unspecified	branched chain keto acid dehydrogenase kinase
+ordo:311352	oboInOwl:hasDbXref	IUPHAR:1014	Unspecified	solute carrier family 19 member 1
+ordo:517194	oboInOwl:hasDbXref	IUPHAR:408	Unspecified	gamma-aminobutyric acid type A receptor subunit alpha5
+ordo:311355	oboInOwl:hasDbXref	IUPHAR:2367	Unspecified	gamma-glutamyl hydrolase
+ordo:119697	oboInOwl:hasDbXref	IUPHAR:916	Unspecified	solute carrier family 5 member 2
+ordo:121987	oboInOwl:hasDbXref	IUPHAR:2611	Unspecified	alpha glucosidase
+ordo:121989	oboInOwl:hasDbXref	IUPHAR:404	Unspecified	gamma-aminobutyric acid type A receptor subunit alpha1
+ordo:119693	oboInOwl:hasDbXref	IUPHAR:915	Unspecified	solute carrier family 5 member 1
+ordo:118362	oboInOwl:hasDbXref	IUPHAR:1846	Unspecified	receptor tyrosine kinase like orphan receptor 2
+ordo:121991	oboInOwl:hasDbXref	IUPHAR:416	Unspecified	gamma-aminobutyric acid type A receptor subunit delta
+ordo:121993	oboInOwl:hasDbXref	IUPHAR:414	Unspecified	gamma-aminobutyric acid type A receptor subunit gamma2
+ordo:120664	oboInOwl:hasDbXref	IUPHAR:394	Unspecified	cyclic nucleotide gated channel subunit alpha 1
+ordo:543466	oboInOwl:hasDbXref	IUPHAR:4867	Unspecified	angiopoietin 1
+ordo:119685	oboInOwl:hasDbXref	IUPHAR:908	Unspecified	solute carrier family 4 member 4
+ordo:169944	oboInOwl:hasDbXref	IUPHAR:1435	Unspecified	lipin 1
+ordo:470780	oboInOwl:hasDbXref	IUPHAR:3034	Unspecified	NIPA magnesium transporter 2
+ordo:493411	oboInOwl:hasDbXref	IUPHAR:2223	Unspecified	serine/threonine kinase 36
+ordo:395065	oboInOwl:hasDbXref	IUPHAR:2447	Unspecified	integrin subunit alpha 8
+ordo:602288	oboInOwl:hasDbXref	IUPHAR:2676	Unspecified	lysine demethylase 4B
+ordo:180215	oboInOwl:hasDbXref	IUPHAR:1134	Unspecified	solute carrier family 33 member 1
+ordo:420409	oboInOwl:hasDbXref	IUPHAR:125	Unspecified	G protein-coupled receptor 101
+ordo:360362	oboInOwl:hasDbXref	IUPHAR:2334	Unspecified	complement C1r
+ordo:119754	oboInOwl:hasDbXref	IUPHAR:2514	Unspecified	sphingomyelin phosphodiesterase 1
+ordo:287069	oboInOwl:hasDbXref	IUPHAR:2333	Unspecified	bone morphogenetic protein 1
+ordo:118443	oboInOwl:hasDbXref	IUPHAR:748	Unspecified	ryanodine receptor 2
+ordo:118437	oboInOwl:hasDbXref	IUPHAR:747	Unspecified	ryanodine receptor 1
+ordo:493393	oboInOwl:hasDbXref	IUPHAR:1551	Unspecified	casein kinase 2 beta
+ordo:119797	oboInOwl:hasDbXref	IUPHAR:2778	Unspecified	SP110 nuclear body protein
+ordo:119781	oboInOwl:hasDbXref	IUPHAR:3096	Unspecified	SOS Ras/Rac guanine nucleotide exchange factor 1
+ordo:118489	oboInOwl:hasDbXref	IUPHAR:578	Unspecified	sodium voltage-gated channel alpha subunit 1
+ordo:120780	oboInOwl:hasDbXref	IUPHAR:1592	Unspecified	carboxypeptidase A6
+ordo:506519	oboInOwl:hasDbXref	IUPHAR:1972	Unspecified	cyclin dependent kinase 19
+ordo:227401	oboInOwl:hasDbXref	IUPHAR:3011	Unspecified	unc-119 lipid binding chaperone
+ordo:179419	oboInOwl:hasDbXref	IUPHAR:3146	Unspecified	klotho
+ordo:179413	oboInOwl:hasDbXref	IUPHAR:2418	Unspecified	ST14 transmembrane serine protease matriptase
+ordo:419381	oboInOwl:hasDbXref	IUPHAR:2081	Unspecified	mitogen-activated protein kinase kinase kinase 6
+ordo:443014	oboInOwl:hasDbXref	IUPHAR:3017	Unspecified	Fc fragment of IgG receptor IIIa
+ordo:457688	oboInOwl:hasDbXref	IUPHAR:1824	Unspecified	EPH receptor A4
+ordo:226144	oboInOwl:hasDbXref	IUPHAR:3142	Unspecified	CD247 molecule
+ordo:507959	oboInOwl:hasDbXref	IUPHAR:2910	Unspecified	OTU deubiquitinase with linear linkage specificity
+ordo:408636	oboInOwl:hasDbXref	IUPHAR:1105	Unspecified	solute carrier family 26 member 8
+ordo:119713	oboInOwl:hasDbXref	IUPHAR:900	Unspecified	solute carrier family 7 member 9
+ordo:119709	oboInOwl:hasDbXref	IUPHAR:898	Unspecified	solute carrier family 7 member 7
+ordo:119705	oboInOwl:hasDbXref	IUPHAR:934	Unspecified	solute carrier family 6 member 8
+ordo:119703	oboInOwl:hasDbXref	IUPHAR:939	Unspecified	solute carrier family 6 member 19
+ordo:119700	oboInOwl:hasDbXref	IUPHAR:920	Unspecified	solute carrier family 5 member 5
+ordo:118405	oboInOwl:hasDbXref	IUPHAR:1528	Unspecified	ribosomal protein S6 kinase A3
+ordo:406016	oboInOwl:hasDbXref	IUPHAR:2750	Unspecified	DNA methyltransferase 3 alpha
+ordo:121733	oboInOwl:hasDbXref	IUPHAR:1875	Unspecified	Fas cell surface death receptor
+ordo:119419	oboInOwl:hasDbXref	IUPHAR:471	Unspecified	cholinergic receptor nicotinic beta 1 subunit
+ordo:119414	oboInOwl:hasDbXref	IUPHAR:465	Unspecified	cholinergic receptor nicotinic alpha 4 subunit
+ordo:119411	oboInOwl:hasDbXref	IUPHAR:462	Unspecified	cholinergic receptor nicotinic alpha 1 subunit
+ordo:290568	oboInOwl:hasDbXref	IUPHAR:2684	Unspecified	lysine demethylase 6A
+ordo:118105	oboInOwl:hasDbXref	IUPHAR:2403	Unspecified	presenilin 2
+ordo:119428	oboInOwl:hasDbXref	IUPHAR:475	Unspecified	cholinergic receptor nicotinic gamma subunit
+ordo:119425	oboInOwl:hasDbXref	IUPHAR:477	Unspecified	cholinergic receptor nicotinic epsilon subunit
+ordo:422901	oboInOwl:hasDbXref	IUPHAR:2920	Unspecified	DExD/H-box helicase 58
+ordo:119422	oboInOwl:hasDbXref	IUPHAR:476	Unspecified	cholinergic receptor nicotinic delta subunit
+ordo:118128	oboInOwl:hasDbXref	IUPHAR:2497	Unspecified	phosphatase and tensin homolog
+ordo:119453	oboInOwl:hasDbXref	IUPHAR:704	Unspecified	chloride voltage-gated channel 5
+ordo:119447	oboInOwl:hasDbXref	IUPHAR:698	Unspecified	chloride voltage-gated channel 1
+ordo:119442	oboInOwl:hasDbXref	IUPHAR:1767	Unspecified	class II major histocompatibility complex transactivator
+ordo:119482	oboInOwl:hasDbXref	IUPHAR:1183	Unspecified	solute carrier family 39 member 4
+ordo:118151	oboInOwl:hasDbXref	IUPHAR:1852	Unspecified	protein tyrosine phosphatase receptor type C
+ordo:119474	oboInOwl:hasDbXref	IUPHAR:1168	Unspecified	solute carrier family 37 member 4
+ordo:118140	oboInOwl:hasDbXref	IUPHAR:331	Unspecified	parathyroid hormone 1 receptor
+ordo:119467	oboInOwl:hasDbXref	IUPHAR:701	Unspecified	chloride voltage-gated channel Kb
+ordo:119462	oboInOwl:hasDbXref	IUPHAR:706	Unspecified	chloride voltage-gated channel 7
+ordo:120464	oboInOwl:hasDbXref	IUPHAR:605	Unspecified	vitamin D receptor
+ordo:119486	oboInOwl:hasDbXref	IUPHAR:1194	Unspecified	solute carrier family 40 member 1
+ordo:118188	oboInOwl:hasDbXref	IUPHAR:2916	Unspecified	RAB27A, member RAS oncogene family
+ordo:470544	oboInOwl:hasDbXref	IUPHAR:2681	Unspecified	lysine demethylase 5B
+ordo:469582	oboInOwl:hasDbXref	IUPHAR:1989	Unspecified	component of inhibitor of nuclear factor kappa B kinase complex
+ordo:445555	oboInOwl:hasDbXref	IUPHAR:1644	Unspecified	matrix metallopeptidase 21
+ordo:118099	oboInOwl:hasDbXref	IUPHAR:2402	Unspecified	presenilin 1
+ordo:470538	oboInOwl:hasDbXref	IUPHAR:564	Unspecified	potassium voltage-gated channel subfamily Q member 5
+ordo:226013	oboInOwl:hasDbXref	IUPHAR:2752	Unspecified	tubulin beta 3 class III
+ordo:226016	oboInOwl:hasDbXref	IUPHAR:1308	Unspecified	phosphodiesterase 8B
+ordo:446842	oboInOwl:hasDbXref	IUPHAR:1478	Unspecified	protein kinase cAMP-activated catalytic subunit gamma
+ordo:289604	oboInOwl:hasDbXref	IUPHAR:1232	Unspecified	5'-nucleotidase ecto
+ordo:226047	oboInOwl:hasDbXref	IUPHAR:699	Unspecified	chloride voltage-gated channel 2
+ordo:226051	oboInOwl:hasDbXref	IUPHAR:2651	Unspecified	euchromatic histone lysine methyltransferase 1
+ordo:227384	oboInOwl:hasDbXref	IUPHAR:1940	Unspecified	BLK proto-oncogene, Src family tyrosine kinase
+ordo:227390	oboInOwl:hasDbXref	IUPHAR:1135	Unspecified	solute carrier family 34 member 1
+ordo:227397	oboInOwl:hasDbXref	IUPHAR:1864	Unspecified	protein tyrosine phosphatase receptor type Q
+ordo:291794	oboInOwl:hasDbXref	IUPHAR:773	Unspecified	ATP binding cassette subfamily B member 6 (Langereis blood group)
+ordo:311032	oboInOwl:hasDbXref	IUPHAR:1130	Unspecified	solute carrier family 30 member 10
+ordo:311039	oboInOwl:hasDbXref	IUPHAR:2442	Unspecified	integrin subunit alpha 3
+ordo:118227	oboInOwl:hasDbXref	IUPHAR:590	Unspecified	retinoic acid receptor alpha
+ordo:120558	oboInOwl:hasDbXref	IUPHAR:2646	Unspecified	xanthine dehydrogenase
+ordo:119546	oboInOwl:hasDbXref	IUPHAR:1233	Unspecified	adenosylhomocysteinase
+ordo:120531	oboInOwl:hasDbXref	IUPHAR:2280	Unspecified	WNK lysine deficient protein kinase 1
+ordo:120534	oboInOwl:hasDbXref	IUPHAR:2283	Unspecified	WNK lysine deficient protein kinase 4
+ordo:121872	oboInOwl:hasDbXref	IUPHAR:1814	Unspecified	fms related receptor tyrosine kinase 4
+ordo:119592	oboInOwl:hasDbXref	IUPHAR:2466	Unspecified	aldehyde dehydrogenase 5 family member A1
+ordo:470460	oboInOwl:hasDbXref	IUPHAR:1441	Unspecified	heme oxygenase 1
+ordo:120579	oboInOwl:hasDbXref	IUPHAR:2285	Unspecified	zeta chain of T-cell receptor associated protein kinase 70
+ordo:302951	oboInOwl:hasDbXref	IUPHAR:554	Unspecified	potassium voltage-gated channel subfamily D member 3
+ordo:470482	oboInOwl:hasDbXref	IUPHAR:1724	Unspecified	interferon alpha and beta receptor subunit 2
+ordo:169896	oboInOwl:hasDbXref	IUPHAR:1009	Unspecified	solute carrier family 17 member 8
+ordo:118274	oboInOwl:hasDbXref	IUPHAR:2185	Unspecified	ret proto-oncogene
+ordo:457451	oboInOwl:hasDbXref	IUPHAR:2074	Unspecified	mitogen-activated protein kinase kinase kinase 14
+ordo:118299	oboInOwl:hasDbXref	IUPHAR:2817	Unspecified	regulator of G protein signaling 9
+ordo:444179	oboInOwl:hasDbXref	IUPHAR:435	Unspecified	potassium inwardly rectifying channel subfamily J member 6
+ordo:302923	oboInOwl:hasDbXref	IUPHAR:1406	Unspecified	phospholipase C beta 4
+ordo:444104	oboInOwl:hasDbXref	IUPHAR:2593	Unspecified	lipase E, hormone sensitive type
+ordo:444112	oboInOwl:hasDbXref	IUPHAR:548	Unspecified	potassium voltage-gated channel subfamily C member 1
+ordo:457447	oboInOwl:hasDbXref	IUPHAR:222	Unspecified	formyl peptide receptor 1
+ordo:291802	oboInOwl:hasDbXref	IUPHAR:2192	Unspecified	receptor interacting serine/threonine kinase 4
+ordo:410737	oboInOwl:hasDbXref	IUPHAR:1855	Unspecified	protein tyrosine phosphatase receptor type F
+ordo:291830	oboInOwl:hasDbXref	IUPHAR:1223	Unspecified	solute carrier organic anion transporter family member 2A1
+ordo:291819	oboInOwl:hasDbXref	IUPHAR:2654	Unspecified	enhancer of zeste 2 polycomb repressive complex 2 subunit
+ordo:446713	oboInOwl:hasDbXref	IUPHAR:251	Unspecified	glucagon receptor
+ordo:121802	oboInOwl:hasDbXref	IUPHAR:1808	Unspecified	fibroblast growth factor receptor 1
+ordo:121815	oboInOwl:hasDbXref	IUPHAR:1810	Unspecified	fibroblast growth factor receptor 3
+ordo:434716	oboInOwl:hasDbXref	IUPHAR:2738	Unspecified	polybromo 1
+ordo:289543	oboInOwl:hasDbXref	IUPHAR:2332	Unspecified	BRCA1 associated protein 1

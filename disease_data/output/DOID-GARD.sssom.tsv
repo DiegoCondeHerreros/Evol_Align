@@ -1,0 +1,2058 @@
+# curie_map:
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   EFO: http://www.ebi.ac.uk/efo/EFO_
+#   ENVO: http://purl.obolibrary.org/obo/ENVO_
+#   ExO: http://purl.obolibrary.org/obo/ExO_
+#   GARD: GARD
+#   ICD10CM: http://apps.who.int/classifications/icd10/browse/2010/en#/
+#   ICD9CM: ICD9CM
+#   ICDO: ICDO
+#   KEGG: http://www.kegg.jp/entry/
+#   MEDDRA: MEDDRA
+#   MESH: https://meshb.nlm.nih.gov/record/ui?ui=
+#   NCI: http://purl.obolibrary.org/obo/NCIT_
+#   OMIM: http://omim.org/entry/
+#   OMIT: http://purl.obolibrary.org/obo/OMIT_
+#   ORDO: ORDO
+#   SNOMEDCT_US_2020_03_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2020_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2021_07_31: SNOMEDCT_US_2021_07_31
+#   SNOMEDCT_US_2021_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   UMLS_CUI: http://linkedlifedata.com/resource/umls/id/
+#   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+#   skos: http://www.w3.org/2004/02/skos/core#
+# license: https://github.com/mapping-commons/mapping-commons.github.io/blob/main/docs/original_license_applies.md
+# mapping_date: '2022-02-23'
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
+# mapping_tool: https://github.com/mapping-commons/sssom-py
+subject_id	predicate_id	object_id	match_type	subject_label
+DOID:8712	oboInOwl:hasDbXref	GARD:10420	Unspecified	neurofibromatosis
+DOID:8736	oboInOwl:hasDbXref	GARD:7444	Unspecified	smallpox
+DOID:7400	oboInOwl:hasDbXref	GARD:3904	Unspecified	Nijmegen breakage syndrome
+DOID:6128	oboInOwl:hasDbXref	GARD:6514	Unspecified	gliomatosis cerebri
+DOID:8781	oboInOwl:hasDbXref	GARD:4742	Unspecified	rubella
+DOID:7426	oboInOwl:hasDbXref	GARD:8158	Unspecified	cutaneous anthrax
+DOID:7427	oboInOwl:hasDbXref	GARD:8157	Unspecified	anthrax disease
+DOID:8778	oboInOwl:hasDbXref	GARD:10232	Unspecified	Crohn's disease
+DOID:7442	oboInOwl:hasDbXref	GARD:7034	Unspecified	monoclonal gammopathy of uncertain significance
+DOID:8761	oboInOwl:hasDbXref	GARD:524	Unspecified	acute megakaryocytic leukemia
+DOID:14110	oboInOwl:hasDbXref	GARD:9300	Unspecified	anus cancer
+DOID:14118	oboInOwl:hasDbXref	GARD:12241	Unspecified	familial lipoprotein lipase deficiency
+DOID:14116	oboInOwl:hasDbXref	GARD:6957	Unspecified	multiple symmetric lipomatosis
+DOID:14176	oboInOwl:hasDbXref	GARD:10371	Unspecified	selective IgG deficiency disease
+DOID:14175	oboInOwl:hasDbXref	GARD:7855	Unspecified	von Hippel-Lindau disease
+DOID:6245	oboInOwl:hasDbXref	GARD:8477	Unspecified	renal oncocytoma
+DOID:8869	oboInOwl:hasDbXref	GARD:6267	Unspecified	neuromyelitis optica
+DOID:8864	oboInOwl:hasDbXref	GARD:525	Unspecified	acute monocytic leukemia
+DOID:7566	oboInOwl:hasDbXref	GARD:7431	Unspecified	eccrine porocarcinoma
+DOID:8893	oboInOwl:hasDbXref	GARD:10262	Unspecified	psoriasis
+DOID:8886	oboInOwl:hasDbXref	GARD:6060	Unspecified	chorioretinitis
+DOID:14223	oboInOwl:hasDbXref	GARD:7231	Unspecified	ochronosis
+DOID:14221	oboInOwl:hasDbXref	GARD:9226	Unspecified	abdominal obesity-metabolic syndrome 1
+DOID:14219	oboInOwl:hasDbXref	GARD:7552	Unspecified	renal tubular acidosis
+DOID:14218	oboInOwl:hasDbXref	GARD:19	Unspecified	dihydropyrimidine dehydrogenase deficiency
+DOID:14213	oboInOwl:hasDbXref	GARD:6734	Unspecified	hypophosphatasia
+DOID:6179	oboInOwl:hasDbXref	GARD:10411	Unspecified	ovarian small cell carcinoma
+DOID:6171	oboInOwl:hasDbXref	GARD:12335	Unspecified	uterine carcinosarcoma
+DOID:6170	oboInOwl:hasDbXref	GARD:7296	Unspecified	ovarian carcinosarcoma
+DOID:6196	oboInOwl:hasDbXref	GARD:5693	Unspecified	reactive arthritis
+DOID:6193	oboInOwl:hasDbXref	GARD:10181	Unspecified	epithelioid sarcoma
+DOID:14291	oboInOwl:hasDbXref	GARD:1100	Unspecified	Noonan syndrome with multiple lentigines
+DOID:14289	oboInOwl:hasDbXref	GARD:6313	Unspecified	Ebstein anomaly
+DOID:14261	oboInOwl:hasDbXref	GARD:6464	Unspecified	fragile X syndrome
+DOID:14256	oboInOwl:hasDbXref	GARD:436	Unspecified	adult-onset Still's disease
+DOID:14250	oboInOwl:hasDbXref	GARD:10247	Unspecified	Down syndrome
+DOID:9809	oboInOwl:hasDbXref	GARD:7851	Unspecified	hypersensitivity vasculitis
+DOID:9808	oboInOwl:hasDbXref	GARD:2551	Unspecified	Goodpasture syndrome
+DOID:9821	oboInOwl:hasDbXref	GARD:6061	Unspecified	choroideremia
+DOID:9810	oboInOwl:hasDbXref	GARD:7360	Unspecified	polyarteritis nodosa
+DOID:9884	oboInOwl:hasDbXref	GARD:7922	Unspecified	muscular dystrophy
+DOID:8553	oboInOwl:hasDbXref	GARD:7510	Unspecified	pyoderma gangrenosum
+DOID:8552	oboInOwl:hasDbXref	GARD:6105	Unspecified	chronic myeloid leukemia
+DOID:9883	oboInOwl:hasDbXref	GARD:5900	Unspecified	Becker muscular dystrophy
+DOID:8545	oboInOwl:hasDbXref	GARD:6964	Unspecified	malignant hyperthermia
+DOID:8544	oboInOwl:hasDbXref	GARD:7121	Unspecified	chronic fatigue syndrome
+DOID:8541	oboInOwl:hasDbXref	GARD:7629	Unspecified	Sezary's disease
+DOID:9870	oboInOwl:hasDbXref	GARD:2424	Unspecified	galactosemia
+DOID:8567	oboInOwl:hasDbXref	GARD:2714	Unspecified	Hodgkin's lymphoma
+DOID:9849	oboInOwl:hasDbXref	GARD:10340	Unspecified	Meniere's disease
+DOID:9840	oboInOwl:hasDbXref	GARD:8235	Unspecified	esotropia
+DOID:8506	oboInOwl:hasDbXref	GARD:5972	Unspecified	bullous pemphigoid
+DOID:8505	oboInOwl:hasDbXref	GARD:1917	Unspecified	dermatitis herpetiformis
+DOID:8533	oboInOwl:hasDbXref	GARD:9334	Unspecified	hypopharynx cancer
+DOID:0080016	oboInOwl:hasDbXref	GARD:7673	Unspecified	spina bifida
+DOID:7147	oboInOwl:hasDbXref	GARD:9518	Unspecified	ankylosing spondylitis
+DOID:8478	oboInOwl:hasDbXref	GARD:5728	Unspecified	actinomycosis
+DOID:8476	oboInOwl:hasDbXref	GARD:7889	Unspecified	Whipple disease
+DOID:8472	oboInOwl:hasDbXref	GARD:7058	Unspecified	localized scleroderma
+DOID:0080021	oboInOwl:hasDbXref	GARD:7029	Unspecified	Schmid metaphyseal chondrodysplasia
+DOID:0080039	oboInOwl:hasDbXref	GARD:8431	Unspecified	axial osteomalacia
+DOID:0080038	oboInOwl:hasDbXref	GARD:4611	Unspecified	pycnodysostosis
+DOID:0080037	oboInOwl:hasDbXref	GARD:390	Unspecified	Worth syndrome
+DOID:8461	oboInOwl:hasDbXref	GARD:5764	Unspecified	Aicardi syndrome
+DOID:0080032	oboInOwl:hasDbXref	GARD:1567	Unspecified	craniodiaphyseal dysplasia
+DOID:0080031	oboInOwl:hasDbXref	GARD:6444	Unspecified	fibrous dysplasia
+DOID:0080049	oboInOwl:hasDbXref	GARD:6	Unspecified	acromesomelic dysplasia
+DOID:0080047	oboInOwl:hasDbXref	GARD:4540	Unspecified	pseudoachondroplasia
+DOID:0080046	oboInOwl:hasDbXref	GARD:10782	Unspecified	Stickler syndrome
+DOID:0080045	oboInOwl:hasDbXref	GARD:6841	Unspecified	Kniest dysplasia
+DOID:0080043	oboInOwl:hasDbXref	GARD:2882	Unspecified	achondrogenesis
+DOID:0080041	oboInOwl:hasDbXref	GARD:6724	Unspecified	hypochondroplasia
+DOID:0080059	oboInOwl:hasDbXref	GARD:12232	Unspecified	autosomal recessive spinocerebellar ataxia 7
+DOID:0080056	oboInOwl:hasDbXref	GARD:8713	Unspecified	achondrogenesis type II
+DOID:0080055	oboInOwl:hasDbXref	GARD:460	Unspecified	achondrogenesis type IB
+DOID:0080054	oboInOwl:hasDbXref	GARD:459	Unspecified	achondrogenesis type IA
+DOID:0080053	oboInOwl:hasDbXref	GARD:5770	Unspecified	Albright's hereditary osteodystrophy
+DOID:0080074	oboInOwl:hasDbXref	GARD:4016	Unspecified	neural tube defect
+DOID:0080072	oboInOwl:hasDbXref	GARD:12744	Unspecified	intestinal pseudo-obstruction
+DOID:0080072	oboInOwl:hasDbXref	GARD:6789	Unspecified	intestinal pseudo-obstruction
+DOID:0080070	oboInOwl:hasDbXref	GARD:6749	Unspecified	mucolipidosis II alpha/beta
+DOID:0080089	oboInOwl:hasDbXref	GARD:3884	Unspecified	tubular aggregate myopathy 1
+DOID:0080082	oboInOwl:hasDbXref	GARD:12930	Unspecified	nonsyndromic congenital nail disorder 4
+DOID:0080091	oboInOwl:hasDbXref	GARD:8711	Unspecified	spheroid body myopathy
+DOID:0080090	oboInOwl:hasDbXref	GARD:12162	Unspecified	reducing body myopathy 1A
+DOID:8618	oboInOwl:hasDbXref	GARD:9360	Unspecified	oral cavity cancer
+DOID:8616	oboInOwl:hasDbXref	GARD:7379	Unspecified	Peyronie's disease
+DOID:9931	oboInOwl:hasDbXref	GARD:9449	Unspecified	Waterhouse-Friderichsen syndrome
+DOID:9997	oboInOwl:hasDbXref	GARD:220	Unspecified	peripartum cardiomyopathy
+DOID:7365	oboInOwl:hasDbXref	GARD:6835	Unspecified	Kimura disease
+DOID:8692	oboInOwl:hasDbXref	GARD:8226	Unspecified	myeloid leukemia
+DOID:8683	oboInOwl:hasDbXref	GARD:12763	Unspecified	myeloid sarcoma
+DOID:8691	oboInOwl:hasDbXref	GARD:3863	Unspecified	mycosis fungoides
+DOID:7305	oboInOwl:hasDbXref	GARD:10635	Unspecified	astroblastoma
+DOID:8632	oboInOwl:hasDbXref	GARD:6814	Unspecified	Kaposi's sarcoma
+DOID:9955	oboInOwl:hasDbXref	GARD:6739	Unspecified	hypoplastic left heart syndrome
+DOID:8622	oboInOwl:hasDbXref	GARD:3434	Unspecified	measles
+DOID:9952	oboInOwl:hasDbXref	GARD:522	Unspecified	acute lymphoblastic leukemia
+DOID:9986	oboInOwl:hasDbXref	GARD:9719	Unspecified	orbit lymphoma
+DOID:0080202	oboInOwl:hasDbXref	GARD:5743	Unspecified	adenoid cystic carcinoma
+DOID:0080201	oboInOwl:hasDbXref	GARD:8422	Unspecified	Peters plus syndrome
+DOID:8649	oboInOwl:hasDbXref	GARD:7779	Unspecified	tongue cancer
+DOID:0080218	oboInOwl:hasDbXref	GARD:4997	Unspecified	primary spontaneous pneumothorax
+DOID:0080216	oboInOwl:hasDbXref	GARD:54	Unspecified	duodenal atresia
+DOID:0080213	oboInOwl:hasDbXref	GARD:4439	Unspecified	punctate palmoplantar keratoderma type II
+DOID:0080109	oboInOwl:hasDbXref	GARD:2998	Unspecified	infantile myofibromatosis
+DOID:0080103	oboInOwl:hasDbXref	GARD:11906	Unspecified	cylindrical spirals myopathy
+DOID:0080119	oboInOwl:hasDbXref	GARD:9920	Unspecified	mitochondrial DNA depletion syndrome 1
+DOID:0080127	oboInOwl:hasDbXref	GARD:13200	Unspecified	mitochondrial DNA depletion syndrome 8a
+DOID:0080126	oboInOwl:hasDbXref	GARD:4062	Unspecified	mitochondrial DNA depletion syndrome 7
+DOID:0080125	oboInOwl:hasDbXref	GARD:3972	Unspecified	mitochondrial DNA depletion syndrome 6
+DOID:0080122	oboInOwl:hasDbXref	GARD:5783	Unspecified	Alpers-Huttenlocher syndrome
+DOID:0080121	oboInOwl:hasDbXref	GARD:13644	Unspecified	mitochondrial DNA depletion syndrome 3
+DOID:0080139	oboInOwl:hasDbXref	GARD:12777	Unspecified	multiple congenital anomalies-hypotonia-seizures syndrome 2
+DOID:0080134	oboInOwl:hasDbXref	GARD:12632	Unspecified	multiple mitochondrial dysfunctions syndrome 2
+DOID:0080133	oboInOwl:hasDbXref	GARD:12632	Unspecified	multiple mitochondrial dysfunctions syndrome 1
+DOID:0080132	oboInOwl:hasDbXref	GARD:1142	Unspecified	Sengers syndrome
+DOID:0080131	oboInOwl:hasDbXref	GARD:13298	Unspecified	mitochondrial DNA depletion syndrome 13
+DOID:0080147	oboInOwl:hasDbXref	GARD:3329	Unspecified	lymphoblastic lymphoma
+DOID:0080143	oboInOwl:hasDbXref	GARD:12590	Unspecified	congenital fibrosis of the extraocular muscles
+DOID:8584	oboInOwl:hasDbXref	GARD:5973	Unspecified	Burkitt lymphoma
+DOID:0080156	oboInOwl:hasDbXref	GARD:555	Unspecified	X-linked adrenal hypoplasia congenita
+DOID:0080169	oboInOwl:hasDbXref	GARD:5274	Unspecified	tricuspid atresia
+DOID:0080163	oboInOwl:hasDbXref	GARD:13198	Unspecified	otulipenia
+DOID:0080162	oboInOwl:hasDbXref	GARD:10747	Unspecified	lupus nephritis
+DOID:0080160	oboInOwl:hasDbXref	GARD:9531	Unspecified	Cytomegalovirus retinitis
+DOID:0080177	oboInOwl:hasDbXref	GARD:13004	Unspecified	hepatic veno-occlusive disease
+DOID:0080171	oboInOwl:hasDbXref	GARD:7792	Unspecified	esophageal atresia/tracheoesophageal fistula
+DOID:0080170	oboInOwl:hasDbXref	GARD:10878	Unspecified	normophosphatemic familial tumoral calcinosis
+DOID:0080188	oboInOwl:hasDbXref	GARD:8225	Unspecified	chronic myelomonocytic leukemia
+DOID:14080	oboInOwl:hasDbXref	GARD:2790	Unspecified	glucocorticoid-remediable aldosteronism
+DOID:0080198	oboInOwl:hasDbXref	GARD:9511	Unspecified	infantile histiocytoid cardiomyopathy
+DOID:0080196	oboInOwl:hasDbXref	GARD:10056	Unspecified	mandibulofacial dysostosis, Guion-Almeida type
+DOID:0080195	oboInOwl:hasDbXref	GARD:8341	Unspecified	Marinesco-Sjogren syndrome
+DOID:0080191	oboInOwl:hasDbXref	GARD:12800	Unspecified	PTEN hamartoma tumor syndrome
+DOID:14049	oboInOwl:hasDbXref	GARD:12803	Unspecified	phaeohyphomycosis
+DOID:14039	oboInOwl:hasDbXref	GARD:7411	Unspecified	POEMS syndrome
+DOID:5204	oboInOwl:hasDbXref	GARD:2400	Unspecified	fructose-1,6-bisphosphatase deficiency
+DOID:5213	oboInOwl:hasDbXref	GARD:6102	Unspecified	chronic inflammatory demyelinating polyradiculoneuropathy
+DOID:5212	oboInOwl:hasDbXref	GARD:10307	Unspecified	congenital disorder of glycosylation
+DOID:13300	oboInOwl:hasDbXref	GARD:7610	Unspecified	Scheuermann's disease
+DOID:5241	oboInOwl:hasDbXref	GARD:8232	Unspecified	hemangioblastoma
+DOID:5241	oboInOwl:hasDbXref	GARD:8522	Unspecified	hemangioblastoma
+DOID:0060703	oboInOwl:hasDbXref	GARD:7097	Unspecified	Muenke Syndrome
+DOID:0060702	oboInOwl:hasDbXref	GARD:2878	Unspecified	familial hypocalciuric hypercalcemia 3
+DOID:0060701	oboInOwl:hasDbXref	GARD:9758	Unspecified	familial hypocalciuric hypercalcemia 2
+DOID:0060706	oboInOwl:hasDbXref	GARD:10916	Unspecified	X-linked lymphoproliferative syndrome 2
+DOID:0060705	oboInOwl:hasDbXref	GARD:7906	Unspecified	X-linked lymphoproliferative syndrome 1
+DOID:5230	oboInOwl:hasDbXref	GARD:6169	Unspecified	hepatoerythropoietic porphyria
+DOID:0060731	oboInOwl:hasDbXref	GARD:8535	Unspecified	congenital central hypoventilation syndrome
+DOID:0060739	oboInOwl:hasDbXref	GARD:2594	Unspecified	hand-foot-genital syndrome
+DOID:13258	oboInOwl:hasDbXref	GARD:9564	Unspecified	typhoid fever
+DOID:0060639	oboInOwl:hasDbXref	GARD:10457	Unspecified	permanent neonatal diabetes mellitus
+DOID:13268	oboInOwl:hasDbXref	GARD:10353	Unspecified	porphyria
+DOID:13269	oboInOwl:hasDbXref	GARD:6619	Unspecified	hereditary coproporphyria
+DOID:0060640	oboInOwl:hasDbXref	GARD:2198	Unspecified	ethylmalonic encephalopathy
+DOID:0060643	oboInOwl:hasDbXref	GARD:1280	Unspecified	primary sclerosing cholangitis
+DOID:0060648	oboInOwl:hasDbXref	GARD:10025	Unspecified	anterior segment dysgenesis
+DOID:0060650	oboInOwl:hasDbXref	GARD:1855	Unspecified	dicarboxylic aminoaciduria
+DOID:13241	oboInOwl:hasDbXref	GARD:848	Unspecified	Behcet's disease
+DOID:0060654	oboInOwl:hasDbXref	GARD:12645	Unspecified	lethal congenital contracture syndrome 4
+DOID:0060668	oboInOwl:hasDbXref	GARD:5808	Unspecified	anencephaly
+DOID:0060673	oboInOwl:hasDbXref	GARD:7377	Unspecified	Peters anomaly
+DOID:0060681	oboInOwl:hasDbXref	GARD:11918	Unspecified	autosomal dominant nocturnal frontal lobe epilepsy
+DOID:14525	oboInOwl:hasDbXref	GARD:7570	Unspecified	Reye syndrome
+DOID:0060699	oboInOwl:hasDbXref	GARD:10828	Unspecified	familial hypocalciuric hypercalcemia
+DOID:0070026	oboInOwl:hasDbXref	GARD:4695	Unspecified	Revesz syndrome
+DOID:0070029	oboInOwl:hasDbXref	GARD:8344	Unspecified	ITM2B-related cerebral amyloid angiopathy 1
+DOID:0070055	oboInOwl:hasDbXref	GARD:13409	Unspecified	Xia-Gibbs Syndrome
+DOID:13271	oboInOwl:hasDbXref	GARD:4446	Unspecified	cutaneous porphyria
+DOID:13270	oboInOwl:hasDbXref	GARD:4527	Unspecified	erythropoietic protoporphyria
+DOID:0070096	oboInOwl:hasDbXref	GARD:4038	Unspecified	oculocutaneous albinism type II
+DOID:0070097	oboInOwl:hasDbXref	GARD:4039	Unspecified	oculocutaneous albinism type III
+DOID:5325	oboInOwl:hasDbXref	GARD:7387	Unspecified	Roberts syndrome
+DOID:6652	oboInOwl:hasDbXref	GARD:6460	Unspecified	diffuse idiopathic skeletal hyperostosis
+DOID:6676	oboInOwl:hasDbXref	GARD:6463	Unspecified	Froelich syndrome
+DOID:5344	oboInOwl:hasDbXref	GARD:348	Unspecified	testicular yolk sac tumor
+DOID:6612	oboInOwl:hasDbXref	GARD:9544	Unspecified	leukocyte adhesion deficiency
+DOID:6620	oboInOwl:hasDbXref	GARD:73	Unspecified	X-linked hyper IgM syndrome
+DOID:14749	oboInOwl:hasDbXref	GARD:7033	Unspecified	methylmalonic acidemia
+DOID:14748	oboInOwl:hasDbXref	GARD:10091	Unspecified	Sotos syndrome
+DOID:14744	oboInOwl:hasDbXref	GARD:4235	Unspecified	Partington syndrome
+DOID:13413	oboInOwl:hasDbXref	GARD:10452	Unspecified	hepatic encephalopathy
+DOID:5394	oboInOwl:hasDbXref	GARD:4508	Unspecified	prolactinoma
+DOID:14756	oboInOwl:hasDbXref	GARD:2082	Unspecified	vascular type Ehlers-Danlos syndrome
+DOID:14757	oboInOwl:hasDbXref	GARD:2081	Unspecified	Ehlers-Danlos syndrome hypermobility type
+DOID:14755	oboInOwl:hasDbXref	GARD:5843	Unspecified	argininosuccinic aciduria
+DOID:14753	oboInOwl:hasDbXref	GARD:465	Unspecified	isovaleric acidemia
+DOID:0060802	oboInOwl:hasDbXref	GARD:5615	Unspecified	syndromic X-linked intellectual disability Snyder type
+DOID:14723	oboInOwl:hasDbXref	GARD:872	Unspecified	beta-ketothiolase deficiency
+DOID:0060808	oboInOwl:hasDbXref	GARD:9156	Unspecified	syndromic X-linked intellectual disability 7
+DOID:0060807	oboInOwl:hasDbXref	GARD:12669	Unspecified	syndromic X-linked intellectual disability Najm type
+DOID:4090	oboInOwl:hasDbXref	GARD:8	Unspecified	agnosia
+DOID:14737	oboInOwl:hasDbXref	GARD:1578	Unspecified	craniofrontonasal syndrome
+DOID:0060814	oboInOwl:hasDbXref	GARD:5579	Unspecified	Wilson-Turner syndrome
+DOID:14735	oboInOwl:hasDbXref	GARD:5979	Unspecified	hereditary angioedema
+DOID:14731	oboInOwl:hasDbXref	GARD:7878	Unspecified	Weaver syndrome
+DOID:14731	oboInOwl:hasDbXref	GARD:5545	Unspecified	Weaver syndrome
+DOID:14705	oboInOwl:hasDbXref	GARD:7380	Unspecified	Pfeiffer syndrome
+DOID:5363	oboInOwl:hasDbXref	GARD:7157	Unspecified	myxoid liposarcoma
+DOID:6691	oboInOwl:hasDbXref	GARD:370	Unspecified	Aagenaes syndrome
+DOID:0060822	oboInOwl:hasDbXref	GARD:13244	Unspecified	syndromic X-linked intellectual disability Cabezas type
+DOID:14701	oboInOwl:hasDbXref	GARD:467	Unspecified	propionic acidemia
+DOID:0060825	oboInOwl:hasDbXref	GARD:10572	Unspecified	Christianson syndrome
+DOID:14702	oboInOwl:hasDbXref	GARD:10147	Unspecified	branchiootorenal syndrome
+DOID:6688	oboInOwl:hasDbXref	GARD:8686	Unspecified	autoimmune lymphoproliferative syndrome
+DOID:14717	oboInOwl:hasDbXref	GARD:101	Unspecified	centronuclear myopathy
+DOID:6686	oboInOwl:hasDbXref	GARD:8176	Unspecified	Achard syndrome
+DOID:6683	oboInOwl:hasDbXref	GARD:4775	Unspecified	X-linked Aarskog syndrome
+DOID:0060831	oboInOwl:hasDbXref	GARD:10913	Unspecified	Griscelli syndrome
+DOID:0060834	oboInOwl:hasDbXref	GARD:9715	Unspecified	Griscelli syndrome type 3
+DOID:0060833	oboInOwl:hasDbXref	GARD:4483	Unspecified	Griscelli syndrome type 2
+DOID:0060832	oboInOwl:hasDbXref	GARD:2566	Unspecified	Griscelli syndrome type 1
+DOID:14711	oboInOwl:hasDbXref	GARD:2317	Unspecified	FG syndrome
+DOID:4051	oboInOwl:hasDbXref	GARD:4701	Unspecified	alveolar rhabdomyosarcoma
+DOID:0060844	oboInOwl:hasDbXref	GARD:7224	Unspecified	Norrie disease
+DOID:0060849	oboInOwl:hasDbXref	GARD:4160	Unspecified	osteoporosis-pseudoglioma syndrome
+DOID:0060848	oboInOwl:hasDbXref	GARD:10806	Unspecified	developmental and epileptic encephalopathy 9
+DOID:0060847	oboInOwl:hasDbXref	GARD:3224	Unspecified	Leri-Weill dyschondrosteosis
+DOID:5379	oboInOwl:hasDbXref	GARD:2641	Unspecified	hemoglobin E disease
+DOID:5374	oboInOwl:hasDbXref	GARD:9452	Unspecified	pilomatrixoma
+DOID:0060853	oboInOwl:hasDbXref	GARD:10145	Unspecified	Potocki-Lupski syndrome
+DOID:0060852	oboInOwl:hasDbXref	GARD:9420	Unspecified	Pierson syndrome
+DOID:0060851	oboInOwl:hasDbXref	GARD:7355	Unspecified	pemphigus vulgaris
+DOID:0060850	oboInOwl:hasDbXref	GARD:705	Unspecified	annular pancreas
+DOID:0060857	oboInOwl:hasDbXref	GARD:7627	Unspecified	septooptic dysplasia
+DOID:0060855	oboInOwl:hasDbXref	GARD:9145	Unspecified	autosomal dominant pseudohypoaldosteronism type 1
+DOID:0060854	oboInOwl:hasDbXref	GARD:4552	Unspecified	autosomal recessive pseudohypoaldosteronism type 1
+DOID:13374	oboInOwl:hasDbXref	GARD:6445	Unspecified	fibrodysplasia ossificans progressiva
+DOID:0060747	oboInOwl:hasDbXref	GARD:9182	Unspecified	Duane-radial ray syndrome
+DOID:13372	oboInOwl:hasDbXref	GARD:5784	Unspecified	alpha 1-antitrypsin deficiency
+DOID:0060745	oboInOwl:hasDbXref	GARD:1912	Unspecified	Doyne honeycomb retinal dystrophy
+DOID:0060744	oboInOwl:hasDbXref	GARD:4271	Unspecified	Pendred Syndrome
+DOID:13378	oboInOwl:hasDbXref	GARD:6816	Unspecified	Kawasaki disease
+DOID:12053	oboInOwl:hasDbXref	GARD:6218	Unspecified	cryptococcosis
+DOID:13381	oboInOwl:hasDbXref	GARD:12671	Unspecified	pernicious anemia
+DOID:14683	oboInOwl:hasDbXref	GARD:6992	Unspecified	Binder syndrome
+DOID:14681	oboInOwl:hasDbXref	GARD:4870	Unspecified	Silver-Russell syndrome
+DOID:0060768	oboInOwl:hasDbXref	GARD:8197	Unspecified	Smith-Magenis syndrome
+DOID:13359	oboInOwl:hasDbXref	GARD:6322	Unspecified	Ehlers-Danlos syndrome
+DOID:12028	oboInOwl:hasDbXref	GARD:7456	Unspecified	Conn's syndrome
+DOID:14686	oboInOwl:hasDbXref	GARD:5701	Unspecified	Axenfeld-Rieger syndrome
+DOID:14687	oboInOwl:hasDbXref	GARD:6275	Unspecified	diastrophic dysplasia
+DOID:14695	oboInOwl:hasDbXref	GARD:2422	Unspecified	galactokinase deficiency
+DOID:0060775	oboInOwl:hasDbXref	GARD:7039	Unspecified	microvillus inclusion disease
+DOID:14693	oboInOwl:hasDbXref	GARD:2056	Unspecified	Clouston syndrome
+DOID:14694	oboInOwl:hasDbXref	GARD:80	Unspecified	Johanson-Blizzard syndrome
+DOID:0060773	oboInOwl:hasDbXref	GARD:375	Unspecified	cleft lip-palate-ectodermal dysplasia syndrome
+DOID:14692	oboInOwl:hasDbXref	GARD:5683	Unspecified	Smith-Lemli-Opitz syndrome
+DOID:12030	oboInOwl:hasDbXref	GARD:8577	Unspecified	panuveitis
+DOID:13366	oboInOwl:hasDbXref	GARD:5023	Unspecified	Stiff-Person syndrome
+DOID:0060785	oboInOwl:hasDbXref	GARD:10587	Unspecified	adult-onset autosomal dominant demyelinating leukodystrophy
+DOID:14669	oboInOwl:hasDbXref	GARD:2015	Unspecified	acrodysostosis
+DOID:14669	oboInOwl:hasDbXref	GARD:5724	Unspecified	acrodysostosis
+DOID:13336	oboInOwl:hasDbXref	GARD:10326	Unspecified	congenital toxoplasmosis
+DOID:0070113	oboInOwl:hasDbXref	GARD:7207	Unspecified	Niemann-Pick disease type C1
+DOID:0070112	oboInOwl:hasDbXref	GARD:10729	Unspecified	Niemann-Pick disease type B
+DOID:0070114	oboInOwl:hasDbXref	GARD:3992	Unspecified	Niemann-Pick disease type C2
+DOID:12010	oboInOwl:hasDbXref	GARD:9790	Unspecified	anterior ischemic optic neuropathy
+DOID:14671	oboInOwl:hasDbXref	GARD:3013	Unspecified	multiple intestinal atresia
+DOID:14679	oboInOwl:hasDbXref	GARD:5443	Unspecified	VACTERL association
+DOID:0070111	oboInOwl:hasDbXref	GARD:7206	Unspecified	Niemann-Pick disease type A
+DOID:0070146	oboInOwl:hasDbXref	GARD:3006	Unspecified	hereditary sensory neuropathy type 4
+DOID:0070145	oboInOwl:hasDbXref	GARD:12328	Unspecified	hereditary sensory and autonomic neuropathy type 5
+DOID:0070149	oboInOwl:hasDbXref	GARD:12723	Unspecified	hereditary sensory and autonomic neuropathy type 7
+DOID:0070144	oboInOwl:hasDbXref	GARD:8480	Unspecified	autosomal recessive cutis laxa type I
+DOID:0070143	oboInOwl:hasDbXref	GARD:49	Unspecified	autosomal recessive cutis laxa type III
+DOID:0070158	oboInOwl:hasDbXref	GARD:11927	Unspecified	hereditary sensory neuropathy type 1E
+DOID:0070162	oboInOwl:hasDbXref	GARD:6635	Unspecified	hereditary sensory and autonomic neuropathy type 1
+DOID:0070161	oboInOwl:hasDbXref	GARD:3976	Unspecified	hereditary sensory and autonomic neuropathy type 2
+DOID:0070183	oboInOwl:hasDbXref	GARD:12385	Unspecified	spermatogenic failure 5
+DOID:12098	oboInOwl:hasDbXref	GARD:7805	Unspecified	trigeminal neuralgia
+DOID:0070197	oboInOwl:hasDbXref	GARD:10769	Unspecified	distal myopathy 1
+DOID:0070198	oboInOwl:hasDbXref	GARD:9676	Unspecified	Miyoshi muscular dystrophy
+DOID:12070	oboInOwl:hasDbXref	GARD:10930	Unspecified	Dieulafoy lesion
+DOID:8955	oboInOwl:hasDbXref	GARD:667	Unspecified	sideroblastic anemia
+DOID:8970	oboInOwl:hasDbXref	GARD:7708	Unspecified	subacute sclerosing panencephalitis
+DOID:8931	oboInOwl:hasDbXref	GARD:6389	Unspecified	Evans' syndrome
+DOID:5041	oboInOwl:hasDbXref	GARD:6383	Unspecified	esophageal cancer
+DOID:0060901	oboInOwl:hasDbXref	GARD:7872	Unspecified	Waldenstroem's macroglobulinemia
+DOID:6367	oboInOwl:hasDbXref	GARD:9570	Unspecified	acral lentiginous melanoma
+DOID:7693	oboInOwl:hasDbXref	GARD:9181	Unspecified	abdominal aortic aneurysm
+DOID:0060911	oboInOwl:hasDbXref	GARD:11003	Unspecified	karyomegalic interstitial nephritis
+DOID:5052	oboInOwl:hasDbXref	GARD:9546	Unspecified	melioidosis
+DOID:6383	oboInOwl:hasDbXref	GARD:9306	Unspecified	childhood brain stem glioma
+DOID:8997	oboInOwl:hasDbXref	GARD:7422	Unspecified	polycythemia vera
+DOID:8986	oboInOwl:hasDbXref	GARD:7162	Unspecified	narcolepsy
+DOID:0060868	oboInOwl:hasDbXref	GARD:231	Unspecified	leukoencephalopathy with vanishing white matter
+DOID:0060869	oboInOwl:hasDbXref	GARD:4357	Unspecified	late-onset retinal degeneration
+DOID:0060870	oboInOwl:hasDbXref	GARD:12556	Unspecified	isolated growth hormone deficiency
+DOID:0060875	oboInOwl:hasDbXref	GARD:3921	Unspecified	isolated growth hormone deficiency type III
+DOID:0060877	oboInOwl:hasDbXref	GARD:2966	Unspecified	bullous congenital ichthyosiform erythroderma
+DOID:13025	oboInOwl:hasDbXref	GARD:5695	Unspecified	retinopathy of prematurity
+DOID:13027	oboInOwl:hasDbXref	GARD:8172	Unspecified	transient global amnesia
+DOID:0070202	oboInOwl:hasDbXref	GARD:3126	Unspecified	familial partial lipodystrophy type 2
+DOID:0070205	oboInOwl:hasDbXref	GARD:12601	Unspecified	familial partial lipodystrophy type 4
+DOID:0070204	oboInOwl:hasDbXref	GARD:12600	Unspecified	familial partial lipodystrophy type 3
+DOID:0070207	oboInOwl:hasDbXref	GARD:12598	Unspecified	familial partial lipodystrophy type 1
+DOID:0060885	oboInOwl:hasDbXref	GARD:3350	Unspecified	renal hypomagnesemia 2
+DOID:0060884	oboInOwl:hasDbXref	GARD:12155	Unspecified	renal hypomagnesemia 6
+DOID:0060889	oboInOwl:hasDbXref	GARD:7479	Unspecified	prune belly syndrome
+DOID:0060888	oboInOwl:hasDbXref	GARD:12765	Unspecified	transient myeloproliferative syndrome
+DOID:0060887	oboInOwl:hasDbXref	GARD:9699	Unspecified	ossification of the posterior longitudinal ligament of spine
+DOID:14323	oboInOwl:hasDbXref	GARD:6975	Unspecified	Marfan syndrome
+DOID:0070212	oboInOwl:hasDbXref	GARD:7220	Unspecified	hereditary lymphedema I
+DOID:0070214	oboInOwl:hasDbXref	GARD:9932	Unspecified	familial hyperinsulinemic hypoglycemia 7
+DOID:0070213	oboInOwl:hasDbXref	GARD:3324	Unspecified	hereditary lymphedema II
+DOID:0070216	oboInOwl:hasDbXref	GARD:2818	Unspecified	familial hyperinsulinemic hypoglycemia 3
+DOID:0070215	oboInOwl:hasDbXref	GARD:2819	Unspecified	familial hyperinsulinemic hypoglycemia 4
+DOID:0070217	oboInOwl:hasDbXref	GARD:9931	Unspecified	familial hyperinsulinemic hypoglycemia 6
+DOID:14330	oboInOwl:hasDbXref	GARD:10251	Unspecified	Parkinson's disease
+DOID:0070223	oboInOwl:hasDbXref	GARD:1289	Unspecified	progressive familial intrahepatic cholestasis 3
+DOID:0070222	oboInOwl:hasDbXref	GARD:1288	Unspecified	progressive familial intrahepatic cholestasis 2
+DOID:0070227	oboInOwl:hasDbXref	GARD:9804	Unspecified	intrahepatic cholestasis of pregnancy
+DOID:0070226	oboInOwl:hasDbXref	GARD:9802	Unspecified	progressive familial intrahepatic cholestasis 1
+DOID:0070230	oboInOwl:hasDbXref	GARD:12185	Unspecified	benign recurrent intrahepatic cholestasis
+DOID:0070232	oboInOwl:hasDbXref	GARD:10029	Unspecified	benign recurrent intrahepatic cholestasis 2
+DOID:0070231	oboInOwl:hasDbXref	GARD:10028	Unspecified	benign recurrent intrahepatic cholestasis 1
+DOID:0070241	oboInOwl:hasDbXref	GARD:10294	Unspecified	primary coenzyme Q10 deficiency 4
+DOID:0070256	oboInOwl:hasDbXref	GARD:9841	Unspecified	congenital disorder of glycosylation type IId
+DOID:0070255	oboInOwl:hasDbXref	GARD:4634	Unspecified	congenital disorder of glycosylation type IIc
+DOID:0070258	oboInOwl:hasDbXref	GARD:12409	Unspecified	congenital disorder of glycosylation type IIf
+DOID:0070257	oboInOwl:hasDbXref	GARD:9842	Unspecified	congenital disorder of glycosylation type IIe
+DOID:0070259	oboInOwl:hasDbXref	GARD:10226	Unspecified	congenital disorder of glycosylation type IIg
+DOID:0070254	oboInOwl:hasDbXref	GARD:10767	Unspecified	congenital disorder of glycosylation type IIb
+DOID:0070253	oboInOwl:hasDbXref	GARD:9828	Unspecified	congenital disorder of glycosylation type IIa
+DOID:13099	oboInOwl:hasDbXref	GARD:7064	Unspecified	Moyamoya disease
+DOID:13096	oboInOwl:hasDbXref	GARD:7664	Unspecified	Sneddon syndrome
+DOID:0070261	oboInOwl:hasDbXref	GARD:12348	Unspecified	congenital disorder of glycosylation type IIi
+DOID:0070260	oboInOwl:hasDbXref	GARD:12411	Unspecified	congenital disorder of glycosylation type IIh
+DOID:0070263	oboInOwl:hasDbXref	GARD:12413	Unspecified	congenital disorder of glycosylation type IIk
+DOID:0070262	oboInOwl:hasDbXref	GARD:12412	Unspecified	congenital disorder of glycosylation type IIj
+DOID:0070265	oboInOwl:hasDbXref	GARD:12403	Unspecified	congenital disorder of glycosylation type IIm
+DOID:0070264	oboInOwl:hasDbXref	GARD:10944	Unspecified	congenital disorder of glycosylation type IIl
+DOID:0070299	oboInOwl:hasDbXref	GARD:9794	Unspecified	multiple epiphyseal dysplasia 5
+DOID:13088	oboInOwl:hasDbXref	GARD:10285	Unspecified	periventricular leukomalacia
+DOID:0070296	oboInOwl:hasDbXref	GARD:12117	Unspecified	primary autosomal recessive microcephaly
+DOID:6419	oboInOwl:hasDbXref	GARD:2245	Unspecified	tetralogy of Fallot
+DOID:6406	oboInOwl:hasDbXref	GARD:1908	Unspecified	double outlet right ventricle
+DOID:7765	oboInOwl:hasDbXref	GARD:6121	Unspecified	Coats disease
+DOID:6420	oboInOwl:hasDbXref	GARD:4596	Unspecified	pulmonary valve stenosis
+DOID:6498	oboInOwl:hasDbXref	GARD:3108	Unspecified	seborrheic keratosis
+DOID:5165	oboInOwl:hasDbXref	GARD:9383	Unspecified	uterine corpus sarcoma
+DOID:14503	oboInOwl:hasDbXref	GARD:10739	Unspecified	neuronal ceroid lipofuscinosis
+DOID:14504	oboInOwl:hasDbXref	GARD:13334	Unspecified	Niemann-Pick disease
+DOID:14501	oboInOwl:hasDbXref	GARD:7654	Unspecified	Sjogren-Larsson syndrome
+DOID:14500	oboInOwl:hasDbXref	GARD:6473	Unspecified	fucosidosis
+DOID:14515	oboInOwl:hasDbXref	GARD:5528	Unspecified	WAGR syndrome
+DOID:6458	oboInOwl:hasDbXref	GARD:10642	Unspecified	cerebellar liponeurocytoma
+DOID:6457	oboInOwl:hasDbXref	GARD:6202	Unspecified	Cowden syndrome
+DOID:0070300	oboInOwl:hasDbXref	GARD:9793	Unspecified	multiple epiphyseal dysplasia 4
+DOID:0070303	oboInOwl:hasDbXref	GARD:2180	Unspecified	multiple epiphyseal dysplasia 1
+DOID:14464	oboInOwl:hasDbXref	GARD:7195	Unspecified	neuroleptic malignant syndrome
+DOID:13133	oboInOwl:hasDbXref	GARD:8528	Unspecified	HELLP syndrome
+DOID:13137	oboInOwl:hasDbXref	GARD:7883	Unspecified	Werdnig-Hoffmann disease
+DOID:0070315	oboInOwl:hasDbXref	GARD:2922	Unspecified	hypoplastic right heart syndrome
+DOID:0070317	oboInOwl:hasDbXref	GARD:9948	Unspecified	wet beriberi
+DOID:0070318	oboInOwl:hasDbXref	GARD:9948	Unspecified	dry beriberi
+DOID:14472	oboInOwl:hasDbXref	GARD:69	Unspecified	hantavirus pulmonary syndrome
+DOID:0070322	oboInOwl:hasDbXref	GARD:9331	Unspecified	childhood hepatocellular carcinoma
+DOID:0070325	oboInOwl:hasDbXref	GARD:9368	Unspecified	malignant childhood adrenal gland pheochromocytoma
+DOID:0070327	oboInOwl:hasDbXref	GARD:2469	Unspecified	melanoma in congenital melanocytic nevus
+DOID:0070329	oboInOwl:hasDbXref	GARD:13643	Unspecified	mitochondrial DNA depletion syndrome
+DOID:14447	oboInOwl:hasDbXref	GARD:2538	Unspecified	gonadal dysgenesis
+DOID:0070338	oboInOwl:hasDbXref	GARD:1194	Unspecified	cerebellar hypoplasia
+DOID:14453	oboInOwl:hasDbXref	GARD:6427	Unspecified	farmer's lung
+DOID:14451	oboInOwl:hasDbXref	GARD:195	Unspecified	hyperkalemic periodic paralysis
+DOID:14452	oboInOwl:hasDbXref	GARD:6729	Unspecified	hypokalemic periodic paralysis
+DOID:14452	oboInOwl:hasDbXref	GARD:5557	Unspecified	hypokalemic periodic paralysis
+DOID:0070330	oboInOwl:hasDbXref	GARD:12632	Unspecified	multiple mitochondrial dysfunctions syndrome
+DOID:0081007	oboInOwl:hasDbXref	GARD:13199	Unspecified	RNASET2-deficient cystic leukoencephalopathy
+DOID:14423	oboInOwl:hasDbXref	GARD:6519	Unspecified	glossopharyngeal neuralgia
+DOID:5078	oboInOwl:hasDbXref	GARD:2430	Unspecified	ganglioglioma
+DOID:5077	oboInOwl:hasDbXref	GARD:10632	Unspecified	subependymal giant cell astrocytoma
+DOID:5075	oboInOwl:hasDbXref	GARD:10633	Unspecified	myxopapillary ependymoma
+DOID:0081021	oboInOwl:hasDbXref	GARD:9814	Unspecified	Tukel syndrome
+DOID:0081022	oboInOwl:hasDbXref	GARD:10649	Unspecified	retinal cone dystrophy 3B
+DOID:0081023	oboInOwl:hasDbXref	GARD:10650	Unspecified	retinal cone dystrophy 4
+DOID:0081024	oboInOwl:hasDbXref	GARD:3196	Unspecified	retinal cone dystrophy 1
+DOID:0081025	oboInOwl:hasDbXref	GARD:10648	Unspecified	retinal cone dystrophy 3A
+DOID:14418	oboInOwl:hasDbXref	GARD:6286	Unspecified	dracunculiasis
+DOID:14415	oboInOwl:hasDbXref	GARD:6874	Unspecified	Legg-Calve-Perthes disease
+DOID:0081043	oboInOwl:hasDbXref	GARD:2293	Unspecified	fetal akinesia deformation sequence syndrome X-linked
+DOID:0081044	oboInOwl:hasDbXref	GARD:2392	Unspecified	frontonasal dysplasia
+DOID:0081055	oboInOwl:hasDbXref	GARD:6015	Unspecified	central diabetes insipidus
+DOID:14484	oboInOwl:hasDbXref	GARD:7692	Unspecified	sporotrichosis
+DOID:14497	oboInOwl:hasDbXref	GARD:7899	Unspecified	Wolman disease
+DOID:14498	oboInOwl:hasDbXref	GARD:3268	Unspecified	lipoid proteinosis
+DOID:13166	oboInOwl:hasDbXref	GARD:602	Unspecified	allergic bronchopulmonary aspergillosis
+DOID:14499	oboInOwl:hasDbXref	GARD:6400	Unspecified	Fabry disease
+DOID:3025	oboInOwl:hasDbXref	GARD:8568	Unspecified	acinar cell carcinoma
+DOID:5688	oboInOwl:hasDbXref	GARD:7885	Unspecified	Werner syndrome
+DOID:4346	oboInOwl:hasDbXref	GARD:7848	Unspecified	variegate porphyria
+DOID:3012	oboInOwl:hasDbXref	GARD:6902	Unspecified	Li-Fraumeni syndrome
+DOID:4371	oboInOwl:hasDbXref	GARD:12390	Unspecified	Schnitzler syndrome
+DOID:4367	oboInOwl:hasDbXref	GARD:433	Unspecified	apparent mineralocorticoid excess syndrome
+DOID:5648	oboInOwl:hasDbXref	GARD:8238	Unspecified	choroid plexus carcinoma
+DOID:780	oboInOwl:hasDbXref	GARD:7402	Unspecified	placenta disease
+DOID:4330	oboInOwl:hasDbXref	GARD:8231	Unspecified	non-Langerhans-cell histiocytosis
+DOID:4331	oboInOwl:hasDbXref	GARD:5974	Unspecified	burning mouth syndrome
+DOID:4327	oboInOwl:hasDbXref	GARD:9444	Unspecified	Marburg hemorrhagic fever
+DOID:4329	oboInOwl:hasDbXref	GARD:6369	Unspecified	Erdheim-Chester disease
+DOID:4325	oboInOwl:hasDbXref	GARD:2035	Unspecified	Ebola hemorrhagic fever
+DOID:11119	oboInOwl:hasDbXref	GARD:7783	Unspecified	Gilles de la Tourette syndrome
+DOID:13778	oboInOwl:hasDbXref	GARD:9522	Unspecified	chancroid
+DOID:13777	oboInOwl:hasDbXref	GARD:6357	Unspecified	epidermodysplasia verruciformis
+DOID:0050894	oboInOwl:hasDbXref	GARD:5747	Unspecified	ameloblastoma
+DOID:12449	oboInOwl:hasDbXref	GARD:5836	Unspecified	aplastic anemia
+DOID:13774	oboInOwl:hasDbXref	GARD:5740	Unspecified	Addison's disease
+DOID:758	oboInOwl:hasDbXref	GARD:4883	Unspecified	situs inversus
+DOID:0050885	oboInOwl:hasDbXref	GARD:12312	Unspecified	IMAGe syndrome
+DOID:0050884	oboInOwl:hasDbXref	GARD:5287	Unspecified	triosephosphate isomerase deficiency
+DOID:0050887	oboInOwl:hasDbXref	GARD:7784	Unspecified	Townes-Brocks syndrome
+DOID:0050886	oboInOwl:hasDbXref	GARD:5372	Unspecified	Troyer syndrome
+DOID:0050880	oboInOwl:hasDbXref	GARD:10727	Unspecified	Koolen de Vries syndrome
+DOID:0050883	oboInOwl:hasDbXref	GARD:13264	Unspecified	infantile cerebellar-retinal degeneration
+DOID:0050882	oboInOwl:hasDbXref	GARD:4953	Unspecified	spinocerebellar ataxia type 5
+DOID:11123	oboInOwl:hasDbXref	GARD:8204	Unspecified	Henoch-Schoenlein purpura
+DOID:768	oboInOwl:hasDbXref	GARD:7563	Unspecified	retinoblastoma
+DOID:769	oboInOwl:hasDbXref	GARD:7185	Unspecified	neuroblastoma
+DOID:0050873	oboInOwl:hasDbXref	GARD:2356	Unspecified	follicular lymphoma
+DOID:0050876	oboInOwl:hasDbXref	GARD:6002	Unspecified	Caroli disease
+DOID:0050866	oboInOwl:hasDbXref	GARD:7263	Unspecified	oral squamous cell carcinoma
+DOID:11104	oboInOwl:hasDbXref	GARD:4998	Unspecified	spotted fever
+DOID:13768	oboInOwl:hasDbXref	GARD:9746	Unspecified	opisthorchiasis
+DOID:11100	oboInOwl:hasDbXref	GARD:7515	Unspecified	Q fever
+DOID:705	oboInOwl:hasDbXref	GARD:6870	Unspecified	Leber hereditary optic neuropathy
+DOID:0050858	oboInOwl:hasDbXref	GARD:6985	Unspecified	Marshall-Smith syndrome
+DOID:0050857	oboInOwl:hasDbXref	GARD:2542	Unspecified	Perrault syndrome
+DOID:3068	oboInOwl:hasDbXref	GARD:2491	Unspecified	glioblastoma
+DOID:0050854	oboInOwl:hasDbXref	GARD:8472	Unspecified	Muckle-Wells syndrome
+DOID:707	oboInOwl:hasDbXref	GARD:5877	Unspecified	B-cell lymphoma
+DOID:4394	oboInOwl:hasDbXref	GARD:12967	Unspecified	reticulohistiocytic granuloma
+DOID:700	oboInOwl:hasDbXref	GARD:7048	Unspecified	mitochondrial metabolism disease
+DOID:0050840	oboInOwl:hasDbXref	GARD:10668	Unspecified	cervical dystonia
+DOID:718	oboInOwl:hasDbXref	GARD:5870	Unspecified	autoimmune hemolytic anemia
+DOID:0050834	oboInOwl:hasDbXref	GARD:29	Unspecified	CHARGE syndrome
+DOID:0050836	oboInOwl:hasDbXref	GARD:6458	Unspecified	focal dystonia
+DOID:0050831	oboInOwl:hasDbXref	GARD:10037	Unspecified	familial encephalopathy with neuroserpin inclusion bodies
+DOID:3082	oboInOwl:hasDbXref	GARD:13336	Unspecified	interstitial lung disease
+DOID:13714	oboInOwl:hasDbXref	GARD:5818	Unspecified	anodontia
+DOID:3078	oboInOwl:hasDbXref	GARD:5860	Unspecified	anaplastic astrocytoma
+DOID:3071	oboInOwl:hasDbXref	GARD:5653	Unspecified	gliosarcoma
+DOID:3081	oboInOwl:hasDbXref	GARD:6234	Unspecified	cystic lymphangioma
+DOID:13725	oboInOwl:hasDbXref	GARD:9948	Unspecified	beriberi
+DOID:13724	oboInOwl:hasDbXref	GARD:10406	Unspecified	scurvy
+DOID:734	oboInOwl:hasDbXref	GARD:9390	Unspecified	urethra cancer
+DOID:11077	oboInOwl:hasDbXref	GARD:5966	Unspecified	brucellosis
+DOID:11088	oboInOwl:hasDbXref	GARD:5857	Unspecified	asphyxia neonatorum
+DOID:11054	oboInOwl:hasDbXref	GARD:12210	Unspecified	urinary bladder cancer
+DOID:12386	oboInOwl:hasDbXref	GARD:809	Unspecified	balantidiasis
+DOID:12385	oboInOwl:hasDbXref	GARD:4818	Unspecified	shigellosis
+DOID:12387	oboInOwl:hasDbXref	GARD:7178	Unspecified	nephrogenic diabetes insipidus
+DOID:0050902	oboInOwl:hasDbXref	GARD:7005	Unspecified	medulloblastoma
+DOID:0050908	oboInOwl:hasDbXref	GARD:7132	Unspecified	myelodysplastic syndrome
+DOID:0050905	oboInOwl:hasDbXref	GARD:7146	Unspecified	inflammatory myofibroblastic tumor
+DOID:11038	oboInOwl:hasDbXref	GARD:6260	Unspecified	depersonalization disorder
+DOID:12365	oboInOwl:hasDbXref	GARD:6961	Unspecified	malaria
+DOID:11042	oboInOwl:hasDbXref	GARD:8234	Unspecified	Felty's syndrome
+DOID:11044	oboInOwl:hasDbXref	GARD:8661	Unspecified	gastroschisis
+DOID:11049	oboInOwl:hasDbXref	GARD:10494	Unspecified	meconium aspiration syndrome
+DOID:12377	oboInOwl:hasDbXref	GARD:7674	Unspecified	spinal muscular atrophy
+DOID:0060200	oboInOwl:hasDbXref	GARD:10498	Unspecified	amyotrophic lateral sclerosis type 9
+DOID:0060202	oboInOwl:hasDbXref	GARD:10496	Unspecified	amyotrophic lateral sclerosis type 11
+DOID:0060201	oboInOwl:hasDbXref	GARD:10497	Unspecified	amyotrophic lateral sclerosis type 10
+DOID:12347	oboInOwl:hasDbXref	GARD:1017	Unspecified	osteogenesis imperfecta
+DOID:13677	oboInOwl:hasDbXref	GARD:7606	Unspecified	SAPHO syndrome
+DOID:0060215	oboInOwl:hasDbXref	GARD:5885	Unspecified	Balo concentric sclerosis
+DOID:0060218	oboInOwl:hasDbXref	GARD:12430	Unspecified	CREST syndrome
+DOID:0060217	oboInOwl:hasDbXref	GARD:6125	Unspecified	Cogan-Reese syndrome
+DOID:0060216	oboInOwl:hasDbXref	GARD:1421	Unspecified	Cogan syndrome
+DOID:12358	oboInOwl:hasDbXref	GARD:10812	Unspecified	patulous eustachian tube
+DOID:0060222	oboInOwl:hasDbXref	GARD:12561	Unspecified	Scheie syndrome
+DOID:0060221	oboInOwl:hasDbXref	GARD:6958	Unspecified	Maffucci syndrome
+DOID:0060225	oboInOwl:hasDbXref	GARD:1118	Unspecified	3MC syndrome
+DOID:0060229	oboInOwl:hasDbXref	GARD:5279	Unspecified	Baraitser-Winter syndrome
+DOID:0060227	oboInOwl:hasDbXref	GARD:5739	Unspecified	Adams-Oliver syndrome
+DOID:0060233	oboInOwl:hasDbXref	GARD:9146	Unspecified	cardiofaciocutaneous syndrome
+DOID:0060232	oboInOwl:hasDbXref	GARD:10148	Unspecified	branchiootic syndrome
+DOID:0060234	oboInOwl:hasDbXref	GARD:6003	Unspecified	Carpenter syndrome
+DOID:0060239	oboInOwl:hasDbXref	GARD:8414	Unspecified	Van der Woude syndrome
+DOID:0060238	oboInOwl:hasDbXref	GARD:5456	Unspecified	Van Maldergem syndrome
+DOID:0060242	oboInOwl:hasDbXref	GARD:5087	Unspecified	synpolydactyly
+DOID:0060241	oboInOwl:hasDbXref	GARD:5667	Unspecified	3-M syndrome
+DOID:0060248	oboInOwl:hasDbXref	GARD:7649	Unspecified	Simpson-Golabi-Behmel syndrome type 1
+DOID:0060246	oboInOwl:hasDbXref	GARD:6986	Unspecified	MASA syndrome
+DOID:0060251	oboInOwl:hasDbXref	GARD:4771	Unspecified	sclerosteosis
+DOID:0060250	oboInOwl:hasDbXref	GARD:552	Unspecified	idiopathic scoliosis
+DOID:0060255	oboInOwl:hasDbXref	GARD:9164	Unspecified	rippling muscle disease 2
+DOID:0060254	oboInOwl:hasDbXref	GARD:312	Unspecified	Robinow syndrome
+DOID:0060256	oboInOwl:hasDbXref	GARD:9775	Unspecified	Dowling-Degos disease
+DOID:0060264	oboInOwl:hasDbXref	GARD:10977	Unspecified	pontocerebellar hypoplasia
+DOID:0060263	oboInOwl:hasDbXref	GARD:7430	Unspecified	porencephaly
+DOID:0060267	oboInOwl:hasDbXref	GARD:3631	Unspecified	pontocerebellar hypoplasia type 2A
+DOID:0060267	oboInOwl:hasDbXref	GARD:10705	Unspecified	pontocerebellar hypoplasia type 2A
+DOID:0060273	oboInOwl:hasDbXref	GARD:343	Unspecified	pontocerebellar hypoplasia type 4
+DOID:0060272	oboInOwl:hasDbXref	GARD:10708	Unspecified	pontocerebellar hypoplasia type 3
+DOID:0060275	oboInOwl:hasDbXref	GARD:10710	Unspecified	pontocerebellar hypoplasia type 6
+DOID:0060274	oboInOwl:hasDbXref	GARD:10709	Unspecified	pontocerebellar hypoplasia type 5
+DOID:0060280	oboInOwl:hasDbXref	GARD:10906	Unspecified	primary pigmented nodular adrenocortical disease
+DOID:0060284	oboInOwl:hasDbXref	GARD:7337	Unspecified	paroxysmal nocturnal hemoglobinuria
+DOID:0060281	oboInOwl:hasDbXref	GARD:5648	Unspecified	photosensitive epilepsy
+DOID:0060286	oboInOwl:hasDbXref	GARD:12893	Unspecified	combined oxidative phosphorylation deficiency
+DOID:0060291	oboInOwl:hasDbXref	GARD:7239	Unspecified	oculodentodigital dysplasia
+DOID:0060295	oboInOwl:hasDbXref	GARD:1452	Unspecified	complement component 2 deficiency
+DOID:13819	oboInOwl:hasDbXref	GARD:9545	Unspecified	lymphogranuloma venereum
+DOID:3144	oboInOwl:hasDbXref	GARD:6227	Unspecified	cutis laxa
+DOID:4471	oboInOwl:hasDbXref	GARD:6064	Unspecified	chromophobe renal cell carcinoma
+DOID:3140	oboInOwl:hasDbXref	GARD:5975	Unspecified	scleredema adultorum
+DOID:13810	oboInOwl:hasDbXref	GARD:10416	Unspecified	familial hypercholesterolemia
+DOID:3138	oboInOwl:hasDbXref	GARD:8603	Unspecified	acanthosis nigricans
+DOID:4465	oboInOwl:hasDbXref	GARD:9572	Unspecified	papillary renal cell carcinoma
+DOID:4467	oboInOwl:hasDbXref	GARD:9574	Unspecified	clear cell renal cell carcinoma
+DOID:3132	oboInOwl:hasDbXref	GARD:7433	Unspecified	porphyria cutanea tarda
+DOID:4464	oboInOwl:hasDbXref	GARD:9573	Unspecified	collecting duct carcinoma
+DOID:4480	oboInOwl:hasDbXref	GARD:8173	Unspecified	achondroplasia
+DOID:13800	oboInOwl:hasDbXref	GARD:6777	Unspecified	inclusion conjunctivitis
+DOID:5768	oboInOwl:hasDbXref	GARD:498	Unspecified	Nager acrofacial dysostosis
+DOID:4438	oboInOwl:hasDbXref	GARD:2005	Unspecified	central nervous system germinoma
+DOID:3103	oboInOwl:hasDbXref	GARD:7759	Unspecified	thoracic outlet syndrome
+DOID:4430	oboInOwl:hasDbXref	GARD:4900	Unspecified	somatostatinoma
+DOID:5758	oboInOwl:hasDbXref	GARD:3369	Unspecified	malignant mesenchymoma
+DOID:672	oboInOwl:hasDbXref	GARD:7683	Unspecified	spleen cancer
+DOID:678	oboInOwl:hasDbXref	GARD:7471	Unspecified	progressive supranuclear palsy
+DOID:676	oboInOwl:hasDbXref	GARD:3067	Unspecified	juvenile rheumatoid arthritis
+DOID:4455	oboInOwl:hasDbXref	GARD:9571	Unspecified	hereditary renal cell carcinoma
+DOID:4450	oboInOwl:hasDbXref	GARD:13215	Unspecified	renal cell carcinoma
+DOID:3121	oboInOwl:hasDbXref	GARD:9328	Unspecified	gallbladder cancer
+DOID:681	oboInOwl:hasDbXref	GARD:10928	Unspecified	progressive bulbar palsy
+DOID:682	oboInOwl:hasDbXref	GARD:6141	Unspecified	compartment syndrome
+DOID:687	oboInOwl:hasDbXref	GARD:2657	Unspecified	hepatoblastoma
+DOID:5773	oboInOwl:hasDbXref	GARD:7264	Unspecified	oral submucous fibrosis
+DOID:3110	oboInOwl:hasDbXref	GARD:10162	Unspecified	papillary cystadenocarcinoma
+DOID:627	oboInOwl:hasDbXref	GARD:7628	Unspecified	severe combined immunodeficiency
+DOID:639	oboInOwl:hasDbXref	GARD:8639	Unspecified	acute disseminated encephalomyelitis
+DOID:636	oboInOwl:hasDbXref	GARD:8749	Unspecified	central pontine myelinolysis
+DOID:12574	oboInOwl:hasDbXref	GARD:4457	Unspecified	posterior uveitis
+DOID:648	oboInOwl:hasDbXref	GARD:7617	Unspecified	kuru
+DOID:0050997	oboInOwl:hasDbXref	GARD:1998	Unspecified	cerebellar ataxia, mental retardation and dysequlibrium syndrome
+DOID:643	oboInOwl:hasDbXref	GARD:7468	Unspecified	progressive multifocal leukoencephalopathy
+DOID:12558	oboInOwl:hasDbXref	GARD:4503	Unspecified	chronic progressive external ophthalmoplegia
+DOID:656	oboInOwl:hasDbXref	GARD:5745	Unspecified	adrenal adenoma
+DOID:12554	oboInOwl:hasDbXref	GARD:6588	Unspecified	hemolytic-uremic syndrome
+DOID:0050979	oboInOwl:hasDbXref	GARD:4950	Unspecified	spinocerebellar ataxia type 30
+DOID:0050972	oboInOwl:hasDbXref	GARD:9999	Unspecified	spinocerebellar ataxia type 21
+DOID:0050975	oboInOwl:hasDbXref	GARD:9995	Unspecified	spinocerebellar ataxia type 26
+DOID:0050974	oboInOwl:hasDbXref	GARD:9996	Unspecified	spinocerebellar ataxia type 25
+DOID:3181	oboInOwl:hasDbXref	GARD:9953	Unspecified	oligodendroglioma
+DOID:3191	oboInOwl:hasDbXref	GARD:12033	Unspecified	nemaline myopathy
+DOID:12526	oboInOwl:hasDbXref	GARD:7733	Unspecified	tarsal tunnel syndrome
+DOID:0050971	oboInOwl:hasDbXref	GARD:9997	Unspecified	spinocerebellar ataxia type 20
+DOID:0050970	oboInOwl:hasDbXref	GARD:12365	Unspecified	spinocerebellar ataxia type 19/22
+DOID:0050968	oboInOwl:hasDbXref	GARD:12372	Unspecified	autosomal dominant cerebellar ataxia, deafness and narcolepsy
+DOID:0050967	oboInOwl:hasDbXref	GARD:10469	Unspecified	spinocerebellar ataxia type 17
+DOID:0050969	oboInOwl:hasDbXref	GARD:9976	Unspecified	spinocerebellar ataxia type 18
+DOID:0050960	oboInOwl:hasDbXref	GARD:10474	Unspecified	spinocerebellar ataxia type 10
+DOID:12531	oboInOwl:hasDbXref	GARD:7867	Unspecified	von Willebrand's disease
+DOID:11202	oboInOwl:hasDbXref	GARD:8612	Unspecified	primary hyperparathyroidism
+DOID:0050954	oboInOwl:hasDbXref	GARD:4071	Unspecified	spinocerebellar ataxia type 1
+DOID:606	oboInOwl:hasDbXref	GARD:5964	Unspecified	Brown-Sequard syndrome
+DOID:0050957	oboInOwl:hasDbXref	GARD:9970	Unspecified	spinocerebellar ataxia type 4
+DOID:0050956	oboInOwl:hasDbXref	GARD:10351	Unspecified	spinocerebellar ataxia type 6
+DOID:12506	oboInOwl:hasDbXref	GARD:5906	Unspecified	Bell's palsy
+DOID:0050951	oboInOwl:hasDbXref	GARD:6614	Unspecified	hereditary ataxia
+DOID:607	oboInOwl:hasDbXref	GARD:7327	Unspecified	paraplegia
+DOID:13832	oboInOwl:hasDbXref	GARD:7342	Unspecified	patent ductus arteriosus
+DOID:0050946	oboInOwl:hasDbXref	GARD:4910	Unspecified	Charlevoix-Saguenay spastic ataxia
+DOID:11198	oboInOwl:hasDbXref	GARD:10299	Unspecified	DiGeorge syndrome
+DOID:11193	oboInOwl:hasDbXref	GARD:13181	Unspecified	syndactyly
+DOID:11199	oboInOwl:hasDbXref	GARD:6733	Unspecified	hypoparathyroidism
+DOID:0060307	oboInOwl:hasDbXref	GARD:12107	Unspecified	autosomal dominant non-syndromic intellectual disability
+DOID:0060306	oboInOwl:hasDbXref	GARD:2033	Unspecified	Meier-Gorlin syndrome
+DOID:0060304	oboInOwl:hasDbXref	GARD:1996	Unspecified	dyschromatosis universalis hereditaria
+DOID:0060318	oboInOwl:hasDbXref	GARD:538	Unspecified	acute promyelocytic leukemia
+DOID:0060329	oboInOwl:hasDbXref	GARD:6318	Unspecified	ectopic pregnancy
+DOID:0060330	oboInOwl:hasDbXref	GARD:5690	Unspecified	Rapp-Hodgkin syndrome
+DOID:0060334	oboInOwl:hasDbXref	GARD:1839	Unspecified	transient neonatal diabetes mellitus
+DOID:0060342	oboInOwl:hasDbXref	GARD:5539	Unspecified	acromelic frontonasal dysostosis
+DOID:0060346	oboInOwl:hasDbXref	GARD:8432	Unspecified	Native American myopathy
+DOID:0060348	oboInOwl:hasDbXref	GARD:411	Unspecified	hypoparathyroidism-retardation-dysmorphism syndrome
+DOID:5728	oboInOwl:hasDbXref	GARD:12843	Unspecified	diffuse peritoneal leiomyomatosis
+DOID:5729	oboInOwl:hasDbXref	GARD:10802	Unspecified	intravenous leiomyomatosis
+DOID:0060350	oboInOwl:hasDbXref	GARD:546	Unspecified	adenine phosphoribosyltransferase deficiency
+DOID:0060350	oboInOwl:hasDbXref	GARD:10666	Unspecified	adenine phosphoribosyltransferase deficiency
+DOID:0060352	oboInOwl:hasDbXref	GARD:8672	Unspecified	Kleefstra syndrome 1
+DOID:0060357	oboInOwl:hasDbXref	GARD:9683	Unspecified	chylomicron retention disease
+DOID:0060356	oboInOwl:hasDbXref	GARD:448	Unspecified	Vici syndrome
+DOID:0060359	oboInOwl:hasDbXref	GARD:115	Unspecified	Sakati-Nyhan syndrome
+DOID:5719	oboInOwl:hasDbXref	GARD:5755	Unspecified	adrenal medulla cancer
+DOID:4411	oboInOwl:hasDbXref	GARD:9541	Unspecified	hepatitis E
+DOID:0060366	oboInOwl:hasDbXref	GARD:3318	Unspecified	Hennekam syndrome
+DOID:4418	oboInOwl:hasDbXref	GARD:9807	Unspecified	cutaneous fibrous histiocytoma
+DOID:0060376	oboInOwl:hasDbXref	GARD:4412	Unspecified	Joubert syndrome with orofaciodigital defect
+DOID:0060383	oboInOwl:hasDbXref	GARD:496	Unspecified	acrofacial dysostosis Rodriguez type
+DOID:0060382	oboInOwl:hasDbXref	GARD:10520	Unspecified	orofaciodigital syndrome IX
+DOID:0060387	oboInOwl:hasDbXref	GARD:914	Unspecified	chondrodysplasia Blomstrand type
+DOID:0060384	oboInOwl:hasDbXref	GARD:494	Unspecified	acrofacial dysostosis, Catania type
+DOID:0060394	oboInOwl:hasDbXref	GARD:10296	Unspecified	chromosome 15q13.3 microdeletion syndrome
+DOID:0060395	oboInOwl:hasDbXref	GARD:12219	Unspecified	chromosome 15q24 deletion syndrome
+DOID:5445	oboInOwl:hasDbXref	GARD:5100	Unspecified	syringocystadenoma papilliferum
+DOID:5446	oboInOwl:hasDbXref	GARD:10463	Unspecified	eccrine papillary adenoma
+DOID:6785	oboInOwl:hasDbXref	GARD:6265	Unspecified	desmoplastic small round cell tumor
+DOID:5453	oboInOwl:hasDbXref	GARD:10153	Unspecified	pulmonary venoocclusive disease
+DOID:5408	oboInOwl:hasDbXref	GARD:8615	Unspecified	Paget's disease of bone
+DOID:12205	oboInOwl:hasDbXref	GARD:6254	Unspecified	dengue disease
+DOID:986	oboInOwl:hasDbXref	GARD:5782	Unspecified	alopecia areata
+DOID:13533	oboInOwl:hasDbXref	GARD:4155	Unspecified	osteopetrosis
+DOID:999	oboInOwl:hasDbXref	GARD:2804	Unspecified	hypereosinophilic syndrome
+DOID:4183	oboInOwl:hasDbXref	GARD:7860	Unspecified	pseudopseudohypoparathyroidism
+DOID:4184	oboInOwl:hasDbXref	GARD:10758	Unspecified	pseudohypoparathyroidism
+DOID:990	oboInOwl:hasDbXref	GARD:6164	Unspecified	congenital heart block
+DOID:992	oboInOwl:hasDbXref	GARD:8254	Unspecified	Omsk hemorrhagic fever
+DOID:12217	oboInOwl:hasDbXref	GARD:3243	Unspecified	Lewy body dementia
+DOID:998	oboInOwl:hasDbXref	GARD:6345	Unspecified	eosinophilia-myalgia syndrome
+DOID:13515	oboInOwl:hasDbXref	GARD:7830	Unspecified	tuberous sclerosis
+DOID:13523	oboInOwl:hasDbXref	GARD:3283	Unspecified	loiasis
+DOID:4159	oboInOwl:hasDbXref	GARD:10421	Unspecified	skin cancer
+DOID:5485	oboInOwl:hasDbXref	GARD:7721	Unspecified	synovial sarcoma
+DOID:4154	oboInOwl:hasDbXref	GARD:6258	Unspecified	dentinogenesis imperfecta
+DOID:13501	oboInOwl:hasDbXref	GARD:8549	Unspecified	Mobius syndrome
+DOID:962	oboInOwl:hasDbXref	GARD:7191	Unspecified	neurofibroma
+DOID:963	oboInOwl:hasDbXref	GARD:9851	Unspecified	episodic ataxia
+DOID:905	oboInOwl:hasDbXref	GARD:7917	Unspecified	Zellweger syndrome
+DOID:12177	oboInOwl:hasDbXref	GARD:6140	Unspecified	common variable immunodeficiency
+DOID:0060402	oboInOwl:hasDbXref	GARD:10996	Unspecified	chromosome 17p13.1 deletion syndrome
+DOID:0060406	oboInOwl:hasDbXref	GARD:8631	Unspecified	chromosome 18p deletion syndrome
+DOID:0060405	oboInOwl:hasDbXref	GARD:10936	Unspecified	chromosome 17q23.1-q23.2 deletion syndrome
+DOID:12140	oboInOwl:hasDbXref	GARD:6030	Unspecified	Chagas disease
+DOID:0060404	oboInOwl:hasDbXref	GARD:13297	Unspecified	chromosome 17q12 deletion syndrome
+DOID:0060408	oboInOwl:hasDbXref	GARD:10592	Unspecified	chromosome 19q13.11 deletion syndrome
+DOID:12148	oboInOwl:hasDbXref	GARD:207	Unspecified	alveolar echinococcosis
+DOID:0060412	oboInOwl:hasDbXref	GARD:3738	Unspecified	chromosome 1q41-q42 deletion syndrome
+DOID:0060411	oboInOwl:hasDbXref	GARD:10813	Unspecified	chromosome 1q21.1 deletion syndrome
+DOID:0060410	oboInOwl:hasDbXref	GARD:6082	Unspecified	chromosome 1p36 deletion syndrome
+DOID:0060415	oboInOwl:hasDbXref	GARD:13391	Unspecified	chromosome 2p16.1-p15 deletion syndrome
+DOID:13482	oboInOwl:hasDbXref	GARD:7475	Unspecified	Proteus syndrome
+DOID:13481	oboInOwl:hasDbXref	GARD:85	Unspecified	thanatophoric dysplasia
+DOID:0060419	oboInOwl:hasDbXref	GARD:11974	Unspecified	chromosome 3q29 microdeletion syndrome
+DOID:13487	oboInOwl:hasDbXref	GARD:6040	Unspecified	childhood disintegrative disease
+DOID:12156	oboInOwl:hasDbXref	GARD:5839	Unspecified	arachnoiditis
+DOID:13450	oboInOwl:hasDbXref	GARD:9525	Unspecified	coccidioidomycosis
+DOID:13452	oboInOwl:hasDbXref	GARD:12911	Unspecified	scleritis
+DOID:14780	oboInOwl:hasDbXref	GARD:82	Unspecified	KBG syndrome
+DOID:14789	oboInOwl:hasDbXref	GARD:4987	Unspecified	spondyloepiphyseal dysplasia congenita
+DOID:0060435	oboInOwl:hasDbXref	GARD:10591	Unspecified	chromosome 1q21.1 duplication syndrome
+DOID:0060433	oboInOwl:hasDbXref	GARD:13296	Unspecified	chromosome 17q12 duplication syndrome
+DOID:14793	oboInOwl:hasDbXref	GARD:76	Unspecified	hypohidrotic ectodermal dysplasia
+DOID:12132	oboInOwl:hasDbXref	GARD:7880	Unspecified	granulomatosis with polyangiitis
+DOID:0060439	oboInOwl:hasDbXref	GARD:3335	Unspecified	lysinuric protein intolerance
+DOID:14791	oboInOwl:hasDbXref	GARD:634	Unspecified	Leber congenital amaurosis
+DOID:14798	oboInOwl:hasDbXref	GARD:916	Unspecified	Blount's disease
+DOID:12134	oboInOwl:hasDbXref	GARD:6591	Unspecified	factor VIII deficiency
+DOID:14796	oboInOwl:hasDbXref	GARD:6290	Unspecified	Dubowitz syndrome
+DOID:14761	oboInOwl:hasDbXref	GARD:6550	Unspecified	Greig cephalopolysyndactyly syndrome
+DOID:13431	oboInOwl:hasDbXref	GARD:5905	Unspecified	bejel
+DOID:14768	oboInOwl:hasDbXref	GARD:7598	Unspecified	Saethre-Chotzen syndrome
+DOID:14766	oboInOwl:hasDbXref	GARD:9228	Unspecified	renal agenesis
+DOID:14764	oboInOwl:hasDbXref	GARD:6860	Unspecified	Larsen syndrome
+DOID:0060451	oboInOwl:hasDbXref	GARD:9688	Unspecified	Meesmann corneal dystrophy
+DOID:0060456	oboInOwl:hasDbXref	GARD:9277	Unspecified	Schnyder corneal dystrophy
+DOID:0060459	oboInOwl:hasDbXref	GARD:10360	Unspecified	chromosome 3q29 microduplication syndrome
+DOID:12117	oboInOwl:hasDbXref	GARD:11894	Unspecified	pulmonary alveolar microlithiasis
+DOID:12119	oboInOwl:hasDbXref	GARD:6595	Unspecified	hemosiderosis
+DOID:13444	oboInOwl:hasDbXref	GARD:9536	Unspecified	glanders
+DOID:14777	oboInOwl:hasDbXref	GARD:2159	Unspecified	benign familial neonatal epilepsy
+DOID:14775	oboInOwl:hasDbXref	GARD:1019	Unspecified	brittle cornea syndrome 1
+DOID:0060464	oboInOwl:hasDbXref	GARD:8407	Unspecified	Feingold syndrome
+DOID:0060462	oboInOwl:hasDbXref	GARD:1818	Unspecified	Desbuquois dysplasia
+DOID:0060468	oboInOwl:hasDbXref	GARD:6666	Unspecified	Holt-Oram syndrome
+DOID:0060467	oboInOwl:hasDbXref	GARD:2748	Unspecified	humeroradial synostosis
+DOID:0060465	oboInOwl:hasDbXref	GARD:2321	Unspecified	fibrochondrogenesis
+DOID:0060473	oboInOwl:hasDbXref	GARD:6810	Unspecified	Kabuki syndrome
+DOID:0060472	oboInOwl:hasDbXref	GARD:4391	Unspecified	Kindler syndrome
+DOID:0060479	oboInOwl:hasDbXref	GARD:4863	Unspecified	Shwachman-Diamond syndrome
+DOID:0060476	oboInOwl:hasDbXref	GARD:3936	Unspecified	Perlman syndrome
+DOID:6712	oboInOwl:hasDbXref	GARD:9653	Unspecified	anterior spinal artery syndrome
+DOID:0060481	oboInOwl:hasDbXref	GARD:9849	Unspecified	Goldberg-Shprintzen syndrome
+DOID:0060480	oboInOwl:hasDbXref	GARD:10985	Unspecified	left ventricular noncompaction
+DOID:0060486	oboInOwl:hasDbXref	GARD:10453	Unspecified	Perry syndrome
+DOID:0060485	oboInOwl:hasDbXref	GARD:9673	Unspecified	Mowat-Wilson syndrome
+DOID:0060488	oboInOwl:hasDbXref	GARD:4372	Unspecified	Pitt-Hopkins syndrome
+DOID:0060490	oboInOwl:hasDbXref	GARD:4984	Unspecified	Schimke immuno-osseous dysplasia
+DOID:4239	oboInOwl:hasDbXref	GARD:5654	Unspecified	alveolar soft part sarcoma
+DOID:4226	oboInOwl:hasDbXref	GARD:6339	Unspecified	endometrial stromal sarcoma
+DOID:4257	oboInOwl:hasDbXref	GARD:1051	Unspecified	Caffey disease
+DOID:4253	oboInOwl:hasDbXref	GARD:9474	Unspecified	melorheostosis
+DOID:4252	oboInOwl:hasDbXref	GARD:5774	Unspecified	Alexander disease
+DOID:4249	oboInOwl:hasDbXref	GARD:7690	Unspecified	Gerstmann-Straussler-Scheinker syndrome
+DOID:5572	oboInOwl:hasDbXref	GARD:3343	Unspecified	Beckwith-Wiedemann syndrome
+DOID:5574	oboInOwl:hasDbXref	GARD:5493	Unspecified	VIPoma
+DOID:5520	oboInOwl:hasDbXref	GARD:8503	Unspecified	head and neck squamous cell carcinoma
+DOID:4203	oboInOwl:hasDbXref	GARD:8244	Unspecified	brain stem cancer
+DOID:869	oboInOwl:hasDbXref	GARD:10422	Unspecified	cholesteatoma
+DOID:865	oboInOwl:hasDbXref	GARD:9565	Unspecified	vasculitis
+DOID:876	oboInOwl:hasDbXref	GARD:4614	Unspecified	pyomyositis
+DOID:12308	oboInOwl:hasDbXref	GARD:6289	Unspecified	Dubin-Johnson syndrome
+DOID:12306	oboInOwl:hasDbXref	GARD:10751	Unspecified	vitiligo
+DOID:13636	oboInOwl:hasDbXref	GARD:6425	Unspecified	Fanconi anemia
+DOID:885	oboInOwl:hasDbXref	GARD:6428	Unspecified	fascioliasis
+DOID:891	oboInOwl:hasDbXref	GARD:7140	Unspecified	progressive myoclonus epilepsy
+DOID:893	oboInOwl:hasDbXref	GARD:7893	Unspecified	Wilson disease
+DOID:898	oboInOwl:hasDbXref	GARD:7419	Unspecified	autosomal dominant polycystic kidney disease
+DOID:4271	oboInOwl:hasDbXref	GARD:3655	Unspecified	microsporidiosis
+DOID:820	oboInOwl:hasDbXref	GARD:7137	Unspecified	myocarditis
+DOID:0060608	oboInOwl:hasDbXref	GARD:5120	Unspecified	microcephalic osteodysplastic primordial dwarfism type I
+DOID:841	oboInOwl:hasDbXref	GARD:12	Unspecified	extrinsic allergic alveolitis
+DOID:859	oboInOwl:hasDbXref	GARD:2721	Unspecified	holocarboxylase synthetase deficiency
+DOID:856	oboInOwl:hasDbXref	GARD:894	Unspecified	biotinidase deficiency
+DOID:857	oboInOwl:hasDbXref	GARD:3824	Unspecified	multiple carboxylase deficiency
+DOID:13608	oboInOwl:hasDbXref	GARD:12010	Unspecified	biliary atresia
+DOID:0060611	oboInOwl:hasDbXref	GARD:9226	Unspecified	abdominal obesity-metabolic syndrome
+DOID:0060614	oboInOwl:hasDbXref	GARD:118	Unspecified	ulnar-mammary syndrome
+DOID:12297	oboInOwl:hasDbXref	GARD:7862	Unspecified	Vogt-Koyanagi-Harada disease
+DOID:13593	oboInOwl:hasDbXref	GARD:6316	Unspecified	eclampsia
+DOID:813	oboInOwl:hasDbXref	GARD:6781	Unspecified	septic arthritis
+DOID:12270	oboInOwl:hasDbXref	GARD:1433	Unspecified	coloboma
+DOID:0060537	oboInOwl:hasDbXref	GARD:5053	Unspecified	mitochondrial complex II deficiency
+DOID:0060536	oboInOwl:hasDbXref	GARD:3908	Unspecified	mitochondrial complex I deficiency
+DOID:12271	oboInOwl:hasDbXref	GARD:5816	Unspecified	aniridia
+DOID:0060535	oboInOwl:hasDbXref	GARD:13708	Unspecified	Warsaw breakage syndrome
+DOID:12241	oboInOwl:hasDbXref	GARD:871	Unspecified	beta thalassemia
+DOID:0060549	oboInOwl:hasDbXref	GARD:819	Unspecified	Barber-Say syndrome
+DOID:0060551	oboInOwl:hasDbXref	GARD:4085	Unspecified	poikiloderma with neutropenia
+DOID:0060550	oboInOwl:hasDbXref	GARD:3	Unspecified	ablepharon macrostomia syndrome
+DOID:0060559	oboInOwl:hasDbXref	GARD:3227	Unspecified	lethal congenital contracture syndrome 1
+DOID:0060558	oboInOwl:hasDbXref	GARD:12643	Unspecified	lethal congenital contracture syndrome
+DOID:12259	oboInOwl:hasDbXref	GARD:8732	Unspecified	hemophilia B
+DOID:0060563	oboInOwl:hasDbXref	GARD:1237	Unspecified	Char syndrome
+DOID:0060560	oboInOwl:hasDbXref	GARD:9177	Unspecified	lethal congenital contracture syndrome 2
+DOID:0060567	oboInOwl:hasDbXref	GARD:8653	Unspecified	erythema elevatum diutinum
+DOID:0060569	oboInOwl:hasDbXref	GARD:8585	Unspecified	hypertrichotic osteochondrodysplasia Cantu type
+DOID:13564	oboInOwl:hasDbXref	GARD:5856	Unspecified	aspergillosis
+DOID:12236	oboInOwl:hasDbXref	GARD:7459	Unspecified	primary biliary cholangitis
+DOID:0060589	oboInOwl:hasDbXref	GARD:331	Unspecified	Yunis-Varon syndrome
+DOID:0060591	oboInOwl:hasDbXref	GARD:9297	Unspecified	WHIM syndrome
+DOID:0060590	oboInOwl:hasDbXref	GARD:10628	Unspecified	XFE progeroid syndrome
+DOID:0060599	oboInOwl:hasDbXref	GARD:7161	Unspecified	Nance-Horan syndrome
+DOID:6823	oboInOwl:hasDbXref	GARD:4210	Unspecified	pancreatoblastoma
+DOID:0110647	oboInOwl:hasDbXref	GARD:10433	Unspecified	long QT syndrome 5
+DOID:0110648	oboInOwl:hasDbXref	GARD:10434	Unspecified	long QT syndrome 6
+DOID:12842	oboInOwl:hasDbXref	GARD:6554	Unspecified	Guillain-Barre syndrome
+DOID:0110645	oboInOwl:hasDbXref	GARD:3285	Unspecified	long QT syndrome 2
+DOID:0110646	oboInOwl:hasDbXref	GARD:3286	Unspecified	long QT syndrome 3
+DOID:12841	oboInOwl:hasDbXref	GARD:9742	Unspecified	ancylostomiasis
+DOID:0110644	oboInOwl:hasDbXref	GARD:3284	Unspecified	long QT syndrome 1
+DOID:12858	oboInOwl:hasDbXref	GARD:6677	Unspecified	Huntington's disease
+DOID:3490	oboInOwl:hasDbXref	GARD:10955	Unspecified	Noonan syndrome
+DOID:3491	oboInOwl:hasDbXref	GARD:7831	Unspecified	Turner syndrome
+DOID:3491	oboInOwl:hasDbXref	GARD:2540	Unspecified	Turner syndrome
+DOID:3492	oboInOwl:hasDbXref	GARD:7051	Unspecified	mixed connective tissue disease
+DOID:0050485	oboInOwl:hasDbXref	GARD:120	Unspecified	sennetsu fever
+DOID:0110631	oboInOwl:hasDbXref	GARD:779	Unspecified	arthrogryposis due to muscular dystrophy
+DOID:0110633	oboInOwl:hasDbXref	GARD:4723	Unspecified	rigid spine muscular dystrophy 1
+DOID:0050477	oboInOwl:hasDbXref	GARD:7381	Unspecified	Liddle syndrome
+DOID:0050474	oboInOwl:hasDbXref	GARD:7182	Unspecified	Netherton syndrome
+DOID:0111951	oboInOwl:hasDbXref	GARD:12653	Unspecified	immunodeficiency 40
+DOID:0050476	oboInOwl:hasDbXref	GARD:5890	Unspecified	Barth syndrome
+DOID:0050475	oboInOwl:hasDbXref	GARD:4936	Unspecified	Weill-Marchesani syndrome
+DOID:0050472	oboInOwl:hasDbXref	GARD:93	Unspecified	monilethrix
+DOID:0111953	oboInOwl:hasDbXref	GARD:4331	Unspecified	immunodeficiency 23
+DOID:0050471	oboInOwl:hasDbXref	GARD:1119	Unspecified	Carney complex
+DOID:0111947	oboInOwl:hasDbXref	GARD:10934	Unspecified	immunodeficiency 21
+DOID:0050466	oboInOwl:hasDbXref	GARD:10788	Unspecified	Loeys-Dietz syndrome
+DOID:0050469	oboInOwl:hasDbXref	GARD:1550	Unspecified	Costello syndrome
+DOID:11507	oboInOwl:hasDbXref	GARD:7594	Unspecified	rumination disorder
+DOID:0050468	oboInOwl:hasDbXref	GARD:184	Unspecified	yellow nail syndrome
+DOID:2187	oboInOwl:hasDbXref	GARD:5791	Unspecified	amelogenesis imperfecta
+DOID:0050463	oboInOwl:hasDbXref	GARD:10027	Unspecified	campomelic dysplasia
+DOID:0050465	oboInOwl:hasDbXref	GARD:6821	Unspecified	Muir-Torre syndrome
+DOID:0050464	oboInOwl:hasDbXref	GARD:6426	Unspecified	Farber lipogranulomatosis
+DOID:0111943	oboInOwl:hasDbXref	GARD:387	Unspecified	immunodeficiency 48
+DOID:0050461	oboInOwl:hasDbXref	GARD:5854	Unspecified	aspartylglucosaminuria
+DOID:0050460	oboInOwl:hasDbXref	GARD:7896	Unspecified	Wolf-Hirschhorn syndrome
+DOID:0050456	oboInOwl:hasDbXref	GARD:9520	Unspecified	Buruli ulcer disease
+DOID:12802	oboInOwl:hasDbXref	GARD:10335	Unspecified	mucopolysaccharidosis I
+DOID:0050458	oboInOwl:hasDbXref	GARD:9884	Unspecified	juvenile myelomonocytic leukemia
+DOID:0050457	oboInOwl:hasDbXref	GARD:8406	Unspecified	Sertoli cell-only syndrome
+DOID:4791	oboInOwl:hasDbXref	GARD:7366	Unspecified	supratentorial primitive neuroectodermal tumor
+DOID:0050452	oboInOwl:hasDbXref	GARD:3588	Unspecified	mevalonic aciduria
+DOID:0050451	oboInOwl:hasDbXref	GARD:1030	Unspecified	Brugada syndrome
+DOID:0050453	oboInOwl:hasDbXref	GARD:12291	Unspecified	lissencephaly
+DOID:12800	oboInOwl:hasDbXref	GARD:7095	Unspecified	mucopolysaccharidosis VI
+DOID:0050450	oboInOwl:hasDbXref	GARD:8547	Unspecified	Gitelman syndrome
+DOID:0050449	oboInOwl:hasDbXref	GARD:10753	Unspecified	pachyonychia congenita
+DOID:2123	oboInOwl:hasDbXref	GARD:396	Unspecified	tularemia
+DOID:2120	oboInOwl:hasDbXref	GARD:6457	Unspecified	focal dermal hypoplasia
+DOID:4783	oboInOwl:hasDbXref	GARD:9580	Unspecified	mesangial proliferative glomerulonephritis
+DOID:2121	oboInOwl:hasDbXref	GARD:6317	Unspecified	ectodermal dysplasia
+DOID:0050440	oboInOwl:hasDbXref	GARD:11962	Unspecified	familial partial lipodystrophy
+DOID:0050438	oboInOwl:hasDbXref	GARD:2375	Unspecified	Frasier syndrome
+DOID:0050437	oboInOwl:hasDbXref	GARD:9730	Unspecified	Danon disease
+DOID:0050439	oboInOwl:hasDbXref	GARD:7843	Unspecified	Usher syndrome
+DOID:0050434	oboInOwl:hasDbXref	GARD:9453	Unspecified	Andersen-Tawil syndrome
+DOID:3486	oboInOwl:hasDbXref	GARD:13040	Unspecified	necrobiosis lipoidica
+DOID:2156	oboInOwl:hasDbXref	GARD:9330	Unspecified	ovarian germ cell cancer
+DOID:0050433	oboInOwl:hasDbXref	GARD:6429	Unspecified	fatal familial insomnia
+DOID:0050436	oboInOwl:hasDbXref	GARD:95	Unspecified	mulibrey nanism
+DOID:3480	oboInOwl:hasDbXref	GARD:8192	Unspecified	uveal disease
+DOID:0050432	oboInOwl:hasDbXref	GARD:5855	Unspecified	Asperger syndrome
+DOID:0050427	oboInOwl:hasDbXref	GARD:7910	Unspecified	xeroderma pigmentosum
+DOID:0050426	oboInOwl:hasDbXref	GARD:7700	Unspecified	Stevens-Johnson syndrome
+DOID:0050429	oboInOwl:hasDbXref	GARD:6559	Unspecified	Hailey-Hailey disease
+DOID:0050425	oboInOwl:hasDbXref	GARD:11926	Unspecified	restless legs syndrome
+DOID:0050424	oboInOwl:hasDbXref	GARD:6408	Unspecified	familial adenomatous polyposis
+DOID:0110652	oboInOwl:hasDbXref	GARD:10437	Unspecified	long QT syndrome 11
+DOID:0110650	oboInOwl:hasDbXref	GARD:10435	Unspecified	long QT syndrome 9
+DOID:0110651	oboInOwl:hasDbXref	GARD:10436	Unspecified	long QT syndrome 10
+DOID:0111987	oboInOwl:hasDbXref	GARD:12375	Unspecified	immunodeficiency 13
+DOID:11599	oboInOwl:hasDbXref	GARD:6467	Unspecified	Frey syndrome
+DOID:10264	oboInOwl:hasDbXref	GARD:7116	Unspecified	mumps
+DOID:10241	oboInOwl:hasDbXref	GARD:7756	Unspecified	thalassemia
+DOID:11577	oboInOwl:hasDbXref	GARD:10987	Unspecified	Cauda equina syndrome
+DOID:10242	oboInOwl:hasDbXref	GARD:2092	Unspecified	ehrlichiosis
+DOID:0111936	oboInOwl:hasDbXref	GARD:11983	Unspecified	immunodeficiency 14
+DOID:11555	oboInOwl:hasDbXref	GARD:10018	Unspecified	Fuchs' endothelial dystrophy
+DOID:12889	oboInOwl:hasDbXref	GARD:3668	Unspecified	Miller Fisher syndrome
+DOID:0111933	oboInOwl:hasDbXref	GARD:7389	Unspecified	phosphoglycerate kinase 1 deficiency
+DOID:0111931	oboInOwl:hasDbXref	GARD:10295	Unspecified	syndactyly-telecanthus-anogenital and renal malformations syndrome
+DOID:10223	oboInOwl:hasDbXref	GARD:6263	Unspecified	dermatomyositis
+DOID:10235	oboInOwl:hasDbXref	GARD:5963	Unspecified	Brown's tendon sheath syndrome
+DOID:12894	oboInOwl:hasDbXref	GARD:10252	Unspecified	Sjogren's syndrome
+DOID:12895	oboInOwl:hasDbXref	GARD:8444	Unspecified	keratoconjunctivitis sicca
+DOID:0111907	oboInOwl:hasDbXref	GARD:10815	Unspecified	thrombophilia due to thrombin defect
+DOID:11549	oboInOwl:hasDbXref	GARD:5749	Unspecified	Adie syndrome
+DOID:4752	oboInOwl:hasDbXref	GARD:7079	Unspecified	multiple system atrophy
+DOID:3429	oboInOwl:hasDbXref	GARD:3896	Unspecified	inclusion body myositis
+DOID:3413	oboInOwl:hasDbXref	GARD:6968	Unspecified	alpha-mannosidosis
+DOID:4773	oboInOwl:hasDbXref	GARD:1493	Unspecified	congenital mesoblastic nephroma
+DOID:2106	oboInOwl:hasDbXref	GARD:12301	Unspecified	myotonia congenita
+DOID:4769	oboInOwl:hasDbXref	GARD:8757	Unspecified	pleuropulmonary blastoma
+DOID:0110579	oboInOwl:hasDbXref	GARD:9934	Unspecified	autosomal dominant nonsyndromic deafness 53
+DOID:4734	oboInOwl:hasDbXref	GARD:5980	Unspecified	calciphylaxis
+DOID:0110768	oboInOwl:hasDbXref	GARD:9581	Unspecified	hereditary spastic paraplegia 15
+DOID:0110769	oboInOwl:hasDbXref	GARD:9585	Unspecified	hereditary spastic paraplegia 16
+DOID:2297	oboInOwl:hasDbXref	GARD:7881	Unspecified	leptospirosis
+DOID:0110763	oboInOwl:hasDbXref	GARD:9590	Unspecified	hereditary spastic paraplegia 10
+DOID:10303	oboInOwl:hasDbXref	GARD:7638	Unspecified	sialadenitis
+DOID:0110766	oboInOwl:hasDbXref	GARD:9616	Unspecified	hereditary spastic paraplegia 13
+DOID:0110767	oboInOwl:hasDbXref	GARD:9589	Unspecified	hereditary spastic paraplegia 14
+DOID:0110764	oboInOwl:hasDbXref	GARD:4919	Unspecified	hereditary spastic paraplegia 11
+DOID:12961	oboInOwl:hasDbXref	GARD:7412	Unspecified	Poland syndrome
+DOID:0110765	oboInOwl:hasDbXref	GARD:9586	Unspecified	hereditary spastic paraplegia 12
+DOID:2280	oboInOwl:hasDbXref	GARD:6658	Unspecified	hidradenitis suppurativa
+DOID:12971	oboInOwl:hasDbXref	GARD:6639	Unspecified	hereditary spherocytosis
+DOID:0050590	oboInOwl:hasDbXref	GARD:13592	Unspecified	severe congenital neutropenia
+DOID:0110735	oboInOwl:hasDbXref	GARD:2751	Unspecified	neurodegeneration with brain iron accumulation 2a
+DOID:0050587	oboInOwl:hasDbXref	GARD:7803	Unspecified	trichotillomania
+DOID:0050585	oboInOwl:hasDbXref	GARD:13388	Unspecified	congenital generalized lipodystrophy
+DOID:0050580	oboInOwl:hasDbXref	GARD:7220	Unspecified	hereditary lymphedema
+DOID:0110733	oboInOwl:hasDbXref	GARD:6618	Unspecified	neuronal ceroid lipofuscinosis 9
+DOID:0110734	oboInOwl:hasDbXref	GARD:11899	Unspecified	neurodegeneration with brain iron accumulation
+DOID:0110731	oboInOwl:hasDbXref	GARD:5897	Unspecified	neuronal ceroid lipofuscinosis 3
+DOID:0050581	oboInOwl:hasDbXref	GARD:11913	Unspecified	brachydactyly
+DOID:12929	oboInOwl:hasDbXref	GARD:6336	Unspecified	endocardial fibroelastosis
+DOID:12929	oboInOwl:hasDbXref	GARD:2121	Unspecified	endocardial fibroelastosis
+DOID:0050576	oboInOwl:hasDbXref	GARD:322	Unspecified	Senior-Loken syndrome
+DOID:12926	oboInOwl:hasDbXref	GARD:2883	Unspecified	hypodermyiasis
+DOID:0050573	oboInOwl:hasDbXref	GARD:10761	Unspecified	2-hydroxyglutaric aciduria
+DOID:0050572	oboInOwl:hasDbXref	GARD:10790	Unspecified	cone-rod dystrophy
+DOID:0050575	oboInOwl:hasDbXref	GARD:5661	Unspecified	D-2-hydroxyglutaric aciduria
+DOID:0050574	oboInOwl:hasDbXref	GARD:10472	Unspecified	L-2-hydroxyglutaric aciduria
+DOID:0050569	oboInOwl:hasDbXref	GARD:8562	Unspecified	Seckel syndrome
+DOID:12934	oboInOwl:hasDbXref	GARD:6817	Unspecified	Kearns-Sayre syndrome
+DOID:0050568	oboInOwl:hasDbXref	GARD:12174	Unspecified	spondylocostal dysostosis
+DOID:0050568	oboInOwl:hasDbXref	GARD:6798	Unspecified	spondylocostal dysostosis
+DOID:0110791	oboInOwl:hasDbXref	GARD:5041	Unspecified	hereditary spastic paraplegia 3A
+DOID:0110790	oboInOwl:hasDbXref	GARD:4924	Unspecified	hereditary spastic paraplegia 39
+DOID:0050562	oboInOwl:hasDbXref	GARD:7887	Unspecified	West syndrome
+DOID:12930	oboInOwl:hasDbXref	GARD:221	Unspecified	dilated cardiomyopathy
+DOID:0050561	oboInOwl:hasDbXref	GARD:9912	Unspecified	Lennox-Gastaut syndrome
+DOID:12932	oboInOwl:hasDbXref	GARD:6340	Unspecified	endomyocardial fibrosis
+DOID:0050560	oboInOwl:hasDbXref	GARD:2599	Unspecified	Walker-Warburg syndrome
+DOID:0050559	oboInOwl:hasDbXref	GARD:6475	Unspecified	Fukuyama congenital muscular dystrophy
+DOID:0050558	oboInOwl:hasDbXref	GARD:4769	Unspecified	Ullrich congenital muscular dystrophy
+DOID:0050557	oboInOwl:hasDbXref	GARD:9138	Unspecified	congenital muscular dystrophy
+DOID:0110780	oboInOwl:hasDbXref	GARD:9729	Unspecified	hereditary spastic paraplegia 29
+DOID:12900	oboInOwl:hasDbXref	GARD:7043	Unspecified	Mikulicz disease
+DOID:0110782	oboInOwl:hasDbXref	GARD:10817	Unspecified	hereditary spastic paraplegia 31
+DOID:0050553	oboInOwl:hasDbXref	GARD:10988	Unspecified	JMP syndrome
+DOID:0110783	oboInOwl:hasDbXref	GARD:12749	Unspecified	hereditary spastic paraplegia 32
+DOID:0050545	oboInOwl:hasDbXref	GARD:10875	Unspecified	visceral heterotaxy
+DOID:3594	oboInOwl:hasDbXref	GARD:6059	Unspecified	choriocarcinoma
+DOID:0110770	oboInOwl:hasDbXref	GARD:4219	Unspecified	hereditary spastic paraplegia 17
+DOID:0110773	oboInOwl:hasDbXref	GARD:4923	Unspecified	hereditary spastic paraplegia 2
+DOID:0110774	oboInOwl:hasDbXref	GARD:336	Unspecified	hereditary spastic paraplegia 23
+DOID:0110771	oboInOwl:hasDbXref	GARD:4922	Unspecified	hereditary spastic paraplegia 18
+DOID:0110772	oboInOwl:hasDbXref	GARD:9588	Unspecified	hereditary spastic paraplegia 19
+DOID:0050541	oboInOwl:hasDbXref	GARD:12440	Unspecified	Charcot-Marie-Tooth disease type 4
+DOID:0110777	oboInOwl:hasDbXref	GARD:9587	Unspecified	hereditary spastic paraplegia 26
+DOID:0110775	oboInOwl:hasDbXref	GARD:9296	Unspecified	hereditary spastic paraplegia 24
+DOID:0110776	oboInOwl:hasDbXref	GARD:9582	Unspecified	hereditary spastic paraplegia 25
+DOID:0050539	oboInOwl:hasDbXref	GARD:12431	Unspecified	Charcot-Marie-Tooth disease type 2
+DOID:0050538	oboInOwl:hasDbXref	GARD:12433	Unspecified	Charcot-Marie-Tooth disease type 1
+DOID:0050535	oboInOwl:hasDbXref	GARD:1613	Unspecified	exudative vitreoretinopathy
+DOID:0050526	oboInOwl:hasDbXref	GARD:12353	Unspecified	Gamstorp-Wohlfart syndrome
+DOID:0050524	oboInOwl:hasDbXref	GARD:3697	Unspecified	maturity-onset diabetes of the young
+DOID:0050523	oboInOwl:hasDbXref	GARD:13103	Unspecified	adult T-cell leukemia
+DOID:10371	oboInOwl:hasDbXref	GARD:7913	Unspecified	yaws
+DOID:0110726	oboInOwl:hasDbXref	GARD:3045	Unspecified	neuronal ceroid lipofuscinosis 2
+DOID:0110724	oboInOwl:hasDbXref	GARD:2163	Unspecified	neuronal ceroid lipofuscinosis 8 northern epilepsy variant
+DOID:0110724	oboInOwl:hasDbXref	GARD:4010	Unspecified	neuronal ceroid lipofuscinosis 8 northern epilepsy variant
+DOID:0110725	oboInOwl:hasDbXref	GARD:1218	Unspecified	neuronal ceroid lipofuscinosis 10
+DOID:0110728	oboInOwl:hasDbXref	GARD:1223	Unspecified	neuronal ceroid lipofuscinosis 5
+DOID:0110729	oboInOwl:hasDbXref	GARD:1224	Unspecified	neuronal ceroid lipofuscinosis 6A
+DOID:11678	oboInOwl:hasDbXref	GARD:7252	Unspecified	onchocerciasis
+DOID:10348	oboInOwl:hasDbXref	GARD:5932	Unspecified	blepharophimosis
+DOID:0110722	oboInOwl:hasDbXref	GARD:1220	Unspecified	neuronal ceroid lipofuscinosis 7
+DOID:0110721	oboInOwl:hasDbXref	GARD:1219	Unspecified	neuronal ceroid lipofuscinosis 1
+DOID:0110711	oboInOwl:hasDbXref	GARD:3066	Unspecified	congenital hypotrichosis with juvenile macular dystrophy
+DOID:10328	oboInOwl:hasDbXref	GARD:7645	Unspecified	siderosis
+DOID:10323	oboInOwl:hasDbXref	GARD:5976	Unspecified	byssinosis
+DOID:11656	oboInOwl:hasDbXref	GARD:5913	Unspecified	cicatricial pemphigoid
+DOID:10325	oboInOwl:hasDbXref	GARD:7647	Unspecified	silicosis
+DOID:10320	oboInOwl:hasDbXref	GARD:5852	Unspecified	asbestosis
+DOID:10321	oboInOwl:hasDbXref	GARD:8371	Unspecified	baritosis
+DOID:10331	oboInOwl:hasDbXref	GARD:8355	Unspecified	kaolin pneumoconiosis
+DOID:11664	oboInOwl:hasDbXref	GARD:7179	Unspecified	nephrosclerosis
+DOID:4810	oboInOwl:hasDbXref	GARD:5622	Unspecified	cerebrotendinous xanthomatosis
+DOID:2215	oboInOwl:hasDbXref	GARD:2238	Unspecified	factor VII deficiency
+DOID:2216	oboInOwl:hasDbXref	GARD:2237	Unspecified	factor V deficiency
+DOID:3541	oboInOwl:hasDbXref	GARD:6025	Unspecified	cerebral ventricle cancer
+DOID:2211	oboInOwl:hasDbXref	GARD:10766	Unspecified	factor XIII deficiency
+DOID:2219	oboInOwl:hasDbXref	GARD:2478	Unspecified	Glanzmann's thrombasthenia
+DOID:3534	oboInOwl:hasDbXref	GARD:8214	Unspecified	Lafora disease
+DOID:3535	oboInOwl:hasDbXref	GARD:3876	Unspecified	Unverricht-Lundborg syndrome
+DOID:2236	oboInOwl:hasDbXref	GARD:5761	Unspecified	congenital afibrinogenemia
+DOID:3565	oboInOwl:hasDbXref	GARD:7015	Unspecified	meningioma
+DOID:4890	oboInOwl:hasDbXref	GARD:6808	Unspecified	juvenile myoclonic epilepsy
+DOID:2231	oboInOwl:hasDbXref	GARD:6558	Unspecified	factor XII deficiency
+DOID:3557	oboInOwl:hasDbXref	GARD:7712	Unspecified	superior mesenteric artery syndrome
+DOID:3559	oboInOwl:hasDbXref	GARD:7488	Unspecified	pseudomyxoma peritonei
+DOID:2222	oboInOwl:hasDbXref	GARD:6404	Unspecified	factor X deficiency
+DOID:2223	oboInOwl:hasDbXref	GARD:5034	Unspecified	platelet storage pool deficiency
+DOID:2224	oboInOwl:hasDbXref	GARD:6594	Unspecified	essential thrombocythemia
+DOID:2229	oboInOwl:hasDbXref	GARD:9670	Unspecified	factor XI deficiency
+DOID:4837	oboInOwl:hasDbXref	GARD:6542	Unspecified	Gorham's disease
+DOID:3507	oboInOwl:hasDbXref	GARD:9569	Unspecified	dermatofibrosarcoma protuberans
+DOID:4838	oboInOwl:hasDbXref	GARD:10558	Unspecified	myoepithelial carcinoma
+DOID:4851	oboInOwl:hasDbXref	GARD:9808	Unspecified	pilocytic astrocytoma
+DOID:3529	oboInOwl:hasDbXref	GARD:6014	Unspecified	central core disease
+DOID:3512	oboInOwl:hasDbXref	GARD:8211	Unspecified	neurofibrosarcoma
+DOID:3263	oboInOwl:hasDbXref	GARD:4344	Unspecified	piebaldism
+DOID:0060063	oboInOwl:hasDbXref	GARD:9456	Unspecified	sideroblastic anemia 1
+DOID:3265	oboInOwl:hasDbXref	GARD:6100	Unspecified	chronic granulomatous disease
+DOID:0060061	oboInOwl:hasDbXref	GARD:6226	Unspecified	primary cutaneous T-cell non-Hodgkin lymphoma
+DOID:0060067	oboInOwl:hasDbXref	GARD:7343	Unspecified	Pearson syndrome
+DOID:3261	oboInOwl:hasDbXref	GARD:6800	Unspecified	hyper IgE recurrent infection syndrome 1
+DOID:13949	oboInOwl:hasDbXref	GARD:6787	Unspecified	interstitial cystitis
+DOID:13945	oboInOwl:hasDbXref	GARD:1049	Unspecified	CADASIL
+DOID:13941	oboInOwl:hasDbXref	GARD:5915	Unspecified	benign paroxysmal positional vertigo
+DOID:0110861	oboInOwl:hasDbXref	GARD:8378	Unspecified	autosomal recessive polycystic kidney disease
+DOID:13924	oboInOwl:hasDbXref	GARD:5736	Unspecified	necrotizing ulcerative gingivitis
+DOID:0110851	oboInOwl:hasDbXref	GARD:6049	Unspecified	rhizomelic chondrodysplasia punctata type 1
+DOID:3223	oboInOwl:hasDbXref	GARD:4647	Unspecified	complex regional pain syndrome
+DOID:0050699	oboInOwl:hasDbXref	GARD:13105	Unspecified	Dent disease
+DOID:0050693	oboInOwl:hasDbXref	GARD:10179	Unspecified	Brooke-Spiegler syndrome
+DOID:0050690	oboInOwl:hasDbXref	GARD:10903	Unspecified	brachyolmia
+DOID:0050692	oboInOwl:hasDbXref	GARD:9158	Unspecified	Brody myopathy
+DOID:0050691	oboInOwl:hasDbXref	GARD:3212	Unspecified	branchiooculofacial syndrome
+DOID:5870	oboInOwl:hasDbXref	GARD:107	Unspecified	eosinophilic pneumonia
+DOID:3210	oboInOwl:hasDbXref	GARD:4265	Unspecified	Pelizaeus-Merzbacher disease
+DOID:0050684	oboInOwl:hasDbXref	GARD:5950	Unspecified	Bowen-Conradi syndrome
+DOID:0050681	oboInOwl:hasDbXref	GARD:936	Unspecified	Borjeson-Forssman-Lehmann syndrome
+DOID:0050680	oboInOwl:hasDbXref	GARD:933	Unspecified	Boomerang dysplasia
+DOID:0050679	oboInOwl:hasDbXref	GARD:917	Unspecified	blue cone monochromacy
+DOID:0050676	oboInOwl:hasDbXref	GARD:2322	Unspecified	Birt-Hogg-Dube syndrome
+DOID:0050675	oboInOwl:hasDbXref	GARD:10358	Unspecified	Birk-Barel syndrome
+DOID:3246	oboInOwl:hasDbXref	GARD:4702	Unspecified	embryonal rhabdomyosarcoma
+DOID:0050678	oboInOwl:hasDbXref	GARD:304	Unspecified	Blau syndrome
+DOID:0050677	oboInOwl:hasDbXref	GARD:22	Unspecified	Bjornstad syndrome
+DOID:0050670	oboInOwl:hasDbXref	GARD:10451	Unspecified	ataxic cerebral palsy
+DOID:0050664	oboInOwl:hasDbXref	GARD:10050	Unspecified	Bietti crystalline corneoretinal dystrophy
+DOID:0050661	oboInOwl:hasDbXref	GARD:10120	Unspecified	vitelliform macular dystrophy
+DOID:0050661	oboInOwl:hasDbXref	GARD:182	Unspecified	vitelliform macular dystrophy
+DOID:0050660	oboInOwl:hasDbXref	GARD:332	Unspecified	Beare-Stevenson cutis gyrata syndrome
+DOID:0050663	oboInOwl:hasDbXref	GARD:873	Unspecified	Bethlem myopathy
+DOID:0110803	oboInOwl:hasDbXref	GARD:10999	Unspecified	hereditary spastic paraplegia 51
+DOID:0050657	oboInOwl:hasDbXref	GARD:5887	Unspecified	Bannayan-Riley-Ruvalcaba syndrome
+DOID:0050654	oboInOwl:hasDbXref	GARD:1602	Unspecified	Baller-Gerold syndrome
+DOID:0050656	oboInOwl:hasDbXref	GARD:12426	Unspecified	pseudo-TORCH syndrome 1
+DOID:12689	oboInOwl:hasDbXref	GARD:223	Unspecified	acoustic neuroma
+DOID:0050650	oboInOwl:hasDbXref	GARD:9740	Unspecified	familial atrial fibrillation
+DOID:10027	oboInOwl:hasDbXref	GARD:8730	Unspecified	tabes dorsalis
+DOID:0050651	oboInOwl:hasDbXref	GARD:802	Unspecified	atrioventricular septal defect
+DOID:0050647	oboInOwl:hasDbXref	GARD:8756	Unspecified	Arts syndrome
+DOID:0050646	oboInOwl:hasDbXref	GARD:786	Unspecified	distal arthrogryposis
+DOID:0050649	oboInOwl:hasDbXref	GARD:9595	Unspecified	atransferrinemia
+DOID:0050645	oboInOwl:hasDbXref	GARD:774	Unspecified	arterial tortuosity syndrome
+DOID:0050644	oboInOwl:hasDbXref	GARD:8380	Unspecified	arterial calcification of infancy
+DOID:0050641	oboInOwl:hasDbXref	GARD:12916	Unspecified	Rh deficiency syndrome
+DOID:12697	oboInOwl:hasDbXref	GARD:6919	Unspecified	locked-in syndrome
+DOID:0050636	oboInOwl:hasDbXref	GARD:8282	Unspecified	familial visceral amyloidosis
+DOID:0050635	oboInOwl:hasDbXref	GARD:11	Unspecified	alternating hemiplegia of childhood
+DOID:0050638	oboInOwl:hasDbXref	GARD:656	Unspecified	transthyretin amyloidosis
+DOID:0050637	oboInOwl:hasDbXref	GARD:2339	Unspecified	Finnish type amyloidosis
+DOID:11339	oboInOwl:hasDbXref	GARD:4386	Unspecified	pneumocystosis
+DOID:0050632	oboInOwl:hasDbXref	GARD:10958	Unspecified	oculocutaneous albinism
+DOID:0050631	oboInOwl:hasDbXref	GARD:5617	Unspecified	Allan-Herndon-Dudley syndrome
+DOID:0050634	oboInOwl:hasDbXref	GARD:614	Unspecified	alopecia universalis
+DOID:0050639	oboInOwl:hasDbXref	GARD:132	Unspecified	primary cutaneous amyloidosis
+DOID:12661	oboInOwl:hasDbXref	GARD:701	Unspecified	tooth ankylosis
+DOID:11330	oboInOwl:hasDbXref	GARD:6370	Unspecified	erysipelas
+DOID:11335	oboInOwl:hasDbXref	GARD:7607	Unspecified	sarcoidosis
+DOID:0050630	oboInOwl:hasDbXref	GARD:10574	Unspecified	Aland Island eye disease
+DOID:11337	oboInOwl:hasDbXref	GARD:6882	Unspecified	Lemierre's syndrome
+DOID:11338	oboInOwl:hasDbXref	GARD:5144	Unspecified	tetanus
+DOID:13994	oboInOwl:hasDbXref	GARD:6118	Unspecified	cleidocranial dysplasia
+DOID:12663	oboInOwl:hasDbXref	GARD:5931	Unspecified	blastomycosis
+DOID:12662	oboInOwl:hasDbXref	GARD:7323	Unspecified	paracoccidioidomycosis
+DOID:0050629	oboInOwl:hasDbXref	GARD:575	Unspecified	Aicardi-Goutieres syndrome
+DOID:10017	oboInOwl:hasDbXref	GARD:3829	Unspecified	multiple endocrine neoplasia type 1
+DOID:12679	oboInOwl:hasDbXref	GARD:7177	Unspecified	nephrocalcinosis
+DOID:0110847	oboInOwl:hasDbXref	GARD:5630	Unspecified	xeroderma pigmentosum variant type
+DOID:0050603	oboInOwl:hasDbXref	GARD:376	Unspecified	acheiropody
+DOID:0050602	oboInOwl:hasDbXref	GARD:457	Unspecified	triple-A syndrome
+DOID:0050605	oboInOwl:hasDbXref	GARD:5723	Unspecified	acrodermatitis enteropathica
+DOID:0050604	oboInOwl:hasDbXref	GARD:10605	Unspecified	acrocapitofemoral dysplasia
+DOID:11329	oboInOwl:hasDbXref	GARD:9512	Unspecified	ainhum
+DOID:0110838	oboInOwl:hasDbXref	GARD:5440	Unspecified	Usher syndrome type 2A
+DOID:0050601	oboInOwl:hasDbXref	GARD:384	Unspecified	ADULT syndrome
+DOID:3292	oboInOwl:hasDbXref	GARD:10722	Unspecified	monkeypox
+DOID:11320	oboInOwl:hasDbXref	GARD:8257	Unspecified	Kyasanur forest disease
+DOID:0110823	oboInOwl:hasDbXref	GARD:9591	Unspecified	hereditary spastic paraplegia 8
+DOID:0110829	oboInOwl:hasDbXref	GARD:4684	Unspecified	retinitis pigmentosa-deafness syndrome
+DOID:0110828	oboInOwl:hasDbXref	GARD:5442	Unspecified	Usher syndrome type 3
+DOID:11302	oboInOwl:hasDbXref	GARD:9747	Unspecified	cercarial dermatitis
+DOID:0110810	oboInOwl:hasDbXref	GARD:4926	Unspecified	hereditary spastic paraplegia 5A
+DOID:11285	oboInOwl:hasDbXref	GARD:7771	Unspecified	tick paralysis
+DOID:12580	oboInOwl:hasDbXref	GARD:6213	Unspecified	Cri-Du-Chat syndrome
+DOID:11256	oboInOwl:hasDbXref	GARD:7833	Unspecified	typhus
+DOID:12594	oboInOwl:hasDbXref	GARD:4462	Unspecified	Potter's syndrome
+DOID:11260	oboInOwl:hasDbXref	GARD:7516	Unspecified	rabies
+DOID:11265	oboInOwl:hasDbXref	GARD:10374	Unspecified	trachoma
+DOID:11267	oboInOwl:hasDbXref	GARD:6825	Unspecified	keratomalacia
+DOID:4531	oboInOwl:hasDbXref	GARD:10671	Unspecified	mucoepidermoid carcinoma
+DOID:4534	oboInOwl:hasDbXref	GARD:288	Unspecified	Hallermann-Streiff syndrome
+DOID:0060000	oboInOwl:hasDbXref	GARD:6337	Unspecified	infective endocarditis
+DOID:3209	oboInOwl:hasDbXref	GARD:2152	Unspecified	junctional epidermolysis bullosa
+DOID:0060013	oboInOwl:hasDbXref	GARD:5618	Unspecified	X-linked severe combined immunodeficiency
+DOID:0060010	oboInOwl:hasDbXref	GARD:8198	Unspecified	Omenn syndrome
+DOID:0060020	oboInOwl:hasDbXref	GARD:8625	Unspecified	reticular dysgenesis
+DOID:0060025	oboInOwl:hasDbXref	GARD:10197	Unspecified	immunoglobulin alpha deficiency
+DOID:5805	oboInOwl:hasDbXref	GARD:5052	Unspecified	subvalvular aortic stenosis
+DOID:5822	oboInOwl:hasDbXref	GARD:10897	Unspecified	gray zone lymphoma
+DOID:0060041	oboInOwl:hasDbXref	GARD:10248	Unspecified	autism spectrum disorder
+DOID:5813	oboInOwl:hasDbXref	GARD:4606	Unspecified	purine nucleoside phosphorylase deficiency
+DOID:5810	oboInOwl:hasDbXref	GARD:5748	Unspecified	adenosine deaminase deficiency
+DOID:0060055	oboInOwl:hasDbXref	GARD:3242	Unspecified	popliteal pterygium syndrome
+DOID:2058	oboInOwl:hasDbXref	GARD:12313	Unspecified	chronic mucocutaneous candidiasis
+DOID:3389	oboInOwl:hasDbXref	GARD:3100	Unspecified	Papillon-Lefevre disease
+DOID:0060184	oboInOwl:hasDbXref	GARD:6939	Unspecified	lymphocytic colitis
+DOID:0060183	oboInOwl:hasDbXref	GARD:6135	Unspecified	collagenous colitis
+DOID:3382	oboInOwl:hasDbXref	GARD:6913	Unspecified	liposarcoma
+DOID:12721	oboInOwl:hasDbXref	GARD:10756	Unspecified	multiple epiphyseal dysplasia
+DOID:0110999	oboInOwl:hasDbXref	GARD:10169	Unspecified	Joubert syndrome 4
+DOID:11405	oboInOwl:hasDbXref	GARD:1875	Unspecified	diphtheria
+DOID:11406	oboInOwl:hasDbXref	GARD:6062	Unspecified	choroiditis
+DOID:2048	oboInOwl:hasDbXref	GARD:5871	Unspecified	autoimmune hepatitis
+DOID:0060196	oboInOwl:hasDbXref	GARD:10502	Unspecified	amyotrophic lateral sclerosis type 4
+DOID:0060195	oboInOwl:hasDbXref	GARD:10501	Unspecified	amyotrophic lateral sclerosis type 3
+DOID:0060194	oboInOwl:hasDbXref	GARD:9470	Unspecified	amyotrophic lateral sclerosis type 2
+DOID:0060199	oboInOwl:hasDbXref	GARD:10500	Unspecified	amyotrophic lateral sclerosis type 7
+DOID:0060198	oboInOwl:hasDbXref	GARD:9874	Unspecified	amyotrophic lateral sclerosis type 6
+DOID:0060197	oboInOwl:hasDbXref	GARD:10503	Unspecified	amyotrophic lateral sclerosis type 5
+DOID:3371	oboInOwl:hasDbXref	GARD:6004	Unspecified	chondrosarcoma
+DOID:3371	oboInOwl:hasDbXref	GARD:6055	Unspecified	chondrosarcoma
+DOID:12731	oboInOwl:hasDbXref	GARD:7339	Unspecified	pars planitis
+DOID:12707	oboInOwl:hasDbXref	GARD:9256	Unspecified	myoclonic cerebellar dyssynergia
+DOID:0110988	oboInOwl:hasDbXref	GARD:10167	Unspecified	Joubert syndrome 2
+DOID:12704	oboInOwl:hasDbXref	GARD:5862	Unspecified	ataxia telangiectasia
+DOID:12705	oboInOwl:hasDbXref	GARD:6468	Unspecified	Friedreich ataxia
+DOID:0110979	oboInOwl:hasDbXref	GARD:5058	Unspecified	Sugarman brachydactyly
+DOID:12714	oboInOwl:hasDbXref	GARD:1301	Unspecified	Ellis-Van Creveld syndrome
+DOID:2065	oboInOwl:hasDbXref	GARD:10547	Unspecified	syringoma
+DOID:3390	oboInOwl:hasDbXref	GARD:8167	Unspecified	palmoplantar keratosis
+DOID:0110970	oboInOwl:hasDbXref	GARD:986	Unspecified	brachydactyly type C
+DOID:12712	oboInOwl:hasDbXref	GARD:206	Unspecified	nephronophthisis
+DOID:3347	oboInOwl:hasDbXref	GARD:7284	Unspecified	osteosarcoma
+DOID:3343	oboInOwl:hasDbXref	GARD:10670	Unspecified	glycoproteinosis
+DOID:4674	oboInOwl:hasDbXref	GARD:5803	Unspecified	androgen insensitivity syndrome
+DOID:3369	oboInOwl:hasDbXref	GARD:6390	Unspecified	Ewing sarcoma
+DOID:4697	oboInOwl:hasDbXref	GARD:12698	Unspecified	perineurioma
+DOID:0050796	oboInOwl:hasDbXref	GARD:456	Unspecified	achalasia microcephaly syndrome
+DOID:4696	oboInOwl:hasDbXref	GARD:10921	Unspecified	intraneural perineurioma
+DOID:0050799	oboInOwl:hasDbXref	GARD:2578	Unspecified	guanidinoacetate methyltransferase deficiency
+DOID:3362	oboInOwl:hasDbXref	GARD:6200	Unspecified	coronary aneurysm
+DOID:0050795	oboInOwl:hasDbXref	GARD:11897	Unspecified	cone dystrophy
+DOID:0050791	oboInOwl:hasDbXref	GARD:8435	Unspecified	persistent Mullerian duct syndrome
+DOID:3355	oboInOwl:hasDbXref	GARD:2327	Unspecified	fibrosarcoma
+DOID:0050788	oboInOwl:hasDbXref	GARD:8182	Unspecified	proximal symphalangism
+DOID:0050787	oboInOwl:hasDbXref	GARD:3065	Unspecified	juvenile polyposis syndrome
+DOID:4680	oboInOwl:hasDbXref	GARD:10804	Unspecified	breast metaplastic carcinoma
+DOID:0050782	oboInOwl:hasDbXref	GARD:7918	Unspecified	Zollinger-Ellison syndrome
+DOID:0050780	oboInOwl:hasDbXref	GARD:193	Unspecified	Opitz-GBBB syndrome
+DOID:0110924	oboInOwl:hasDbXref	GARD:9929	Unspecified	familial hemophagocytic lymphohistiocytosis 4
+DOID:0050779	oboInOwl:hasDbXref	GARD:6683	Unspecified	hydrolethalus syndrome
+DOID:0050778	oboInOwl:hasDbXref	GARD:3436	Unspecified	Meckel syndrome
+DOID:0110922	oboInOwl:hasDbXref	GARD:9922	Unspecified	familial hemophagocytic lymphohistiocytosis 2
+DOID:0110923	oboInOwl:hasDbXref	GARD:9928	Unspecified	familial hemophagocytic lymphohistiocytosis 3
+DOID:0050775	oboInOwl:hasDbXref	GARD:169	Unspecified	schneckenbecken dysplasia
+DOID:0050774	oboInOwl:hasDbXref	GARD:4637	Unspecified	rapadilino syndrome
+DOID:0050777	oboInOwl:hasDbXref	GARD:6802	Unspecified	Joubert syndrome
+DOID:0050771	oboInOwl:hasDbXref	GARD:7385	Unspecified	pheochromocytoma
+DOID:0050770	oboInOwl:hasDbXref	GARD:9457	Unspecified	polycystic liver disease
+DOID:0050769	oboInOwl:hasDbXref	GARD:3902	Unspecified	N syndrome
+DOID:0110915	oboInOwl:hasDbXref	GARD:8735	Unspecified	childhood hypophosphatasia
+DOID:0050766	oboInOwl:hasDbXref	GARD:3956	Unspecified	choreaacanthocytosis
+DOID:0050765	oboInOwl:hasDbXref	GARD:10902	Unspecified	neuroacanthocytosis
+DOID:0050760	oboInOwl:hasDbXref	GARD:3892	Unspecified	X-linked myopathy with excessive autophagy
+DOID:0050762	oboInOwl:hasDbXref	GARD:550	Unspecified	adenylosuccinase lyase deficiency
+DOID:10154	oboInOwl:hasDbXref	GARD:9385	Unspecified	small intestine cancer
+DOID:11486	oboInOwl:hasDbXref	GARD:6670	Unspecified	Horner's syndrome
+DOID:0050759	oboInOwl:hasDbXref	GARD:9728	Unspecified	myotonic dystrophy type 2
+DOID:0050752	oboInOwl:hasDbXref	GARD:10499	Unspecified	amyotrophic lateral sclerosis type 8
+DOID:0050754	oboInOwl:hasDbXref	GARD:9283	Unspecified	ataxia with oculomotor apraxia type 1
+DOID:10126	oboInOwl:hasDbXref	GARD:6824	Unspecified	keratoconus
+DOID:11459	oboInOwl:hasDbXref	GARD:4561	Unspecified	pseudotumor cerebri
+DOID:0050746	oboInOwl:hasDbXref	GARD:6969	Unspecified	mantle cell lymphoma
+DOID:0050745	oboInOwl:hasDbXref	GARD:3178	Unspecified	diffuse large B-cell lymphoma
+DOID:0050749	oboInOwl:hasDbXref	GARD:7368	Unspecified	peripheral T-cell lymphoma
+DOID:12799	oboInOwl:hasDbXref	GARD:6675	Unspecified	mucopolysaccharidosis II
+DOID:12798	oboInOwl:hasDbXref	GARD:7065	Unspecified	mucopolysaccharidosis
+DOID:0050740	oboInOwl:hasDbXref	GARD:371	Unspecified	Qazi Markouizos syndrome
+DOID:0110968	oboInOwl:hasDbXref	GARD:983	Unspecified	brachydactyly type A6
+DOID:0110966	oboInOwl:hasDbXref	GARD:963	Unspecified	brachydactyly type A3
+DOID:0110967	oboInOwl:hasDbXref	GARD:990	Unspecified	brachydactyly type A4
+DOID:0050730	oboInOwl:hasDbXref	GARD:10423	Unspecified	coenzyme Q10 deficiency disease
+DOID:0110964	oboInOwl:hasDbXref	GARD:978	Unspecified	brachydactyly type A1
+DOID:0110965	oboInOwl:hasDbXref	GARD:979	Unspecified	brachydactyly type A2
+DOID:0110950	oboInOwl:hasDbXref	GARD:5521	Unspecified	Waardenburg syndrome type 2A
+DOID:0110946	oboInOwl:hasDbXref	GARD:10106	Unspecified	autosomal recessive osteopetrosis 7
+DOID:0110947	oboInOwl:hasDbXref	GARD:5522	Unspecified	Waardenburg syndrome type 2B
+DOID:0110944	oboInOwl:hasDbXref	GARD:5993	Unspecified	autosomal recessive osteopetrosis 4
+DOID:0110945	oboInOwl:hasDbXref	GARD:4156	Unspecified	autosomal recessive osteopetrosis 6
+DOID:0050711	oboInOwl:hasDbXref	GARD:9499	Unspecified	aceruloplasminemia
+DOID:0050710	oboInOwl:hasDbXref	GARD:10954	Unspecified	3-Methylcrotonyl-CoA carboxylase deficiency
+DOID:0110949	oboInOwl:hasDbXref	GARD:5523	Unspecified	Waardenburg syndrome type 3
+DOID:0110942	oboInOwl:hasDbXref	GARD:2579	Unspecified	autosomal recessive osteopetrosis 1
+DOID:0110943	oboInOwl:hasDbXref	GARD:4157	Unspecified	autosomal recessive osteopetrosis 2
+DOID:0110941	oboInOwl:hasDbXref	GARD:4154	Unspecified	autosomal recessive osteopetrosis 3
+DOID:0110939	oboInOwl:hasDbXref	GARD:4153	Unspecified	autosomal recessive osteopetrosis 5
+DOID:0110938	oboInOwl:hasDbXref	GARD:383	Unspecified	autosomal dominant osteopetrosis 2
+DOID:0050709	oboInOwl:hasDbXref	GARD:9255	Unspecified	early infantile epileptic encephalopathy
+DOID:12750	oboInOwl:hasDbXref	GARD:9528	Unspecified	cyclosporiasis
+DOID:0050811	oboInOwl:hasDbXref	GARD:1465	Unspecified	congenital adrenal hyperplasia
+DOID:0050811	oboInOwl:hasDbXref	GARD:1467	Unspecified	congenital adrenal hyperplasia
+DOID:0050814	oboInOwl:hasDbXref	GARD:9679	Unspecified	temtamy preaxial brachydactyly syndrome
+DOID:0050816	oboInOwl:hasDbXref	GARD:2781	Unspecified	urofacial syndrome
+DOID:0050817	oboInOwl:hasDbXref	GARD:181	Unspecified	Stargardt disease
+DOID:0050801	oboInOwl:hasDbXref	GARD:9269	Unspecified	androgenic alopecia
+DOID:11394	oboInOwl:hasDbXref	GARD:5698	Unspecified	adult respiratory distress syndrome
+DOID:10073	oboInOwl:hasDbXref	GARD:8731	Unspecified	syphilitic meningitis
+DOID:10074	oboInOwl:hasDbXref	GARD:2787	Unspecified	hymenolepiasis
+DOID:10075	oboInOwl:hasDbXref	GARD:942	Unspecified	diphyllobothriasis
+DOID:10079	oboInOwl:hasDbXref	GARD:8194	Unspecified	cysticercosis
+DOID:10041	oboInOwl:hasDbXref	GARD:9281	Unspecified	dysplastic nevus syndrome
+DOID:11379	oboInOwl:hasDbXref	GARD:9286	Unspecified	gnathomiasis
+DOID:10047	oboInOwl:hasDbXref	GARD:9961	Unspecified	nodular malignant melanoma
+DOID:3302	oboInOwl:hasDbXref	GARD:1303	Unspecified	chordoma
+DOID:3308	oboInOwl:hasDbXref	GARD:5140	Unspecified	embryonal carcinoma
+DOID:4624	oboInOwl:hasDbXref	GARD:7251	Unspecified	Ollier disease
+DOID:4626	oboInOwl:hasDbXref	GARD:6681	Unspecified	hydranencephaly
+DOID:4621	oboInOwl:hasDbXref	GARD:6665	Unspecified	holoprosencephaly
+DOID:3322	oboInOwl:hasDbXref	GARD:10891	Unspecified	GM1 gangliosidosis
+DOID:3323	oboInOwl:hasDbXref	GARD:7604	Unspecified	Sandhoff disease
+DOID:3320	oboInOwl:hasDbXref	GARD:7737	Unspecified	Tay-Sachs disease
+DOID:0060127	oboInOwl:hasDbXref	GARD:10346	Unspecified	gamma heavy chain disease
+DOID:3312	oboInOwl:hasDbXref	GARD:10249	Unspecified	bipolar disorder
+DOID:4644	oboInOwl:hasDbXref	GARD:10752	Unspecified	epidermolysis bullosa simplex
+DOID:0060135	oboInOwl:hasDbXref	GARD:5838	Unspecified	apraxia
+DOID:3319	oboInOwl:hasDbXref	GARD:3319	Unspecified	lymphangioleiomyomatosis
+DOID:0060148	oboInOwl:hasDbXref	GARD:11943	Unspecified	simultanagnosia
+DOID:0060159	oboInOwl:hasDbXref	GARD:9433	Unspecified	organic acidemia
+DOID:5940	oboInOwl:hasDbXref	GARD:10872	Unspecified	malignant peripheral nerve sheath tumor
+DOID:0060162	oboInOwl:hasDbXref	GARD:5643	Unspecified	dentatorubral-pallidoluysian atrophy
+DOID:0060161	oboInOwl:hasDbXref	GARD:6818	Unspecified	Kennedy's disease
+DOID:0060160	oboInOwl:hasDbXref	GARD:7674	Unspecified	childhood spinal muscular atrophy
+DOID:0060169	oboInOwl:hasDbXref	GARD:1518	Unspecified	benign familial infantile epilepsy
+DOID:0060169	oboInOwl:hasDbXref	GARD:857	Unspecified	benign familial infantile epilepsy
+DOID:0060168	oboInOwl:hasDbXref	GARD:6661	Unspecified	histidinemia
+DOID:4603	oboInOwl:hasDbXref	GARD:1039	Unspecified	epidermolytic hyperkeratosis
+DOID:0060178	oboInOwl:hasDbXref	GARD:10975	Unspecified	familial hemiplegic migraine
+DOID:0060177	oboInOwl:hasDbXref	GARD:2730	Unspecified	homocarnosinosis
+DOID:4607	oboInOwl:hasDbXref	GARD:5924	Unspecified	biliary tract cancer
+DOID:4607	oboInOwl:hasDbXref	GARD:9304	Unspecified	biliary tract cancer
+DOID:0050012	oboInOwl:hasDbXref	GARD:6038	Unspecified	chikungunya
+DOID:11991	oboInOwl:hasDbXref	GARD:4158	Unspecified	osteopoikilosis
+DOID:11975	oboInOwl:hasDbXref	GARD:8502	Unspecified	coloboma of optic nerve
+DOID:11975	oboInOwl:hasDbXref	GARD:13354	Unspecified	coloboma of optic nerve
+DOID:11976	oboInOwl:hasDbXref	GARD:943	Unspecified	botulism
+DOID:11983	oboInOwl:hasDbXref	GARD:5575	Unspecified	Prader-Willi syndrome
+DOID:10652	oboInOwl:hasDbXref	GARD:10254	Unspecified	Alzheimer's disease
+DOID:10629	oboInOwl:hasDbXref	GARD:12085	Unspecified	microphthalmia
+DOID:0111538	oboInOwl:hasDbXref	GARD:7325	Unspecified	paramyotonia congenita of Von Eulenburg
+DOID:0111539	oboInOwl:hasDbXref	GARD:4222	Unspecified	parastremmatic dwarfism
+DOID:0111532	oboInOwl:hasDbXref	GARD:4142	Unspecified	osteoglophonic dysplasia
+DOID:0111533	oboInOwl:hasDbXref	GARD:8698	Unspecified	gnathodiaphyseal dysplasia
+DOID:0111530	oboInOwl:hasDbXref	GARD:10291	Unspecified	linear nevus sebaceous syndrome
+DOID:0111531	oboInOwl:hasDbXref	GARD:8419	Unspecified	bilateral optic nerve hypoplasia
+DOID:0111536	oboInOwl:hasDbXref	GARD:1044	Unspecified	Buschke-Ollendorff syndrome
+DOID:0111537	oboInOwl:hasDbXref	GARD:12854	Unspecified	paroxysmal extreme pain disorder
+DOID:0111534	oboInOwl:hasDbXref	GARD:3818	Unspecified	multicentric carpotarsal osteolysis syndrome
+DOID:0111535	oboInOwl:hasDbXref	GARD:109	Unspecified	progressive osseous heteroplasia
+DOID:0111529	oboInOwl:hasDbXref	GARD:3986	Unspecified	familial multiple nevi flammei
+DOID:1279	oboInOwl:hasDbXref	GARD:7061	Unspecified	ocular motility disease
+DOID:1279	oboInOwl:hasDbXref	GARD:7237	Unspecified	ocular motility disease
+DOID:0111527	oboInOwl:hasDbXref	GARD:3875	Unspecified	spinal muscular atrophy with progressive myoclonic epilepsy
+DOID:0111527	oboInOwl:hasDbXref	GARD:3044	Unspecified	spinal muscular atrophy with progressive myoclonic epilepsy
+DOID:0111528	oboInOwl:hasDbXref	GARD:3912	Unspecified	Naegeli-Franceschetti-Jadassohn syndrome
+DOID:1278	oboInOwl:hasDbXref	GARD:7777	Unspecified	tolosa-hunt syndrome
+DOID:1270	oboInOwl:hasDbXref	GARD:6626	Unspecified	hereditary hemorrhagic telangiectasia
+DOID:10632	oboInOwl:hasDbXref	GARD:7898	Unspecified	Wolfram syndrome
+DOID:10607	oboInOwl:hasDbXref	GARD:7824	Unspecified	tropical sprue
+DOID:10608	oboInOwl:hasDbXref	GARD:11998	Unspecified	celiac disease
+DOID:10609	oboInOwl:hasDbXref	GARD:5700	Unspecified	rickets
+DOID:11934	oboInOwl:hasDbXref	GARD:12425	Unspecified	head and neck cancer
+DOID:0111510	oboInOwl:hasDbXref	GARD:6984	Unspecified	Marshall syndrome
+DOID:0111511	oboInOwl:hasDbXref	GARD:8468	Unspecified	melanoma and neural system tumor syndrome
+DOID:0111514	oboInOwl:hasDbXref	GARD:3571	Unspecified	metatropic dysplasia
+DOID:0111512	oboInOwl:hasDbXref	GARD:3560	Unspecified	metachondromatosis
+DOID:0111513	oboInOwl:hasDbXref	GARD:3568	Unspecified	metaphyseal dysplasia-maxillary hypoplasia-brachydacty syndrome
+DOID:0111507	oboInOwl:hasDbXref	GARD:3223	Unspecified	Lenz-Majewski hyperostotic dwarfism
+DOID:0111508	oboInOwl:hasDbXref	GARD:4382	Unspecified	Torrance type platyspondylic dysplasia
+DOID:11949	oboInOwl:hasDbXref	GARD:6956	Unspecified	Creutzfeldt-Jakob disease
+DOID:0111505	oboInOwl:hasDbXref	GARD:3094	Unspecified	palmoplantar keratoderma-deafness syndrome
+DOID:10619	oboInOwl:hasDbXref	GARD:6932	Unspecified	lymph node cancer
+DOID:0111506	oboInOwl:hasDbXref	GARD:3102	Unspecified	palmoplantar keratoderma-esophageal carcinoma syndrome
+DOID:0111509	oboInOwl:hasDbXref	GARD:333	Unspecified	lymphedema-distichiasis syndrome
+DOID:10699	oboInOwl:hasDbXref	GARD:9815	Unspecified	paragonimiasis
+DOID:3825	oboInOwl:hasDbXref	GARD:7636	Unspecified	Shwartzman phenomenon
+DOID:3827	oboInOwl:hasDbXref	GARD:1481	Unspecified	congenital diaphragmatic hernia
+DOID:2512	oboInOwl:hasDbXref	GARD:7166	Unspecified	nevoid basal cell carcinoma syndrome
+DOID:3840	oboInOwl:hasDbXref	GARD:10486	Unspecified	craniopharyngioma
+DOID:0110190	oboInOwl:hasDbXref	GARD:9200	Unspecified	Charcot-Marie-Tooth disease type 4B2
+DOID:2508	oboInOwl:hasDbXref	GARD:7730	Unspecified	Takayasu's arteritis
+DOID:3805	oboInOwl:hasDbXref	GARD:10983	Unspecified	porokeratosis
+DOID:1245	oboInOwl:hasDbXref	GARD:9349	Unspecified	vulva cancer
+DOID:0111455	oboInOwl:hasDbXref	GARD:1	Unspecified	GRACILE syndrome
+DOID:0110124	oboInOwl:hasDbXref	GARD:821	Unspecified	Bardet-Biedl syndrome 2
+DOID:0111456	oboInOwl:hasDbXref	GARD:3084	Unspecified	Kaufman oculocerebrofacial syndrome
+DOID:0110125	oboInOwl:hasDbXref	GARD:822	Unspecified	Bardet-Biedl syndrome 3
+DOID:0110123	oboInOwl:hasDbXref	GARD:820	Unspecified	Bardet-Biedl syndrome 1
+DOID:0111454	oboInOwl:hasDbXref	GARD:7633	Unspecified	SHORT syndrome
+DOID:0111459	oboInOwl:hasDbXref	GARD:13639	Unspecified	classic galactosemia
+DOID:0110128	oboInOwl:hasDbXref	GARD:10205	Unspecified	Bardet-Biedl syndrome 6
+DOID:0110129	oboInOwl:hasDbXref	GARD:10206	Unspecified	Bardet-Biedl syndrome 7
+DOID:0110126	oboInOwl:hasDbXref	GARD:823	Unspecified	Bardet-Biedl syndrome 4
+DOID:0111457	oboInOwl:hasDbXref	GARD:12357	Unspecified	STING-associated vasculopathy with onset in infancy
+DOID:0111458	oboInOwl:hasDbXref	GARD:5392	Unspecified	galactose epimerase deficiency
+DOID:0110127	oboInOwl:hasDbXref	GARD:10204	Unspecified	Bardet-Biedl syndrome 5
+DOID:3890	oboInOwl:hasDbXref	GARD:5732	Unspecified	acute intermittent porphyria
+DOID:3892	oboInOwl:hasDbXref	GARD:3010	Unspecified	insulinoma
+DOID:0050083	oboInOwl:hasDbXref	GARD:8761	Unspecified	Keshan disease
+DOID:0111449	oboInOwl:hasDbXref	GARD:3872	Unspecified	progressive myoclonus epilepsy 6
+DOID:0111446	oboInOwl:hasDbXref	GARD:2167	Unspecified	progressive myoclonus epilepsy 3
+DOID:2596	oboInOwl:hasDbXref	GARD:6862	Unspecified	larynx cancer
+DOID:0111433	oboInOwl:hasDbXref	GARD:10203	Unspecified	optic atrophy 3
+DOID:2580	oboInOwl:hasDbXref	GARD:13160	Unspecified	rhizomelic chondrodysplasia punctata
+DOID:2581	oboInOwl:hasDbXref	GARD:8542	Unspecified	chondrodysplasia punctata
+DOID:2582	oboInOwl:hasDbXref	GARD:363	Unspecified	acatalasia
+DOID:1252	oboInOwl:hasDbXref	GARD:10720	Unspecified	trichuriasis
+DOID:2533	oboInOwl:hasDbXref	GARD:9973	Unspecified	splenic infarction
+DOID:0111493	oboInOwl:hasDbXref	GARD:13381	Unspecified	combined oxidative phosphorylation deficiency 12
+DOID:0110169	oboInOwl:hasDbXref	GARD:12435	Unspecified	Charcot-Marie-Tooth disease axonal type 2P
+DOID:0050052	oboInOwl:hasDbXref	GARD:7585	Unspecified	Rocky Mountain spotted fever
+DOID:1206	oboInOwl:hasDbXref	GARD:5696	Unspecified	Rett syndrome
+DOID:2538	oboInOwl:hasDbXref	GARD:6855	Unspecified	Landau-Kleffner syndrome
+DOID:3852	oboInOwl:hasDbXref	GARD:7378	Unspecified	Peutz-Jeghers syndrome
+DOID:0110153	oboInOwl:hasDbXref	GARD:9190	Unspecified	Charcot-Marie-Tooth disease type 1E
+DOID:0110159	oboInOwl:hasDbXref	GARD:9192	Unspecified	Charcot-Marie-Tooth disease type 2B
+DOID:2556	oboInOwl:hasDbXref	GARD:7417	Unspecified	relapsing polychondritis
+DOID:3883	oboInOwl:hasDbXref	GARD:9905	Unspecified	Lynch syndrome
+DOID:0110144	oboInOwl:hasDbXref	GARD:9659	Unspecified	Bartter disease type 3
+DOID:0110148	oboInOwl:hasDbXref	GARD:1245	Unspecified	Charcot-Marie-Tooth disease type 1A
+DOID:0050026	oboInOwl:hasDbXref	GARD:72	Unspecified	human monocytic ehrlichiosis
+DOID:1210	oboInOwl:hasDbXref	GARD:7320	Unspecified	optic neuritis
+DOID:0110131	oboInOwl:hasDbXref	GARD:10208	Unspecified	Bardet-Biedl syndrome 9
+DOID:0110132	oboInOwl:hasDbXref	GARD:10209	Unspecified	Bardet-Biedl syndrome 10
+DOID:0110130	oboInOwl:hasDbXref	GARD:10207	Unspecified	Bardet-Biedl syndrome 8
+DOID:0110133	oboInOwl:hasDbXref	GARD:10210	Unspecified	Bardet-Biedl syndrome 11
+DOID:0110134	oboInOwl:hasDbXref	GARD:10211	Unspecified	Bardet-Biedl syndrome 12
+DOID:0111469	oboInOwl:hasDbXref	GARD:12892	Unspecified	combined oxidative phosphorylation deficiency 16
+DOID:0111617	oboInOwl:hasDbXref	GARD:4954	Unspecified	autosomal recessive spinocerebellar ataxia 6
+DOID:0111618	oboInOwl:hasDbXref	GARD:12234	Unspecified	autosomal recessive spinocerebellar ataxia 8
+DOID:0111611	oboInOwl:hasDbXref	GARD:4952	Unspecified	autosomal recessive spinocerebellar ataxia 4
+DOID:0111612	oboInOwl:hasDbXref	GARD:9971	Unspecified	autosomal recessive spinocerebellar ataxia 3
+DOID:0111606	oboInOwl:hasDbXref	GARD:100024	Unspecified	autosomal recessive Whistling face syndrome
+DOID:0111607	oboInOwl:hasDbXref	GARD:2553	Unspecified	distal arthrogryposis type 3
+DOID:0111608	oboInOwl:hasDbXref	GARD:4047	Unspecified	distal arthrogryposis type 5
+DOID:0111609	oboInOwl:hasDbXref	GARD:784	Unspecified	distal arthrogryposis type 6
+DOID:0111603	oboInOwl:hasDbXref	GARD:2621	Unspecified	distal arthrogryposis type 7
+DOID:0050120	oboInOwl:hasDbXref	GARD:6589	Unspecified	hemophagocytic lymphohistiocytosis
+DOID:10762	oboInOwl:hasDbXref	GARD:8229	Unspecified	portal hypertension
+DOID:10772	oboInOwl:hasDbXref	GARD:9430	Unspecified	thrombotic thrombocytopenic purpura
+DOID:10773	oboInOwl:hasDbXref	GARD:183	Unspecified	bubonic plague
+DOID:0111649	oboInOwl:hasDbXref	GARD:2078	Unspecified	ectodermal dysplasia, ectrodactyly, and macular dystrophy syndrome
+DOID:1395	oboInOwl:hasDbXref	GARD:9687	Unspecified	schistosomiasis
+DOID:0111633	oboInOwl:hasDbXref	GARD:7710	Unspecified	congenital sucrase-isomaltase deficiency
+DOID:0111628	oboInOwl:hasDbXref	GARD:12844	Unspecified	high myopia-sensorineural deafness syndrome
+DOID:0111629	oboInOwl:hasDbXref	GARD:12347	Unspecified	dihydropyrimidinase deficiency
+DOID:0111626	oboInOwl:hasDbXref	GARD:234	Unspecified	D-glyceric aciduria
+DOID:0111627	oboInOwl:hasDbXref	GARD:1685	Unspecified	DOORS syndrome
+DOID:0111620	oboInOwl:hasDbXref	GARD:1529	Unspecified	corneal dystrophy-perceptive deafness syndrome
+DOID:0111621	oboInOwl:hasDbXref	GARD:5688	Unspecified	Temtamy syndrome
+DOID:0111622	oboInOwl:hasDbXref	GARD:10824	Unspecified	ACTH-independent macronodular adrenal hyperplasia
+DOID:3948	oboInOwl:hasDbXref	GARD:558	Unspecified	adrenocortical carcinoma
+DOID:2602	oboInOwl:hasDbXref	GARD:6052	Unspecified	chondroma
+DOID:3965	oboInOwl:hasDbXref	GARD:9266	Unspecified	Merkel cell carcinoma
+DOID:2636	oboInOwl:hasDbXref	GARD:9397	Unspecified	ovarian Brenner tumor
+DOID:3969	oboInOwl:hasDbXref	GARD:12027	Unspecified	thyroid gland papillary carcinoma
+DOID:3953	oboInOwl:hasDbXref	GARD:5751	Unspecified	adrenal gland cancer
+DOID:2626	oboInOwl:hasDbXref	GARD:4214	Unspecified	choroid plexus papilloma
+DOID:3928	oboInOwl:hasDbXref	GARD:5750	Unspecified	adiposis dolorosa
+DOID:3927	oboInOwl:hasDbXref	GARD:7350	Unspecified	pelvic lipomatosis
+DOID:3911	oboInOwl:hasDbXref	GARD:7467	Unspecified	progeria
+DOID:3910	oboInOwl:hasDbXref	GARD:5742	Unspecified	lung adenocarcinoma
+DOID:0111572	oboInOwl:hasDbXref	GARD:5597	Unspecified	familial woolly hair syndrome
+DOID:0111570	oboInOwl:hasDbXref	GARD:9706	Unspecified	snowflake vitreoretinal degeneration
+DOID:0111571	oboInOwl:hasDbXref	GARD:497	Unspecified	Weyers acrofacial dysostosis
+DOID:0111575	oboInOwl:hasDbXref	GARD:5623	Unspecified	dehydrated hereditary stomatocytosis
+DOID:0111578	oboInOwl:hasDbXref	GARD:13	Unspecified	Gillespie syndrome
+DOID:10719	oboInOwl:hasDbXref	GARD:6549	Unspecified	toxic diffuse goiter
+DOID:0111561	oboInOwl:hasDbXref	GARD:5025	Unspecified	stiff skin syndrome
+DOID:0111562	oboInOwl:hasDbXref	GARD:4183	Unspecified	overhydrated hereditary stomatocytosis
+DOID:0111565	oboInOwl:hasDbXref	GARD:7799	Unspecified	trichodontoosseous syndrome
+DOID:0111563	oboInOwl:hasDbXref	GARD:7706	Unspecified	Sturge-Weber syndrome
+DOID:0111564	oboInOwl:hasDbXref	GARD:8309	Unspecified	hypoplastic or aplastic tibia with polydactyly
+DOID:0111569	oboInOwl:hasDbXref	GARD:5507	Unspecified	autosomal dominant vitreoretinochoroidopathy
+DOID:0111567	oboInOwl:hasDbXref	GARD:1217	Unspecified	retinal vasculopathy with cerebral leukodystrophy
+DOID:0111568	oboInOwl:hasDbXref	GARD:5488	Unspecified	congenital vertical talus
+DOID:1386	oboInOwl:hasDbXref	GARD:5	Unspecified	abetalipoproteinemia
+DOID:1387	oboInOwl:hasDbXref	GARD:8394	Unspecified	hypolipoproteinemia
+DOID:1388	oboInOwl:hasDbXref	GARD:7731	Unspecified	Tangier disease
+DOID:1381	oboInOwl:hasDbXref	GARD:6462	Unspecified	Fox-Fordyce disease
+DOID:1380	oboInOwl:hasDbXref	GARD:11981	Unspecified	endometrial cancer
+DOID:0111550	oboInOwl:hasDbXref	GARD:159	Unspecified	scalp-ear-nipple syndrome
+DOID:0111551	oboInOwl:hasDbXref	GARD:10312	Unspecified	neurogenic scapuloperoneal syndrome Kaeser type
+DOID:0110220	oboInOwl:hasDbXref	GARD:10361	Unspecified	Brugada syndrome 3
+DOID:0111554	oboInOwl:hasDbXref	GARD:3047	Unspecified	spondylometaphyseal dysplasia Kozlowski type
+DOID:0111552	oboInOwl:hasDbXref	GARD:10314	Unspecified	scapuloperoneal spinal muscular atrophy
+DOID:0110221	oboInOwl:hasDbXref	GARD:10362	Unspecified	Brugada syndrome 4
+DOID:0111553	oboInOwl:hasDbXref	GARD:994	Unspecified	spondyloepiphyseal dysplasia Maroteaux type
+DOID:0111556	oboInOwl:hasDbXref	GARD:5003	Unspecified	steatocystoma multiplex
+DOID:0111540	oboInOwl:hasDbXref	GARD:7473	Unspecified	prolidase deficiency
+DOID:0111544	oboInOwl:hasDbXref	GARD:4470	Unspecified	Guttmacher syndrome
+DOID:0111542	oboInOwl:hasDbXref	GARD:9168	Unspecified	familial expansile osteolysis
+DOID:0111548	oboInOwl:hasDbXref	GARD:9696	Unspecified	ring dermoid of cornea
+DOID:0111545	oboInOwl:hasDbXref	GARD:4475	Unspecified	familial male-limited precocious puberty
+DOID:0050185	oboInOwl:hasDbXref	GARD:6372	Unspecified	erythema multiforme
+DOID:0111546	oboInOwl:hasDbXref	GARD:1626	Unspecified	Currarino syndrome
+DOID:3982	oboInOwl:hasDbXref	GARD:7008	Unspecified	Meige syndrome
+DOID:3981	oboInOwl:hasDbXref	GARD:6564	Unspecified	pantothenate kinase-associated neurodegeneration
+DOID:0050175	oboInOwl:hasDbXref	GARD:5216	Unspecified	tick-borne encephalitis
+DOID:1312	oboInOwl:hasDbXref	GARD:6517	Unspecified	focal segmental glomerulosclerosis
+DOID:0050169	oboInOwl:hasDbXref	GARD:6225	Unspecified	cutaneous lupus erythematosus
+DOID:0110275	oboInOwl:hasDbXref	GARD:3845	Unspecified	autosomal recessive limb-girdle muscular dystrophy type 2A
+DOID:0050168	oboInOwl:hasDbXref	GARD:7611	Unspecified	autoimmune polyendocrine syndrome type 2
+DOID:0050167	oboInOwl:hasDbXref	GARD:8466	Unspecified	autoimmune polyendocrine syndrome type 1
+DOID:2649	oboInOwl:hasDbXref	GARD:6047	Unspecified	chondroblastoma
+DOID:2679	oboInOwl:hasDbXref	GARD:10640	Unspecified	dysembryoplastic neuroepithelial tumor
+DOID:84	oboInOwl:hasDbXref	GARD:12703	Unspecified	osteochondritis dissecans
+DOID:2671	oboInOwl:hasDbXref	GARD:7794	Unspecified	transitional cell carcinoma
+DOID:1340	oboInOwl:hasDbXref	GARD:7504	Unspecified	pure red-cell aplasia
+DOID:0111590	oboInOwl:hasDbXref	GARD:6126	Unspecified	Cohen syndrome
+DOID:0111591	oboInOwl:hasDbXref	GARD:4166	Unspecified	congenital heart defects, hamartomas of tongue, and polysyndactyly
+DOID:0111592	oboInOwl:hasDbXref	GARD:4380	Unspecified	plasminogen deficiency type I
+DOID:0050157	oboInOwl:hasDbXref	GARD:1620	Unspecified	cryptogenic organizing pneumonia
+DOID:0111596	oboInOwl:hasDbXref	GARD:787	Unspecified	distal arthrogryposis type 1
+DOID:0050156	oboInOwl:hasDbXref	GARD:8609	Unspecified	idiopathic pulmonary fibrosis
+DOID:0111580	oboInOwl:hasDbXref	GARD:849	Unspecified	Behr syndrome
+DOID:0111584	oboInOwl:hasDbXref	GARD:3373	Unspecified	dilated cardiomyopathy-hypergonadotropic hypogonadism syndrome
+DOID:0111581	oboInOwl:hasDbXref	GARD:5978	Unspecified	C syndrome
+DOID:0111582	oboInOwl:hasDbXref	GARD:10762	Unspecified	hereditary arterial and articular multiple calcification syndrome
+DOID:0050144	oboInOwl:hasDbXref	GARD:6815	Unspecified	Kartagener syndrome
+DOID:0111588	oboInOwl:hasDbXref	GARD:8754	Unspecified	Greenberg dysplasia
+DOID:0111585	oboInOwl:hasDbXref	GARD:1123	Unspecified	carnitine-acylcarnitine translocase deficiency
+DOID:0111586	oboInOwl:hasDbXref	GARD:3406	Unspecified	Martsolf syndrome
+DOID:1338	oboInOwl:hasDbXref	GARD:1999	Unspecified	congenital dyserythropoietic anemia
+DOID:1339	oboInOwl:hasDbXref	GARD:6274	Unspecified	Diamond-Blackfan anemia
+DOID:0111589	oboInOwl:hasDbXref	GARD:1410	Unspecified	COACH syndrome
+DOID:10426	oboInOwl:hasDbXref	GARD:10280	Unspecified	Klippel-Feil syndrome
+DOID:1089	oboInOwl:hasDbXref	GARD:4018	Unspecified	tethered spinal cord syndrome
+DOID:1081	oboInOwl:hasDbXref	GARD:8216	Unspecified	mansonelliasis
+DOID:1082	oboInOwl:hasDbXref	GARD:11908	Unspecified	dirofilariasis
+DOID:0050256	oboInOwl:hasDbXref	GARD:683	Unspecified	angiostrongyliasis
+DOID:0111728	oboInOwl:hasDbXref	GARD:12684	Unspecified	familial episodic pain syndrome
+DOID:119	oboInOwl:hasDbXref	GARD:9348	Unspecified	vaginal cancer
+DOID:0050246	oboInOwl:hasDbXref	GARD:12651	Unspecified	granulomatous amebic encephalitis
+DOID:112	oboInOwl:hasDbXref	GARD:6384	Unspecified	esophageal varix
+DOID:0050242	oboInOwl:hasDbXref	GARD:9554	Unspecified	primary amebic meningoencephalitis
+DOID:11760	oboInOwl:hasDbXref	GARD:6842	Unspecified	Kohler's disease
+DOID:0111723	oboInOwl:hasDbXref	GARD:307	Unspecified	Jacobsen Syndrome
+DOID:0111724	oboInOwl:hasDbXref	GARD:2449	Unspecified	geleophysic dysplasia
+DOID:117	oboInOwl:hasDbXref	GARD:2619	Unspecified	heart cancer
+DOID:0111715	oboInOwl:hasDbXref	GARD:13316	Unspecified	Schaaf-Yang syndrome
+DOID:0111705	oboInOwl:hasDbXref	GARD:10366	Unspecified	oculoectodermal syndrome
+DOID:0111703	oboInOwl:hasDbXref	GARD:2871	Unspecified	familial hypertryptophanemia
+DOID:1099	oboInOwl:hasDbXref	GARD:621	Unspecified	alpha thalassemia
+DOID:0111707	oboInOwl:hasDbXref	GARD:1862	Unspecified	Bothnian type palmoplantar keratoderma
+DOID:0111701	oboInOwl:hasDbXref	GARD:10432	Unspecified	long QT syndrome 4
+DOID:0111702	oboInOwl:hasDbXref	GARD:3287	Unspecified	loose anagen hair syndrome
+DOID:0111700	oboInOwl:hasDbXref	GARD:13294	Unspecified	ankyrin-B-related cardiac arrhythmia
+DOID:2377	oboInOwl:hasDbXref	GARD:10255	Unspecified	multiple sclerosis
+DOID:1040	oboInOwl:hasDbXref	GARD:6104	Unspecified	chronic lymphocytic leukemia
+DOID:2373	oboInOwl:hasDbXref	GARD:6621	Unspecified	hereditary elliptocytosis
+DOID:0111779	oboInOwl:hasDbXref	GARD:6737	Unspecified	X-linked panhypopituitarism
+DOID:0111777	oboInOwl:hasDbXref	GARD:9159	Unspecified	46,XY sex reversal 2
+DOID:2368	oboInOwl:hasDbXref	GARD:12510	Unspecified	gangliosidosis
+DOID:11729	oboInOwl:hasDbXref	GARD:12073	Unspecified	Lyme disease
+DOID:11724	oboInOwl:hasDbXref	GARD:6907	Unspecified	limb-girdle muscular dystrophy
+DOID:11725	oboInOwl:hasDbXref	GARD:10109	Unspecified	Cornelia de Lange syndrome
+DOID:2365	oboInOwl:hasDbXref	GARD:9959	Unspecified	West Nile encephalitis
+DOID:11726	oboInOwl:hasDbXref	GARD:6329	Unspecified	Emery-Dreifuss muscular dystrophy
+DOID:11727	oboInOwl:hasDbXref	GARD:9941	Unspecified	facioscapulohumeral muscular dystrophy
+DOID:0111760	oboInOwl:hasDbXref	GARD:399	Unspecified	46,XX sex reversal
+DOID:11722	oboInOwl:hasDbXref	GARD:8310	Unspecified	myotonic dystrophy type 1
+DOID:11723	oboInOwl:hasDbXref	GARD:6291	Unspecified	Duchenne muscular dystrophy
+DOID:0111768	oboInOwl:hasDbXref	GARD:9913	Unspecified	X-linked properdin deficiency
+DOID:0111766	oboInOwl:hasDbXref	GARD:8498	Unspecified	X-linked VACTERL association
+DOID:1062	oboInOwl:hasDbXref	GARD:9118	Unspecified	Fanconi syndrome
+DOID:2394	oboInOwl:hasDbXref	GARD:7295	Unspecified	ovarian cancer
+DOID:1064	oboInOwl:hasDbXref	GARD:6236	Unspecified	cystinosis
+DOID:1060	oboInOwl:hasDbXref	GARD:6569	Unspecified	Hartnup disease
+DOID:0111747	oboInOwl:hasDbXref	GARD:10481	Unspecified	cerebellar ataxia type 9
+DOID:1056	oboInOwl:hasDbXref	GARD:3295	Unspecified	oculocerebrorenal syndrome
+DOID:2382	oboInOwl:hasDbXref	GARD:6830	Unspecified	kernicterus
+DOID:10488	oboInOwl:hasDbXref	GARD:6769	Unspecified	imperforate anus
+DOID:10485	oboInOwl:hasDbXref	GARD:6381	Unspecified	esophageal atresia
+DOID:10487	oboInOwl:hasDbXref	GARD:6660	Unspecified	Hirschsprung's disease
+DOID:4906	oboInOwl:hasDbXref	GARD:13090	Unspecified	small intestine adenocarcinoma
+DOID:4933	oboInOwl:hasDbXref	GARD:12138	Unspecified	apocrine adenocarcinoma
+DOID:4928	oboInOwl:hasDbXref	GARD:6042	Unspecified	intrahepatic cholangiocarcinoma
+DOID:4927	oboInOwl:hasDbXref	GARD:10175	Unspecified	Klatskin's tumor
+DOID:4997	oboInOwl:hasDbXref	GARD:1072	Unspecified	Camurati-Engelmann disease
+DOID:3663	oboInOwl:hasDbXref	GARD:7842	Unspecified	cutaneous mastocytosis
+DOID:3665	oboInOwl:hasDbXref	GARD:12686	Unspecified	diffuse cutaneous mastocytosis
+DOID:4990	oboInOwl:hasDbXref	GARD:5910	Unspecified	essential tremor
+DOID:4992	oboInOwl:hasDbXref	GARD:4107	Unspecified	optic nerve glioma
+DOID:2339	oboInOwl:hasDbXref	GARD:6206	Unspecified	Crouzon syndrome
+DOID:0111699	oboInOwl:hasDbXref	GARD:3382	Unspecified	Van den Ende-Gupta syndrome
+DOID:3652	oboInOwl:hasDbXref	GARD:6877	Unspecified	Leigh disease
+DOID:0111682	oboInOwl:hasDbXref	GARD:4658	Unspecified	diffuse cystic renal dysplasia
+DOID:0111683	oboInOwl:hasDbXref	GARD:372	Unspecified	neurofibromatosis-Noonan syndrome
+DOID:0110350	oboInOwl:hasDbXref	GARD:8700	Unspecified	osteogenesis imperfecta type 6
+DOID:0111687	oboInOwl:hasDbXref	GARD:9762	Unspecified	Potocki-Shaffer syndrome
+DOID:1029	oboInOwl:hasDbXref	GARD:6422	Unspecified	familial periodic paralysis
+DOID:1022	oboInOwl:hasDbXref	GARD:7397	Unspecified	pinta disease
+DOID:1024	oboInOwl:hasDbXref	GARD:6886	Unspecified	leprosy
+DOID:0111671	oboInOwl:hasDbXref	GARD:2836	Unspecified	primary hyperoxaluria type 2
+DOID:0110340	oboInOwl:hasDbXref	GARD:8696	Unspecified	osteogenesis imperfecta type 4
+DOID:0110341	oboInOwl:hasDbXref	GARD:10142	Unspecified	osteogenesis imperfecta type 2
+DOID:0111672	oboInOwl:hasDbXref	GARD:10738	Unspecified	primary hyperoxaluria type 3
+DOID:0111670	oboInOwl:hasDbXref	GARD:2835	Unspecified	primary hyperoxaluria type 1
+DOID:0110344	oboInOwl:hasDbXref	GARD:8699	Unspecified	osteogenesis imperfecta type 5
+DOID:0111676	oboInOwl:hasDbXref	GARD:2684	Unspecified	high molecular weight kininogen deficiency
+DOID:0111679	oboInOwl:hasDbXref	GARD:9279	Unspecified	glutamate formiminotransferase deficiency
+DOID:0110349	oboInOwl:hasDbXref	GARD:10619	Unspecified	osteogenesis imperfecta type 9
+DOID:0111678	oboInOwl:hasDbXref	GARD:12983	Unspecified	hereditary folate malabsorption
+DOID:0110339	oboInOwl:hasDbXref	GARD:8695	Unspecified	osteogenesis imperfecta type 3
+DOID:2340	oboInOwl:hasDbXref	GARD:6209	Unspecified	craniosynostosis
+DOID:3672	oboInOwl:hasDbXref	GARD:7572	Unspecified	rhabdoid cancer
+DOID:0110334	oboInOwl:hasDbXref	GARD:8694	Unspecified	osteogenesis imperfecta type 1
+DOID:0110337	oboInOwl:hasDbXref	GARD:8701	Unspecified	osteogenesis imperfecta type 7
+DOID:1019	oboInOwl:hasDbXref	GARD:7286	Unspecified	osteomyelitis
+DOID:0111668	oboInOwl:hasDbXref	GARD:3128	Unspecified	Kohlschutter-Tonz syndrome
+DOID:0110336	oboInOwl:hasDbXref	GARD:10152	Unspecified	osteogenesis imperfecta type 8
+DOID:4953	oboInOwl:hasDbXref	GARD:7413	Unspecified	poliomyelitis
+DOID:4952	oboInOwl:hasDbXref	GARD:4454	Unspecified	postpoliomyelitis syndrome
+DOID:4959	oboInOwl:hasDbXref	GARD:2150	Unspecified	epidermolysis bullosa dystrophica
+DOID:3614	oboInOwl:hasDbXref	GARD:10771	Unspecified	Kallmann syndrome
+DOID:3613	oboInOwl:hasDbXref	GARD:5984	Unspecified	Canavan disease
+DOID:4971	oboInOwl:hasDbXref	GARD:8618	Unspecified	myelofibrosis
+DOID:3642	oboInOwl:hasDbXref	GARD:6331	Unspecified	empty sella syndrome
+DOID:2312	oboInOwl:hasDbXref	GARD:7210	Unspecified	nocardiosis
+DOID:3649	oboInOwl:hasDbXref	GARD:4620	Unspecified	pyruvate decarboxylase deficiency
+DOID:3649	oboInOwl:hasDbXref	GARD:7513	Unspecified	pyruvate decarboxylase deficiency
+DOID:3635	oboInOwl:hasDbXref	GARD:11902	Unspecified	congenital myasthenic syndrome
+DOID:0050266	oboInOwl:hasDbXref	GARD:393	Unspecified	tungiasis
+DOID:4969	oboInOwl:hasDbXref	GARD:8660	Unspecified	Gerstmann syndrome
+DOID:4968	oboInOwl:hasDbXref	GARD:7170	Unspecified	Nelson syndrome
+DOID:11870	oboInOwl:hasDbXref	GARD:7392	Unspecified	Pick's disease
+DOID:10540	oboInOwl:hasDbXref	GARD:6485	Unspecified	gastric lymphoma
+DOID:0110510	oboInOwl:hasDbXref	GARD:9919	Unspecified	autosomal recessive nonsyndromic deafness 55
+DOID:0111842	oboInOwl:hasDbXref	GARD:267	Unspecified	Keipert syndrome
+DOID:0111830	oboInOwl:hasDbXref	GARD:9978	Unspecified	X-linked spinocerebellar ataxia 2
+DOID:0111831	oboInOwl:hasDbXref	GARD:9981	Unspecified	X-linked spinocerebellar ataxia 3
+DOID:0111832	oboInOwl:hasDbXref	GARD:9980	Unspecified	X-linked spinocerebellar ataxia 4
+DOID:0111826	oboInOwl:hasDbXref	GARD:360	Unspecified	Abruzzo-Erickson syndrome
+DOID:0111827	oboInOwl:hasDbXref	GARD:8521	Unspecified	X-linked spinal muscular atrophy 2
+DOID:10534	oboInOwl:hasDbXref	GARD:7704	Unspecified	stomach cancer
+DOID:0111822	oboInOwl:hasDbXref	GARD:6039	Unspecified	CHILD syndrome
+DOID:0111821	oboInOwl:hasDbXref	GARD:2952	Unspecified	ichthyosis follicularis-alopecia-photophobia syndrome 1
+DOID:0050335	oboInOwl:hasDbXref	GARD:12299	Unspecified	bradyopsia
+DOID:1166	oboInOwl:hasDbXref	GARD:7304	Unspecified	palindromic rheumatism
+DOID:0050332	oboInOwl:hasDbXref	GARD:8651	Unspecified	enlarged vestibular aqueduct
+DOID:0050328	oboInOwl:hasDbXref	GARD:1487	Unspecified	congenital hypothyroidism
+DOID:0110554	oboInOwl:hasDbXref	GARD:9166	Unspecified	autosomal dominant nonsyndromic deafness 24
+DOID:11843	oboInOwl:hasDbXref	GARD:1534	Unspecified	coronary artery anomaly
+DOID:11817	oboInOwl:hasDbXref	GARD:7836	Unspecified	urachus cancer
+DOID:11823	oboInOwl:hasDbXref	GARD:6610	Unspecified	hepatorenal syndrome
+DOID:11824	oboInOwl:hasDbXref	GARD:7103	Unspecified	multicentric reticulohistiocytosis
+DOID:0111816	oboInOwl:hasDbXref	GARD:5081	Unspecified	syndactyly type 1
+DOID:0111813	oboInOwl:hasDbXref	GARD:3559	Unspecified	syndactyly type 8
+DOID:0111819	oboInOwl:hasDbXref	GARD:5089	Unspecified	syndactyly type 5
+DOID:0111817	oboInOwl:hasDbXref	GARD:5088	Unspecified	syndactyly type 3
+DOID:0111818	oboInOwl:hasDbXref	GARD:4434	Unspecified	syndactyly type 4
+DOID:10581	oboInOwl:hasDbXref	GARD:3230	Unspecified	metachromatic leukodystrophy
+DOID:10582	oboInOwl:hasDbXref	GARD:5691	Unspecified	Refsum disease
+DOID:10587	oboInOwl:hasDbXref	GARD:6844	Unspecified	Krabbe disease
+DOID:10584	oboInOwl:hasDbXref	GARD:5694	Unspecified	retinitis pigmentosa
+DOID:0111812	oboInOwl:hasDbXref	GARD:9292	Unspecified	syndromic microphthalmia 10
+DOID:0111805	oboInOwl:hasDbXref	GARD:3645	Unspecified	syndromic microphthalmia 6
+DOID:0111803	oboInOwl:hasDbXref	GARD:3693	Unspecified	syndromic microphthalmia 8
+DOID:0111809	oboInOwl:hasDbXref	GARD:4628	Unspecified	syndromic microphthalmia 2
+DOID:0111806	oboInOwl:hasDbXref	GARD:3692	Unspecified	syndromic microphthalmia 5
+DOID:0111800	oboInOwl:hasDbXref	GARD:13235	Unspecified	syndromic microphthalmia 12
+DOID:10595	oboInOwl:hasDbXref	GARD:6034	Unspecified	Charcot-Marie-Tooth disease
+DOID:0111801	oboInOwl:hasDbXref	GARD:1443	Unspecified	syndromic microphthalmia 3
+DOID:10579	oboInOwl:hasDbXref	GARD:6895	Unspecified	leukodystrophy
+DOID:10573	oboInOwl:hasDbXref	GARD:7285	Unspecified	osteomalacia
+DOID:2457	oboInOwl:hasDbXref	GARD:8445	Unspecified	giant papillary conjunctivitis
+DOID:3783	oboInOwl:hasDbXref	GARD:6123	Unspecified	Coffin-Lowry syndrome
+DOID:1123	oboInOwl:hasDbXref	GARD:4971	Unspecified	spondyloarthropathy
+DOID:2451	oboInOwl:hasDbXref	GARD:4524	Unspecified	protein S deficiency
+DOID:3777	oboInOwl:hasDbXref	GARD:6546	Unspecified	granuloma annulare
+DOID:2449	oboInOwl:hasDbXref	GARD:5725	Unspecified	acromegaly
+DOID:1148	oboInOwl:hasDbXref	GARD:4410	Unspecified	polydactyly
+DOID:2474	oboInOwl:hasDbXref	GARD:7854	Unspecified	vernal conjunctivitis
+DOID:2476	oboInOwl:hasDbXref	GARD:6637	Unspecified	hereditary spastic paraplegia
+DOID:0111792	oboInOwl:hasDbXref	GARD:9599	Unspecified	congenital nystagmus 2
+DOID:0111793	oboInOwl:hasDbXref	GARD:9600	Unspecified	congenital nystagmus 3
+DOID:0111790	oboInOwl:hasDbXref	GARD:2969	Unspecified	congenital nystagmus 1
+DOID:0111797	oboInOwl:hasDbXref	GARD:9609	Unspecified	autosomal recessive congenital nystagmus
+DOID:0111794	oboInOwl:hasDbXref	GARD:9603	Unspecified	congenital nystagmus 4
+DOID:0111799	oboInOwl:hasDbXref	GARD:5066	Unspecified	syndromic microphthalmia 1
+DOID:0111799	oboInOwl:hasDbXref	GARD:87	Unspecified	syndromic microphthalmia 1
+DOID:1138	oboInOwl:hasDbXref	GARD:10264	Unspecified	spinal meningioma
+DOID:0111780	oboInOwl:hasDbXref	GARD:10089	Unspecified	TARP syndrome
+DOID:0111785	oboInOwl:hasDbXref	GARD:826	Unspecified	frontometaphyseal dysplasia
+DOID:0111783	oboInOwl:hasDbXref	GARD:5121	Unspecified	otopalatodigital syndrome type 1
+DOID:0111784	oboInOwl:hasDbXref	GARD:5802	Unspecified	otopalatodigital syndrome type 2
+DOID:0111789	oboInOwl:hasDbXref	GARD:5138	Unspecified	Frank-Ter Haar syndrome
+DOID:0111788	oboInOwl:hasDbXref	GARD:7011	Unspecified	Melnick-Needles syndrome
+DOID:2411	oboInOwl:hasDbXref	GARD:9618	Unspecified	granular cell tumor
+DOID:3764	oboInOwl:hasDbXref	GARD:5576	Unspecified	Denys-Drash syndrome
+DOID:2426	oboInOwl:hasDbXref	GARD:10638	Unspecified	gangliocytoma
+DOID:3756	oboInOwl:hasDbXref	GARD:4521	Unspecified	protein C deficiency
+DOID:3753	oboInOwl:hasDbXref	GARD:6643	Unspecified	Hermansky-Pudlak syndrome
+DOID:349	oboInOwl:hasDbXref	GARD:8616	Unspecified	systemic mastocytosis
+DOID:350	oboInOwl:hasDbXref	GARD:6987	Unspecified	mastocytosis
+DOID:369	oboInOwl:hasDbXref	GARD:2197	Unspecified	olfactory neuroblastoma
+DOID:322	oboInOwl:hasDbXref	GARD:7130	Unspecified	myelitis
+DOID:327	oboInOwl:hasDbXref	GARD:7725	Unspecified	syringomyelia
+DOID:332	oboInOwl:hasDbXref	GARD:5786	Unspecified	amyotrophic lateral sclerosis
+DOID:1700	oboInOwl:hasDbXref	GARD:7904	Unspecified	X-linked ichthyosis
+DOID:1702	oboInOwl:hasDbXref	GARD:6752	Unspecified	ichthyosis vulgaris
+DOID:1703	oboInOwl:hasDbXref	GARD:7578	Unspecified	Richter's syndrome
+DOID:0111052	oboInOwl:hasDbXref	GARD:4777	Unspecified	Scott syndrome
+DOID:0111050	oboInOwl:hasDbXref	GARD:8345	Unspecified	Quebec platelet disorder
+DOID:2962	oboInOwl:hasDbXref	GARD:6122	Unspecified	Cockayne syndrome
+DOID:0111044	oboInOwl:hasDbXref	GARD:2562	Unspecified	gray platelet syndrome
+DOID:1664	oboInOwl:hasDbXref	GARD:9369	Unspecified	pineoblastoma
+DOID:2997	oboInOwl:hasDbXref	GARD:9967	Unspecified	Sertoli-Leydig cell tumor
+DOID:2998	oboInOwl:hasDbXref	GARD:7746	Unspecified	testicular cancer
+DOID:1660	oboInOwl:hasDbXref	GARD:12017	Unspecified	malignant pineal area germ cell neoplasm
+DOID:0111030	oboInOwl:hasDbXref	GARD:10093	Unspecified	hemochromatosis type 3
+DOID:0111034	oboInOwl:hasDbXref	GARD:10092	Unspecified	hemochromatosis type 2
+DOID:0111037	oboInOwl:hasDbXref	GARD:10764	Unspecified	glycine N-methyltransferase deficiency
+DOID:0111039	oboInOwl:hasDbXref	GARD:13177	Unspecified	hypermethioninemia with deficiency of S-adenosylhomocysteine hydrolase
+DOID:2986	oboInOwl:hasDbXref	GARD:863	Unspecified	IgA glomerulonephritis
+DOID:2987	oboInOwl:hasDbXref	GARD:6421	Unspecified	familial Mediterranean fever
+DOID:1657	oboInOwl:hasDbXref	GARD:7853	Unspecified	ventricular septal defect
+DOID:2988	oboInOwl:hasDbXref	GARD:5824	Unspecified	antiphospholipid syndrome
+DOID:0111028	oboInOwl:hasDbXref	GARD:10094	Unspecified	hemochromatosis type 4
+DOID:0111029	oboInOwl:hasDbXref	GARD:10417	Unspecified	hemochromatosis type 1
+DOID:2935	oboInOwl:hasDbXref	GARD:6035	Unspecified	Chediak-Higashi syndrome
+DOID:2920	oboInOwl:hasDbXref	GARD:11982	Unspecified	membranoproliferative glomerulonephritis
+DOID:2921	oboInOwl:hasDbXref	GARD:6516	Unspecified	glomerulonephritis
+DOID:0111072	oboInOwl:hasDbXref	GARD:10238	Unspecified	myostatin-related muscle hypertrophy
+DOID:0111077	oboInOwl:hasDbXref	GARD:7514	Unspecified	pyruvate kinase deficiency of red cells
+DOID:0111079	oboInOwl:hasDbXref	GARD:5926	Unspecified	birdshot chorioretinopathy
+DOID:0111063	oboInOwl:hasDbXref	GARD:10879	Unspecified	hyperphosphatemic familial tumoral calcinosis
+DOID:0111060	oboInOwl:hasDbXref	GARD:8206	Unspecified	Ambras type hypertrichosis universalis congenita
+DOID:0111065	oboInOwl:hasDbXref	GARD:10133	Unspecified	distal spinal muscular atrophy 2
+DOID:2945	oboInOwl:hasDbXref	GARD:9237	Unspecified	severe acute respiratory syndrome
+DOID:1614	oboInOwl:hasDbXref	GARD:9312	Unspecified	male breast cancer
+DOID:0112302	oboInOwl:hasDbXref	GARD:4992	Unspecified	spondylometaphyseal dysplasia East African type
+DOID:0112301	oboInOwl:hasDbXref	GARD:458	Unspecified	spondylometaphyseal dysplasia type A4
+DOID:0112300	oboInOwl:hasDbXref	GARD:10647	Unspecified	spondylometaphyseal dysplasia with cone-rod dystrophy
+DOID:0112307	oboInOwl:hasDbXref	GARD:158	Unspecified	sarcosinemia
+DOID:0112306	oboInOwl:hasDbXref	GARD:10460	Unspecified	Mahvash Disease
+DOID:0112305	oboInOwl:hasDbXref	GARD:8719	Unspecified	spondylometaphyseal dysplasia with bowed forearms and facial dysmorphism
+DOID:0111011	oboInOwl:hasDbXref	GARD:10656	Unspecified	cone-rod dystrophy 6
+DOID:264	oboInOwl:hasDbXref	GARD:2627	Unspecified	hemangiopericytoma
+DOID:0111013	oboInOwl:hasDbXref	GARD:10653	Unspecified	cone-rod dystrophy 3
+DOID:268	oboInOwl:hasDbXref	GARD:5813	Unspecified	liver angiosarcoma
+DOID:0111005	oboInOwl:hasDbXref	GARD:6145	Unspecified	cone-rod dystrophy 2
+DOID:0111009	oboInOwl:hasDbXref	GARD:10651	Unspecified	cone-rod dystrophy 1
+DOID:0112320	oboInOwl:hasDbXref	GARD:3903	Unspecified	Schindler disease type 3
+DOID:285	oboInOwl:hasDbXref	GARD:6560	Unspecified	hairy cell leukemia
+DOID:0112322	oboInOwl:hasDbXref	GARD:10704	Unspecified	pontocerebellar hypoplasia type 1
+DOID:0112328	oboInOwl:hasDbXref	GARD:10705	Unspecified	pontocerebellar hypoplasia type 2
+DOID:0112319	oboInOwl:hasDbXref	GARD:9161	Unspecified	Kanzaki disease
+DOID:0112312	oboInOwl:hasDbXref	GARD:12502	Unspecified	male infertility due to globozoospermia
+DOID:0112318	oboInOwl:hasDbXref	GARD:116	Unspecified	Schindler disease type 1
+DOID:1824	oboInOwl:hasDbXref	GARD:10191	Unspecified	status epilepticus
+DOID:1761	oboInOwl:hasDbXref	GARD:7010	Unspecified	Melkersson-Rosenthal syndrome
+DOID:0111180	oboInOwl:hasDbXref	GARD:8370	Unspecified	French Canadian Leigh disease
+DOID:1768	oboInOwl:hasDbXref	GARD:6191	Unspecified	conversion disorder
+DOID:1752	oboInOwl:hasDbXref	GARD:7236	Unspecified	ocular melanoma
+DOID:1752	oboInOwl:hasDbXref	GARD:8621	Unspecified	ocular melanoma
+DOID:0111165	oboInOwl:hasDbXref	GARD:3705	Unspecified	molybdenum cofactor deficiency
+DOID:0111167	oboInOwl:hasDbXref	GARD:6295	Unspecified	Dyggve-Melchior-Clausen disease
+DOID:0111168	oboInOwl:hasDbXref	GARD:10365	Unspecified	sepiapterin reductase deficiency
+DOID:1785	oboInOwl:hasDbXref	GARD:9371	Unspecified	pituitary cancer
+DOID:0111154	oboInOwl:hasDbXref	GARD:9597	Unspecified	postural orthostatic tachycardia syndrome
+DOID:0111152	oboInOwl:hasDbXref	GARD:9644	Unspecified	multicentric Castleman disease
+DOID:0111158	oboInOwl:hasDbXref	GARD:9443	Unspecified	SADDAN
+DOID:0111156	oboInOwl:hasDbXref	GARD:12502	Unspecified	spermatogenic failure 9
+DOID:0111157	oboInOwl:hasDbXref	GARD:12656	Unspecified	Castleman disease
+DOID:0111142	oboInOwl:hasDbXref	GARD:4066	Unspecified	oligomeganephronia
+DOID:0111147	oboInOwl:hasDbXref	GARD:11973	Unspecified	angioimmunoblastic T-cell lymphoma
+DOID:0111146	oboInOwl:hasDbXref	GARD:5573	Unspecified	acquired von Willebrand syndrome
+DOID:1712	oboInOwl:hasDbXref	GARD:5830	Unspecified	aortic valve stenosis
+DOID:1749	oboInOwl:hasDbXref	GARD:1091	Unspecified	squamous cell carcinoma
+DOID:1733	oboInOwl:hasDbXref	GARD:6219	Unspecified	cryptosporidiosis
+DOID:0111183	oboInOwl:hasDbXref	GARD:10974	Unspecified	familial hemiplegic migraine 3
+DOID:0111181	oboInOwl:hasDbXref	GARD:2638	Unspecified	familial hemiplegic migraine 1
+DOID:0111182	oboInOwl:hasDbXref	GARD:10095	Unspecified	familial hemiplegic migraine 2
+DOID:0111188	oboInOwl:hasDbXref	GARD:12591	Unspecified	myofibrillar myopathy 9
+DOID:0111136	oboInOwl:hasDbXref	GARD:10212	Unspecified	congenital generalized lipodystrophy type 2
+DOID:146	oboInOwl:hasDbXref	GARD:7318	Unspecified	papilledema
+DOID:0111135	oboInOwl:hasDbXref	GARD:84	Unspecified	congenital generalized lipodystrophy type 1
+DOID:0111138	oboInOwl:hasDbXref	GARD:10937	Unspecified	congenital generalized lipodystrophy type 4
+DOID:0111139	oboInOwl:hasDbXref	GARD:8295	Unspecified	mitochondrial complex III deficiency
+DOID:1798	oboInOwl:hasDbXref	GARD:13034	Unspecified	pancreatic endocrine carcinoma
+DOID:1793	oboInOwl:hasDbXref	GARD:9364	Unspecified	pancreatic cancer
+DOID:174	oboInOwl:hasDbXref	GARD:8604	Unspecified	acanthoma
+DOID:589	oboInOwl:hasDbXref	GARD:6167	Unspecified	congenital hemolytic anemia
+DOID:10865	oboInOwl:hasDbXref	GARD:9482	Unspecified	abducens nerve disease
+DOID:10844	oboInOwl:hasDbXref	GARD:6797	Unspecified	Japanese encephalitis
+DOID:10841	oboInOwl:hasDbXref	GARD:10821	Unspecified	Eastern equine encephalitis
+DOID:10843	oboInOwl:hasDbXref	GARD:7888	Unspecified	Western equine encephalitis
+DOID:529	oboInOwl:hasDbXref	GARD:5909	Unspecified	blepharospasm
+DOID:2732	oboInOwl:hasDbXref	GARD:4392	Unspecified	Rothmund-Thomson syndrome
+DOID:2730	oboInOwl:hasDbXref	GARD:6359	Unspecified	epidermolysis bullosa
+DOID:2739	oboInOwl:hasDbXref	GARD:6507	Unspecified	Gilbert syndrome
+DOID:2736	oboInOwl:hasDbXref	GARD:508	Unspecified	Hajdu-Cheney syndrome
+DOID:1407	oboInOwl:hasDbXref	GARD:10941	Unspecified	anterior uveitis
+DOID:2738	oboInOwl:hasDbXref	GARD:9643	Unspecified	pseudoxanthoma elasticum
+DOID:2722	oboInOwl:hasDbXref	GARD:5722	Unspecified	acrodermatitis
+DOID:2729	oboInOwl:hasDbXref	GARD:10905	Unspecified	dyskeratosis congenita
+DOID:2755	oboInOwl:hasDbXref	GARD:7123	Unspecified	Mycobacterium avium complex disease
+DOID:2750	oboInOwl:hasDbXref	GARD:2520	Unspecified	glycogen storage disease IV
+DOID:2752	oboInOwl:hasDbXref	GARD:5714	Unspecified	glycogen storage disease II
+DOID:0111271	oboInOwl:hasDbXref	GARD:5266	Unspecified	Oliver-McFarlane syndrome
+DOID:0111272	oboInOwl:hasDbXref	GARD:4017	Unspecified	occipital horn syndrome
+DOID:0111270	oboInOwl:hasDbXref	GARD:5062	Unspecified	isolated sulfite oxidase deficiency
+DOID:0111275	oboInOwl:hasDbXref	GARD:12889	Unspecified	speech-language disorder-1
+DOID:0111273	oboInOwl:hasDbXref	GARD:262	Unspecified	NARP syndrome
+DOID:0111274	oboInOwl:hasDbXref	GARD:1418	Unspecified	CODAS syndrome
+DOID:0111277	oboInOwl:hasDbXref	GARD:3684	Unspecified	mitochondrial trifunctional protein deficiency
+DOID:0111261	oboInOwl:hasDbXref	GARD:6476	Unspecified	fumarase deficiency
+DOID:0111265	oboInOwl:hasDbXref	GARD:944	Unspecified	Boucher-Neuhauser syndrome
+DOID:0111262	oboInOwl:hasDbXref	GARD:10995	Unspecified	infantile cerebral and cerebellar atrophy with postnatal progressive microcephaly
+DOID:0111263	oboInOwl:hasDbXref	GARD:10818	Unspecified	combined malonic and methylmalonic acidemia
+DOID:0111266	oboInOwl:hasDbXref	GARD:413	Unspecified	geroderma osteodysplasticum
+DOID:0111267	oboInOwl:hasDbXref	GARD:7148	Unspecified	hyaline body myopathy
+DOID:1415	oboInOwl:hasDbXref	GARD:6556	Unspecified	gyrate atrophy
+DOID:2746	oboInOwl:hasDbXref	GARD:6528	Unspecified	glycogen storage disease V
+DOID:2702	oboInOwl:hasDbXref	GARD:7396	Unspecified	pigmented villonodular synovitis
+DOID:2703	oboInOwl:hasDbXref	GARD:7722	Unspecified	synovitis
+DOID:1485	oboInOwl:hasDbXref	GARD:6233	Unspecified	cystic fibrosis
+DOID:0111217	oboInOwl:hasDbXref	GARD:12719	Unspecified	autosomal dominant centronuclear myopathy
+DOID:0111216	oboInOwl:hasDbXref	GARD:12718	Unspecified	autosomal recessive centronuclear myopathy
+DOID:1475	oboInOwl:hasDbXref	GARD:9789	Unspecified	lymphangioma
+DOID:1498	oboInOwl:hasDbXref	GARD:6043	Unspecified	cholera
+DOID:1443	oboInOwl:hasDbXref	GARD:6019	Unspecified	cerebral degeneration
+DOID:0111254	oboInOwl:hasDbXref	GARD:6522	Unspecified	glutaric acidemia I
+DOID:0111252	oboInOwl:hasDbXref	GARD:7193	Unspecified	neurofibromatosis 2
+DOID:0111257	oboInOwl:hasDbXref	GARD:10099	Unspecified	gamma-glutamyl transpeptidase deficiency
+DOID:0111258	oboInOwl:hasDbXref	GARD:418	Unspecified	pentosuria
+DOID:0111255	oboInOwl:hasDbXref	GARD:3427	Unspecified	McKusick-Kaufman syndrome
+DOID:0111256	oboInOwl:hasDbXref	GARD:2806	Unspecified	hyperferritinemia-cataract syndrome
+DOID:0111259	oboInOwl:hasDbXref	GARD:8410	Unspecified	postaxial acrofacial dysostosis
+DOID:0111243	oboInOwl:hasDbXref	GARD:7	Unspecified	acromicric dysplasia
+DOID:0111246	oboInOwl:hasDbXref	GARD:9239	Unspecified	amyotrophic lateral sclerosis-parkinsonism/dementia complex 1
+DOID:0111247	oboInOwl:hasDbXref	GARD:967	Unspecified	hypertension and brachydactyly syndrome
+DOID:0111244	oboInOwl:hasDbXref	GARD:604	Unspecified	palmoplantar keratoderma and congenital alopecia 1
+DOID:0111248	oboInOwl:hasDbXref	GARD:6026	Unspecified	cerebrocostomandibular syndrome
+DOID:0111249	oboInOwl:hasDbXref	GARD:1440	Unspecified	uveal coloboma-cleft lip and palate-intellectual disability
+DOID:2799	oboInOwl:hasDbXref	GARD:9551	Unspecified	bronchiolitis obliterans
+DOID:1455	oboInOwl:hasDbXref	GARD:6493	Unspecified	geographic tongue
+DOID:2785	oboInOwl:hasDbXref	GARD:6242	Unspecified	Dandy-Walker syndrome
+DOID:0111225	oboInOwl:hasDbXref	GARD:11925	Unspecified	centronuclear myopathy X-linked
+DOID:10983	oboInOwl:hasDbXref	GARD:5785	Unspecified	Alport syndrome
+DOID:0111414	oboInOwl:hasDbXref	GARD:5258	Unspecified	trichohepatoenteric syndrome
+DOID:0111401	oboInOwl:hasDbXref	GARD:2001	Unspecified	congenital dyserythropoietic anemia type II
+DOID:0111404	oboInOwl:hasDbXref	GARD:1463	Unspecified	Jalili syndrome
+DOID:10992	oboInOwl:hasDbXref	GARD:8629	Unspecified	acute hemorrhagic leukoencephalitis
+DOID:437	oboInOwl:hasDbXref	GARD:7122	Unspecified	myasthenia gravis
+DOID:0111402	oboInOwl:hasDbXref	GARD:7074	Unspecified	mucopolysaccharidosis type IIID
+DOID:10969	oboInOwl:hasDbXref	GARD:6583	Unspecified	hemiplegia
+DOID:10967	oboInOwl:hasDbXref	GARD:10448	Unspecified	spastic hemiplegia
+DOID:10968	oboInOwl:hasDbXref	GARD:10446	Unspecified	spastic monoplegia
+DOID:445	oboInOwl:hasDbXref	GARD:5893	Unspecified	Bartter disease
+DOID:2917	oboInOwl:hasDbXref	GARD:6217	Unspecified	cryoglobulinemia
+DOID:418	oboInOwl:hasDbXref	GARD:9748	Unspecified	systemic scleroderma
+DOID:2908	oboInOwl:hasDbXref	GARD:9124	Unspecified	Treacher Collins syndrome
+DOID:2907	oboInOwl:hasDbXref	GARD:6540	Unspecified	Goldenhar syndrome
+DOID:2859	oboInOwl:hasDbXref	GARD:2640	Unspecified	hemoglobin C disease
+DOID:2841	oboInOwl:hasDbXref	GARD:10246	Unspecified	asthma
+DOID:2842	oboInOwl:hasDbXref	GARD:3048	Unspecified	Jervell-Lange Nielsen syndrome
+DOID:2843	oboInOwl:hasDbXref	GARD:6922	Unspecified	long QT syndrome
+DOID:1540	oboInOwl:hasDbXref	GARD:7329	Unspecified	parathyroid carcinoma
+DOID:0111393	oboInOwl:hasDbXref	GARD:7073	Unspecified	mucopolysaccharidosis type IIIC
+DOID:0111390	oboInOwl:hasDbXref	GARD:12559	Unspecified	mucopolysaccharidosis Ih
+DOID:0111391	oboInOwl:hasDbXref	GARD:3785	Unspecified	mucopolysaccharidosis IVA
+DOID:0111396	oboInOwl:hasDbXref	GARD:2000	Unspecified	congenital dyserythropoietic anemia type I
+DOID:0111394	oboInOwl:hasDbXref	GARD:7072	Unspecified	mucopolysaccharidosis type IIIB
+DOID:0111399	oboInOwl:hasDbXref	GARD:2002	Unspecified	congenital dyserythropoietic anemia type III
+DOID:2860	oboInOwl:hasDbXref	GARD:12455	Unspecified	hemoglobinopathy
+DOID:2862	oboInOwl:hasDbXref	GARD:6520	Unspecified	glucosephosphate dehydrogenase deficiency
+DOID:0111381	oboInOwl:hasDbXref	GARD:269	Unspecified	IVIC syndrome
+DOID:0111382	oboInOwl:hasDbXref	GARD:3030	Unspecified	ischiocoxopodopatellar syndrome
+DOID:0111380	oboInOwl:hasDbXref	GARD:4877	Unspecified	solitary median maxillary central incisor
+DOID:0111383	oboInOwl:hasDbXref	GARD:3089	Unspecified	autosomal dominant keratitis
+DOID:0111389	oboInOwl:hasDbXref	GARD:12560	Unspecified	mucopolysaccharidosis Ih/s
+DOID:0110057	oboInOwl:hasDbXref	GARD:9495	Unspecified	amelogenesis imperfecta type 2A1
+DOID:2800	oboInOwl:hasDbXref	GARD:12835	Unspecified	acute interstitial pneumonia
+DOID:0111331	oboInOwl:hasDbXref	GARD:12501	Unspecified	intellectual disability-severe speech delay-mild dysmorphism syndrome
+DOID:0111335	oboInOwl:hasDbXref	GARD:12978	Unspecified	myopathy with extrapyramidal signs
+DOID:0111333	oboInOwl:hasDbXref	GARD:12199	Unspecified	early-onset myopathy-areflexia-respiratory distress-dysphagia syndrome
+DOID:0110007	oboInOwl:hasDbXref	GARD:9649	Unspecified	achromatopsia 2
+DOID:0110008	oboInOwl:hasDbXref	GARD:9650	Unspecified	achromatopsia 3
+DOID:0111336	oboInOwl:hasDbXref	GARD:1571	Unspecified	craniofacial-deafness-hand syndrome
+DOID:0111337	oboInOwl:hasDbXref	GARD:6796	Unspecified	Jackson-Weiss syndrome
+DOID:0111329	oboInOwl:hasDbXref	GARD:10730	Unspecified	pyridoxamine 5'-phosphate oxidase deficiency
+DOID:10955	oboInOwl:hasDbXref	GARD:8195	Unspecified	strongyloidiasis
+DOID:10923	oboInOwl:hasDbXref	GARD:8614	Unspecified	sickle cell anemia
+DOID:1562	oboInOwl:hasDbXref	GARD:1319	Unspecified	chromoblastomycosis
+DOID:10907	oboInOwl:hasDbXref	GARD:7038	Unspecified	microcephaly
+DOID:10907	oboInOwl:hasDbXref	GARD:3603	Unspecified	microcephaly
+DOID:10908	oboInOwl:hasDbXref	GARD:6682	Unspecified	hydrocephalus
+DOID:0111375	oboInOwl:hasDbXref	GARD:9634	Unspecified	fetal akinesia deformation sequence syndrome
+DOID:384	oboInOwl:hasDbXref	GARD:7897	Unspecified	Wolff-Parkinson-White syndrome
+DOID:0110048	oboInOwl:hasDbXref	GARD:7190	Unspecified	Alzheimer's disease 15
+DOID:1554	oboInOwl:hasDbXref	GARD:9806	Unspecified	vibratory urticaria
+DOID:0111363	oboInOwl:hasDbXref	GARD:10718	Unspecified	Heinz body anemia
+DOID:0110032	oboInOwl:hasDbXref	GARD:624	Unspecified	autosomal dominant Alport syndrome
+DOID:0110033	oboInOwl:hasDbXref	GARD:625	Unspecified	autosomal recessive Alport syndrome
+DOID:0110030	oboInOwl:hasDbXref	GARD:5864	Unspecified	alpha thalassemia-X-linked intellectual disability syndrome
+DOID:0111362	oboInOwl:hasDbXref	GARD:5668	Unspecified	hawkinsinuria
+DOID:0111367	oboInOwl:hasDbXref	GARD:2690	Unspecified	Beukes hip dysplasia
+DOID:399	oboInOwl:hasDbXref	GARD:7827	Unspecified	tuberculosis
+DOID:1586	oboInOwl:hasDbXref	GARD:5699	Unspecified	rheumatic fever
+DOID:0111350	oboInOwl:hasDbXref	GARD:155	Unspecified	Laurin-Sandrow syndrome
+DOID:0111357	oboInOwl:hasDbXref	GARD:12550	Unspecified	adermatoglyphia
+DOID:0111358	oboInOwl:hasDbXref	GARD:6455	Unspecified	Floating-Harbor syndrome
+DOID:0111359	oboInOwl:hasDbXref	GARD:2469	Unspecified	large congenital melanocytic nevus
+DOID:0111342	oboInOwl:hasDbXref	GARD:8550	Unspecified	dermatopathia pigmentosa reticularis
+DOID:0111340	oboInOwl:hasDbXref	GARD:5243	Unspecified	dominant optic atrophy plus syndrome
+DOID:0111345	oboInOwl:hasDbXref	GARD:10010	Unspecified	transient bullous dermolysis of the newborn
+DOID:0111346	oboInOwl:hasDbXref	GARD:9737	Unspecified	epidermolysis bullosa simplex with mottled pigmentation
+DOID:0111343	oboInOwl:hasDbXref	GARD:9873	Unspecified	lateral meningocele syndrome
+DOID:0080713	oboInOwl:hasDbXref	GARD:9781	Unspecified	MECP2 duplication syndrome
+DOID:0080714	oboInOwl:hasDbXref	GARD:13193	Unspecified	hereditary alpha tryptasemia syndrome
+DOID:0080717	oboInOwl:hasDbXref	GARD:13114	Unspecified	infantile liver failure syndrome 1
+DOID:0080718	oboInOwl:hasDbXref	GARD:9493	Unspecified	GNE myopathy
+DOID:0080719	oboInOwl:hasDbXref	GARD:9494	Unspecified	proximal myopathy and ophthalmoplegia
+DOID:0080720	oboInOwl:hasDbXref	GARD:4732	Unspecified	autosomal dominant congenital deafness with onychodystrophy
+DOID:0080722	oboInOwl:hasDbXref	GARD:8367	Unspecified	Kenny-Caffey syndrome type 1
+DOID:0080723	oboInOwl:hasDbXref	GARD:83	Unspecified	Kenny-Caffey syndrome type 2
+DOID:0080725	oboInOwl:hasDbXref	GARD:2336	Unspecified	BASAN syndrome
+DOID:0080754	oboInOwl:hasDbXref	GARD:6829	Unspecified	X-linked keratosis follicularis spinulosa decalvans
+DOID:0080756	oboInOwl:hasDbXref	GARD:9744	Unspecified	atrophoderma vermiculata
+DOID:0080741	oboInOwl:hasDbXref	GARD:8742	Unspecified	limbic encephalitis
+DOID:0080744	oboInOwl:hasDbXref	GARD:735	Unspecified	antisynthetase syndrome
+DOID:0080745	oboInOwl:hasDbXref	GARD:7425	Unspecified	polymyositis
+DOID:0080776	oboInOwl:hasDbXref	GARD:5692	Unspecified	partial androgen insensitivity syndrome
+DOID:0080778	oboInOwl:hasDbXref	GARD:10593	Unspecified	transient infantile liver failure
+DOID:0080763	oboInOwl:hasDbXref	GARD:10334	Unspecified	diffuse gastric cancer
+DOID:0080764	oboInOwl:hasDbXref	GARD:10900	Unspecified	hereditary diffuse gastric cancer
+DOID:0080767	oboInOwl:hasDbXref	GARD:9519	Unspecified	autoimmune myocarditis
+DOID:0080768	oboInOwl:hasDbXref	GARD:9298	Unspecified	pyridoxine-dependent epilepsy
+DOID:0090118	oboInOwl:hasDbXref	GARD:640	Unspecified	congenital amegakaryocytic thrombocytopenia
+DOID:0090116	oboInOwl:hasDbXref	GARD:4974	Unspecified	spondylocarpotarsal synostosis syndrome
+DOID:0090117	oboInOwl:hasDbXref	GARD:9210	Unspecified	thiamine-responsive megaloblastic anemia syndrome
+DOID:0090115	oboInOwl:hasDbXref	GARD:10000	Unspecified	spinocerebellar ataxia type 1 with axonal neuropathy
+DOID:0090112	oboInOwl:hasDbXref	GARD:9921	Unspecified	Nasu-Hakola disease
+DOID:0090110	oboInOwl:hasDbXref	GARD:1850	Unspecified	immune dysregulation-polyendocrinopathy-enteropathy-X-linked syndrome
+DOID:0090109	oboInOwl:hasDbXref	GARD:2877	Unspecified	autosomal dominant hypocalcemia
+DOID:0090106	oboInOwl:hasDbXref	GARD:5682	Unspecified	BH4-deficient hyperphenylalaninemia A
+DOID:0090139	oboInOwl:hasDbXref	GARD:9882	Unspecified	cortisone reductase deficiency
+DOID:0090129	oboInOwl:hasDbXref	GARD:1120	Unspecified	carnitine palmitoyltransferase I deficiency
+DOID:0090128	oboInOwl:hasDbXref	GARD:5595	Unspecified	Carvajal syndrome
+DOID:0090123	oboInOwl:hasDbXref	GARD:770	Unspecified	aromatic L-amino acid decarboxylase deficiency
+DOID:0090122	oboInOwl:hasDbXref	GARD:12949	Unspecified	aromatase excess syndrome
+DOID:0090031	oboInOwl:hasDbXref	GARD:4539	Unspecified	D-bifunctional protein deficiency
+DOID:0090030	oboInOwl:hasDbXref	GARD:13101	Unspecified	corticosteroid-binding globulin deficiency
+DOID:0090020	oboInOwl:hasDbXref	GARD:6319	Unspecified	split hand-foot malformation
+DOID:9119	oboInOwl:hasDbXref	GARD:12757	Unspecified	acute myeloid leukemia
+DOID:9113	oboInOwl:hasDbXref	GARD:9532	Unspecified	granuloma inguinale
+DOID:0090053	oboInOwl:hasDbXref	GARD:8721	Unspecified	episodic kinesigenic dyskinesia 1
+DOID:0090057	oboInOwl:hasDbXref	GARD:10533	Unspecified	X-linked dystonia-parkinsonism
+DOID:0090048	oboInOwl:hasDbXref	GARD:10539	Unspecified	dystonia 16
+DOID:0090067	oboInOwl:hasDbXref	GARD:2410	Unspecified	Fuhrmann syndrome
+DOID:9182	oboInOwl:hasDbXref	GARD:7352	Unspecified	pemphigus
+DOID:9181	oboInOwl:hasDbXref	GARD:652	Unspecified	amebiasis
+DOID:0080833	oboInOwl:hasDbXref	GARD:6865	Unspecified	laryngomalacia
+DOID:0080835	oboInOwl:hasDbXref	GARD:7781	Unspecified	TORCH syndrome
+DOID:0080836	oboInOwl:hasDbXref	GARD:3924	Unspecified	growth hormone insensitivity syndrome with immune dysregulation 1
+DOID:0080850	oboInOwl:hasDbXref	GARD:7354	Unspecified	pemphigus foliaceus
+DOID:0080857	oboInOwl:hasDbXref	GARD:4480	Unspecified	primary ovarian insufficiency 1
+DOID:0080849	oboInOwl:hasDbXref	GARD:16	Unspecified	ocular motor apraxia, Cogan type
+DOID:0080893	oboInOwl:hasDbXref	GARD:13259	Unspecified	Bainbridge-Ropers syndrome
+DOID:9248	oboInOwl:hasDbXref	GARD:7305	Unspecified	Pallister-Hall syndrome
+DOID:9245	oboInOwl:hasDbXref	GARD:804	Unspecified	Alagille syndrome
+DOID:9252	oboInOwl:hasDbXref	GARD:5793	Unspecified	amino acid metabolic disorder
+DOID:9250	oboInOwl:hasDbXref	GARD:5721	Unspecified	acrocallosal syndrome
+DOID:0112021	oboInOwl:hasDbXref	GARD:5614	Unspecified	non-syndromic X-linked intellectual disability ARX-related
+DOID:0112027	oboInOwl:hasDbXref	GARD:8557	Unspecified	non-syndromic X-linked intellectual disability 14
+DOID:0112025	oboInOwl:hasDbXref	GARD:13638	Unspecified	female-restricted syndromic X-linked intellectual disability 99
+DOID:0090142	oboInOwl:hasDbXref	GARD:2428	Unspecified	cystathioninuria
+DOID:9240	oboInOwl:hasDbXref	GARD:6377	Unspecified	erythromelalgia
+DOID:0112011	oboInOwl:hasDbXref	GARD:4075	Unspecified	mutilating palmoplantar keratoderma with periorificial keratotic plaques
+DOID:0090145	oboInOwl:hasDbXref	GARD:1903	Unspecified	dopamine beta-hydroxylase deficiency
+DOID:0090143	oboInOwl:hasDbXref	GARD:5478	Unspecified	brachyolmia-amelogenesis imperfecta syndrome
+DOID:0090144	oboInOwl:hasDbXref	GARD:1899	Unspecified	Donnai-Barrow syndrome
+DOID:9269	oboInOwl:hasDbXref	GARD:3228	Unspecified	maple syrup urine disease
+DOID:9268	oboInOwl:hasDbXref	GARD:7219	Unspecified	glycine encephalopathy
+DOID:9267	oboInOwl:hasDbXref	GARD:7837	Unspecified	urea cycle disorder
+DOID:9266	oboInOwl:hasDbXref	GARD:6237	Unspecified	cystinuria
+DOID:9274	oboInOwl:hasDbXref	GARD:2828	Unspecified	hyperlysinemia
+DOID:9271	oboInOwl:hasDbXref	GARD:8391	Unspecified	ornithine carbamoyltransferase deficiency
+DOID:9270	oboInOwl:hasDbXref	GARD:5775	Unspecified	alkaptonuria
+DOID:9258	oboInOwl:hasDbXref	GARD:5525	Unspecified	Waardenburg's syndrome
+DOID:9255	oboInOwl:hasDbXref	GARD:8436	Unspecified	frontotemporal dementia
+DOID:9253	oboInOwl:hasDbXref	GARD:8598	Unspecified	gastrointestinal stromal tumor
+DOID:9263	oboInOwl:hasDbXref	GARD:10770	Unspecified	homocystinuria
+DOID:9261	oboInOwl:hasDbXref	GARD:7163	Unspecified	nasopharynx carcinoma
+DOID:9206	oboInOwl:hasDbXref	GARD:20	Unspecified	Barrett's esophagus
+DOID:9201	oboInOwl:hasDbXref	GARD:12344	Unspecified	lichen planus
+DOID:0112050	oboInOwl:hasDbXref	GARD:5613	Unspecified	non-syndromic X-linked intellectual disability 63
+DOID:9212	oboInOwl:hasDbXref	GARD:7401	Unspecified	pityriasis rubra pilaris
+DOID:9210	oboInOwl:hasDbXref	GARD:7525	Unspecified	herpes zoster oticus
+DOID:0112038	oboInOwl:hasDbXref	GARD:13221	Unspecified	non-syndromic X-linked intellectual disability 1
+DOID:9286	oboInOwl:hasDbXref	GARD:10016	Unspecified	priapism
+DOID:9281	oboInOwl:hasDbXref	GARD:7383	Unspecified	phenylketonuria
+DOID:9280	oboInOwl:hasDbXref	GARD:7269	Unspecified	carbamoyl phosphate synthetase I deficiency disease
+DOID:0080908	oboInOwl:hasDbXref	GARD:1420	Unspecified	Cockayne syndrome B
+DOID:0080910	oboInOwl:hasDbXref	GARD:6027	Unspecified	cerebrooculofacioskeletal syndrome
+DOID:0080907	oboInOwl:hasDbXref	GARD:1415	Unspecified	Cockayne syndrome A
+DOID:0080921	oboInOwl:hasDbXref	GARD:10783	Unspecified	bilateral frontal polymicrogyria
+DOID:0080922	oboInOwl:hasDbXref	GARD:10784	Unspecified	bilateral frontoparietal polymicrogyria
+DOID:0080923	oboInOwl:hasDbXref	GARD:10785	Unspecified	bilateral parasagittal parieto-occipital polymicrogyria
+DOID:0080924	oboInOwl:hasDbXref	GARD:6011	Unspecified	bilateral perisylvian polymicrogyria
+DOID:0080925	oboInOwl:hasDbXref	GARD:12664	Unspecified	cytochrome P450 oxidoreductase deficiency
+DOID:0080926	oboInOwl:hasDbXref	GARD:12076	Unspecified	7q11.23 duplication syndrome
+DOID:0080928	oboInOwl:hasDbXref	GARD:0010563	Unspecified	dialysis-related amyloidosis
+DOID:0080954	oboInOwl:hasDbXref	GARD:777	Unspecified	arthrogryposis multiplex congenita
+DOID:0080957	oboInOwl:hasDbXref	GARD:2872	Unspecified	primary hypoalphalipoproteinemia 1
+DOID:0080958	oboInOwl:hasDbXref	GARD:758	Unspecified	primary hypoalphalipoproteinemia 2
+DOID:0080942	oboInOwl:hasDbXref	GARD:9657	Unspecified	anauxetic dysplasia
+DOID:0080990	oboInOwl:hasDbXref	GARD:8433	Unspecified	King Denborough syndrome
+DOID:0080991	oboInOwl:hasDbXref	GARD:10316	Unspecified	multiminicore disease
+DOID:1929	oboInOwl:hasDbXref	GARD:743	Unspecified	supravalvular aortic stenosis
+DOID:1925	oboInOwl:hasDbXref	GARD:6124	Unspecified	Coffin-Siris syndrome
+DOID:1926	oboInOwl:hasDbXref	GARD:8233	Unspecified	Gaucher's disease
+DOID:1927	oboInOwl:hasDbXref	GARD:7672	Unspecified	sphingolipidosis
+DOID:1921	oboInOwl:hasDbXref	GARD:8705	Unspecified	Klinefelter syndrome
+DOID:0080984	oboInOwl:hasDbXref	GARD:2378	Unspecified	X-linked intellectual developmental disorder 109
+DOID:0080985	oboInOwl:hasDbXref	GARD:3307	Unspecified	syndromic X-linked intellectual disorder Lujan-Fryns-type
+DOID:0080986	oboInOwl:hasDbXref	GARD:12474	Unspecified	Ehlers-Danlos syndrome periodontal type 1
+DOID:0080987	oboInOwl:hasDbXref	GARD:12474	Unspecified	Ehlers-Danlos syndrome periodontal type 2
+DOID:0080988	oboInOwl:hasDbXref	GARD:2155	Unspecified	pretibial dystrophic epidermolysis bullosa
+DOID:1949	oboInOwl:hasDbXref	GARD:30	Unspecified	cholecystitis
+DOID:1930	oboInOwl:hasDbXref	GARD:12635	Unspecified	Laurence-Moon syndrome
+DOID:0112196	oboInOwl:hasDbXref	GARD:10616	Unspecified	spondylometaepiphyseal dysplasia, short limb-hand type
+DOID:0112194	oboInOwl:hasDbXref	GARD:62	Unspecified	Filippi syndrome
+DOID:0112193	oboInOwl:hasDbXref	GARD:5147	Unspecified	tetraamelia syndrome 2
+DOID:0112197	oboInOwl:hasDbXref	GARD:4982	Unspecified	spondyloepimetaphyseal dysplasia with joint laxity
+DOID:1932	oboInOwl:hasDbXref	GARD:5810	Unspecified	Angelman syndrome
+DOID:1933	oboInOwl:hasDbXref	GARD:7593	Unspecified	Rubinstein-Taybi syndrome
+DOID:1935	oboInOwl:hasDbXref	GARD:6866	Unspecified	Bardet-Biedl syndrome
+DOID:0112130	oboInOwl:hasDbXref	GARD:9558	Unspecified	autosomal dominant severe congenital neutropenia
+DOID:0112133	oboInOwl:hasDbXref	GARD:302	Unspecified	severe congenital neutropenia 3
+DOID:0112123	oboInOwl:hasDbXref	GARD:12472	Unspecified	deafness, dystonia, and cerebral hypomyelination
+DOID:0112128	oboInOwl:hasDbXref	GARD:3981	Unspecified	X-linked severe congenital neutropenia
+DOID:0112192	oboInOwl:hasDbXref	GARD:5148	Unspecified	tetraamelia syndrome 1
+DOID:0112191	oboInOwl:hasDbXref	GARD:386	Unspecified	tetraamelia syndrome
+DOID:0112181	oboInOwl:hasDbXref	GARD:9212	Unspecified	Schinzel type phocomelia
+DOID:0112180	oboInOwl:hasDbXref	GARD:8539	Unspecified	urocanase deficiency
+DOID:0112171	oboInOwl:hasDbXref	GARD:273	Unspecified	wrinkly skin syndrome
+DOID:1838	oboInOwl:hasDbXref	GARD:1521	Unspecified	Menkes disease
+DOID:1835	oboInOwl:hasDbXref	GARD:7056	Unspecified	mononeuritis multiplex
+DOID:1852	oboInOwl:hasDbXref	GARD:10214	Unspecified	intrahepatic cholestasis
+DOID:0112152	oboInOwl:hasDbXref	GARD:310	Unspecified	CHIME syndrome
+DOID:0112151	oboInOwl:hasDbXref	GARD:4528	Unspecified	corpus callosum agenesis-abnormal genitalia syndrome
+DOID:0112150	oboInOwl:hasDbXref	GARD:4979	Unspecified	X-linked spondyloepimetaphyseal dysplasia
+DOID:0112158	oboInOwl:hasDbXref	GARD:8276	Unspecified	De Sanctis-Cacchione syndrome
+DOID:1856	oboInOwl:hasDbXref	GARD:6036	Unspecified	cherubism
+DOID:1858	oboInOwl:hasDbXref	GARD:6995	Unspecified	McCune Albright syndrome
+DOID:0112107	oboInOwl:hasDbXref	GARD:10731	Unspecified	McLeod syndrome
+DOID:9007	oboInOwl:hasDbXref	GARD:7711	Unspecified	sudden infant death syndrome
+DOID:0112262	oboInOwl:hasDbXref	GARD:9915	Unspecified	leucine-sensitive hypoglycemia of infancy
+DOID:0112265	oboInOwl:hasDbXref	GARD:8424	Unspecified	iminoglycinuria
+DOID:0112264	oboInOwl:hasDbXref	GARD:5592	Unspecified	Woodhouse-Sakati syndrome
+DOID:0112251	oboInOwl:hasDbXref	GARD:10297	Unspecified	Ghosal hematodiaphyseal syndrome
+DOID:0112254	oboInOwl:hasDbXref	GARD:10083	Unspecified	hepatic venoocclusive disease with immunodeficiency
+DOID:0112253	oboInOwl:hasDbXref	GARD:13587	Unspecified	combined cellular and humoral immune defects with granulomas
+DOID:0112259	oboInOwl:hasDbXref	GARD:3244	Unspecified	Leydig cell hypoplasia
+DOID:0112258	oboInOwl:hasDbXref	GARD:7158	Unspecified	N-acetylglutamate synthase deficiency
+DOID:0112257	oboInOwl:hasDbXref	GARD:10039	Unspecified	hydroxykynureninuria
+DOID:0112256	oboInOwl:hasDbXref	GARD:3577	Unspecified	homocystinuria-megaloblastic anemia cblG type
+DOID:0112248	oboInOwl:hasDbXref	GARD:5659	Unspecified	17-beta hydroxysteroid dehydrogenase 3 deficiency
+DOID:0112246	oboInOwl:hasDbXref	GARD:12469	Unspecified	glutaric acidemia type 3
+DOID:1964	oboInOwl:hasDbXref	GARD:9162	Unspecified	fallopian tube cancer
+DOID:1967	oboInOwl:hasDbXref	GARD:6880	Unspecified	leiomyosarcoma
+DOID:0112299	oboInOwl:hasDbXref	GARD:8720	Unspecified	axial spondylometaphyseal dysplasia
+DOID:0112298	oboInOwl:hasDbXref	GARD:4993	Unspecified	spondylometaphyseal dysplasia Sedaghatian type
+DOID:0112297	oboInOwl:hasDbXref	GARD:4991	Unspecified	spondylometaphyseal dysplasia corner fracture type
+DOID:0112296	oboInOwl:hasDbXref	GARD:504	Unspecified	spondylometaphyseal dysplasia Algerian type
+DOID:0112287	oboInOwl:hasDbXref	GARD:10629	Unspecified	spondyloepiphyseal dysplasia-brachydactyly and distinctive speech
+DOID:0112285	oboInOwl:hasDbXref	GARD:10624	Unspecified	autosomal dominant spondyloepiphyseal dysplasia tarda
+DOID:0112280	oboInOwl:hasDbXref	GARD:7687	Unspecified	spondyloepiphyseal dysplasia
+DOID:9088	oboInOwl:hasDbXref	GARD:7328	Unspecified	parapsoriasis
+DOID:0112224	oboInOwl:hasDbXref	GARD:11009	Unspecified	chondrodysplasia with joint dislocations gPAPP type
+DOID:9074	oboInOwl:hasDbXref	GARD:10253	Unspecified	systemic lupus erythematosus
+DOID:9072	oboInOwl:hasDbXref	GARD:9622	Unspecified	lethal midline granuloma
+DOID:9065	oboInOwl:hasDbXref	GARD:6881	Unspecified	leishmaniasis
+DOID:9643	oboInOwl:hasDbXref	GARD:5878	Unspecified	babesiosis
+DOID:9631	oboInOwl:hasDbXref	GARD:9148	Unspecified	Pelger-Huet anomaly
+DOID:7004	oboInOwl:hasDbXref	GARD:12867	Unspecified	ACTH-secreting pituitary adenoma
+DOID:9663	oboInOwl:hasDbXref	GARD:5834	Unspecified	aphthous stomatitis
+DOID:9602	oboInOwl:hasDbXref	GARD:6454	Unspecified	necrotizing fasciitis
+DOID:0080315	oboInOwl:hasDbXref	GARD:3445	Unspecified	megalencephalic leukoencephalopathy with subcortical cysts
+DOID:0080301	oboInOwl:hasDbXref	GARD:8702	Unspecified	atypical hemolytic-uremic syndrome
+DOID:0080307	oboInOwl:hasDbXref	GARD:10529	Unspecified	myofibrillar myopathy
+DOID:0080335	oboInOwl:hasDbXref	GARD:1142	Unspecified	mitochondrial DNA depletion syndrome 12b
+DOID:0080328	oboInOwl:hasDbXref	GARD:13349	Unspecified	Culler-Jones syndrome
+DOID:0080234	oboInOwl:hasDbXref	GARD:13584	Unspecified	Clark-Baraitser syndrome
+DOID:9597	oboInOwl:hasDbXref	GARD:8627	Unspecified	Krukenberg carcinoma
+DOID:0080222	oboInOwl:hasDbXref	GARD:10680	Unspecified	pseudohypoparathyroidism type IB
+DOID:0080223	oboInOwl:hasDbXref	GARD:2826	Unspecified	epidermolytic palmoplantar keratoderma
+DOID:0080224	oboInOwl:hasDbXref	GARD:2139	Unspecified	autosomal dominant dystrophic epidermolysis bullosa
+DOID:9565	oboInOwl:hasDbXref	GARD:1827	Unspecified	dextrocardia
+DOID:9562	oboInOwl:hasDbXref	GARD:4484	Unspecified	primary ciliary dyskinesia
+DOID:9584	oboInOwl:hasDbXref	GARD:6355	Unspecified	Venezuelan equine encephalitis
+DOID:9766	oboInOwl:hasDbXref	GARD:9451	Unspecified	xanthogranulomatous cholecystitis
+DOID:8457	oboInOwl:hasDbXref	GARD:10014	Unspecified	pellagra
+DOID:9790	oboInOwl:hasDbXref	GARD:7788	Unspecified	toxocariasis
+DOID:0080413	oboInOwl:hasDbXref	GARD:13676	Unspecified	developmental and epileptic encephalopathy 18
+DOID:0080419	oboInOwl:hasDbXref	GARD:13621	Unspecified	developmental and epileptic encephalopathy 50
+DOID:0080422	oboInOwl:hasDbXref	GARD:10430	Unspecified	Dravet syndrome
+DOID:9744	oboInOwl:hasDbXref	GARD:10268	Unspecified	type 1 diabetes mellitus
+DOID:0080453	oboInOwl:hasDbXref	GARD:12901	Unspecified	developmental and epileptic encephalopathy 25
+DOID:0080351	oboInOwl:hasDbXref	GARD:10939	Unspecified	CLOVES syndrome
+DOID:0080354	oboInOwl:hasDbXref	GARD:10130	Unspecified	Phelan-McDermid syndrome
+DOID:0080356	oboInOwl:hasDbXref	GARD:12521	Unspecified	IgG4-related disease
+DOID:0080361	oboInOwl:hasDbXref	GARD:6447	Unspecified	trimethylaminuria
+DOID:0080390	oboInOwl:hasDbXref	GARD:1500	Unspecified	nephrotic syndrome type 1
+DOID:9682	oboInOwl:hasDbXref	GARD:7914	Unspecified	yellow fever
+DOID:9672	oboInOwl:hasDbXref	GARD:4001	Unspecified	noma
+DOID:9699	oboInOwl:hasDbXref	GARD:2546	Unspecified	ophthalmia neonatorum
+DOID:7033	oboInOwl:hasDbXref	GARD:693	Unspecified	anisakiasis
+DOID:9406	oboInOwl:hasDbXref	GARD:2917	Unspecified	hypopituitarism
+DOID:0080502	oboInOwl:hasDbXref	GARD:6479	Unspecified	GM1 gangliosidosis type 1
+DOID:0080533	oboInOwl:hasDbXref	GARD:10643	Unspecified	Carney-Stratakis syndrome
+DOID:0080539	oboInOwl:hasDbXref	GARD:4264	Unspecified	PEHO syndrome
+DOID:0080523	oboInOwl:hasDbXref	GARD:10981	Unspecified	adult-onset leukoencephalopathy with axonal spheroids and pigmented glia
+DOID:0080551	oboInOwl:hasDbXref	GARD:9795	Unspecified	Naxos disease
+DOID:0080552	oboInOwl:hasDbXref	GARD:9826	Unspecified	congenital disorder of glycosylation Ia
+DOID:0080554	oboInOwl:hasDbXref	GARD:9830	Unspecified	congenital disorder of glycosylation Ib
+DOID:0080555	oboInOwl:hasDbXref	GARD:9829	Unspecified	congenital disorder of glycosylation Ic
+DOID:0080556	oboInOwl:hasDbXref	GARD:9827	Unspecified	congenital disorder of glycosylation Id
+DOID:0080557	oboInOwl:hasDbXref	GARD:9831	Unspecified	congenital disorder of glycosylation Ie
+DOID:0080558	oboInOwl:hasDbXref	GARD:9832	Unspecified	congenital disorder of glycosylation If
+DOID:0080559	oboInOwl:hasDbXref	GARD:9833	Unspecified	congenital disorder of glycosylation Ig
+DOID:0080540	oboInOwl:hasDbXref	GARD:3953	Unspecified	galactosialidosis
+DOID:0080541	oboInOwl:hasDbXref	GARD:2847	Unspecified	hyperprolinemia
+DOID:0080545	oboInOwl:hasDbXref	GARD:10956	Unspecified	hyper IgE syndrome
+DOID:0080571	oboInOwl:hasDbXref	GARD:12416	Unspecified	congenital disorder of glycosylation Iu
+DOID:0080574	oboInOwl:hasDbXref	GARD:12405	Unspecified	congenital disorder of glycosylation Iy
+DOID:0080576	oboInOwl:hasDbXref	GARD:10057	Unspecified	spondyloepimetaphyseal dysplasia, Genevieve-type
+DOID:0080560	oboInOwl:hasDbXref	GARD:9834	Unspecified	congenital disorder of glycosylation Ih
+DOID:0080561	oboInOwl:hasDbXref	GARD:9836	Unspecified	congenital disorder of glycosylation Ii
+DOID:0080562	oboInOwl:hasDbXref	GARD:9837	Unspecified	congenital disorder of glycosylation Ij
+DOID:0080563	oboInOwl:hasDbXref	GARD:9838	Unspecified	congenital disorder of glycosylation Ik
+DOID:0080564	oboInOwl:hasDbXref	GARD:9839	Unspecified	congenital disorder of glycosylation Il
+DOID:0080565	oboInOwl:hasDbXref	GARD:12393	Unspecified	congenital disorder of glycosylation Im
+DOID:0080566	oboInOwl:hasDbXref	GARD:12394	Unspecified	congenital disorder of glycosylation In
+DOID:0080567	oboInOwl:hasDbXref	GARD:12396	Unspecified	congenital disorder of glycosylation Ip
+DOID:0080568	oboInOwl:hasDbXref	GARD:12397	Unspecified	congenital disorder of glycosylation Iq
+DOID:0080569	oboInOwl:hasDbXref	GARD:12398	Unspecified	congenital disorder of glycosylation Ir
+DOID:0080470	oboInOwl:hasDbXref	GARD:12401	Unspecified	developmental and epileptic encephalopathy 36
+DOID:0080461	oboInOwl:hasDbXref	GARD:12391	Unspecified	developmental and epileptic encephalopathy 26
+DOID:0080490	oboInOwl:hasDbXref	GARD:94	Unspecified	mucolipidosis type IV
+DOID:9378	oboInOwl:hasDbXref	GARD:10737	Unspecified	glaucomatocyclitic crisis
+DOID:9375	oboInOwl:hasDbXref	GARD:6791	Unspecified	Fuchs' heterochromic uveitis
+DOID:0080489	oboInOwl:hasDbXref	GARD:2431	Unspecified	GM1 gangliosidosis type 3
+DOID:9521	oboInOwl:hasDbXref	GARD:6859	Unspecified	Laron syndrome
+DOID:0080631	oboInOwl:hasDbXref	GARD:955	Unspecified	Elsahy-Waters syndrome
+DOID:9513	oboInOwl:hasDbXref	GARD:9373	Unspecified	plasma cell leukemia
+DOID:0080627	oboInOwl:hasDbXref	GARD:612	Unspecified	alopecia-mental retardation syndrome
+DOID:9538	oboInOwl:hasDbXref	GARD:7108	Unspecified	multiple myeloma
+DOID:0080664	oboInOwl:hasDbXref	GARD:10072	Unspecified	diaphyseal medullary stenosis with malignant fibrous histiocytoma
+DOID:0080665	oboInOwl:hasDbXref	GARD:12721	Unspecified	warfarin resistance
+DOID:9502	oboInOwl:hasDbXref	GARD:1130	Unspecified	chronic eosinophilic pneumonia
+DOID:9502	oboInOwl:hasDbXref	GARD:2134	Unspecified	chronic eosinophilic pneumonia
+DOID:0080691	oboInOwl:hasDbXref	GARD:10719	Unspecified	Noonan syndrome-like disorder with loose anagen hair
+DOID:0080694	oboInOwl:hasDbXref	GARD:65	Unspecified	Galloway-Mowat syndrome
+DOID:0080695	oboInOwl:hasDbXref	GARD:10041	Unspecified	Burn-McKeown syndrome
+DOID:0080696	oboInOwl:hasDbXref	GARD:7894	Unspecified	Winchester syndrome
+DOID:0080699	oboInOwl:hasDbXref	GARD:10047	Unspecified	glutathione synthetase deficiency
+DOID:0090019	oboInOwl:hasDbXref	GARD:7653	Unspecified	sitosterolemia
+DOID:0090018	oboInOwl:hasDbXref	GARD:8457	Unspecified	autosomal dominant familial periodic fever
+DOID:0090015	oboInOwl:hasDbXref	GARD:5084	Unspecified	Cenani-Lenz syndactyly syndrome
+DOID:0090016	oboInOwl:hasDbXref	GARD:10840	Unspecified	chromosome 5q deletion syndrome
+DOID:0080681	oboInOwl:hasDbXref	GARD:3017	Unspecified	X-linked chronic idiopathic intestinal pseudo-obstruction
+DOID:0080688	oboInOwl:hasDbXref	GARD:3007	Unspecified	mosaic variegated aneuploidy syndrome
+DOID:0090006	oboInOwl:hasDbXref	GARD:4106	Unspecified	renal coloboma syndrome
+DOID:0090005	oboInOwl:hasDbXref	GARD:250	Unspecified	Schwartz-Jampel syndrome 1
+DOID:0090002	oboInOwl:hasDbXref	GARD:7772	Unspecified	Tietz syndrome
+DOID:0090001	oboInOwl:hasDbXref	GARD:6465	Unspecified	Fraser syndrome
+DOID:0080594	oboInOwl:hasDbXref	GARD:2816	Unspecified	hyper IgE recurrent infection syndrome 2
+DOID:9476	oboInOwl:hasDbXref	GARD:7630	Unspecified	Sheehan syndrome
+DOID:9432	oboInOwl:hasDbXref	GARD:7548	Unspecified	renal glycosuria
+DOID:9467	oboInOwl:hasDbXref	GARD:7160	Unspecified	nail-patella syndrome
+DOID:9470	oboInOwl:hasDbXref	GARD:5881	Unspecified	bacterial meningitis

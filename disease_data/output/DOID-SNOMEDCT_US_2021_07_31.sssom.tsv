@@ -1,0 +1,38 @@
+# curie_map:
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   EFO: http://www.ebi.ac.uk/efo/EFO_
+#   ENVO: http://purl.obolibrary.org/obo/ENVO_
+#   ExO: http://purl.obolibrary.org/obo/ExO_
+#   GARD: GARD
+#   ICD10CM: http://apps.who.int/classifications/icd10/browse/2010/en#/
+#   ICD9CM: ICD9CM
+#   ICDO: ICDO
+#   KEGG: http://www.kegg.jp/entry/
+#   MEDDRA: MEDDRA
+#   MESH: https://meshb.nlm.nih.gov/record/ui?ui=
+#   NCI: http://purl.obolibrary.org/obo/NCIT_
+#   OMIM: http://omim.org/entry/
+#   OMIT: http://purl.obolibrary.org/obo/OMIT_
+#   ORDO: ORDO
+#   SNOMEDCT_US_2020_03_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2020_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2021_07_31: SNOMEDCT_US_2021_07_31
+#   SNOMEDCT_US_2021_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   UMLS_CUI: http://linkedlifedata.com/resource/umls/id/
+#   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+#   skos: http://www.w3.org/2004/02/skos/core#
+# license: https://github.com/mapping-commons/mapping-commons.github.io/blob/main/docs/original_license_applies.md
+# mapping_date: '2022-02-23'
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
+# mapping_tool: https://github.com/mapping-commons/sssom-py
+subject_id	predicate_id	object_id	match_type	subject_label
+DOID:7234	oboInOwl:hasDbXref	SNOMEDCT_US_2021_07_31:785879009	Unspecified	mucinous cystadenocarcinoma of pancreas
+DOID:0070315	oboInOwl:hasDbXref	SNOMEDCT_US_2021_07_31:268180007	Unspecified	hypoplastic right heart syndrome
+DOID:0070314	oboInOwl:hasDbXref	SNOMEDCT_US_2021_07_31:86249007	Unspecified	obstructive nephropathy
+DOID:0070324	oboInOwl:hasDbXref	SNOMEDCT_US_2021_07_31:721311006	Unspecified	systemic Epstein-Barr virus positive T-cell lymphoma of childhood
+DOID:0070327	oboInOwl:hasDbXref	SNOMEDCT_US_2021_07_31:75931002	Unspecified	melanoma in congenital melanocytic nevus
+DOID:684	oboInOwl:hasDbXref	SNOMEDCT_US_2021_07_31:109841003	Unspecified	hepatocellular carcinoma
+DOID:0060467	oboInOwl:hasDbXref	SNOMEDCT_US_2021_07_31:205329008	Unspecified	humeroradial synostosis
+DOID:0060135	oboInOwl:hasDbXref	SNOMEDCT_US_2021_07_31:68345001	Unspecified	apraxia
+DOID:0111833	oboInOwl:hasDbXref	SNOMEDCT_US_2021_07_31:766818009	Unspecified	X-linked spinocerebellar ataxia 5
+DOID:0080316	oboInOwl:hasDbXref	SNOMEDCT_US_2021_07_31:703536004	Unspecified	megalencephalic leukoencephalopathy with subcortical cysts 1

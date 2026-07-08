@@ -1,0 +1,69 @@
+# curie_map:
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   EFO: http://www.ebi.ac.uk/efo/EFO_
+#   ENVO: http://purl.obolibrary.org/obo/ENVO_
+#   ExO: http://purl.obolibrary.org/obo/ExO_
+#   GARD: GARD
+#   ICD10CM: http://apps.who.int/classifications/icd10/browse/2010/en#/
+#   ICD9CM: ICD9CM
+#   ICDO: ICDO
+#   KEGG: http://www.kegg.jp/entry/
+#   MEDDRA: MEDDRA
+#   MESH: https://meshb.nlm.nih.gov/record/ui?ui=
+#   NCI: http://purl.obolibrary.org/obo/NCIT_
+#   OMIM: http://omim.org/entry/
+#   OMIT: http://purl.obolibrary.org/obo/OMIT_
+#   ORDO: ORDO
+#   SNOMEDCT_US_2020_03_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2020_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2021_07_31: SNOMEDCT_US_2021_07_31
+#   SNOMEDCT_US_2021_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   UMLS_CUI: http://linkedlifedata.com/resource/umls/id/
+#   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+#   skos: http://www.w3.org/2004/02/skos/core#
+# license: https://github.com/mapping-commons/mapping-commons.github.io/blob/main/docs/original_license_applies.md
+# mapping_date: '2022-02-23'
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
+# mapping_tool: https://github.com/mapping-commons/sssom-py
+subject_id	predicate_id	object_id	match_type	subject_label
+DOID:8552	oboInOwl:hasDbXref	KEGG:05220	Unspecified	chronic myeloid leukemia
+DOID:7148	oboInOwl:hasDbXref	KEGG:05323	Unspecified	rheumatoid arthritis
+DOID:14330	oboInOwl:hasDbXref	KEGG:05012	Unspecified	Parkinson's disease
+DOID:3070	oboInOwl:hasDbXref	KEGG:05214	Unspecified	high grade glioma
+DOID:11054	oboInOwl:hasDbXref	KEGG:05219	Unspecified	urinary bladder cancer
+DOID:12385	oboInOwl:hasDbXref	KEGG:05131	Unspecified	shigellosis
+DOID:649	oboInOwl:hasDbXref	KEGG:05020	Unspecified	prion disease
+DOID:612	oboInOwl:hasDbXref	KEGG:05340	Unspecified	primary immunodeficiency disease
+DOID:5409	oboInOwl:hasDbXref	KEGG:05222	Unspecified	lung small cell carcinoma
+DOID:12140	oboInOwl:hasDbXref	KEGG:05142	Unspecified	Chagas disease
+DOID:820	oboInOwl:hasDbXref	KEGG:05416	Unspecified	myocarditis
+DOID:12858	oboInOwl:hasDbXref	KEGG:05016	Unspecified	Huntington's disease
+DOID:0050589	oboInOwl:hasDbXref	KEGG:05321	Unspecified	inflammatory bowel disease
+DOID:12930	oboInOwl:hasDbXref	KEGG:05414	Unspecified	dilated cardiomyopathy
+DOID:0050524	oboInOwl:hasDbXref	KEGG:04950	Unspecified	maturity-onset diabetes of the young
+DOID:10283	oboInOwl:hasDbXref	KEGG:05215	Unspecified	prostate cancer
+DOID:10286	oboInOwl:hasDbXref	KEGG:05215	Unspecified	prostate carcinoma
+DOID:0050790	oboInOwl:hasDbXref	KEGG:H00467	Unspecified	fibular hypoplasia and complex brachydactyly
+DOID:0050788	oboInOwl:hasDbXref	KEGG:H00484	Unspecified	proximal symphalangism
+DOID:0050780	oboInOwl:hasDbXref	KEGG:H00583	Unspecified	Opitz-GBBB syndrome
+DOID:0050741	oboInOwl:hasDbXref	KEGG:05034	Unspecified	alcohol dependence
+DOID:10112	oboInOwl:hasDbXref	KEGG:05143	Unspecified	sleeping sickness
+DOID:11984	oboInOwl:hasDbXref	KEGG:05410	Unspecified	hypertrophic cardiomyopathy
+DOID:10652	oboInOwl:hasDbXref	KEGG:05010	Unspecified	Alzheimer's disease
+DOID:2513	oboInOwl:hasDbXref	KEGG:05217	Unspecified	basal cell carcinoma
+DOID:3908	oboInOwl:hasDbXref	KEGG:05223	Unspecified	lung non-small cell carcinoma
+DOID:1380	oboInOwl:hasDbXref	KEGG:05213	Unspecified	endometrial cancer
+DOID:1116	oboInOwl:hasDbXref	KEGG:05133	Unspecified	pertussis
+DOID:332	oboInOwl:hasDbXref	KEGG:05014	Unspecified	amyotrophic lateral sclerosis
+DOID:1781	oboInOwl:hasDbXref	KEGG:05216	Unspecified	thyroid gland cancer
+DOID:1793	oboInOwl:hasDbXref	KEGG:05212	Unspecified	pancreatic cancer
+DOID:2841	oboInOwl:hasDbXref	KEGG:05310	Unspecified	asthma
+DOID:0080725	oboInOwl:hasDbXref	KEGG:H02296	Unspecified	BASAN syndrome
+DOID:9119	oboInOwl:hasDbXref	KEGG:05221	Unspecified	acute myeloid leukemia
+DOID:9256	oboInOwl:hasDbXref	KEGG:05210	Unspecified	colorectal cancer
+DOID:1909	oboInOwl:hasDbXref	KEGG:05218	Unspecified	melanoma
+DOID:9074	oboInOwl:hasDbXref	KEGG:05322	Unspecified	systemic lupus erythematosus
+DOID:9778	oboInOwl:hasDbXref	KEGG:05321	Unspecified	irritable bowel syndrome
+DOID:9744	oboInOwl:hasDbXref	KEGG:04940	Unspecified	type 1 diabetes mellitus
+DOID:9352	oboInOwl:hasDbXref	KEGG:04930	Unspecified	type 2 diabetes mellitus
+DOID:0080655	oboInOwl:hasDbXref	KEGG:H00888	Unspecified	hypophosphatemic nephrolithiasis/osteoporosis

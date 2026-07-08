@@ -1,0 +1,34 @@
+# curie_map:
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   EFO: http://www.ebi.ac.uk/efo/EFO_
+#   ENVO: http://purl.obolibrary.org/obo/ENVO_
+#   ExO: http://purl.obolibrary.org/obo/ExO_
+#   GARD: GARD
+#   ICD10CM: http://apps.who.int/classifications/icd10/browse/2010/en#/
+#   ICD9CM: ICD9CM
+#   ICDO: ICDO
+#   KEGG: http://www.kegg.jp/entry/
+#   MEDDRA: MEDDRA
+#   MESH: https://meshb.nlm.nih.gov/record/ui?ui=
+#   NCI: http://purl.obolibrary.org/obo/NCIT_
+#   OMIM: http://omim.org/entry/
+#   OMIT: http://purl.obolibrary.org/obo/OMIT_
+#   ORDO: ORDO
+#   SNOMEDCT_US_2020_03_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2020_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2021_07_31: SNOMEDCT_US_2021_07_31
+#   SNOMEDCT_US_2021_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   UMLS_CUI: http://linkedlifedata.com/resource/umls/id/
+#   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+#   skos: http://www.w3.org/2004/02/skos/core#
+# license: https://github.com/mapping-commons/mapping-commons.github.io/blob/main/docs/original_license_applies.md
+# mapping_date: '2022-02-23'
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
+# mapping_tool: https://github.com/mapping-commons/sssom-py
+subject_id	predicate_id	object_id	match_type	subject_label
+DOID:0070167	oboInOwl:hasDbXref	SNOMEDCT_US_2020_03_01:236818008	Unspecified	spermatogenic failure 6
+DOID:0111947	oboInOwl:hasDbXref	SNOMEDCT_US_2020_03_01:778024005	Unspecified	immunodeficiency 21
+DOID:0111603	oboInOwl:hasDbXref	SNOMEDCT_US_2020_03_01:8757006	Unspecified	distal arthrogryposis type 7
+DOID:3939	oboInOwl:hasDbXref	SNOMEDCT_US_2020_03_01:254828009	Unspecified	obsolete lipomatous cancer
+DOID:0111572	oboInOwl:hasDbXref	SNOMEDCT_US_2020_03_01:52564001	Unspecified	familial woolly hair syndrome
+DOID:1339	oboInOwl:hasDbXref	SNOMEDCT_US_2020_03_01:188588001	Unspecified	Diamond-Blackfan anemia

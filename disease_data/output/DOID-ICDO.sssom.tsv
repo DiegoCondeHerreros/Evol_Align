@@ -1,0 +1,389 @@
+# curie_map:
+#   DOID: http://purl.obolibrary.org/obo/DOID_
+#   EFO: http://www.ebi.ac.uk/efo/EFO_
+#   ENVO: http://purl.obolibrary.org/obo/ENVO_
+#   ExO: http://purl.obolibrary.org/obo/ExO_
+#   GARD: GARD
+#   ICD10CM: http://apps.who.int/classifications/icd10/browse/2010/en#/
+#   ICD9CM: ICD9CM
+#   ICDO: ICDO
+#   KEGG: http://www.kegg.jp/entry/
+#   MEDDRA: MEDDRA
+#   MESH: https://meshb.nlm.nih.gov/record/ui?ui=
+#   NCI: http://purl.obolibrary.org/obo/NCIT_
+#   OMIM: http://omim.org/entry/
+#   OMIT: http://purl.obolibrary.org/obo/OMIT_
+#   ORDO: ORDO
+#   SNOMEDCT_US_2020_03_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2020_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   SNOMEDCT_US_2021_07_31: SNOMEDCT_US_2021_07_31
+#   SNOMEDCT_US_2021_09_01: http://www.snomedbrowser.com/Codes/Details/
+#   UMLS_CUI: http://linkedlifedata.com/resource/umls/id/
+#   oboInOwl: http://www.geneontology.org/formats/oboInOwl#
+#   skos: http://www.w3.org/2004/02/skos/core#
+# license: https://github.com/mapping-commons/mapping-commons.github.io/blob/main/docs/original_license_applies.md
+# mapping_date: '2022-02-23'
+# mapping_set_id: http://w3id.org/mapping_commons/disease-mappings/onto-icd10
+# mapping_tool: https://github.com/mapping-commons/sssom-py
+subject_id	predicate_id	object_id	match_type	subject_label
+DOID:6128	oboInOwl:hasDbXref	ICDO:9381/3	Unspecified	gliomatosis cerebri
+DOID:7480	oboInOwl:hasDbXref	ICDO:8014/3	Unspecified	large cell carcinoma with rhabdoid phenotype
+DOID:8761	oboInOwl:hasDbXref	ICDO:9910/3	Unspecified	acute megakaryocytic leukemia
+DOID:14174	oboInOwl:hasDbXref	ICDO:9506/1	Unspecified	central neurocytoma
+DOID:7571	oboInOwl:hasDbXref	ICDO:8959/3	Unspecified	malignant cystic nephroma
+DOID:6262	oboInOwl:hasDbXref	ICDO:9758/3	Unspecified	follicular dendritic cell sarcoma
+DOID:8866	oboInOwl:hasDbXref	ICDO:8070/0	Unspecified	actinic keratosis
+DOID:6204	oboInOwl:hasDbXref	ICDO:8330/0	Unspecified	follicular adenoma
+DOID:8864	oboInOwl:hasDbXref	ICDO:9891/3	Unspecified	acute monocytic leukemia
+DOID:7532	oboInOwl:hasDbXref	ICDO:8060/0	Unspecified	squamous papillomatosis
+DOID:6193	oboInOwl:hasDbXref	ICDO:8804/3	Unspecified	epithelioid sarcoma
+DOID:8552	oboInOwl:hasDbXref	ICDO:9863/3	Unspecified	chronic myeloid leukemia
+DOID:7213	oboInOwl:hasDbXref	ICDO:9537/0	Unspecified	transitional meningioma
+DOID:7211	oboInOwl:hasDbXref	ICDO:9532/0	Unspecified	fibrous meningioma
+DOID:7212	oboInOwl:hasDbXref	ICDO:9531/0	Unspecified	meningothelial meningioma
+DOID:7210	oboInOwl:hasDbXref	ICDO:9533/0	Unspecified	psammomatous meningioma
+DOID:7146	oboInOwl:hasDbXref	ICDO:9756/3	Unspecified	Langerhans cell sarcoma
+DOID:0080031	oboInOwl:hasDbXref	ICDO:8818/0	Unspecified	fibrous dysplasia
+DOID:7173	oboInOwl:hasDbXref	ICDO:8124/3	Unspecified	cloacogenic carcinoma
+DOID:8692	oboInOwl:hasDbXref	ICDO:9860/3	Unspecified	myeloid leukemia
+DOID:8683	oboInOwl:hasDbXref	ICDO:9930/3	Unspecified	myeloid sarcoma
+DOID:8691	oboInOwl:hasDbXref	ICDO:9700/3	Unspecified	mycosis fungoides
+DOID:7305	oboInOwl:hasDbXref	ICDO:9430/3	Unspecified	astroblastoma
+DOID:9953	oboInOwl:hasDbXref	ICDO:9805/3	Unspecified	acute biphenotypic leukemia
+DOID:0080202	oboInOwl:hasDbXref	ICDO:8200/3	Unspecified	adenoid cystic carcinoma
+DOID:8584	oboInOwl:hasDbXref	ICDO:9687/3	Unspecified	Burkitt lymphoma
+DOID:0080188	oboInOwl:hasDbXref	ICDO:9945/3	Unspecified	chronic myelomonocytic leukemia
+DOID:0080187	oboInOwl:hasDbXref	ICDO:9963/3	Unspecified	chronic neutrophilic leukemia
+DOID:7880	oboInOwl:hasDbXref	ICDO:8610/0	Unspecified	luteoma
+DOID:6548	oboInOwl:hasDbXref	ICDO:9534/0	Unspecified	angiomatous meningioma
+DOID:7848	oboInOwl:hasDbXref	ICDO:9757/3	Unspecified	interdigitating dendritic cell sarcoma
+DOID:5241	oboInOwl:hasDbXref	ICDO:9161/1	Unspecified	hemangioblastoma
+DOID:5233	oboInOwl:hasDbXref	ICDO:8710/3	Unspecified	glomangiosarcoma
+DOID:5268	oboInOwl:hasDbXref	ICDO:8896/3	Unspecified	myxoid leiomyosarcoma
+DOID:5264	oboInOwl:hasDbXref	ICDO:8891/3	Unspecified	epithelioid leiomyosarcoma
+DOID:4003	oboInOwl:hasDbXref	ICDO:8121/3	Unspecified	Schneiderian carcinoma
+DOID:5309	oboInOwl:hasDbXref	ICDO:8562/3	Unspecified	epithelial-myoepithelial carcinoma
+DOID:4075	oboInOwl:hasDbXref	ICDO:8161/3	Unspecified	bile duct cystadenocarcinoma
+DOID:4065	oboInOwl:hasDbXref	ICDO:8902/3	Unspecified	mixed type rhabdomyosarcoma
+DOID:5398	oboInOwl:hasDbXref	ICDO:8324/0	Unspecified	lipoadenoma
+DOID:5392	oboInOwl:hasDbXref	ICDO:8280/0	Unspecified	acidophil adenoma
+DOID:5363	oboInOwl:hasDbXref	ICDO:8852/3	Unspecified	myxoid liposarcoma
+DOID:4024	oboInOwl:hasDbXref	ICDO:8141/3	Unspecified	scirrhous adenocarcinoma
+DOID:4023	oboInOwl:hasDbXref	ICDO:8142/3	Unspecified	linitis plastica
+DOID:5389	oboInOwl:hasDbXref	ICDO:8290/0	Unspecified	oxyphilic adenoma
+DOID:4055	oboInOwl:hasDbXref	ICDO:8921/3	Unspecified	ectomesenchymoma
+DOID:5385	oboInOwl:hasDbXref	ICDO:8323/0	Unspecified	mixed cell adenoma
+DOID:4051	oboInOwl:hasDbXref	ICDO:8920/3	Unspecified	alveolar rhabdomyosarcoma
+DOID:5381	oboInOwl:hasDbXref	ICDO:8160/0	Unspecified	bile duct adenoma
+DOID:5384	oboInOwl:hasDbXref	ICDO:8161/0	Unspecified	bile duct cystadenoma
+DOID:5390	oboInOwl:hasDbXref	ICDO:8310/0	Unspecified	clear cell adenoma
+DOID:7615	oboInOwl:hasDbXref	ICDO:8800/9	Unspecified	sarcomatosis
+DOID:7607	oboInOwl:hasDbXref	ICDO:8321/0	Unspecified	chief cell adenoma
+DOID:7602	oboInOwl:hasDbXref	ICDO:9195/3	Unspecified	conventional osteosarcoma
+DOID:5063	oboInOwl:hasDbXref	ICDO:8094/3	Unspecified	basosquamous carcinoma
+DOID:8997	oboInOwl:hasDbXref	ICDO:9950/3	Unspecified	polycythemia vera
+DOID:5016	oboInOwl:hasDbXref	ICDO:8174/3	Unspecified	hepatocellular clear cell carcinoma
+DOID:6404	oboInOwl:hasDbXref	ICDO:8325/0	Unspecified	metanephric adenoma
+DOID:7729	oboInOwl:hasDbXref	ICDO:8551/3	Unspecified	acinar cell cystadenocarcinoma
+DOID:5151	oboInOwl:hasDbXref	ICDO:9550/0	Unspecified	plexiform neurofibroma
+DOID:5127	oboInOwl:hasDbXref	ICDO:8893/0	Unspecified	bizarre leiomyoma
+DOID:6446	oboInOwl:hasDbXref	ICDO:8420/3	Unspecified	ceruminous adenocarcinoma
+DOID:5139	oboInOwl:hasDbXref	ICDO:8892/0	Unspecified	cellular leiomyoma
+DOID:5138	oboInOwl:hasDbXref	ICDO:8890/1	Unspecified	leiomyomatosis
+DOID:0070324	oboInOwl:hasDbXref	ICDO:9724/3	Unspecified	systemic Epstein-Barr virus positive T-cell lymphoma of childhood
+DOID:0070323	oboInOwl:hasDbXref	ICDO:9861/3	Unspecified	childhood acute myeloid leukemia
+DOID:0070327	oboInOwl:hasDbXref	ICDO:8761/3	Unspecified	melanoma in congenital melanocytic nevus
+DOID:5078	oboInOwl:hasDbXref	ICDO:9505/1	Unspecified	ganglioglioma
+DOID:5077	oboInOwl:hasDbXref	ICDO:9384/1	Unspecified	subependymal giant cell astrocytoma
+DOID:5074	oboInOwl:hasDbXref	ICDO:9391/3	Unspecified	high grade ependymoma
+DOID:5075	oboInOwl:hasDbXref	ICDO:9394/1	Unspecified	myxopapillary ependymoma
+DOID:0081041	oboInOwl:hasDbXref	ICDO:9833/3	Unspecified	B-cell prolymphocytic leukemia
+DOID:0081042	oboInOwl:hasDbXref	ICDO:9834/3	Unspecified	T-cell prolymphocytic leukemia
+DOID:0081036	oboInOwl:hasDbXref	ICDO:9806/3	Unspecified	mixed phenotype acute leukemia with BCR-ABL1
+DOID:0081037	oboInOwl:hasDbXref	ICDO:9807/3	Unspecified	mixed phenotype acute leukemia with MLL rearranged
+DOID:0081038	oboInOwl:hasDbXref	ICDO:9808/3	Unspecified	mixed phenotype acute leukemia, B/myeloid
+DOID:0081039	oboInOwl:hasDbXref	ICDO:9809/3	Unspecified	mixed phenotype acute leukemia, T/myeloid
+DOID:4359	oboInOwl:hasDbXref	ICDO:8730/3	Unspecified	amelanotic melanoma
+DOID:3025	oboInOwl:hasDbXref	ICDO:8550/3	Unspecified	acinar cell carcinoma
+DOID:5675	oboInOwl:hasDbXref	ICDO:8201/3	Unspecified	cribriform carcinoma
+DOID:5698	oboInOwl:hasDbXref	ICDO:8857/3	Unspecified	fibroblastic liposarcoma
+DOID:3030	oboInOwl:hasDbXref	ICDO:8480/3	Unspecified	mucinous adenocarcinoma
+DOID:4360	oboInOwl:hasDbXref	ICDO:8771/3	Unspecified	epithelioid cell melanoma
+DOID:5648	oboInOwl:hasDbXref	ICDO:9390/3	Unspecified	choroid plexus carcinoma
+DOID:5638	oboInOwl:hasDbXref	ICDO:9251/3	Unspecified	malignant giant cell tumor of soft parts
+DOID:4300	oboInOwl:hasDbXref	ICDO:8091/3	Unspecified	superficial basal cell carcinoma
+DOID:5662	oboInOwl:hasDbXref	ICDO:8022/3	Unspecified	pleomorphic carcinoma
+DOID:5658	oboInOwl:hasDbXref	ICDO:8314/3	Unspecified	lipid-rich carcinoma
+DOID:4329	oboInOwl:hasDbXref	ICDO:9749/3	Unspecified	Erdheim-Chester disease
+DOID:4322	oboInOwl:hasDbXref	ICDO:8104/0	Unspecified	pilar sheath acanthoma
+DOID:4321	oboInOwl:hasDbXref	ICDO:8072/0	Unspecified	large cell acanthoma
+DOID:746	oboInOwl:hasDbXref	ICDO:9054/0	Unspecified	adenomatoid tumor
+DOID:0050891	oboInOwl:hasDbXref	ICDO:8370/0	Unspecified	adrenal cortical adenoma
+DOID:0050894	oboInOwl:hasDbXref	ICDO:9310/0	Unspecified	ameloblastoma
+DOID:3098	oboInOwl:hasDbXref	ICDO:8803/3	Unspecified	small cell sarcoma
+DOID:768	oboInOwl:hasDbXref	ICDO:9510/3	Unspecified	retinoblastoma
+DOID:769	oboInOwl:hasDbXref	ICDO:9500/3	Unspecified	neuroblastoma
+DOID:0050873	oboInOwl:hasDbXref	ICDO:9690/3	Unspecified	follicular lymphoma
+DOID:0050872	oboInOwl:hasDbXref	ICDO:8013/3	Unspecified	large cell neuroendocrine carcinoma
+DOID:0050871	oboInOwl:hasDbXref	ICDO:8810/0	Unspecified	fibroma
+DOID:0050869	oboInOwl:hasDbXref	ICDO:8261/0	Unspecified	villous adenoma
+DOID:3068	oboInOwl:hasDbXref	ICDO:9440/3	Unspecified	glioblastoma
+DOID:3069	oboInOwl:hasDbXref	ICDO:9400/3	Unspecified	malignant astrocytoma
+DOID:3070	oboInOwl:hasDbXref	ICDO:9380/3	Unspecified	high grade glioma
+DOID:715	oboInOwl:hasDbXref	ICDO:9729/3	Unspecified	T-cell lymphoblastic leukemia/lymphoma
+DOID:715	oboInOwl:hasDbXref	ICDO:9837/3	Unspecified	T-cell lymphoblastic leukemia/lymphoma
+DOID:4386	oboInOwl:hasDbXref	ICDO:8824/0	Unspecified	myofibroma
+DOID:3071	oboInOwl:hasDbXref	ICDO:9442/3	Unspecified	gliosarcoma
+DOID:3074	oboInOwl:hasDbXref	ICDO:9441/3	Unspecified	giant cell glioblastoma
+DOID:3081	oboInOwl:hasDbXref	ICDO:9173/0	Unspecified	cystic lymphangioma
+DOID:0050902	oboInOwl:hasDbXref	ICDO:9470/3	Unspecified	medulloblastoma
+DOID:0050908	oboInOwl:hasDbXref	ICDO:9989/3	Unspecified	myelodysplastic syndrome
+DOID:6906	oboInOwl:hasDbXref	ICDO:8711/1	Unspecified	glomangiomatosis
+DOID:4468	oboInOwl:hasDbXref	ICDO:8310/3	Unspecified	clear cell adenocarcinoma
+DOID:4464	oboInOwl:hasDbXref	ICDO:8319/3	Unspecified	collecting duct carcinoma
+DOID:4430	oboInOwl:hasDbXref	ICDO:8156/3	Unspecified	somatostatinoma
+DOID:4450	oboInOwl:hasDbXref	ICDO:8312/3	Unspecified	renal cell carcinoma
+DOID:684	oboInOwl:hasDbXref	ICDO:8170/3	Unspecified	hepatocellular carcinoma
+DOID:687	oboInOwl:hasDbXref	ICDO:8970/3	Unspecified	hepatoblastoma
+DOID:3112	oboInOwl:hasDbXref	ICDO:8260/3	Unspecified	papillary adenocarcinoma
+DOID:3113	oboInOwl:hasDbXref	ICDO:8050/3	Unspecified	papillary carcinoma
+DOID:4440	oboInOwl:hasDbXref	ICDO:9061/3	Unspecified	seminoma
+DOID:3110	oboInOwl:hasDbXref	ICDO:8450/3	Unspecified	papillary cystadenocarcinoma
+DOID:4441	oboInOwl:hasDbXref	ICDO:9060/3	Unspecified	dysgerminoma
+DOID:3111	oboInOwl:hasDbXref	ICDO:8440/3	Unspecified	cystadenocarcinoma
+DOID:657	oboInOwl:hasDbXref	ICDO:8140/0	Unspecified	adenoma
+DOID:3181	oboInOwl:hasDbXref	ICDO:9450/3	Unspecified	oligodendroglioma
+DOID:3177	oboInOwl:hasDbXref	ICDO:8051/0	Unspecified	verrucous papilloma
+DOID:3172	oboInOwl:hasDbXref	ICDO:8260/0	Unspecified	papillary adenoma
+DOID:3192	oboInOwl:hasDbXref	ICDO:9560/3	Unspecified	neurilemmoma
+DOID:5702	oboInOwl:hasDbXref	ICDO:8854/3	Unspecified	pleomorphic liposarcoma
+DOID:5703	oboInOwl:hasDbXref	ICDO:8855/3	Unspecified	mixed liposarcoma
+DOID:5445	oboInOwl:hasDbXref	ICDO:8406/0	Unspecified	syringocystadenoma papilliferum
+DOID:5444	oboInOwl:hasDbXref	ICDO:8403/0	Unspecified	spiradenoma
+DOID:5446	oboInOwl:hasDbXref	ICDO:8408/0	Unspecified	eccrine papillary adenoma
+DOID:5439	oboInOwl:hasDbXref	ICDO:8405/0	Unspecified	papillary hidradenoma
+DOID:4136	oboInOwl:hasDbXref	ICDO:8840/3	Unspecified	myxosarcoma
+DOID:6785	oboInOwl:hasDbXref	ICDO:8806/3	Unspecified	desmoplastic small round cell tumor
+DOID:5401	oboInOwl:hasDbXref	ICDO:8322/0	Unspecified	water-clear cell adenoma
+DOID:5403	oboInOwl:hasDbXref	ICDO:8202/0	Unspecified	microcystic adenoma
+DOID:6726	oboInOwl:hasDbXref	ICDO:9420/3	Unspecified	fibrillary astrocytoma
+DOID:5485	oboInOwl:hasDbXref	ICDO:9040/3	Unspecified	synovial sarcoma
+DOID:4152	oboInOwl:hasDbXref	ICDO:9371/3	Unspecified	chondroid chordoma
+DOID:5477	oboInOwl:hasDbXref	ICDO:8313/0	Unspecified	clear cell adenofibroma
+DOID:962	oboInOwl:hasDbXref	ICDO:9540/0	Unspecified	neurofibroma
+DOID:4163	oboInOwl:hasDbXref	ICDO:9490/3	Unspecified	ganglioneuroblastoma
+DOID:4239	oboInOwl:hasDbXref	ICDO:9581/3	Unspecified	alveolar soft part sarcoma
+DOID:4235	oboInOwl:hasDbXref	ICDO:8801/3	Unspecified	spindle cell sarcoma
+DOID:4236	oboInOwl:hasDbXref	ICDO:8980/3	Unspecified	carcinosarcoma
+DOID:4231	oboInOwl:hasDbXref	ICDO:8831/0	Unspecified	histiocytoma
+DOID:4233	oboInOwl:hasDbXref	ICDO:9044/3	Unspecified	clear cell sarcoma
+DOID:5563	oboInOwl:hasDbXref	ICDO:9080/3	Unspecified	malignant teratoma
+DOID:4226	oboInOwl:hasDbXref	ICDO:8930/3	Unspecified	endometrial stromal sarcoma
+DOID:5577	oboInOwl:hasDbXref	ICDO:8153/3	Unspecified	gastrinoma
+DOID:5574	oboInOwl:hasDbXref	ICDO:8155/3	Unspecified	VIPoma
+DOID:5522	oboInOwl:hasDbXref	ICDO:8083/3	Unspecified	basaloid squamous cell carcinoma
+DOID:4210	oboInOwl:hasDbXref	ICDO:9538/1	Unspecified	clear cell meningioma
+DOID:0060534	oboInOwl:hasDbXref	ICDO:8576/3	Unspecified	hepatoid adenocarcinoma
+DOID:5505	oboInOwl:hasDbXref	ICDO:9393/3	Unspecified	papillary ependymoma
+DOID:6823	oboInOwl:hasDbXref	ICDO:8971/3	Unspecified	pancreatoblastoma
+DOID:0050458	oboInOwl:hasDbXref	ICDO:9946/3	Unspecified	juvenile myelomonocytic leukemia
+DOID:4790	oboInOwl:hasDbXref	ICDO:9501/3	Unspecified	medulloepithelioma
+DOID:2154	oboInOwl:hasDbXref	ICDO:8960/3	Unspecified	nephroblastoma
+DOID:10208	oboInOwl:hasDbXref	ICDO:8862/0	Unspecified	chondroid lipoma
+DOID:10184	oboInOwl:hasDbXref	ICDO:8857/0	Unspecified	spindle cell lipoma
+DOID:10192	oboInOwl:hasDbXref	ICDO:8854/0	Unspecified	pleomorphic lipoma
+DOID:4769	oboInOwl:hasDbXref	ICDO:8973/3	Unspecified	pleuropulmonary blastoma
+DOID:4765	oboInOwl:hasDbXref	ICDO:8972/3	Unspecified	pulmonary blastoma
+DOID:2286	oboInOwl:hasDbXref	ICDO:9171/0	Unspecified	capillary lymphangioma
+DOID:3577	oboInOwl:hasDbXref	ICDO:8640/1	Unspecified	Sertoli cell tumor
+DOID:3596	oboInOwl:hasDbXref	ICDO:9104/1	Unspecified	placental site trophoblastic tumor
+DOID:3594	oboInOwl:hasDbXref	ICDO:9100/3	Unspecified	choriocarcinoma
+DOID:0050523	oboInOwl:hasDbXref	ICDO:9827/3	Unspecified	adult T-cell leukemia
+DOID:4817	oboInOwl:hasDbXref	ICDO:9490/0	Unspecified	ganglioneuroma
+DOID:3544	oboInOwl:hasDbXref	ICDO:9390/1	Unspecified	atypical choroid plexus papilloma
+DOID:3565	oboInOwl:hasDbXref	ICDO:9530/0	Unspecified	meningioma
+DOID:2226	oboInOwl:hasDbXref	ICDO:9960/3	Unspecified	myeloproliferative neoplasm
+DOID:3559	oboInOwl:hasDbXref	ICDO:8480/6	Unspecified	pseudomyxoma peritonei
+DOID:2224	oboInOwl:hasDbXref	ICDO:9962/3	Unspecified	essential thrombocythemia
+DOID:4830	oboInOwl:hasDbXref	ICDO:8560/3	Unspecified	adenosquamous carcinoma
+DOID:3507	oboInOwl:hasDbXref	ICDO:8832/1	Unspecified	dermatofibrosarcoma protuberans
+DOID:4838	oboInOwl:hasDbXref	ICDO:8982/3	Unspecified	myoepithelial carcinoma
+DOID:4856	oboInOwl:hasDbXref	ICDO:9442/1	Unspecified	gliofibroma
+DOID:4851	oboInOwl:hasDbXref	ICDO:9421/1	Unspecified	pilocytic astrocytoma
+DOID:4852	oboInOwl:hasDbXref	ICDO:9424/3	Unspecified	pleomorphic xanthoastrocytoma
+DOID:4845	oboInOwl:hasDbXref	ICDO:9425/3	Unspecified	pilomyxoid astrocytoma
+DOID:4840	oboInOwl:hasDbXref	ICDO:8410/3	Unspecified	sebaceous carcinoma
+DOID:3260	oboInOwl:hasDbXref	ICDO:8912/3	Unspecified	spindle cell rhabdomyosarcoma
+DOID:12603	oboInOwl:hasDbXref	ICDO:9801/3	Unspecified	acute leukemia
+DOID:3284	oboInOwl:hasDbXref	ICDO:8586/3	Unspecified	thymic carcinoma
+DOID:0060083	oboInOwl:hasDbXref	ICDO:9392/3	Unspecified	immune system cancer
+DOID:3275	oboInOwl:hasDbXref	ICDO:8580/3	Unspecified	thymoma
+DOID:0060098	oboInOwl:hasDbXref	ICDO:9200/0	Unspecified	osteoblastoma
+DOID:4552	oboInOwl:hasDbXref	ICDO:8012/3	Unspecified	large cell carcinoma
+DOID:4542	oboInOwl:hasDbXref	ICDO:8300/0	Unspecified	basophil adenoma
+DOID:4545	oboInOwl:hasDbXref	ICDO:9240/3	Unspecified	mesenchymal chondrosarcoma
+DOID:0050685	oboInOwl:hasDbXref	ICDO:8041/3	Unspecified	small cell carcinoma
+DOID:3246	oboInOwl:hasDbXref	ICDO:8910/3	Unspecified	embryonal rhabdomyosarcoma
+DOID:3247	oboInOwl:hasDbXref	ICDO:8900/3	Unspecified	rhabdomyosarcoma
+DOID:5867	oboInOwl:hasDbXref	ICDO:9242/3	Unspecified	clear cell chondrosarcoma
+DOID:4531	oboInOwl:hasDbXref	ICDO:8430/3	Unspecified	mucoepidermoid carcinoma
+DOID:5861	oboInOwl:hasDbXref	ICDO:9231/3	Unspecified	myxoid chondrosarcoma
+DOID:5859	oboInOwl:hasDbXref	ICDO:9221/3	Unspecified	periosteal chondrosarcoma
+DOID:0060058	oboInOwl:hasDbXref	ICDO:9590/3	Unspecified	lymphoma
+DOID:3382	oboInOwl:hasDbXref	ICDO:8850/3	Unspecified	liposarcoma
+DOID:3372	oboInOwl:hasDbXref	ICDO:9181/3	Unspecified	chondroblastic osteosarcoma
+DOID:3373	oboInOwl:hasDbXref	ICDO:9192/3	Unspecified	parosteal osteosarcoma
+DOID:3371	oboInOwl:hasDbXref	ICDO:9220/3	Unspecified	chondrosarcoma
+DOID:2065	oboInOwl:hasDbXref	ICDO:8407/0	Unspecified	syringoma
+DOID:3347	oboInOwl:hasDbXref	ICDO:9180/3	Unspecified	osteosarcoma
+DOID:2001	oboInOwl:hasDbXref	ICDO:9570/0	Unspecified	neuroma
+DOID:4660	oboInOwl:hasDbXref	ICDO:9741/1	Unspecified	indolent systemic mastocytosis
+DOID:3369	oboInOwl:hasDbXref	ICDO:9364/3	Unspecified	Ewing sarcoma
+DOID:4697	oboInOwl:hasDbXref	ICDO:9571/0	Unspecified	perineurioma
+DOID:3355	oboInOwl:hasDbXref	ICDO:8810/3	Unspecified	fibrosarcoma
+DOID:0050771	oboInOwl:hasDbXref	ICDO:8700/3	Unspecified	pheochromocytoma
+DOID:0050773	oboInOwl:hasDbXref	ICDO:8680/3	Unspecified	paraganglioma
+DOID:0050751	oboInOwl:hasDbXref	ICDO:9831/3	Unspecified	T-cell large granular lymphocyte leukemia
+DOID:0050746	oboInOwl:hasDbXref	ICDO:9673/3	Unspecified	mantle cell lymphoma
+DOID:0050745	oboInOwl:hasDbXref	ICDO:9680/3	Unspecified	diffuse large B-cell lymphoma
+DOID:0050748	oboInOwl:hasDbXref	ICDO:9699/3	Unspecified	marginal zone B-cell lymphoma
+DOID:0050747	oboInOwl:hasDbXref	ICDO:9671/3	Unspecified	lymphoplasmacytic lymphoma
+DOID:5900	oboInOwl:hasDbXref	ICDO:8728/1	Unspecified	meningeal melanocytoma
+DOID:3304	oboInOwl:hasDbXref	ICDO:9064/3	Unspecified	germinoma
+DOID:3305	oboInOwl:hasDbXref	ICDO:9081/3	Unspecified	teratocarcinoma
+DOID:3306	oboInOwl:hasDbXref	ICDO:9085/3	Unspecified	mixed germ cell cancer
+DOID:3301	oboInOwl:hasDbXref	ICDO:9073/1	Unspecified	gonadoblastoma
+DOID:3302	oboInOwl:hasDbXref	ICDO:9370/3	Unspecified	chordoma
+DOID:0060103	oboInOwl:hasDbXref	ICDO:9473/3	Unspecified	central nervous system primitive neuroectodermal neoplasm
+DOID:3307	oboInOwl:hasDbXref	ICDO:9080/3	Unspecified	teratoma
+DOID:3308	oboInOwl:hasDbXref	ICDO:9070/3	Unspecified	embryonal carcinoma
+DOID:0060125	oboInOwl:hasDbXref	ICDO:9762/3	Unspecified	heavy chain disease
+DOID:3314	oboInOwl:hasDbXref	ICDO:8860/0	Unspecified	angiomyolipoma
+DOID:3315	oboInOwl:hasDbXref	ICDO:8850/0	Unspecified	lipoma
+DOID:0001816	oboInOwl:hasDbXref	ICDO:9120/3	Unspecified	angiosarcoma
+DOID:3319	oboInOwl:hasDbXref	ICDO:9174/1	Unspecified	lymphangioleiomyomatosis
+DOID:5914	oboInOwl:hasDbXref	ICDO:8350/3	Unspecified	nonencapsulated sclerosing carcinoma
+DOID:5940	oboInOwl:hasDbXref	ICDO:9540/3	Unspecified	malignant peripheral nerve sheath tumor
+DOID:3829	oboInOwl:hasDbXref	ICDO:8272/0	Unspecified	pituitary adenoma
+DOID:3828	oboInOwl:hasDbXref	ICDO:8270/0	Unspecified	chromophobe adenoma
+DOID:2513	oboInOwl:hasDbXref	ICDO:8090/3	Unspecified	basal cell carcinoma
+DOID:3840	oboInOwl:hasDbXref	ICDO:9350/1	Unspecified	craniopharyngioma
+DOID:1240	oboInOwl:hasDbXref	ICDO:9800/3	Unspecified	leukemia
+DOID:3893	oboInOwl:hasDbXref	ICDO:8404/0	Unspecified	hidrocystoma
+DOID:3896	oboInOwl:hasDbXref	ICDO:8402/0	Unspecified	hidradenoma
+DOID:3895	oboInOwl:hasDbXref	ICDO:8401/0	Unspecified	apocrine adenoma
+DOID:3892	oboInOwl:hasDbXref	ICDO:8151/3	Unspecified	insulinoma
+DOID:3861	oboInOwl:hasDbXref	ICDO:9472/3	Unspecified	medullomyoblastoma
+DOID:3857	oboInOwl:hasDbXref	ICDO:9474/3	Unspecified	large cell medulloblastoma
+DOID:2614	oboInOwl:hasDbXref	ICDO:8461/0	Unspecified	serous surface papilloma
+DOID:2615	oboInOwl:hasDbXref	ICDO:8050/0	Unspecified	papilloma
+DOID:2602	oboInOwl:hasDbXref	ICDO:9220/0	Unspecified	chondroma
+DOID:2609	oboInOwl:hasDbXref	ICDO:8932/0	Unspecified	adenomyoma
+DOID:2634	oboInOwl:hasDbXref	ICDO:8440/0	Unspecified	cystadenoma
+DOID:3965	oboInOwl:hasDbXref	ICDO:8247/3	Unspecified	Merkel cell carcinoma
+DOID:2626	oboInOwl:hasDbXref	ICDO:9390/0	Unspecified	choroid plexus papilloma
+DOID:2691	oboInOwl:hasDbXref	ICDO:8895/0	Unspecified	myoma
+DOID:2689	oboInOwl:hasDbXref	ICDO:9170/3	Unspecified	lymphangiosarcoma
+DOID:2683	oboInOwl:hasDbXref	ICDO:9013/0	Unspecified	adenofibroma
+DOID:2685	oboInOwl:hasDbXref	ICDO:8842/0	Unspecified	ossifying fibromyxoid tumor
+DOID:2682	oboInOwl:hasDbXref	ICDO:8504/0	Unspecified	intracystic papillary adenoma
+DOID:1373	oboInOwl:hasDbXref	ICDO:8930/0	Unspecified	endometrial stromal nodule
+DOID:2658	oboInOwl:hasDbXref	ICDO:9084/0	Unspecified	dermoid cyst
+DOID:2640	oboInOwl:hasDbXref	ICDO:9090/0	Unspecified	struma ovarii
+DOID:2647	oboInOwl:hasDbXref	ICDO:9373/0	Unspecified	parachordoma
+DOID:2649	oboInOwl:hasDbXref	ICDO:9230/1	Unspecified	chondroblastoma
+DOID:2679	oboInOwl:hasDbXref	ICDO:9413/0	Unspecified	dysembryoplastic neuroepithelial tumor
+DOID:2671	oboInOwl:hasDbXref	ICDO:8120/3	Unspecified	transitional cell carcinoma
+DOID:2668	oboInOwl:hasDbXref	ICDO:8990/3	Unspecified	mesenchymoma
+DOID:2661	oboInOwl:hasDbXref	ICDO:8982/0	Unspecified	myoepithelioma
+DOID:2669	oboInOwl:hasDbXref	ICDO:9507/0	Unspecified	Pacinian tumor
+DOID:127	oboInOwl:hasDbXref	ICDO:8890/0	Unspecified	leiomyoma
+DOID:139	oboInOwl:hasDbXref	ICDO:8052/0	Unspecified	squamous cell papilloma
+DOID:1037	oboInOwl:hasDbXref	ICDO:9820/3	Unspecified	lymphoid leukemia
+DOID:1039	oboInOwl:hasDbXref	ICDO:9832/3	Unspecified	prolymphocytic leukemia
+DOID:1035	oboInOwl:hasDbXref	ICDO:9948/3	Unspecified	aggressive NK-cell leukemia
+DOID:4917	oboInOwl:hasDbXref	ICDO:8262/3	Unspecified	villous adenocarcinoma
+DOID:4916	oboInOwl:hasDbXref	ICDO:8272/3	Unspecified	pituitary carcinoma
+DOID:4903	oboInOwl:hasDbXref	ICDO:8320/3	Unspecified	granular cell carcinoma
+DOID:3603	oboInOwl:hasDbXref	ICDO:8470/3	Unspecified	mucinous cystadenocarcinoma
+DOID:4933	oboInOwl:hasDbXref	ICDO:8401/3	Unspecified	apocrine adenocarcinoma
+DOID:4920	oboInOwl:hasDbXref	ICDO:8413/3	Unspecified	eccrine adenocarcinoma
+DOID:4929	oboInOwl:hasDbXref	ICDO:8211/3	Unspecified	tubular adenocarcinoma
+DOID:4943	oboInOwl:hasDbXref	ICDO:8140/2	Unspecified	adenocarcinoma in situ
+DOID:3616	oboInOwl:hasDbXref	ICDO:8861/0	Unspecified	angiolipoma
+DOID:4947	oboInOwl:hasDbXref	ICDO:8160/3	Unspecified	cholangiocarcinoma
+DOID:3721	oboInOwl:hasDbXref	ICDO:9731/3	Unspecified	plasmacytoma
+DOID:1115	oboInOwl:hasDbXref	ICDO:8800/3	Unspecified	sarcoma
+DOID:3774	oboInOwl:hasDbXref	ICDO:9444/1	Unspecified	chordoid glioma
+DOID:2411	oboInOwl:hasDbXref	ICDO:9580/0	Unspecified	granular cell tumor
+DOID:3737	oboInOwl:hasDbXref	ICDO:8051/3	Unspecified	verrucous carcinoma
+DOID:2436	oboInOwl:hasDbXref	ICDO:8712/0	Unspecified	glomangioma
+DOID:2431	oboInOwl:hasDbXref	ICDO:8711/0	Unspecified	glomus tumor
+DOID:2426	oboInOwl:hasDbXref	ICDO:9492/0	Unspecified	gangliocytoma
+DOID:369	oboInOwl:hasDbXref	ICDO:9522/3	Unspecified	olfactory neuroblastoma
+DOID:305	oboInOwl:hasDbXref	ICDO:8010/3	Unspecified	carcinoma
+DOID:314	oboInOwl:hasDbXref	ICDO:9252/0	Unspecified	tenosynovial giant cell tumor
+DOID:1664	oboInOwl:hasDbXref	ICDO:9362/3	Unspecified	pineoblastoma
+DOID:1627	oboInOwl:hasDbXref	ICDO:8503/0	Unspecified	intraductal papilloma
+DOID:264	oboInOwl:hasDbXref	ICDO:9150/3	Unspecified	hemangiopericytoma
+DOID:285	oboInOwl:hasDbXref	ICDO:9940/3	Unspecified	hairy cell leukemia
+DOID:299	oboInOwl:hasDbXref	ICDO:8140/3	Unspecified	adenocarcinoma
+DOID:255	oboInOwl:hasDbXref	ICDO:9120/0	Unspecified	hemangioma
+DOID:1800	oboInOwl:hasDbXref	ICDO:8246/3	Unspecified	neuroendocrine carcinoma
+DOID:1786	oboInOwl:hasDbXref	ICDO:8671/0	Unspecified	adrenal rest tumor
+DOID:0111147	oboInOwl:hasDbXref	ICDO:9705/3	Unspecified	angioimmunoblastic T-cell lymphoma
+DOID:1749	oboInOwl:hasDbXref	ICDO:8070/3	Unspecified	squamous cell carcinoma
+DOID:180	oboInOwl:hasDbXref	ICDO:9262/0	Unspecified	ossifying fibroma
+DOID:192	oboInOwl:hasDbXref	ICDO:8590/1	Unspecified	sex cord-gonadal stromal tumor
+DOID:162	oboInOwl:hasDbXref	ICDO:8000/3	Unspecified	cancer
+DOID:166	oboInOwl:hasDbXref	ICDO:9363/0	Unspecified	melanotic neuroectodermal tumor
+DOID:169	oboInOwl:hasDbXref	ICDO:8240/3	Unspecified	neuroendocrine tumor
+DOID:172	oboInOwl:hasDbXref	ICDO:8084/0	Unspecified	clear cell acanthoma
+DOID:2725	oboInOwl:hasDbXref	ICDO:9131/0	Unspecified	capillary hemangioma
+DOID:2700	oboInOwl:hasDbXref	ICDO:9015/0	Unspecified	mucinous adenofibroma
+DOID:1475	oboInOwl:hasDbXref	ICDO:9170/0	Unspecified	lymphangioma
+DOID:468	oboInOwl:hasDbXref	ICDO:9132/0	Unspecified	intramuscular hemangioma
+DOID:467	oboInOwl:hasDbXref	ICDO:9122/0	Unspecified	venous hemangioma
+DOID:470	oboInOwl:hasDbXref	ICDO:9142/0	Unspecified	verrucous keratotic hemangioma
+DOID:479	oboInOwl:hasDbXref	ICDO:9141/0	Unspecified	angiokeratoma
+DOID:483	oboInOwl:hasDbXref	ICDO:9121/0	Unspecified	cavernous hemangioma
+DOID:452	oboInOwl:hasDbXref	ICDO:8940/0	Unspecified	pleomorphic adenoma
+DOID:0080779	oboInOwl:hasDbXref	ICDO:9735/3	Unspecified	plasmablastic lymphoma
+DOID:0080795	oboInOwl:hasDbXref	ICDO:9870/3	Unspecified	acute basophilic leukemia
+DOID:0080798	oboInOwl:hasDbXref	ICDO:9898/3	Unspecified	myeloid leukemia associated with Down Syndrome
+DOID:0080780	oboInOwl:hasDbXref	ICDO:9840/3	Unspecified	acute erythroid leukemia
+DOID:9119	oboInOwl:hasDbXref	ICDO:9861/3	Unspecified	acute myeloid leukemia
+DOID:0080876	oboInOwl:hasDbXref	ICDO:9401/3	Unspecified	IDH-wildtype anaplastic astrocytoma
+DOID:0080877	oboInOwl:hasDbXref	ICDO:9445/3	Unspecified	IDH-mutant glioblastoma
+DOID:0080878	oboInOwl:hasDbXref	ICDO:9440/3	Unspecified	IDH-wildtype glioblastoma
+DOID:9254	oboInOwl:hasDbXref	ICDO:9742/3	Unspecified	mast-cell leukemia
+DOID:9253	oboInOwl:hasDbXref	ICDO:8936/3	Unspecified	gastrointestinal stromal tumor
+DOID:0080915	oboInOwl:hasDbXref	ICDO:9755/3	Unspecified	histiocytic sarcoma
+DOID:0080976	oboInOwl:hasDbXref	ICDO:9912/3	Unspecified	acute myeloid leukemia with BCR-ABL1
+DOID:1911	oboInOwl:hasDbXref	ICDO:9071/3	Unspecified	endodermal sinus tumor
+DOID:1907	oboInOwl:hasDbXref	ICDO:8830/3	Unspecified	malignant fibrous histiocytoma
+DOID:1909	oboInOwl:hasDbXref	ICDO:8720/3	Unspecified	melanoma
+DOID:1967	oboInOwl:hasDbXref	ICDO:8890/3	Unspecified	leiomyosarcoma
+DOID:1974	oboInOwl:hasDbXref	ICDO:8933/3	Unspecified	adenosarcoma
+DOID:7008	oboInOwl:hasDbXref	ICDO:9410/3	Unspecified	protoplasmic astrocytoma
+DOID:7005	oboInOwl:hasDbXref	ICDO:9411/3	Unspecified	gemistocytic astrocytoma
+DOID:8292	oboInOwl:hasDbXref	ICDO:8330/1	Unspecified	atypical follicular adenoma
+DOID:8243	oboInOwl:hasDbXref	ICDO:8728/3	Unspecified	meningeal melanomatosis
+DOID:8251	oboInOwl:hasDbXref	ICDO:8901/3	Unspecified	adult pleomorphic rhabdomyosarcoma
+DOID:0080347	oboInOwl:hasDbXref	ICDO:8700/3	Unspecified	malignant pheochromocytoma
+DOID:0080367	oboInOwl:hasDbXref	ICDO:9964/3	Unspecified	chronic eosinophilic leukemia
+DOID:0080531	oboInOwl:hasDbXref	ICDO:8858/3	Unspecified	dedifferentiated liposarcoma
+DOID:0080534	oboInOwl:hasDbXref	ICDO:8811/3	Unspecified	myxofibrosarcoma
+DOID:8020	oboInOwl:hasDbXref	ICDO:8713/0	Unspecified	glomangiomyoma
+DOID:0080602	oboInOwl:hasDbXref	ICDO:9080/1	Unspecified	benign teratoma
+DOID:0080630	oboInOwl:hasDbXref	ICDO:9836/3	Unspecified	B-lymphoblastic leukemia/lymphoma
+DOID:9513	oboInOwl:hasDbXref	ICDO:9733/3	Unspecified	plasma cell leukemia
+DOID:0080650	oboInOwl:hasDbXref	ICDO:9819/3	Unspecified	B-lymphoblastic leukemia/lymphoma, BCR-ABL1–like
+DOID:0080643	oboInOwl:hasDbXref	ICDO:9812/3	Unspecified	B-lymphoblastic leukemia/lymphoma with BCR-ABL1
+DOID:0080644	oboInOwl:hasDbXref	ICDO:9813/3	Unspecified	B-lymphoblastic leukemia/lymphoma MLL rearranged
+DOID:0080645	oboInOwl:hasDbXref	ICDO:9814/3	Unspecified	B-lymphoblastic leukemia/lymphoma with ETV6-RUNX1
+DOID:0080646	oboInOwl:hasDbXref	ICDO:9815/3	Unspecified	B-lymphoblastic leukemia/lymphoma with hyperdiploidy
+DOID:0080647	oboInOwl:hasDbXref	ICDO:9816/3	Unspecified	B-lymphoblastic leukemia/lymphoma with hypodiploidy
+DOID:0080648	oboInOwl:hasDbXref	ICDO:9817/3	Unspecified	B-lymphoblastic leukemia/lymphoma with IL3-IGH
+DOID:0080649	oboInOwl:hasDbXref	ICDO:9818/3	Unspecified	B-lymphoblastic leukemia/lymphoma with TCF3-PBX1
+DOID:0080684	oboInOwl:hasDbXref	ICDO:9385/3	Unspecified	diffuse midline glioma, H3 K27M-mutant
