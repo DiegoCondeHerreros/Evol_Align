@@ -5,11 +5,12 @@ from structured_outputs import SSSOMAlignmentStrictCore as FORMAT
 from utils import rough_similarty
 from sentence_transformers import SentenceTransformer
 import os
+import csv
 from rdflib import Graph
 import tiktoken
 from rich.console import Group
 from rich.live import Live
-from rich.progress import Progress, BarColumn, TextColumn, TimeElapsedColumn, TimeRemainingColumn
+from rich.progress import Progress, BarColumn, TextColumn
 from rich.text import Text
 
 
@@ -22,6 +23,7 @@ class OntoPair:
 
     def set_files(self):
         path = f"caseData/{self.domain}/{self.pair}"
+        self.path = path
         source_path = f"{path}/source.owl"
         target_path = f"{path}/target.owl"
         ref_path = f"{path}/reference_sssom_alignments.ttl"
@@ -214,94 +216,70 @@ Running prompt...""")
                             m.append(model.model)
                             all_alignments.append(m)
 
-                            self.resolve_dupes(all_alignments)
                             raise Exception
                     bar.update(render())
-        pair.chunk_cull = [chunk, max_chunks, accepted_chunks]
+        pair.chunk_cull = [chunk, max_chunks, threshold, accepted_chunks]
         pair.llm_alignments = self.resolve_dupes(all_alignments)
+
+    def write_alignments(self, pair):
+        headers = [
+            "Mapping_id",       # 0
+            "Subject",          # 1
+            "Object",           # 2
+            "Predicate",        # 3
+            "Justification",    # 4
+            "Confidence",       # 5
+            "Comment",          # 6
+            "Chunking_Method",  # 7
+            "Model_Name"        # 8
+        ]
+
+        culling_headers = [
+            "Chunking_Method",          # 0
+            "Total_Chunks_to_Compare",  # 1
+            "Acceptance_Threshold",     # 2
+            "Accepted_Chunks"           # 3
+        ]
+
+        print("Saving alignments...")
+        align_output = f"{pair.path}/llm_alignments.csv"
+        cull_output = f"{pair.path}/culling_performance.csv"
+
+        align_exists = os.path.isfile(align_output)
+        cull_exists = os.path.isfile(cull_output)
+
+        with open(align_output, mode="a", newline="", encoding="utf-8") as align:
+            writer = csv.writer(align)
+            if not align_exists:
+                print("No previous alignments found, creating new file...")
+                writer.writerow(headers)
+            else:
+                print("Alignments found, extending...")
+            for row in pair.llm_alignments:
+                writer.writerow(row)
+            align.close()
+            print("Alignments saved successfully")
+
+        with open(cull_output, mode="a", newline="", encoding="utf-8") as cull:
+            writer = csv.writer(cull)
+            if not cull_exists:
+                print("No previous culling performance found, creating new file...")
+                writer.writerow(culling_headers)
+            else:
+                print("Culling performance found, appending...")
+            for row in pair.chunk_cull:
+                writer.writerow(row)
+            cull.close()
+            print("Alignments saved successfully")
+
+
+class AlignmentEvaluation():
+
+    def __init__(self, experiment):
+        self.exp = experiment
 
 
 def run_experiment():
-
-    # c_1 = Graph()
-    # c_2 = Graph()
-    # c_1.parse(data="""
-    # @prefix : <http://edas#> .
-    # @prefix owl: <http://www.w3.org/2002/07/owl#> .
-    # @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-    # :AcceptedPaper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :ActivePaper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :MealMenu a owl:Class ;
-    #     rdfs:subClassOf :Document .
-
-    # :PendingPaper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Programme a owl:Class ;
-    #     rdfs:subClassOf :Document .
-
-    # :PublishedPaper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :RejectedPaper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Review a owl:Class ;
-    #     rdfs:subClassOf :Document .
-
-    # :Slideset a owl:class ;
-    #     rdfs:subClassOf :Document .
-
-    # :WithdrawnPaper a owl:class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Document a owl:Class .
-
-    # :Paper a owl:Class ;
-    #     rdfs:subClassOf :Document.
-    # """, format="turtle")
-    # c_2.parse(data="""
-    # @prefix : <http://ekaw#> .
-    # @prefix owl: <http://www.w3.org/2002/07/owl#> .
-    # @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-
-    # :Camera_Ready_Paper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Conference_Paper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Demo_Paper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Industrial_Paper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Poster_Paper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Regular_Paper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Submitted_Paper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Workshop_Paper a owl:Class ;
-    #     rdfs:subClassOf :Paper .
-
-    # :Document a owl:Class .
-
-    # :Paper a owl:Class;
-    #     rdfs:subClassOf :Document .
-    # """, format="turtle")
-
-    # print(rough_similarty(c_1, c_2)["score"])
-
     methods = ["Locality", "Taxonomic", "Semantic"]
     exp = ChunkingExperiment()
 
@@ -313,6 +291,16 @@ def run_experiment():
                 for onto_pair in domain.onto_pairs:
                     print(f"Working on ontology pair: {onto_pair.pair}")
                     exp.generate_alignments(onto_pair, c, m)
+                    exp.write_alignments(onto_pair)
+
+    # NOTE: Evaluate alignments:
+    evl = AlignmentEvaluation(exp)
+    for domain in exp.datasets:
+        print(f"Evaluating domain: {domain.domain}")
+        for onto_pair in domain.onto_pairs:
+            print(f"Working on ontology pair: {onto_pair.pair}")
+            path = onto_pair.path
 
 
-run_experiment()
+if __name__ == "__main__":
+    run_experiment()
