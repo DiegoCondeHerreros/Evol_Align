@@ -57,20 +57,15 @@ class LLM:
         client = OpenAI(api_key=self.api_key)
         if response_struct is not None:
             self.parameters['response_format'] = response_struct
-        try:
-            response = client.beta.chat.completions.parse(
-                messages=message_list,
-                model=self.model,
-                **self.parameters
-            )
-            if response_struct is not None:
-                return response.choices[0].message.parsed
-            else:
-                return response.choices[0].message.content
-        except Exception as e:
-            print("Error generating response... skipping...")
-            print(e)
-            return "Error"
+        response = client.beta.chat.completions.parse(
+            messages=message_list,
+            model=self.model,
+            **self.parameters
+        )
+        if response_struct is not None:
+            return response.choices[0].message.parsed
+        else:
+           return response.choices[0].message.content
 
     def ollama_prompt(self, message_list, response_struct):
         response: ChatResponse = chat(
@@ -124,10 +119,13 @@ class LLM:
         return response.text if response_struct is None else response_struct.model_validate_json(response.text)
 
     def prompt(self, message_list, response_struct, context):
-        if self.model_family == "OpenAI":
-            return self.openai_prompt(message_list, response_struct)
-        if self.model_family == "Gemini":
-            return self.gemini_prompt(message_list, response_struct, context)
-        # NOTE: Insert other LLM APIs here. Using Ollama API will be the default behaviour
-        else:
-            return self.ollama_prompt(message_list, response_struct)
+        try:
+            if self.model_family == "OpenAI":
+                return self.openai_prompt(message_list, response_struct)
+            if self.model_family == "Gemini":
+                return self.gemini_prompt(message_list, response_struct, context)
+            # NOTE: Insert other LLM APIs here. Using Ollama API will be the default behaviour
+            else:
+                return self.ollama_prompt(message_list, response_struct)
+        except Exception:
+            return Exception

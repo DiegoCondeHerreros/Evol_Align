@@ -205,7 +205,11 @@ Estimated similarity between chunks: {rough_similarty(s, t, self.sim_model)["sco
 Running prompt...""")
                         bar.update(render())
                         accepted_chunks += 1
-                        response = model.prompt(message_list, FORMAT, None)
+                        try:
+                            response = model.prompt(message_list, FORMAT, None)
+                        except Exception:
+                            print(Exception)
+                            continue
                         maps = response.mappings
                         for m in maps:
                             log = Text(f"{m.subject_id} | {
