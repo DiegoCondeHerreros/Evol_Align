@@ -3,6 +3,8 @@ from utils import rough_similarty
 from rdflib import Graph
 from sentence_transformers import SentenceTransformer
 from pushover_notifier import PushoverNotifier
+from chunking_evaluation import AlignmentEvaluation
+from types import SimpleNamespace
 
 def chunk_sim_test():
     c_1 = Graph()
@@ -93,5 +95,59 @@ def noti_test():
     )
 
 
+def build_alignment_test_experiment():
+    exp = ChunkingExperiment.__new__(ChunkingExperiment)
+
+    onto_pair = SimpleNamespace(
+        domain="conference",
+        pair="edas-ekaw",
+        path="caseData/conference/edas-ekaw",
+        reference_alignments=[],
+        llm_alignments=[
+            [
+                "test-m1",
+                "http://edas#Paper",
+                "http://ekaw#Paper",
+                "skos:exactMatch",
+                "semapv:LexicalMatching",
+                1.0,
+                "Exact lexical and semantic match.",
+                "test",
+                "test-model",
+            ],
+            [
+                "test-m2",
+                "http://edas#AcceptedPaper",
+                "http://ekaw#Accepted_Paper",
+                "skos:exactMatch",
+                "semapv:LexicalSimilarityThresholdMatching",
+                0.95,
+                "Equivalent accepted paper classes with different labels.",
+                "test",
+                "test-model",
+            ],
+        ],
+    )
+    domain = SimpleNamespace(domain="conference", onto_pairs=[onto_pair])
+
+    exp.models = []
+    exp.datasets = [domain]
+    exp.sys_prompt = None
+    return exp
+
+
+def load_alignments_test():
+    exp = build_alignment_test_experiment()
+
+    evl = AlignmentEvaluation(exp)
+    for domain in exp.datasets:
+        print(f"Evaluating domain: {domain.domain}")
+        for onto_pair in domain.onto_pairs:
+            print(f"Working on ontology pair: {onto_pair.pair}")
+            evl.load_reference_alignments(onto_pair)
+            print(onto_pair.reference_alignments)
+
+
+load_alignments_test()
 # chunk_sim_test()
-noti_test()
+# noti_test()

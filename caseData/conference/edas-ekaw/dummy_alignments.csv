@@ -1,0 +1,3 @@
+http://edas#ClosingTalk,http://ekaw#WorkshopPaper,http://www.w3.org/2004/02/skos/core#closeMatch,1.0
+http://edas#Person,http://ekaw#Paper,http://www.w3.org/2004/02/skos/core#exactMatch,1.0
+http://edas#Review,http://ekaw#Location,http://www.w3.org/2004/02/skos/core#narrowMatch,1.0
