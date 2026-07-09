@@ -1,6 +1,6 @@
 from collections import deque
 from rdflib import Graph, RDF, RDFS, OWL, URIRef
-from chunker import Chunker
+from chunking.chunker import Chunker
 
 
 class Semantic(Chunker):
