@@ -64,14 +64,14 @@ class ChunkingExperiment:
             "sentence-transformers/all-MiniLM-L6-v2")
 
         model_1 = LLM(
-            model_family="OpenAI",
-            model="gpt-4.1-mini",
+            model_family="Gemma",
+            model="gemma4:e4b",
             params={"temperature": 0.0, "seed": 7264},
             context=None
         )
         model_2 = LLM(
             model_family="OpenAI",
-            model="gpt-5.4-mini",
+            model="gpt-4.1-mini",
             params={"temperature": 0.0, "seed": 7264},
             context=None
         )
@@ -207,13 +207,15 @@ Running prompt...""")
                         accepted_chunks += 1
                         try:
                             response = model.prompt(message_list, FORMAT, None)
+                            if type(response) == type(Exception):
+                                raise response
                         except Exception:
-                            print(Exception)
                             continue
                         maps = response.mappings
                         for m in maps:
                             log = Text(f"{m.subject_id} | {
                                 m.predicate_id} | {m.object_id}")
+                            log = Text(str(m))
                             bar.update(render())
                             m = list(m.__dict__.values())
                             m.append(chunk)
@@ -271,7 +273,6 @@ Running prompt...""")
                 writer.writerow(culling_headers)
             else:
                 print("Culling performance found, appending...")
-            for row in pair.chunk_cull:
-                writer.writerow(row)
+                writer.writerow(pair.chunk_cull)
             cull.close()
             print("Alignments saved successfully")

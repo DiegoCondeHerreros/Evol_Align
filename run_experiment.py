@@ -34,6 +34,7 @@ if __name__ == "__main__":
         run_experiment()
     except Exception as e:
         noti.send(
-            message=str(type(e).__name__, e),
+            message=str(type(e).__name__),
             title="🚨 An error has occured 🚨"
         )
+        raise e
